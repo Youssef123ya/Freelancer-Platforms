@@ -1,0 +1,649 @@
+{
+  "snapshot_date": "2026-11-18",
+  "owner": {
+    "name": "Youssef Yacoup",
+    "location": "Egypt",
+    "headline": "AI & Backend Developer | Python, .NET, Azure",
+    "links": {
+      "github": "https://github.com/Youssef123ya",
+      "linkedin": "https://www.linkedin.com/in/youssef-yacoup-745234280/",
+      "kaggle": "https://www.kaggle.com/youssefyacoup",
+      "devpost": "https://devpost.com/Youssef123ya",
+      "youtube": "https://www.youtube.com/@YoussefYacoup",
+      "freelancer": "https://www.freelancer.com/u/yyacoup",
+      "nafezly": "https://nafezly.com/u/YoussefYacoup",
+      "nafezly_portfolio": "https://nafezly.com/u/YoussefYacoup/portfolio",
+      "khamsat": "https://khamsat.com/user/youssefyacoup",
+      "khamsat_services": "https://khamsat.com/user/youssefyacoup/services"
+    }
+  },
+  "services": [
+    {
+      "platform": "khamsat",
+      "title": "سأصمم لك صفحة هبوط Landing Page متجاوبة واحترافية",
+      "url": "https://khamsat.com/programming/custom-website-development/4505135-%D8%B3%D8%A3%D8%B5%D9%85%D9%85-%D9%84%D9%83-%D8%B5%D9%81%D8%AD%D8%A9-%D9%87%D8%A8%D9%88%D8%B7-landing-page-%D9%85%D8%AA%D8%AC%D8%A7%D9%88%D8%A8%D8%A9-%D9%88%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A%D8%A9",
+      "status": "pending_review",
+      "category": "برمجة وتطوير / تطوير مواقع / إنشاء موقع إلكتروني",
+      "price_usd": 10.0,
+      "delivery_days": 3,
+      "tools": [
+        "Figma",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Tailwind CSS"
+      ],
+      "keywords": [
+        "تصميم موقع",
+        "html",
+        "landing page",
+        "صفحة هبوط",
+        "موقع متجاوب"
+      ],
+      "upgrades": [
+        {
+          "title": "إضافة قسمين إضافيين للصفحة",
+          "price_usd": 5.0,
+          "extra_days": 1
+        },
+        {
+          "title": "إضافة نموذج تواصل يرسل الرسائل إلى بريدك",
+          "price_usd": 5.0,
+          "extra_days": 1
+        },
+        {
+          "title": "رفع الصفحة ونشرها على استضافة مجانية (Netlify أو GitHub Pages)",
+          "price_usd": 5.0,
+          "extra_days": 1
+        },
+        {
+          "title": "تسليم سريع خلال يوم واحد",
+          "price_usd": 10.0,
+          "delivery_days_total": 1
+        }
+      ]
+    }
+  ],
+  "platforms": {
+    "freelancer": {
+      "profile_url": "https://www.freelancer.com/u/yyacoup",
+      "hourly_rate_usd": 10,
+      "portfolio_count": 16,
+      "portfolio": [
+        {
+          "id": "16123674",
+          "title": "Francesko Fashion Store + Admin Demo",
+          "profile_url": "https://www.freelancer.com/u/yyacoup",
+          "live_demo_url": null,
+          "skills": [
+            "JavaScript",
+            "Website Design",
+            "CSS",
+            "HTML5",
+            "Shopify"
+          ],
+          "description": "Working interactive demo of a conversion-focused online fashion store with admin dashboard.\n- Storefront with collections, filters (category, size, price), search and product pages with variants and stock status\n- Cart drawer and multi-step checkout with shipping/tax rules by country, discount codes and order confirmation\n- Admin dashboard: sales stats and chart, orders table with status updates and CSV export\n- Product and inventory manager plus shipping & tax rules editor\n- Premium, fully responsive design for mobile and desktop\n- Skills: e-commerce, Shopify-style store design, HTML5, CSS3, JavaScript, responsive UI/UX."
+        },
+        {
+          "id": "16123644",
+          "title": "Unbounce-Style Lead Gen Landing Page",
+          "profile_url": "https://www.freelancer.com/u/yyacoup",
+          "live_demo_url": null,
+          "skills": [
+            "JavaScript",
+            "Website Design",
+            "CSS",
+            "HTML5",
+            "Landing Pages",
+            "Unbounce"
+          ],
+          "description": "Working interactive demo of a high-converting, Unbounce-style lead generation landing page for a B2B SaaS offer.\n- Hero with strong headline and CTA, benefits, social proof, testimonials, pricing, FAQ accordion, sticky CTA\n- Lead capture form with inline validation, thank-you state and popup/sticky bar variant\n- A/B variant toggle (Variant A / B) for testing headlines and layouts\n- Leads dashboard: timestamps, variant, UTM source/campaign, CSV export, conversion stats per variant and chart\n- Mock CRM integration panel (HubSpot / Mailchimp webhooks) with per-lead sync status\n- Fully responsive for mobile and desktop\n- Skills: landing page design, conversion optimization, HTML5, CSS3, JavaScript, responsive UI/UX."
+        },
+        {
+          "id": "16123630",
+          "title": "Elementor One-Page Portfolio Demo",
+          "profile_url": "https://www.freelancer.com/u/yyacoup",
+          "live_demo_url": null,
+          "skills": [
+            "JavaScript",
+            "Website Design",
+            "CSS",
+            "HTML5",
+            "WordPress",
+            "Elementor"
+          ],
+          "description": "A fully responsive one-page personal portfolio landing page, designed to be rebuilt 1:1 in Elementor on WordPress with editable global colors and fonts.\n- Sticky header with smooth-scroll navigation, active-section highlighting and a mobile hamburger menu\n- Hero with name, title, intro, call-to-action buttons and photo\n- About section and a \"How a project runs\" process timeline\n- Skills section with animated skill bars and tool badges\n- Selected Work grid with category filters and project detail modals\n- Client reviews and a validated contact form with success state\n- On-page SEO structure: single H1, semantic sections, meta tags, alt text, Open Graph\n- Skills: WordPress, Elementor, HTML5, CSS3, JavaScript, responsive UI/UX design, on-page SEO."
+        },
+        {
+          "id": "16123591",
+          "title": "AI Chat Marketing Copy Assistant",
+          "profile_url": "https://www.freelancer.com/u/yyacoup",
+          "live_demo_url": null,
+          "skills": [
+            "JavaScript",
+            "CSS",
+            "HTML5",
+            "Web Development",
+            "Chatbot"
+          ],
+          "description": "BrightLeaf Copy Assistant is a working demo of an AI marketing-copy assistant embedded in a business website's chat widget.\n- Floating chat bubble on a realistic small-business site that opens an embedded assistant (full-screen on mobile)\n- Quick prompts for Facebook ads, Instagram posts, promo and follow-up emails and Google ads, with tone, length and 500-character cap controls\n- On-brand copy with character counts, copy and regenerate buttons, and replies in under 2 seconds\n- Moderation with an editable banned-words list\n- Admin panel: switchable model provider (GPT-4, Claude or custom) through one adapter config, system prompt, temperature and limits\n- Analytics and prompt log with stats, charts and CSV export\n- Skills: JavaScript, HTML5, CSS3, chatbot UI/UX, AI integration architecture, responsive design."
+        },
+        {
+          "id": "16123583",
+          "title": "Digital Download Store Demo",
+          "profile_url": "https://www.freelancer.com/u/yyacoup",
+          "live_demo_url": null,
+          "skills": [
+            "JavaScript",
+            "CSS",
+            "HTML"
+          ],
+          "description": "PixelVault Digital is a fully working, responsive e-commerce demo for selling digital products with instant download.\n- Storefront with category filters, search, sorting and detailed product pages (preview, format, file size, licenses, reviews)\n- Cart and checkout with simulated Stripe, PayPal and Mobile Money payments and working discount codes\n- Automatic delivery: order confirmation, a \"My downloads\" area with expiring download links, download limits and a license key per purchase\n- Admin dashboard: add, edit and delete products, manage discount codes and orders, sales analytics with a revenue chart\n- GDPR cookie consent, privacy policy and SEO-ready semantic markup\n- Mobile-first responsive layout\n- Skills: HTML5, CSS3, JavaScript, responsive UI/UX design, e-commerce front-end, admin dashboards."
+        },
+        {
+          "id": "16123519",
+          "title": "Cleaning Company One-Page Website",
+          "profile_url": "https://www.freelancer.com/u/yyacoup",
+          "live_demo_url": null,
+          "skills": [
+            "JavaScript",
+            "Website Design",
+            "CSS",
+            "WordPress",
+            "Elementor",
+            "HTML"
+          ],
+          "description": "Responsive one-page website for a local cleaning company (SparkleClean Co. demo), designed for a WordPress/Elementor build. Includes a sticky header with smooth-scroll navigation, a hero with quote and click-to-call CTAs, service cards (home, deep, office, move-in/out, carpet, windows), a \"Why choose us\" trust section, an interactive price estimator (service, rooms, frequency discounts), a testimonials slider, an FAQ accordion, and a validated inquiry form with a success state. It also has a sticky mobile call/quote bar. Mobile-first layout, accessible markup and fast loading. Built with HTML5, CSS3 and JavaScript."
+        },
+        {
+          "id": "16123193",
+          "title": "WordPress Personal Brand Site Demo",
+          "profile_url": "https://www.freelancer.com/u/yyacoup",
+          "live_demo_url": null,
+          "skills": [
+            "Website Design",
+            "CSS",
+            "WordPress",
+            "HTML",
+            "Web Design"
+          ],
+          "description": "Personal brand website design for a coach/consultant: a calm, editorial public site (hero, about, services, how it works, testimonials) with an inquiry form that emails the owner, plus a private client area unlocked by an access code — overview dashboard, session booking, resource library, rates and messages. Fully responsive layout, ready to be built on WordPress/Elementor from the client's chosen template. Built with HTML, CSS and JavaScript using mock content."
+        },
+        {
+          "id": "16123439",
+          "title": "OpsPilot – Slack Task Automation",
+          "profile_url": "https://www.freelancer.com/u/yyacoup",
+          "live_demo_url": null,
+          "skills": [
+            "JavaScript",
+            "CSS",
+            "HTML",
+            "Web Design",
+            "AI Development"
+          ],
+          "description": "OpsPilot is a polished, interactive prototype of a Claude-powered task-automation assistant for Slack. It demonstrates a conversational assistant for email triage, CRM updates and team reminders; configurable workflows; role-based permissions with approval gates for sensitive actions; and an audit log that records who requested and approved each action. The responsive dashboard uses realistic mock data to show how a small team can automate routine operations while keeping work transparent and controlled."
+        },
+        {
+          "id": "16123211",
+          "title": "Real Estate ERP Lead Assignment UI",
+          "profile_url": "https://www.freelancer.com/u/yyacoup",
+          "live_demo_url": null,
+          "skills": [
+            "Web Development",
+            ".NET",
+            "C# Programming",
+            "ASP.NET",
+            "UI / User Interface"
+          ],
+          "description": "Admin UI prototype for a real estate ERP lead workflow: KPI dashboard and leads table, an assign-lead modal that previews the exact lead and agent mapping before confirming, an edit-lead form with save confirmation, and a change-history panel tracing every lead-to-agent change. Built to demonstrate a clean, verifiable fix for lead assignment and update issues in an ASP.NET / C# system."
+        },
+        {
+          "id": "16123137",
+          "title": "File Service Dashboard UI Prototype",
+          "profile_url": "https://www.freelancer.com/u/yyacoup",
+          "live_demo_url": null,
+          "skills": [
+            "JavaScript",
+            "CSS",
+            "HTML",
+            "UI / User Interface",
+            "React.js",
+            "Frontend Development",
+            "Figma",
+            "Tailwind CSS"
+          ],
+          "description": "Interactive frontend prototype for a file-sharing service: drag-and-drop uploads with live progress, pause and retry; folder browser with instant search, grid/list views and a quick-preview drawer for images, PDFs and text; admin console with role management, storage quota bars and a filterable audit log. Fully responsive desktop and mobile layout."
+        },
+        {
+          "id": "16123124",
+          "title": "AI Real Estate CMA Dashboard",
+          "profile_url": "https://www.freelancer.com/u/yyacoup",
+          "live_demo_url": null,
+          "skills": [
+            "Web Development",
+            "Python",
+            "Software Architecture",
+            "Machine Learning (ML)",
+            "API"
+          ],
+          "description": "Prototype of an AI-driven Comparative Market Analysis dashboard: subject property input, ZIP-based comparable search over MLS-style data, weighted similarity scoring (location, sale recency, size, bed/bath, lot, property type, condition, amenities) with adjustable weights, ranked comparables table, price-vs-size chart, AI-generated pricing summary and PDF export."
+        },
+        {
+          "id": "16123116",
+          "title": "Responsive Single-Page Website Desig",
+          "profile_url": "https://www.freelancer.com/u/yyacoup",
+          "live_demo_url": null,
+          "skills": [
+            "Website Design",
+            "HTML",
+            "Web Design",
+            "UI / User Interface",
+            "Figma"
+          ],
+          "description": "Responsive single-page website prototype built section by section from a Figma-style design: sticky navigation with mobile menu, hero with animated stats, services cards, gallery, auto-rotating testimonial slider, scroll-reveal animations and a validated contact form. Optimised for desktop, tablet and mobile."
+        },
+        {
+          "id": "16123109",
+          "title": "Smart Traffic Signal Simulation Demo",
+          "profile_url": "https://www.freelancer.com/u/yyacoup",
+          "live_demo_url": null,
+          "skills": [
+            "JavaScript",
+            "CSS",
+            "Web Development",
+            "HTML",
+            "Frontend Development",
+            "Animation"
+          ],
+          "description": "Interactive smart traffic signal simulation built with plain HTML, CSS and vanilla JavaScript: a four-way intersection with automatic red/yellow/green cycling, animated traffic from light to heavy flow, sensor-based emergency vehicle detection that automatically gives the ambulance's lane right of way, and a slide-in dashboard to tune cycle durations and reset. Fully responsive on desktop and mobile."
+        },
+        {
+          "id": "16122219",
+          "title": "Premium Responsive Business Website",
+          "profile_url": "https://www.freelancer.com/u/yyacoup",
+          "live_demo_url": null,
+          "skills": [
+            "JavaScript",
+            "Website Design",
+            "CSS",
+            "HTML"
+          ],
+          "description": "Interactive prototype of a modern, premium multi-page business website: sticky responsive navigation with a mobile menu, Work/Services/About/Testimonials/FAQ sections, a validated contact form, a dark/light theme toggle, and a simple CMS-style 'Edit content' panel for easy updates. Built with HTML5, CSS3 and JavaScript, focused on fast loading and a clean UI."
+        },
+        {
+          "id": "16121892",
+          "title": "Lottery Results Website – Interactiv",
+          "profile_url": "https://www.freelancer.com/u/yyacoup",
+          "live_demo_url": null,
+          "skills": [
+            "Web Development",
+            "React.js",
+            "Frontend Development",
+            "Python",
+            "Django"
+          ],
+          "description": "Interactive prototype of a lottery results platform: latest-draw hero card with winning numbers, bonus ball and prize-tier payouts; searchable, paginated archive of past draws with date/draw filters; hot/cold number frequency stats; share links; and an admin panel to enter new draws that appear live instantly. Built with React, responsive mobile-first UI."
+        },
+        {
+          "id": "16121540",
+          "title": "Shopify Storefront Booking Prototype",
+          "profile_url": "https://www.freelancer.com/u/yyacoup",
+          "live_demo_url": "https://claude.ai/artifact/9xkXJhEfLky62f7QGphMnJ",
+          "skills": [
+            "JavaScript",
+            "Website Design",
+            "CSS",
+            "Shopify",
+            "HTML"
+          ],
+          "description": "Interactive prototype of a Shopify-style storefront rebuilt from a WordPress design: responsive homepage, course/product page, and a booking flow with calendar availability, service durations, buffer times, blackout dates, time-slot selection and confirmation screen.\n\n---"
+        }
+      ]
+    },
+    "nafezly": {
+      "profile_url": "https://nafezly.com/u/YoussefYacoup",
+      "portfolio_url": "https://nafezly.com/u/YoussefYacoup/portfolio",
+      "services_count": 0,
+      "portfolio_count": 20,
+      "portfolio": [
+        {
+          "title": "تصميم صفحة هبوط لكافيه مع عرض المنيو",
+          "url": "https://nafezly.com/portfolio/270020-%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D8%B5%D9%81%D8%AD%D8%A9-%D9%87%D8%A8%D9%88%D8%B7-%D9%84%D9%83%D8%A7%D9%81%D9%8A%D9%87-%D9%85%D8%B9-%D8%B9%D8%B1%D8%B6-%D8%A7%D9%84%D9%85%D9%86%D9%8A%D9%88",
+          "category": "برمجة، تطوير المواقع والتطبيقات",
+          "skills": [
+            "HTML",
+            "CSS"
+          ],
+          "views": 3,
+          "external_url": null,
+          "github_url": null,
+          "youtube_url": null,
+          "description": "نموذج صفحة هبوط عربية متجاوبة لكافيه بتصميم Minimalist دافئ: واجهة رئيسية جذابة، منيو مقسم حسب الأقسام (مشروبات ساخنة، باردة، حلويات) مع الأسعار، زر طلب عبر واتساب، وقسم QR Code للوصول السريع للمنيو. تم التنفيذ بـ HTML وCSS وJavaScript. جميع الأسماء والأسعار افتراضية."
+        },
+        {
+          "title": "تصميم 3 مفاهيم شعار عصرية وهوية بصرية مينيمالية",
+          "url": "https://nafezly.com/portfolio/269860-%D8%AA%D8%B5%D9%85%D9%8A%D9%85-3-%D9%85%D9%81%D8%A7%D9%87%D9%8A%D9%85-%D8%B4%D8%B9%D8%A7%D8%B1-%D8%B9%D8%B5%D8%B1%D9%8A%D8%A9-%D9%88%D9%87%D9%88%D9%8A%D8%A9-%D8%A8%D8%B5%D8%B1%D9%8A%D8%A9-%D9%85%D9%8A%D9%86%D9%8A%D9%85%D8%A7%D9%84%D9%8A%D8%A9",
+          "category": "تصميم وأعمال فنية وإبداعية",
+          "skills": [
+            "تصميم الشعارات",
+            "تصميم الجرافيك",
+            "Illustrator",
+            "هوية المؤسسات"
+          ],
+          "views": 3,
+          "external_url": null,
+          "github_url": null,
+          "youtube_url": null,
+          "description": "نموذج لثلاثة مفاهيم شعار عصرية ومينيمالية لعلامات تجارية افتراضية: مفهوم هندسي واثق، ومفهوم فاخر على خلفية داكنة، ومفهوم عضوي يعبر عن النمو، مع لوحة ألوان لكل مفهوم. التسليم يشمل ملفات SVG فيكتور وPNG عالي الدقة."
+        },
+        {
+          "title": "مفاهيم هوية وشعار لدار نشر عربية – نقطة، عتبة، ورقة",
+          "url": "https://nafezly.com/portfolio/269220-%D9%85%D9%81%D8%A7%D9%87%D9%8A%D9%85-%D9%87%D9%88%D9%8A%D8%A9-%D9%88%D8%B4%D8%B9%D8%A7%D8%B1-%D9%84%D8%AF%D8%A7%D8%B1-%D9%86%D8%B4%D8%B1-%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%E2%80%93-%D9%86%D9%82%D8%B7%D8%A9%D8%8C-%D8%B9%D8%AA%D8%A8%D8%A9%D8%8C-%D9%88%D8%B1%D9%82%D8%A9",
+          "category": "تصميم وأعمال فنية وإبداعية",
+          "skills": [
+            "تصميم الشعارات",
+            "تصميم الجرافيك",
+            "هوية المؤسسات"
+          ],
+          "views": 4,
+          "external_url": "https://claude.ai/artifact/Xc4Y8amKS5d69RsrDP4ewX",
+          "github_url": null,
+          "youtube_url": null,
+          "description": "لوحة مفاهيم لشعار دار نشر عربية تضم ثلاثة اتجاهات تصميمية: نقطة (Nuqta)، عتبة (Ataba)، وورقة (Waraqa). لكل اتجاه معالجة للشعار بنسخ ملونة وأحادية اللون، ولوحة ألوان بأكواد HEX، واقتراحات للخطوط العربية واللاتينية، مع تطبيقات موكاب على أغلفة وكعوب الكتب وبطاقات العمل. توضح اللوحة الفكرة التصميمية لكل اتجاه وتناسبه مع أنماط النشر المختلفة. تنويه: الأسماء المعروضة أسماء عمل مقترحة وليست اسماً نهائياً للدار، وبيانات الأشخاص والاتصال في الموكابات تجريبية. اللوحة تركز على موكابات الكتب وبطاقات العمل ولا تتضمن نموذجاً لواجهة الموقع."
+        },
+        {
+          "title": "TaskFlow API",
+          "url": "https://nafezly.com/portfolio/269216-TaskFlow-API",
+          "category": "برمجة، تطوير المواقع والتطبيقات",
+          "skills": [
+            "HTML",
+            "CSS",
+            "جافاسكربت"
+          ],
+          "views": 4,
+          "external_url": null,
+          "github_url": null,
+          "youtube_url": null,
+          "description": "واجهة توثيق تفاعلية لواجهة TaskFlow API لإدارة المهام. تعرض التصميم المعماري النظيف بأربع طبقات، تدفق مصادقة JWT، ومراجع نقاط النهاية لمجموعات المصادقة والمهام والفئات والأولويات وتتبع الوقت والتقارير، مع أمثلة الطلبات والاستجابات ونموذج البيانات ولوحة ملخص أسبوعي. تتضمن الصفحة بيانات توضيحية لشرح الواجهة."
+        },
+        {
+          "title": "Rose & Sugar / ورد وسكّر — هوية بصرية متكاملة لمخبز عربي",
+          "url": "https://nafezly.com/portfolio/269214-Rose---Sugar-%D9%88%D8%B1%D8%AF-%D9%88%D8%B3%D9%83%D9%91%D8%B1-%E2%80%94-%D9%87%D9%88%D9%8A%D8%A9-%D8%A8%D8%B5%D8%B1%D9%8A%D8%A9-%D9%85%D8%AA%D9%83%D8%A7%D9%85%D9%84%D8%A9-%D9%84%D9%85%D8%AE%D8%A8%D8%B2-%D8%B9%D8%B1%D8%A8%D9%8A",
+          "category": "تصميم وأعمال فنية وإبداعية",
+          "skills": [
+            "هوية المؤسسات",
+            "تصميم الشعارات"
+          ],
+          "views": 3,
+          "external_url": null,
+          "github_url": null,
+          "youtube_url": null,
+          "description": "صمّمت لوحة هوية بصرية متكاملة لعلامة مخبوزات وحلويات عربية باسم Rose & Sugar (ورد وسكّر)، بهوية دافئة مستوحاة من حلويات القاهرة وعلبة الورد المربوطة بالشريط الذهبي. تشمل اللوحة قصة العلامة وتموضعها وشعارًا عربيًا/لاتينيًا وثلاثة اتجاهات للشعار بنسخ ملونة وأحادية اللون، ونظام ألوان موثقًا بالقيم اللونية، وتوليفة خطوط عربية ولاتينية، ونمطًا زخرفيًا مستلهمًا من تقطيع البقلاوة. كما تتضمن تطبيقات الهوية على علبة المعجنات، والأكياس والملصقات، ومنشورات إنستغرام، مع مراعاة اتجاه الكتابة العربية من اليمين إلى اليسار."
+        },
+        {
+          "title": "ستوري بورد تفاعلي لإعلان فيديو عمودي – الكرسي الأرضي الطبي",
+          "url": "https://nafezly.com/portfolio/269208-%D8%B3%D8%AA%D9%88%D8%B1%D9%8A-%D8%A8%D9%88%D8%B1%D8%AF-%D8%AA%D9%81%D8%A7%D8%B9%D9%84%D9%8A-%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%86-%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%B9%D9%85%D9%88%D8%AF%D9%8A-%E2%80%93-%D8%A7%D9%84%D9%83%D8%B1%D8%B3%D9%8A-%D8%A7%D9%84%D8%A3%D8%B1%D8%B6%D9%8A-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A",
+          "category": "تصميم وأعمال فنية وإبداعية",
+          "skills": [
+            "كتابة السيناريو",
+            "كتابة سكريبت الفيديو",
+            "تحرير الفيديو",
+            "إنتاج الفيديو",
+            "كتابة الإعلانات"
+          ],
+          "views": 4,
+          "external_url": null,
+          "github_url": null,
+          "youtube_url": null,
+          "description": "ستوري بورد تفاعلي احترافي لإعلان فيديو عمودي مدته 35 ثانية (ريلز وتيك توك) لكرسي أرضي طبي، يتضمن 7 مشاهد بتوقيتاتها، خط زمني تفاعلي، معاينة إيقاع على شاشة جوال، النص الكامل للتعليق الصوتي، النصوص على الشاشة، اللقطات المقترحة والمؤثرات الصوتية لكل مشهد، بالإضافة إلى خطّافات بديلة للاختبار وملاحظات إنتاج، بما يناسب إنتاج الفيديو بأدوات الذكاء الاصطناعي."
+        },
+        {
+          "title": "هوية بصرية متكاملة لشركة Nova Trade",
+          "url": "https://nafezly.com/portfolio/269197-%D9%87%D9%88%D9%8A%D8%A9-%D8%A8%D8%B5%D8%B1%D9%8A%D8%A9-%D9%85%D8%AA%D9%83%D8%A7%D9%85%D9%84%D8%A9-%D9%84%D8%B4%D8%B1%D9%83%D8%A9-Nova-Trade",
+          "category": "تصميم وأعمال فنية وإبداعية",
+          "skills": [
+            "تصميم الشعارات",
+            "تصميم الجرافيك",
+            "Illustrator"
+          ],
+          "views": 4,
+          "external_url": "https://claude.ai/artifact/BNYzMS3FUYdUADdCmVWsTc",
+          "github_url": null,
+          "youtube_url": null,
+          "description": "لوحة هوية بصرية متكاملة لشركة تجارية حديثة (Nova Trade) تشمل: ثلاثة مفاهيم للشعار (شعار نصي، رمز مع نص، ومونوجرام) بنسخ ملونة وأبيض وأسود، لوحة ألوان مع أكواد HEX، اختيار خطوط عربية ولاتينية متناسقة (Alexandria و Sora) مع أمثلة للعناوين والنصوص، تصاميم للمطبوعات (كارت شخصي بوجهين، ورق رسمي، وظرف)، وثلاثة قوالب لمنشورات السوشيال ميديا. تصميم أنيق ومنظم يعكس هوية احترافية موحدة لجميع نقاط التواصل مع العملاء."
+        },
+        {
+          "title": "لوحة تحكم الموارد البشرية – داشبورد تفاعلي لتحليل بيانات الموظفين",
+          "url": "https://nafezly.com/portfolio/269162-%D9%84%D9%88%D8%AD%D8%A9-%D8%AA%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B1%D8%AF-%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9-%E2%80%93-%D8%AF%D8%A7%D8%B4%D8%A8%D9%88%D8%B1%D8%AF-%D8%AA%D9%81%D8%A7%D8%B9%D9%84%D9%8A-%D9%84%D8%AA%D8%AD%D9%84%D9%8A%D9%84-%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%88%D8%B8%D9%81%D9%8A%D9%86",
+          "category": "أعمال وخدمات استشارية وإدارية",
+          "skills": [
+            "Microsoft Excel",
+            "تحليل البيانات",
+            "HTML"
+          ],
+          "views": 5,
+          "external_url": "https://claude.ai/artifact/Qx3zUcXHGb3NSYoTPYCS7j",
+          "github_url": null,
+          "youtube_url": null,
+          "description": "لوحة تحكم تفاعلية باللغة العربية لتحليل بيانات الموارد البشرية، تعرض مؤشرات الأداء الرئيسية مثل إجمالي الموظفين، التعيينات الجديدة، معدل دوران الموظفين، متوسط الرواتب وإجمالي الرواتب. تتضمن فلاتر تفاعلية حسب القسم والسنة ونوع العقد، ورسوماً بيانية للتعيينات مقابل المغادرين شهرياً، وتوزيع الموظفين حسب القسم، واتجاه معدل الدوران مقارنة بالمستهدف، ونطاقات الرواتب لكل قسم، وتركيبة القوى العاملة حسب الجنس ونوع العقد، مع جدول ملخص للأقسام قابل للنسخ إلى Excel ووضع ليلي. تصميم متجاوب واحترافي يناسب العرض على الإدارة."
+        },
+        {
+          "title": "تنظيف سجل المبيعات التاريخي وإعداد لوحة تقارير Excel",
+          "url": "https://nafezly.com/portfolio/269151-%D8%AA%D9%86%D8%B8%D9%8A%D9%81-%D8%B3%D8%AC%D9%84-%D8%A7%D9%84%D9%85%D8%A8%D9%8A%D8%B9%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A-%D9%88%D8%A5%D8%B9%D8%AF%D8%A7%D8%AF-%D9%84%D9%88%D8%AD%D8%A9-%D8%AA%D9%82%D8%A7%D8%B1%D9%8A%D8%B1-Excel",
+          "category": "أعمال وخدمات استشارية وإدارية",
+          "skills": [
+            "Microsoft Excel",
+            "تحليل البيانات"
+          ],
+          "views": 6,
+          "external_url": "https://claude.ai/artifact/5KcAEEeu29UBhZZKb83H1q",
+          "github_url": null,
+          "youtube_url": null,
+          "description": "دراسة حالة تفاعلية لتنظيف سجل مبيعات تاريخي لثلاث سنوات باستخدام Excel وPower Query. بدأت البيانات التجريبية من 3,262 سجلًا، وتضمنت التكرارات والقيم الناقصة واختلاف صيغ التواريخ والأرقام وأسماء العملاء والفروع، بما في ذلك اختلافات الكتابة العربية. نُفذت ثماني خطوات تنظيف قابلة للتتبع مع أمثلة قبل/بعد وسجل تدقيق، فنتج 3,096 سجلًا نظيفًا وإصلاح 6,909 خلايا، وارتفعت نسبة السجلات السليمة تمامًا من 22% إلى 100%. تتضمن لوحة التقارير فلاتر للسنة والفرع والفئة، ومؤشرات أداء، واتجاهات المبيعات الشهرية والسنوية والنمو والموسمية وأكبر العملاء. جميع البيانات اصطناعية لأغراض العرض ولا تمثل بيانات عميل حقيقية."
+        },
+        {
+          "title": "حملة إعلانية ونصوص تسويقية لمنتج فاخر لمتجر إلكتروني",
+          "url": "https://nafezly.com/portfolio/269112-%D9%83%D8%AA%D8%A7%D8%A8%D8%A9-%D9%85%D8%AD%D8%AA%D9%88%D9%89-%D8%A5%D8%B9%D9%84%D8%A7%D9%86%D9%8A-%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A-%D9%84%D9%85%D9%86%D8%AA%D8%AC-%D9%81%D8%A7%D8%AE%D8%B1-%E2%80%93-%D8%AD%D9%85%D9%84%D8%A9-%D8%B3%D8%A7%D8%B9%D8%A7%D8%AA-%D8%B4%D8%B1%D9%82%D8%AF-%D8%B3%D9%8F%D8%B1%D9%89",
+          "category": "كتابة، صناعة محتوى، ترجمة ولغات",
+          "skills": [
+            "العربية",
+            "كتابة المحتوى",
+            "كتابة النسخ",
+            "كتابة الإعلانات",
+            "التسويق عبر الإنترنت"
+          ],
+          "views": 5,
+          "external_url": "https://claude.ai/artifact/CfKCpuMNjUcPXxvebpghrQ",
+          "github_url": null,
+          "youtube_url": null,
+          "description": "نموذج لحملة إطلاق ساعة فاخرة من علامة افتراضية، يوضح كيف تتكامل الفكرة الإعلانية مع رسائل المتجر الإلكتروني. يتضمن العمل خمس زوايا إعلانية، ولكل زاوية عنوانًا رئيسيًا ونصًا إعلانيًا ودعوة واضحة لاتخاذ الإجراء، إلى جانب نسخ قصيرة مناسبة لفيسبوك وإنستغرام. كما يضم خمسة أزواج من العناوين لاختبار A/B مع فرضية موجزة لكل اختبار، ووصفًا مقترحًا لصفحة المنتج، ودليلًا مختصرًا لنبرة العلامة. صيغت الرسائل لإبراز الطابع الراقي والهدية والتميّز اليومي، مع تجنب المواصفات أو الادعاءات غير الموثقة. المنتج والعلامة في هذه العينة افتراضيان، والمحتوى معدّ للعرض كنموذج أعمال لمشروع كتابة إعلانية لمنتج فاخر في التجارة الإلكترونية."
+        },
+        {
+          "title": "تنظيف وتنسيق بيانات مبيعات Excel مع لوحة ملخص",
+          "url": "https://nafezly.com/portfolio/269023-%D8%AA%D9%86%D8%B8%D9%8A%D9%81-%D9%88%D8%AA%D9%86%D8%B3%D9%8A%D9%82-%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-%D9%85%D8%A8%D9%8A%D8%B9%D8%A7%D8%AA-Excel-%D9%85%D8%B9-%D9%84%D9%88%D8%AD%D8%A9-%D9%85%D9%84%D8%AE%D8%B5",
+          "category": "أعمال وخدمات استشارية وإدارية",
+          "skills": [
+            "Microsoft Excel",
+            "إدخال البيانات",
+            "تحليل البيانات"
+          ],
+          "views": 8,
+          "external_url": "https://claude.ai/artifact/TS2z7oyrDWLf9sQ4PK2oFB",
+          "github_url": null,
+          "youtube_url": null,
+          "description": "تنظيف وتنسيق بيانات مبيعات Excel من خلال إزالة الصفوف المكررة، وتوحيد تنسيقات النصوص والتواريخ والأرقام، ومعالجة القيم المفقودة بالاعتماد على بيانات مرجعية، ثم تنظيم البيانات في جدول واضح. يتضمن العمل لوحة ملخص تعرض إجمالي المبيعات وعدد الطلبات ومتوسط قيمة الطلب، مع رسوم توضح المبيعات حسب الشهر والمنتج."
+        },
+        {
+          "title": "Secure AWS Infrastructure Design — Nafezly #58468",
+          "url": "https://nafezly.com/portfolio/268987-Secure-AWS-Infrastructure-Design-%E2%80%94-Nafezly-58468",
+          "category": "برمجة، تطوير المواقع والتطبيقات",
+          "skills": [
+            "Terraform",
+            "Amazon Web Services",
+            "الحوسبة السحابية",
+            "DevOps"
+          ],
+          "views": 4,
+          "external_url": "https://claude.ai/artifact/8FeLgRjc5j6LqgiapsBPDs",
+          "github_url": null,
+          "youtube_url": null,
+          "description": "Sample deliverable for Nafezly project #58468: a secure multi-AZ AWS reference architecture with CloudFront/WAF, ALB, ECS Fargate, isolated encrypted RDS Multi-AZ, private S3, IAM least privilege, KMS, Secrets Manager, CloudTrail, Config, GuardDuty, Security Hub, CloudWatch and AWS Backup. Includes an SVG architecture diagram, security-control matrix, Terraform module outline with VPC/RDS snippets, and a phased four-week implementation plan. Sample only: values are illustrative, and Terraform was not applied or validated against an AWS account."
+        },
+        {
+          "title": "سكريبت إعلان فيديو قصير لكرسي أرضي طبي «السند»",
+          "url": "https://nafezly.com/portfolio/268816-%D8%B3%D9%83%D8%B1%D9%8A%D8%A8%D8%AA-%D8%A5%D8%B9%D9%84%D8%A7%D9%86-%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%82%D8%B5%D9%8A%D8%B1-%D9%84%D9%83%D8%B1%D8%B3%D9%8A-%D8%A3%D8%B1%D8%B6%D9%8A-%D8%B7%D8%A8%D9%8A-%C2%AB%D8%A7%D9%84%D8%B3%D9%86%D8%AF%C2%BB",
+          "category": "كتابة، صناعة محتوى، ترجمة ولغات",
+          "skills": [
+            "كتابة المحتوى",
+            "كتابة النسخ",
+            "كتابة الإعلانات",
+            "كتابة السيناريو"
+          ],
+          "views": 5,
+          "external_url": "https://claude.ai/artifact/2Dmbk8JnL56yNZiDpsTqio",
+          "github_url": null,
+          "youtube_url": null,
+          "description": "سكريبت إعلاني احترافي لفيديو قصير (35 ثانية) مخصص لريلز وتيك توك وشورتس، لكرسي أرضي طبي مريح للظهر. يتضمن خطّاف (Hook) قوي في أول ثوانٍ، وتقسيم مشهد بمشهد (المشهد البصري، التعليق الصوتي، النص على الشاشة، المدة)، ودعوة واضحة لاتخاذ إجراء، مع خطّافات بديلة لاختبار A/B. مكتوب بلهجة مصرية بسيطة قريبة من الجمهور وجاهز للتصوير مباشرة."
+        },
+        {
+          "title": "ستوريبورد ومفهوم بصري لإعلان فيديو لساعة فاخرة بالذكاء الاصطناعي",
+          "url": "https://nafezly.com/portfolio/268805-%D8%B3%D8%AA%D9%88%D8%B1%D9%8A%D8%A8%D9%88%D8%B1%D8%AF-%D9%88%D9%85%D9%81%D9%87%D9%88%D9%85-%D8%A8%D8%B5%D8%B1%D9%8A-%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%86-%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%84%D8%B3%D8%A7%D8%B9%D8%A9-%D9%81%D8%A7%D8%AE%D8%B1%D8%A9-%D8%A8%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A",
+          "category": "تصميم وأعمال فنية وإبداعية",
+          "skills": [
+            "إنتاج الفيديو",
+            "تحرير الفيديو",
+            "تصميم الإعلانات",
+            "موشن جرافيك",
+            "توليد الفيديو بالذكاء الاصطناعي",
+            "كتابة السيناريو"
+          ],
+          "views": 2,
+          "external_url": "https://claude.ai/artifact/6DWsWDi57ccH5My7AAmXS3",
+          "github_url": null,
+          "youtube_url": null,
+          "description": "تصور بصري متكامل (Storyboard) لإعلان فيديو قصير لعلامة ساعات فاخرة، يتضمن تقسيم المشاهد لقطةً بلقطة، زوايا التصوير وحركة الكاميرا، الإضاءة ولوحة الألوان، النصوص الإعلانية على الشاشة، والمؤثرات والانتقالات، كأساس جاهز لإنتاج الإعلان بأدوات الفيديو بالذكاء الاصطناعي."
+        },
+        {
+          "title": "صفحة هبوط إعلانية احترافية «مَدار» – HTML وCSS متجاوبة بالعربية",
+          "url": "https://nafezly.com/portfolio/268779-%D8%B5%D9%81%D8%AD%D8%A9-%D9%87%D8%A8%D9%88%D8%B7-%D8%A5%D8%B9%D9%84%D8%A7%D9%86%D9%8A%D8%A9-%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A%D8%A9-%C2%AB%D9%85%D9%8E%D8%AF%D8%A7%D8%B1%C2%BB-%E2%80%93-HTML-%D9%88CSS-%D9%85%D8%AA%D8%AC%D8%A7%D9%88%D8%A8%D8%A9-%D8%A8%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9",
+          "category": "برمجة، تطوير المواقع والتطبيقات",
+          "skills": [
+            "HTML",
+            "CSS",
+            "جافاسكربت",
+            "تصميم صفحات الهبوط"
+          ],
+          "views": 4,
+          "external_url": "https://claude.ai/artifact/VypasF3C4YrKCxJqzDq9fR",
+          "github_url": null,
+          "youtube_url": null,
+          "description": "صفحة ويب إعلانية (Landing Page) احترافية باللغة العربية واتجاه RTL، مبنية بملف HTML واحد مستقل باستخدام HTML5 وCSS3 وقليل من JavaScript دون أي مكتبات خارجية. تتضمن: شريط تنقل متجاوب مع قائمة للجوال، قسم رئيسي (Hero) بعنوان جذاب وزرَّي دعوة لاتخاذ إجراء، بطاقات خدمات، قسم أرقام وإنجازات، آراء العملاء، أسئلة شائعة قابلة للطي، نموذج تواصل، وتذييل. تصميم عصري متناسق الألوان، سريع التحميل ومتوافق مع جميع الشاشات ومراعٍ لإمكانية الوصول."
+        },
+        {
+          "title": "موقع بورتفوليو شخصي احترافي باللغة العربية – نموذج تفاعلي",
+          "url": "https://nafezly.com/portfolio/268751-%D9%85%D9%88%D9%82%D8%B9-%D8%A8%D9%88%D8%B1%D8%AA%D9%81%D9%88%D9%84%D9%8A%D9%88-%D8%B4%D8%AE%D8%B5%D9%8A-%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A-%D8%A8%D8%A7%D9%84%D9%84%D8%BA%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%E2%80%93-%D9%86%D9%85%D9%88%D8%B0%D8%AC-%D8%AA%D9%81%D8%A7%D8%B9%D9%84%D9%8A",
+          "category": "برمجة، تطوير المواقع والتطبيقات",
+          "skills": [
+            "HTML",
+            "CSS",
+            "جافاسكربت",
+            "Tailwind CSS"
+          ],
+          "views": 6,
+          "external_url": "https://claude.ai/artifact/KRu1iUxbWH6SoNoV6PGoiQ",
+          "github_url": null,
+          "youtube_url": null,
+          "description": "نموذج تفاعلي لموقع بورتفوليو شخصي عربي يعرض الهوية المهنية والأعمال بأسلوب عصري. تصميم متجاوب يعمل على الهواتف والأجهزة اللوحية والحواسيب. يتضمن أقسام نبذة عني والمهارات والخدمات والمشاريع ووسائل التواصل. واجهة أنيقة بتدرج بصري واضح وتجربة استخدام سهلة. منفذ كصفحة HTML واحدة باستخدام Tailwind CSS وJavaScript."
+        },
+        {
+          "title": "هوية بصرية لمهندس Full Stack – شعار Merge ولوحة الهوية الكاملة",
+          "url": "https://nafezly.com/portfolio/268749-%D9%87%D9%88%D9%8A%D8%A9-%D8%A8%D8%B5%D8%B1%D9%8A%D8%A9-%D9%84%D9%85%D9%87%D9%86%D8%AF%D8%B3-Full-Stack-%E2%80%93-%D8%B4%D8%B9%D8%A7%D8%B1-Merge-%D9%88%D9%84%D9%88%D8%AD%D8%A9-%D8%A7%D9%84%D9%87%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84%D8%A9",
+          "category": "تصميم وأعمال فنية وإبداعية",
+          "skills": [
+            "تصميم الشعارات",
+            "تصميم الجرافيك",
+            "هوية المؤسسات",
+            "Illustrator",
+            "العلامات التجارية"
+          ],
+          "views": 6,
+          "external_url": null,
+          "github_url": null,
+          "youtube_url": null,
+          "description": "لوحة هوية بصرية متكاملة لمهندس Full Stack، محورها شعار \"Merge\" على شكل حرف Y يجمع بين الواجهات (Frontend) والبنية التحتية (Backend). تشمل اللوحة: تنويعات الشعار، لوحة الألوان والخطوط، رسالة وتموضع العلامة، نماذج كروت شخصية (Business Cards)، وأغلفة لحسابات التواصل الاجتماعي. تم تصميمها لتمنح المهندس حضوراً احترافياً متسقاً عبر جميع المنصات."
+        },
+        {
+          "title": "عرض تقديمي احترافي عن تقنيات الواقع الافتراضي والواقع المعزز VR & AR",
+          "url": "https://nafezly.com/portfolio/268669-%D8%B9%D8%B1%D8%B6-%D8%AA%D9%82%D8%AF%D9%8A%D9%85%D9%8A-%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A-%D8%B9%D9%86-%D8%AA%D9%82%D9%86%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%88%D8%A7%D9%82%D8%B9-%D8%A7%D9%84%D8%A7%D9%81%D8%AA%D8%B1%D8%A7%D8%B6%D9%8A-%D9%88%D8%A7%D9%84%D9%88%D8%A7%D9%82%D8%B9-%D8%A7%D9%84%D9%85%D8%B9%D8%B2%D8%B2-VR---AR",
+          "category": "تصميم وأعمال فنية وإبداعية",
+          "skills": [
+            "Powerpoint",
+            "Microsoft Office",
+            "الرسوم البيانية",
+            "التصميم الإبداعي"
+          ],
+          "views": 10,
+          "external_url": null,
+          "github_url": null,
+          "youtube_url": null,
+          "description": "نموذج أولي لعرض تقديمي أكاديمي احترافي عن تقنيات الواقع الافتراضي والواقع المعزز، بتصميم عصري موحّد يدعم اللغة العربية (RTL). يتضمن شريحة العنوان، تعريف الواقع الافتراضي والمعزز والفرق بينهما، آلية العمل والأجهزة المستخدمة، جدول مقارنة منهجي بين VR وAR، مجالات التطبيق في التعليم والطب والألعاب والصناعة والهندسة، وإحصائيات واتجاهات مستقبلية مدعومة برسوم بيانية وإنفوجرافيك. التصميم قابل للتسليم بصيغة PowerPoint قابلة للتعديل وPDF."
+        },
+        {
+          "title": "Kaggle Bronze – AI Agent Security",
+          "url": "https://nafezly.com/portfolio/266812-Kaggle-Bronze-%E2%80%93-AI-Agent-Security",
+          "category": "برمجة، تطوير المواقع والتطبيقات",
+          "skills": [],
+          "views": 9,
+          "external_url": "https://www.kaggle.com/code/youssefyacoup/ai-agent?scriptVersionId=344201601",
+          "github_url": "https://github.com/Youssef123ya/Kaggle-Competitions",
+          "youtube_url": null,
+          "description": "دفتر مشاركة في مسابقة Kaggle حول اكتشاف هجمات الأدوات متعددة الخطوات على وكلاء الذكاء الاصطناعي. حصلت على ميدالية Bronze بترتيب 377 من أصل 4,186 مشاركًا (ضمن أفضل 9%). يتضمن العمل تحليل البيانات وبناء وتقييم حل المسابقة. هذا مشروع تنافسي/بحثي باستخدام دفتر Kaggle، وليس منتجًا أمنيًا منشورًا للإنتاج."
+        },
+        {
+          "title": "InvoicePilot – فواتير ذكية للمستقلين",
+          "url": "https://nafezly.com/portfolio/266804-InvoicePilot-%E2%80%93-%D9%81%D9%88%D8%A7%D8%AA%D9%8A%D8%B1-%D8%B0%D9%83%D9%8A%D8%A9-%D9%84%D9%84%D9%85%D8%B3%D8%AA%D9%82%D9%84%D9%8A%D9%86",
+          "category": "برمجة، تطوير المواقع والتطبيقات",
+          "skills": [],
+          "views": 7,
+          "external_url": "https://devpost.com/software/invoicepilot-s9euh1",
+          "github_url": "https://github.com/Youssef123ya/invoicepilot-paypal-ai",
+          "youtube_url": "https://youtube.com/shorts/KYOtxpa2Lqk",
+          "description": "تطبيق ويب يحوّل ملاحظات المستقل عن العمل إلى مسودة فاتورة قابلة للمراجعة قبل إنشائها. يستخدم Gemini لاستخراج بنود الفاتورة وطرح أسئلة عند نقص الكميات أو الأسعار. بعد مراجعة المستخدم، ينشئ فاتورة في PayPal Sandbox، ويمكنه تفعيل رابط الدفع وقراءة الحالة الفعلية من PayPal. بنيته باستخدام React وTypeScript وCloudflare Workers وZod، مع التحقق من الطلبات في الخادم وحفظ اختياري للمسودة محليًا. المشروع مقدم إلى PayPal AI Hackathon. ملاحظة: التكامل مع PayPal يعمل في بيئة Sandbox، وعينة العرض غير مدفوعة."
+        }
+      ]
+    },
+    "khamsat": {
+      "profile_url": "https://khamsat.com/user/youssefyacoup",
+      "services_url": "https://khamsat.com/user/youssefyacoup/services",
+      "services_count": 1,
+      "assessment_url": "https://khbra.com/attempts/e301455c-d1ad-4e63-b583-5f9dee3a576b"
+    }
+  },
+  "flagship_github_projects": [
+    {
+      "name": "InvoicePilot",
+      "github": "https://github.com/Youssef123ya/invoicepilot-paypal-ai",
+      "devpost": "https://devpost.com/software/invoicepilot-s9euh1",
+      "youtube": "https://youtube.com/shorts/KYOtxpa2Lqk"
+    },
+    {
+      "name": "MedMonitor 24/7",
+      "github": "https://github.com/Youssef123ya/MedMonitor-24-7"
+    },
+    {
+      "name": "Kaggle Competitions (2 Bronze Medals)",
+      "github": "https://github.com/Youssef123ya/Kaggle-Competitions",
+      "kaggle": "https://www.kaggle.com/youssefyacoup",
+      "ai_agent_notebook": "https://www.kaggle.com/code/youssefyacoup/ai-agent?scriptVersionId=344201601"
+    },
+    {
+      "name": "TechMind Challenge 2025",
+      "github": "https://github.com/Youssef123ya/TechMind-Challenge-2025"
+    },
+    {
+      "name": "Devpost Competitions",
+      "github": "https://github.com/Youssef123ya/Devpost_Competitons",
+      "devpost": "https://devpost.com/Youssef123ya"
+    }
+  ]
+}
