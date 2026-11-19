@@ -41,7 +41,7 @@
       heroBadge: 'متاح لمشاريع العمل الحر والتعاقد · القاهرة، مصر',
       heroName: 'يوسف يعقوب',
       heroRole: 'مطوّر ذكاء اصطناعي وباك إند — Python · .NET · Azure · React',
-      heroSubtitle: 'أبني نماذج تعلّم الآلة بـ Python وأنظمة Backend وواجهات REST API بـ .NET وAzure وتطبيقات ويب عملية — أحوّل بياناتك أو فكرتك إلى منتج قابل للاختبار والتشغيل بتوثيق واضح.',
+      heroSubtitle: 'أبني نماذج تعلّم الآلة بلغة Python، وأنظمة Backend وواجهات REST API بتقنيات C# / .NET و Azure، وتطبيقات ويب عملية — أحوّل بياناتك أو فكرتك إلى منتج قابل للاختبار والتشغيل بتوثيق واضح.',
       heroCtaPortfolio: (n) => `تصفّح معرض الأعمال (${n})`,
       heroCtaServices: (n) => `الخدمات والأسعار (${n})`,
       heroCtaRepo: 'مستودع GitHub',
@@ -211,7 +211,8 @@
   if (state.theme !== 'light' && state.theme !== 'dark') state.theme = 'light';
 
   const $ = (id) => document.getElementById(id);
-  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const cleanBidi = (s) => String(s ?? '').replace(/(\s|^)و([A-Za-z])/g, '$1و $2');
+  const esc = (s) => cleanBidi(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const t = (key, ...args) => {
     const v = I18N[state.lang][key];
     return typeof v === 'function' ? v(...args) : v;
