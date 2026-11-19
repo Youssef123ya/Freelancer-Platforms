@@ -108,18 +108,38 @@ button, input, select { font-family: inherit; }
   letter-spacing: -0.01em;
 }
 
-.brand-mark {
-  width: 32px;
-  height: 32px;
-  border-radius: 7px;
-  display: grid;
-  place-items: center;
-  background: var(--accent);
-  color: var(--accent-fg);
-  font-family: var(--font-en);
-  font-weight: 700;
-  font-size: 0.82rem;
-  letter-spacing: 0.02em;
+.brand-avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--border-strong);
+}
+
+.hero-identity {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 1.15rem;
+}
+
+.hero-avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1.5px solid var(--border-strong);
+  box-shadow: var(--shadow-sm);
+  flex: 0 0 auto;
+}
+
+.hero-identity .status-row { margin-bottom: 0.35rem; }
+.hero-identity .hero-title { margin-bottom: 0.25rem; }
+.hero-identity .hero-role { margin-bottom: 0; }
+
+@media (max-width: 600px) {
+  .hero-identity { align-items: flex-start; gap: 0.95rem; }
+  .hero-avatar { width: 74px; height: 74px; }
 }
 
 .nav-links {

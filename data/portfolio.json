@@ -17,8 +17,11 @@
       "khamsat_services": "https://khamsat.com/user/youssefyacoup/services",
       "upwork": "https://www.upwork.com/freelancers/~016f07b2d17f649923",
       "mostaql": "https://mostaql.com/u/yyacoup",
-      "website": "https://youssef123ya.github.io/Freelancer-Platforms/"
-    }
+      "website": "https://youssef123ya.github.io/Freelancer-Platforms/",
+      "whatsapp": "https://wa.me/201273413749"
+    },
+    "avatar": "assets/avatar.jpg",
+    "phone": "+201273413749"
   },
   "services": [
     {

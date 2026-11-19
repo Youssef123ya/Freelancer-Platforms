@@ -44,10 +44,11 @@
       heroSubtitle: 'أبني نماذج تعلّم الآلة بلغة Python، وأنظمة Backend وواجهات REST API بتقنيات C# / .NET و Azure، وتطبيقات ويب عملية — أحوّل بياناتك أو فكرتك إلى منتج قابل للاختبار والتشغيل بتوثيق واضح.',
       heroCtaPortfolio: (n) => `تصفّح معرض الأعمال (${n})`,
       heroCtaServices: (n) => `الخدمات والأسعار (${n})`,
+      heroCtaWhatsapp: 'واتساب: \u2066+20 127 341 3749\u2069',
       heroCtaRepo: 'مستودع GitHub',
       heroPlatformsLabel: 'منصات العمل الحر',
       stackLabel: 'التقنيات الأساسية',
-      linksLabel: 'الروابط المهنية',
+      linksLabel: 'الروابط والتواصل المباشر',
       statProjects: 'عمل في المعرض',
       statServices: 'خدمات متخصصة',
       statPlatforms: 'منصات عمل حر',
@@ -127,10 +128,11 @@
       heroSubtitle: 'I build Python machine-learning prototypes, .NET & Azure REST backends, and practical web applications — turning datasets or workflows into documented, testable software.',
       heroCtaPortfolio: (n) => `Browse Portfolio (${n})`,
       heroCtaServices: (n) => `Services & Pricing (${n})`,
+      heroCtaWhatsapp: 'WhatsApp: +20 127 341 3749',
       heroCtaRepo: 'GitHub Repository',
       heroPlatformsLabel: 'Freelance Platforms',
       stackLabel: 'Core Stack',
-      linksLabel: 'Professional Links',
+      linksLabel: 'Direct Contact & Links',
       statProjects: 'Portfolio Projects',
       statServices: 'Services',
       statPlatforms: 'Freelance Platforms',
@@ -263,7 +265,11 @@
       </a>`;
     }).join('');
 
-    $('ctaPlatforms').innerHTML = web.profiles.map((p) => {
+    const waLabel = isAr ? 'واتساب: \u2066+20 127 341 3749\u2069' : 'WhatsApp: +20 127 341 3749';
+    const waBtn = `<a class="btn btn-primary btn-sm" href="https://wa.me/201273413749" target="_blank" rel="noopener">
+      <span class="plat-dot" style="background:#15803D"></span><span>${esc(waLabel)}</span>${SVG.ext}
+    </a>`;
+    $('ctaPlatforms').innerHTML = waBtn + web.profiles.map((p) => {
       const label = isAr ? p.name_ar.split(' ·')[0] : p.name_en;
       return `<a class="btn btn-secondary btn-sm" href="${esc(p.url)}" target="_blank" rel="noopener">
         <span class="plat-dot" style="background:${p.color}"></span><span>${esc(label)}</span>${SVG.ext}
@@ -617,6 +623,7 @@
 
         <div class="modal-actions">
           ${s.order.map((o, idx) => `<a class="btn ${idx === 0 ? 'btn-primary' : 'btn-secondary'} btn-sm" href="${esc(o.url)}" target="_blank" rel="noopener">${esc(t('orderOn'))} ${esc(o.label.split(' ·')[0])} ${SVG.ext}</a>`).join('')}
+          <a class="btn btn-secondary btn-sm" href="https://wa.me/201273413749" target="_blank" rel="noopener"><span class="plat-dot" style="background:#15803D"></span><span dir="ltr">WhatsApp: +20 127 341 3749</span> ${SVG.ext}</a>
         </div>
       </div>
     `;
