@@ -6,9 +6,9 @@
 
 <h3 dir="rtl">تطوير الباك إند وواجهات REST API</h3>
 
-<img src="https://img.shields.io/badge/Upwork-%2420%20/%20hour-14A800?style=flat-square"> <img src="https://img.shields.io/badge/Freelancer-%2410%20/%20hour-29B2FE?style=flat-square"> <img src="https://img.shields.io/badge/Nafezly-Custom%20quote-6366F1?style=flat-square">
+<img src="https://img.shields.io/badge/Upwork-%2420%20/%20hour-14A800?style=flat-square"> <img src="https://img.shields.io/badge/Freelancer-%2410%20/%20hour-29B2FE?style=flat-square"> <img src="https://img.shields.io/badge/Mostaql%20/%20Nafezly-Custom%20quote-6366F1?style=flat-square">
 
-<a href="https://www.upwork.com/freelancers/~016f07b2d17f649923"><img src="https://img.shields.io/badge/Upwork-14A800?style=for-the-badge&logo=upwork&logoColor=white"></a> <a href="https://www.freelancer.com/u/yyacoup"><img src="https://img.shields.io/badge/Freelancer.com-29B2FE?style=for-the-badge&logo=freelancer&logoColor=white"></a> <a href="https://nafezly.com/u/YoussefYacoup"><img src="https://img.shields.io/badge/Nafezly-2E3A87?style=for-the-badge"></a>
+<a href="https://www.upwork.com/freelancers/~016f07b2d17f649923"><img src="https://img.shields.io/badge/Upwork-14A800?style=for-the-badge&logo=upwork&logoColor=white"></a> <a href="https://www.freelancer.com/u/yyacoup"><img src="https://img.shields.io/badge/Freelancer.com-29B2FE?style=for-the-badge&logo=freelancer&logoColor=white"></a> <a href="https://mostaql.com/u/yyacoup"><img src="https://img.shields.io/badge/Mostaql-2386C8?style=for-the-badge"></a> <a href="https://nafezly.com/u/YoussefYacoup"><img src="https://img.shields.io/badge/Nafezly-2E3A87?style=for-the-badge"></a>
 
 </div>
 
@@ -42,13 +42,15 @@ Reliable backends and REST APIs that connect your app, database and third-party 
 ## 🗂️ Related work · أعمال مرتبطة
 
 <table>
-<tr><td align="center" valign="top" width="33%"><a href="../../portfolio/backend/taskflow-api/"><img src="../../portfolio/backend/taskflow-api/images/cover.jpg" width="100%" alt="TaskFlow API"></a><br><b><a href="../../portfolio/backend/taskflow-api/">TaskFlow API</a></b><br><sub dir="rtl">TaskFlow API – واجهة برمجية لإدارة المهام</sub><br><sub>Nafezly</sub></td><td align="center" valign="top" width="33%"><a href="../../portfolio/backend/real-estate-erp-leads/"><img src="../../portfolio/backend/real-estate-erp-leads/images/cover.jpg" width="100%" alt="Real Estate ERP Lead Assignment UI"></a><br><b><a href="../../portfolio/backend/real-estate-erp-leads/">Real Estate ERP Lead Assignment UI</a></b><br><sub dir="rtl">واجهة توزيع العملاء لنظام ERP عقاري</sub><br><sub>Freelancer.com</sub></td><td align="center" valign="top" width="33%"><a href="../../portfolio/backend/secure-aws-infrastructure/"><img src="../../portfolio/backend/secure-aws-infrastructure/images/cover.jpg" width="100%" alt="Secure AWS Infrastructure Design"></a><br><b><a href="../../portfolio/backend/secure-aws-infrastructure/">Secure AWS Infrastructure Design</a></b><br><sub dir="rtl">تصميم بنية تحتية آمنة على AWS</sub><br><sub>Nafezly · ▶ Live demo</sub></td></tr>
+<tr><td align="center" valign="top" width="50%"><a href="../../portfolio/backend/medmonitor-24-7/"><img src="../../portfolio/backend/medmonitor-24-7/images/cover.jpg" width="100%" alt="MedMonitor 24/7 – Hospital Bed &amp; Vitals Monitoring"></a><br><b><a href="../../portfolio/backend/medmonitor-24-7/">MedMonitor 24/7 – Hospital Bed &amp; Vitals Monitoring</a></b><br><sub dir="rtl">MedMonitor 24/7 — نظام لمراقبة أسرّة المستشفى</sub><br><sub>Mostaql</sub></td><td align="center" valign="top" width="50%"><a href="../../portfolio/backend/taskflow-api/"><img src="../../portfolio/backend/taskflow-api/images/cover.jpg" width="100%" alt="TaskFlow API"></a><br><b><a href="../../portfolio/backend/taskflow-api/">TaskFlow API</a></b><br><sub dir="rtl">TaskFlow API – واجهة برمجية لإدارة المهام</sub><br><sub>Nafezly</sub></td></tr>
+<tr><td align="center" valign="top" width="50%"><a href="../../portfolio/backend/real-estate-erp-leads/"><img src="../../portfolio/backend/real-estate-erp-leads/images/cover.jpg" width="100%" alt="Real Estate ERP Lead Assignment UI"></a><br><b><a href="../../portfolio/backend/real-estate-erp-leads/">Real Estate ERP Lead Assignment UI</a></b><br><sub dir="rtl">واجهة توزيع العملاء لنظام ERP عقاري</sub><br><sub>Freelancer.com</sub></td><td align="center" valign="top" width="50%"><a href="../../portfolio/backend/secure-aws-infrastructure/"><img src="../../portfolio/backend/secure-aws-infrastructure/images/cover.jpg" width="100%" alt="Secure AWS Infrastructure Design"></a><br><b><a href="../../portfolio/backend/secure-aws-infrastructure/">Secure AWS Infrastructure Design</a></b><br><sub dir="rtl">تصميم بنية تحتية آمنة على AWS</sub><br><sub>Nafezly · ▶ Live demo</sub></td></tr>
 </table>
 
 ## 📩 Order / Contact · اطلب الخدمة
 
 - **Upwork** → https://www.upwork.com/freelancers/~016f07b2d17f649923
 - **Freelancer.com** → https://www.freelancer.com/u/yyacoup
+- **Mostaql · مستقل** → https://mostaql.com/u/yyacoup
 - **Nafezly · نفذلي** → https://nafezly.com/u/YoussefYacoup
 
 <div align="center">

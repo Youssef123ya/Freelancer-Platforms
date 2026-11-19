@@ -15,7 +15,9 @@
       "nafezly_portfolio": "https://nafezly.com/u/YoussefYacoup/portfolio",
       "khamsat": "https://khamsat.com/user/youssefyacoup",
       "khamsat_services": "https://khamsat.com/user/youssefyacoup/services",
-      "upwork": "https://www.upwork.com/freelancers/~016f07b2d17f649923"
+      "upwork": "https://www.upwork.com/freelancers/~016f07b2d17f649923",
+      "mostaql": "https://mostaql.com/u/yyacoup",
+      "website": "https://youssef123ya.github.io/Freelancer-Platforms/"
     }
   },
   "services": [
@@ -905,7 +907,9 @@
           "category_key": "ai",
           "images": [
             "portfolio/ai/kaggle-ai-agent-security/images/01.jpg",
-            "portfolio/ai/kaggle-ai-agent-security/images/02.jpg"
+            "portfolio/ai/kaggle-ai-agent-security/images/02.jpg",
+            "portfolio/ai/kaggle-ai-agent-security/images/03.jpg",
+            "portfolio/ai/kaggle-ai-agent-security/images/04.jpg"
           ]
         },
         {
@@ -923,7 +927,8 @@
           "category_key": "ai",
           "images": [
             "portfolio/ai/invoicepilot/images/01.jpg",
-            "portfolio/ai/invoicepilot/images/02.jpg"
+            "portfolio/ai/invoicepilot/images/02.jpg",
+            "portfolio/ai/invoicepilot/images/03.jpg"
           ]
         }
       ]
@@ -966,7 +971,8 @@
           "github_url": "https://github.com/Youssef123ya/invoicepilot-paypal-ai",
           "images": [
             "portfolio/ai/invoicepilot/images/01.jpg",
-            "portfolio/ai/invoicepilot/images/02.jpg"
+            "portfolio/ai/invoicepilot/images/02.jpg",
+            "portfolio/ai/invoicepilot/images/03.jpg"
           ]
         },
         {
@@ -977,7 +983,9 @@
           "certificate_url": "https://www.kaggle.com/certification/competitions/youssefyacoup/ai-agent-security-multi-step-tool-attacks",
           "images": [
             "portfolio/ai/kaggle-ai-agent-security/images/01.jpg",
-            "portfolio/ai/kaggle-ai-agent-security/images/02.jpg"
+            "portfolio/ai/kaggle-ai-agent-security/images/02.jpg",
+            "portfolio/ai/kaggle-ai-agent-security/images/03.jpg",
+            "portfolio/ai/kaggle-ai-agent-security/images/04.jpg"
           ]
         },
         {
@@ -998,6 +1006,70 @@
           "description": "For the TechMind Challenge, my team built a Python prototype that uses satellite imagery and spatial analysis to track sand dunes and forecast their movement. The dashboard visualizes predicted trajectories and areas where dunes could encroach on farmland or infrastructure. Our team placed first in Challenge 3.",
           "images": [
             "portfolio/ai/sand-dune-encroachment-tracker/images/01.jpg"
+          ]
+        }
+      ]
+    },
+    "mostaql": {
+      "profile_url": "https://mostaql.com/u/yyacoup",
+      "portfolio_url": "https://mostaql.com/u/yyacoup/portfolio",
+      "display_name": "Youssef Y.",
+      "headline": "مهندس برمجيات",
+      "registered": "2024-07-03",
+      "verifications": [
+        "email",
+        "national_id"
+      ],
+      "skills": [
+        "تعلم الآلة",
+        "ASP.NET",
+        "Microsoft Azure",
+        "تطوير #C",
+        "بايثون",
+        "SQL",
+        "React",
+        "تحليل البيانات",
+        "التعلم العميق",
+        "الذكاء الاصطناعي"
+      ],
+      "portfolio_count": 4,
+      "portfolio": [
+        {
+          "id": "3916859",
+          "title": "Modern Social Media Design Kit – تصميمات سوشيال ميديا حديثة لعلامة قهوة مختصة",
+          "title_en": "Modern Social Media Design Kit – Specialty Coffee (Hail)",
+          "url": "https://mostaql.com/portfolio/3916859-modern-social-media-design-kit-%D8%AA%D8%B5%D9%85%D9%8A%D9%85%D8%A7%D8%AA-%D8%B3%D9%88%D8%B4%D9%8A%D8%A7%D9%84-%D9%85%D9%8A%D8%AF%D9%8A%D8%A7-%D8%AD%D8%AF%D9%8A%D8%AB%D8%A9-%D9%84%D8%B9%D9%84%D8%A7%D9%85%D8%A9-%D9%82%D9%87%D9%88%D8%A9-%D9%85%D8%AE%D8%AA%D8%B5%D8%A9",
+          "path": "portfolio/design/hail-social-media-kit",
+          "live_demo_url": "https://claude.ai/artifact/2m6rL3qCszNer19P36deXb",
+          "images": [
+            "portfolio/design/hail-social-media-kit/images/01.jpg",
+            "portfolio/design/hail-social-media-kit/images/02.jpg",
+            "portfolio/design/hail-social-media-kit/images/03.jpg"
+          ]
+        },
+        {
+          "id": "2256178",
+          "title": "InvoicePilot — مساعد ذكي لإعداد الفواتير",
+          "url": "https://mostaql.com/portfolio/2256178-invoicepilot-%D9%85%D8%B3%D8%A7%D8%B9%D8%AF-%D8%B0%D9%83%D9%8A-%D9%84%D8%A5%D8%B9%D8%AF%D8%A7%D8%AF-%D8%A7%D9%84%D9%81%D9%88%D8%A7%D8%AA%D9%8A%D8%B1",
+          "path": "portfolio/ai/invoicepilot"
+        },
+        {
+          "id": "2256173",
+          "title": "أمن وكلاء الذكاء الاصطناعي — برونزية Kaggle",
+          "url": "https://mostaql.com/portfolio/2256173-%D8%A3%D9%85%D9%86-%D9%88%D9%83%D9%84%D8%A7%D8%A1-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D8%A8%D8%B1%D9%88%D9%86%D8%B2%D9%8A%D8%A9-kaggle",
+          "path": "portfolio/ai/kaggle-ai-agent-security"
+        },
+        {
+          "id": "2256167",
+          "title": "MedMonitor 24/7 — نظام لمراقبة أسرّة المستشفى",
+          "title_en": "MedMonitor 24/7 – Hospital Bed & Vitals Monitoring",
+          "url": "https://mostaql.com/portfolio/2256167-medmonitor-247-%D9%86%D8%B8%D8%A7%D9%85-%D9%84%D9%85%D8%B1%D8%A7%D9%82%D8%A8%D8%A9-%D8%A3%D8%B3%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%B4%D9%81%D9%89",
+          "path": "portfolio/backend/medmonitor-24-7",
+          "github_url": "https://github.com/Youssef123ya/MedMonitor-24-7",
+          "images": [
+            "portfolio/backend/medmonitor-24-7/images/01.jpg",
+            "portfolio/backend/medmonitor-24-7/images/02.jpg",
+            "portfolio/backend/medmonitor-24-7/images/03.jpg"
           ]
         }
       ]
@@ -1069,6 +1141,7 @@
         "Terraform"
       ],
       "related": [
+        "portfolio/backend/medmonitor-24-7",
         "portfolio/backend/taskflow-api",
         "portfolio/backend/real-estate-erp-leads",
         "portfolio/backend/secure-aws-infrastructure"
@@ -1169,6 +1242,7 @@
       ],
       "related": [
         "portfolio/design/rose-and-sugar-identity",
+        "portfolio/design/hail-social-media-kit",
         "portfolio/design/nova-trade-identity",
         "portfolio/design/arabic-publisher-identity",
         "portfolio/design/merge-fullstack-identity",
@@ -1194,5 +1268,2096 @@
         "portfolio/content/luxury-watch-ai-storyboard"
       ]
     }
-  ]
+  ],
+  "web": {
+    "categories": [
+      {
+        "key": "ai",
+        "en": "AI & Machine Learning",
+        "ar": "الذكاء الاصطناعي وتعلّم الآلة",
+        "icon": "🤖"
+      },
+      {
+        "key": "backend",
+        "en": "Backend, APIs & Cloud",
+        "ar": "الباك إند والـ APIs والسحابة",
+        "icon": "⚙️"
+      },
+      {
+        "key": "data",
+        "en": "Data Analysis & Dashboards",
+        "ar": "تحليل البيانات ولوحات التحكم",
+        "icon": "📊"
+      },
+      {
+        "key": "ecommerce",
+        "en": "E-Commerce",
+        "ar": "التجارة الإلكترونية",
+        "icon": "🛒"
+      },
+      {
+        "key": "web",
+        "en": "Websites & Landing Pages",
+        "ar": "المواقع وصفحات الهبوط",
+        "icon": "🌐"
+      },
+      {
+        "key": "design",
+        "en": "Branding & Visual Identity",
+        "ar": "الهوية البصرية والتصميم",
+        "icon": "🎨"
+      },
+      {
+        "key": "content",
+        "en": "Video, Scripts & Copywriting",
+        "ar": "الفيديو والسيناريو والإعلانات",
+        "icon": "🎬"
+      }
+    ],
+    "items": [
+      {
+        "slug": "francesko-fashion-store",
+        "category": "ecommerce",
+        "en": "Francesko Fashion Store + Admin Demo",
+        "ar": "متجر أزياء Francesko مع لوحة تحكم",
+        "desc_en": "Working interactive demo of a conversion-focused online fashion store with admin dashboard.\n- Storefront with collections, filters (category, size, price), search and product pages with variants and stock status\n- Cart drawer and multi-step checkout with shipping/tax rules by country, discount codes and order confirmation\n- Admin dashboard: sales stats and chart, orders table with status updates and CSV export\n- Product and inventory manager plus shipping & tax rules editor\n- Premium, fully responsive design for mobile and desktop\n- Skills: e-commerce, Shopify-style store design, HTML5, CSS3, JavaScript, responsive UI/UX.",
+        "desc_ar": "متجر أزياء إلكتروني تفاعلي بفلاتر وسلة ودفع متعدد الخطوات، مع لوحة تحكم للمبيعات والطلبات والمخزون.",
+        "skills": [
+          "JavaScript",
+          "Website Design",
+          "CSS",
+          "HTML5",
+          "Shopify"
+        ],
+        "platforms": [
+          {
+            "key": "freelancer",
+            "name": "Freelancer.com",
+            "url": "https://www.freelancer.com/u/yyacoup"
+          }
+        ],
+        "demo": null,
+        "extra": [],
+        "cover": "portfolio/ecommerce/francesko-fashion-store/images/cover.jpg",
+        "images": [
+          "portfolio/ecommerce/francesko-fashion-store/images/01.jpg",
+          "portfolio/ecommerce/francesko-fashion-store/images/02.jpg",
+          "portfolio/ecommerce/francesko-fashion-store/images/03.jpg",
+          "portfolio/ecommerce/francesko-fashion-store/images/04.jpg",
+          "portfolio/ecommerce/francesko-fashion-store/images/05.jpg"
+        ],
+        "path": "portfolio/ecommerce/francesko-fashion-store"
+      },
+      {
+        "slug": "lead-gen-landing-page",
+        "category": "web",
+        "en": "Unbounce-Style Lead Gen Landing Page",
+        "ar": "صفحة هبوط لجمع العملاء المحتملين",
+        "desc_en": "Working interactive demo of a high-converting, Unbounce-style lead generation landing page for a B2B SaaS offer.\n- Hero with strong headline and CTA, benefits, social proof, testimonials, pricing, FAQ accordion, sticky CTA\n- Lead capture form with inline validation, thank-you state and popup/sticky bar variant\n- A/B variant toggle (Variant A / B) for testing headlines and layouts\n- Leads dashboard: timestamps, variant, UTM source/campaign, CSV export, conversion stats per variant and chart\n- Mock CRM integration panel (HubSpot / Mailchimp webhooks) with per-lead sync status\n- Fully responsive for mobile and desktop\n- Skills: landing page design, conversion optimization, HTML5, CSS3, JavaScript, responsive UI/UX.",
+        "desc_ar": "صفحة هبوط عالية التحويل لخدمة SaaS مع نموذج تسجيل، واختبار A/B، ولوحة لمتابعة العملاء المحتملين وربط CRM.",
+        "skills": [
+          "JavaScript",
+          "Website Design",
+          "CSS",
+          "HTML5",
+          "Landing Pages",
+          "Unbounce"
+        ],
+        "platforms": [
+          {
+            "key": "freelancer",
+            "name": "Freelancer.com",
+            "url": "https://www.freelancer.com/u/yyacoup"
+          }
+        ],
+        "demo": null,
+        "extra": [],
+        "cover": "portfolio/web/lead-gen-landing-page/images/cover.jpg",
+        "images": [
+          "portfolio/web/lead-gen-landing-page/images/01.jpg",
+          "portfolio/web/lead-gen-landing-page/images/02.jpg",
+          "portfolio/web/lead-gen-landing-page/images/03.jpg",
+          "portfolio/web/lead-gen-landing-page/images/04.jpg",
+          "portfolio/web/lead-gen-landing-page/images/05.jpg"
+        ],
+        "path": "portfolio/web/lead-gen-landing-page"
+      },
+      {
+        "slug": "elementor-portfolio",
+        "category": "web",
+        "en": "Elementor One-Page Portfolio Demo",
+        "ar": "بورتفوليو صفحة واحدة بـ Elementor",
+        "desc_en": "A fully responsive one-page personal portfolio landing page, designed to be rebuilt 1:1 in Elementor on WordPress with editable global colors and fonts.\n- Sticky header with smooth-scroll navigation, active-section highlighting and a mobile hamburger menu\n- Hero with name, title, intro, call-to-action buttons and photo\n- About section and a \"How a project runs\" process timeline\n- Skills section with animated skill bars and tool badges\n- Selected Work grid with category filters and project detail modals\n- Client reviews and a validated contact form with success state\n- On-page SEO structure: single H1, semantic sections, meta tags, alt text, Open Graph\n- Skills: WordPress, Elementor, HTML5, CSS3, JavaScript, responsive UI/UX design, on-page SEO.",
+        "desc_ar": "بورتفوليو شخصي من صفحة واحدة جاهز للتنفيذ على ووردبريس/Elementor، مع معرض أعمال ونموذج تواصل وتهيئة SEO.",
+        "skills": [
+          "JavaScript",
+          "Website Design",
+          "CSS",
+          "HTML5",
+          "WordPress",
+          "Elementor"
+        ],
+        "platforms": [
+          {
+            "key": "freelancer",
+            "name": "Freelancer.com",
+            "url": "https://www.freelancer.com/u/yyacoup"
+          }
+        ],
+        "demo": null,
+        "extra": [],
+        "cover": "portfolio/web/elementor-portfolio/images/cover.jpg",
+        "images": [
+          "portfolio/web/elementor-portfolio/images/01.jpg",
+          "portfolio/web/elementor-portfolio/images/02.jpg",
+          "portfolio/web/elementor-portfolio/images/03.jpg",
+          "portfolio/web/elementor-portfolio/images/04.jpg"
+        ],
+        "path": "portfolio/web/elementor-portfolio"
+      },
+      {
+        "slug": "ai-marketing-copy-assistant",
+        "category": "ai",
+        "en": "AI Chat Marketing Copy Assistant",
+        "ar": "مساعد ذكاء اصطناعي لكتابة النصوص التسويقية",
+        "desc_en": "BrightLeaf Copy Assistant is a working demo of an AI marketing-copy assistant embedded in a business website's chat widget.\n- Floating chat bubble on a realistic small-business site that opens an embedded assistant (full-screen on mobile)\n- Quick prompts for Facebook ads, Instagram posts, promo and follow-up emails and Google ads, with tone, length and 500-character cap controls\n- On-brand copy with character counts, copy and regenerate buttons, and replies in under 2 seconds\n- Moderation with an editable banned-words list\n- Admin panel: switchable model provider (GPT-4, Claude or custom) through one adapter config, system prompt, temperature and limits\n- Analytics and prompt log with stats, charts and CSV export\n- Skills: JavaScript, HTML5, CSS3, chatbot UI/UX, AI integration architecture, responsive design.",
+        "desc_ar": "مساعد دردشة مدمج في موقع لكتابة إعلانات ومنشورات وإيميلات تسويقية، مع لوحة إدارة وتحليلات وتبديل مزوّد النموذج.",
+        "skills": [
+          "JavaScript",
+          "CSS",
+          "HTML5",
+          "Web Development",
+          "Chatbot"
+        ],
+        "platforms": [
+          {
+            "key": "freelancer",
+            "name": "Freelancer.com",
+            "url": "https://www.freelancer.com/u/yyacoup"
+          }
+        ],
+        "demo": null,
+        "extra": [],
+        "cover": "portfolio/ai/ai-marketing-copy-assistant/images/cover.jpg",
+        "images": [
+          "portfolio/ai/ai-marketing-copy-assistant/images/01.jpg",
+          "portfolio/ai/ai-marketing-copy-assistant/images/02.jpg",
+          "portfolio/ai/ai-marketing-copy-assistant/images/03.jpg",
+          "portfolio/ai/ai-marketing-copy-assistant/images/04.jpg",
+          "portfolio/ai/ai-marketing-copy-assistant/images/05.jpg"
+        ],
+        "path": "portfolio/ai/ai-marketing-copy-assistant"
+      },
+      {
+        "slug": "digital-download-store",
+        "category": "ecommerce",
+        "en": "Digital Download Store Demo",
+        "ar": "متجر منتجات رقمية مع تحميل فوري",
+        "desc_en": "PixelVault Digital is a fully working, responsive e-commerce demo for selling digital products with instant download.\n- Storefront with category filters, search, sorting and detailed product pages (preview, format, file size, licenses, reviews)\n- Cart and checkout with simulated Stripe, PayPal and Mobile Money payments and working discount codes\n- Automatic delivery: order confirmation, a \"My downloads\" area with expiring download links, download limits and a license key per purchase\n- Admin dashboard: add, edit and delete products, manage discount codes and orders, sales analytics with a revenue chart\n- GDPR cookie consent, privacy policy and SEO-ready semantic markup\n- Mobile-first responsive layout\n- Skills: HTML5, CSS3, JavaScript, responsive UI/UX design, e-commerce front-end, admin dashboards.",
+        "desc_ar": "متجر لبيع المنتجات الرقمية مع دفع تجريبي وروابط تحميل منتهية الصلاحية ومفاتيح ترخيص ولوحة إدارة.",
+        "skills": [
+          "JavaScript",
+          "CSS",
+          "HTML"
+        ],
+        "platforms": [
+          {
+            "key": "freelancer",
+            "name": "Freelancer.com",
+            "url": "https://www.freelancer.com/u/yyacoup"
+          }
+        ],
+        "demo": null,
+        "extra": [],
+        "cover": "portfolio/ecommerce/digital-download-store/images/cover.jpg",
+        "images": [
+          "portfolio/ecommerce/digital-download-store/images/01.jpg",
+          "portfolio/ecommerce/digital-download-store/images/02.jpg",
+          "portfolio/ecommerce/digital-download-store/images/03.jpg",
+          "portfolio/ecommerce/digital-download-store/images/04.jpg",
+          "portfolio/ecommerce/digital-download-store/images/05.jpg"
+        ],
+        "path": "portfolio/ecommerce/digital-download-store"
+      },
+      {
+        "slug": "cleaning-company-website",
+        "category": "web",
+        "en": "Cleaning Company One-Page Website",
+        "ar": "موقع صفحة واحدة لشركة تنظيف",
+        "desc_en": "Responsive one-page website for a local cleaning company (SparkleClean Co. demo), designed for a WordPress/Elementor build. Includes a sticky header with smooth-scroll navigation, a hero with quote and click-to-call CTAs, service cards (home, deep, office, move-in/out, carpet, windows), a \"Why choose us\" trust section, an interactive price estimator (service, rooms, frequency discounts), a testimonials slider, an FAQ accordion, and a validated inquiry form with a success state. It also has a sticky mobile call/quote bar. Mobile-first layout, accessible markup and fast loading. Built with HTML5, CSS3 and JavaScript.",
+        "desc_ar": "موقع متجاوب لشركة تنظيف مع حاسبة أسعار تفاعلية وآراء العملاء وأسئلة شائعة ونموذج طلب عرض سعر.",
+        "skills": [
+          "JavaScript",
+          "Website Design",
+          "CSS",
+          "WordPress",
+          "Elementor",
+          "HTML"
+        ],
+        "platforms": [
+          {
+            "key": "freelancer",
+            "name": "Freelancer.com",
+            "url": "https://www.freelancer.com/u/yyacoup"
+          }
+        ],
+        "demo": null,
+        "extra": [],
+        "cover": "portfolio/web/cleaning-company-website/images/cover.jpg",
+        "images": [
+          "portfolio/web/cleaning-company-website/images/01.jpg",
+          "portfolio/web/cleaning-company-website/images/02.jpg",
+          "portfolio/web/cleaning-company-website/images/03.jpg",
+          "portfolio/web/cleaning-company-website/images/04.jpg",
+          "portfolio/web/cleaning-company-website/images/05.jpg"
+        ],
+        "path": "portfolio/web/cleaning-company-website"
+      },
+      {
+        "slug": "wordpress-personal-brand",
+        "category": "web",
+        "en": "WordPress Personal Brand Site Demo",
+        "ar": "موقع علامة شخصية على ووردبريس",
+        "desc_en": "Personal brand website design for a coach/consultant: a calm, editorial public site (hero, about, services, how it works, testimonials) with an inquiry form that emails the owner, plus a private client area unlocked by an access code — overview dashboard, session booking, resource library, rates and messages. Fully responsive layout, ready to be built on WordPress/Elementor from the client's chosen template. Built with HTML, CSS and JavaScript using mock content.",
+        "desc_ar": "موقع علامة شخصية لمدرب/مستشار مع منطقة عملاء خاصة لحجز الجلسات والموارد والرسائل.",
+        "skills": [
+          "Website Design",
+          "CSS",
+          "WordPress",
+          "HTML",
+          "Web Design"
+        ],
+        "platforms": [
+          {
+            "key": "freelancer",
+            "name": "Freelancer.com",
+            "url": "https://www.freelancer.com/u/yyacoup"
+          }
+        ],
+        "demo": null,
+        "extra": [],
+        "cover": "portfolio/web/wordpress-personal-brand/images/cover.jpg",
+        "images": [
+          "portfolio/web/wordpress-personal-brand/images/01.jpg",
+          "portfolio/web/wordpress-personal-brand/images/02.jpg",
+          "portfolio/web/wordpress-personal-brand/images/03.jpg",
+          "portfolio/web/wordpress-personal-brand/images/04.jpg",
+          "portfolio/web/wordpress-personal-brand/images/05.jpg"
+        ],
+        "path": "portfolio/web/wordpress-personal-brand"
+      },
+      {
+        "slug": "opspilot-slack-automation",
+        "category": "ai",
+        "en": "OpsPilot – Slack Task Automation",
+        "ar": "OpsPilot لأتمتة المهام على Slack",
+        "desc_en": "OpsPilot is a polished, interactive prototype of a Claude-powered task-automation assistant for Slack. It demonstrates a conversational assistant for email triage, CRM updates and team reminders; configurable workflows; role-based permissions with approval gates for sensitive actions; and an audit log that records who requested and approved each action. The responsive dashboard uses realistic mock data to show how a small team can automate routine operations while keeping work transparent and controlled.",
+        "desc_ar": "نموذج تفاعلي لمساعد ذكاء اصطناعي يؤتمت المهام على Slack مع صلاحيات وموافقات وسجل تدقيق.",
+        "skills": [
+          "JavaScript",
+          "CSS",
+          "HTML",
+          "Web Design",
+          "AI Development"
+        ],
+        "platforms": [
+          {
+            "key": "freelancer",
+            "name": "Freelancer.com",
+            "url": "https://www.freelancer.com/u/yyacoup"
+          }
+        ],
+        "demo": null,
+        "extra": [],
+        "cover": "portfolio/ai/opspilot-slack-automation/images/cover.jpg",
+        "images": [
+          "portfolio/ai/opspilot-slack-automation/images/01.jpg",
+          "portfolio/ai/opspilot-slack-automation/images/02.jpg",
+          "portfolio/ai/opspilot-slack-automation/images/03.jpg",
+          "portfolio/ai/opspilot-slack-automation/images/04.jpg"
+        ],
+        "path": "portfolio/ai/opspilot-slack-automation"
+      },
+      {
+        "slug": "real-estate-erp-leads",
+        "category": "backend",
+        "en": "Real Estate ERP Lead Assignment UI",
+        "ar": "واجهة توزيع العملاء لنظام ERP عقاري",
+        "desc_en": "Admin UI prototype for a real estate ERP lead workflow: KPI dashboard and leads table, an assign-lead modal that previews the exact lead and agent mapping before confirming, an edit-lead form with save confirmation, and a change-history panel tracing every lead-to-agent change. Built to demonstrate a clean, verifiable fix for lead assignment and update issues in an ASP.NET / C# system.",
+        "desc_ar": "واجهة إدارة لتوزيع العملاء المحتملين على الوكلاء في نظام ERP عقاري مبني بـ ASP.NET / C# مع سجل للتغييرات.",
+        "skills": [
+          "Web Development",
+          ".NET",
+          "C# Programming",
+          "ASP.NET",
+          "UI / User Interface"
+        ],
+        "platforms": [
+          {
+            "key": "freelancer",
+            "name": "Freelancer.com",
+            "url": "https://www.freelancer.com/u/yyacoup"
+          }
+        ],
+        "demo": null,
+        "extra": [],
+        "cover": "portfolio/backend/real-estate-erp-leads/images/cover.jpg",
+        "images": [
+          "portfolio/backend/real-estate-erp-leads/images/01.jpg",
+          "portfolio/backend/real-estate-erp-leads/images/02.jpg",
+          "portfolio/backend/real-estate-erp-leads/images/03.jpg",
+          "portfolio/backend/real-estate-erp-leads/images/04.jpg"
+        ],
+        "path": "portfolio/backend/real-estate-erp-leads"
+      },
+      {
+        "slug": "file-service-dashboard",
+        "category": "web",
+        "en": "File Service Dashboard UI Prototype",
+        "ar": "لوحة تحكم لخدمة مشاركة الملفات",
+        "desc_en": "Interactive frontend prototype for a file-sharing service: drag-and-drop uploads with live progress, pause and retry; folder browser with instant search, grid/list views and a quick-preview drawer for images, PDFs and text; admin console with role management, storage quota bars and a filterable audit log. Fully responsive desktop and mobile layout.",
+        "desc_ar": "واجهة لخدمة مشاركة ملفات: رفع بالسحب والإفلات، مستعرض مجلدات، معاينة سريعة، وإدارة صلاحيات ومساحة.",
+        "skills": [
+          "JavaScript",
+          "CSS",
+          "HTML",
+          "UI / User Interface",
+          "React.js",
+          "Frontend Development",
+          "Figma",
+          "Tailwind CSS"
+        ],
+        "platforms": [
+          {
+            "key": "freelancer",
+            "name": "Freelancer.com",
+            "url": "https://www.freelancer.com/u/yyacoup"
+          }
+        ],
+        "demo": null,
+        "extra": [],
+        "cover": "portfolio/web/file-service-dashboard/images/cover.jpg",
+        "images": [
+          "portfolio/web/file-service-dashboard/images/01.jpg",
+          "portfolio/web/file-service-dashboard/images/02.jpg",
+          "portfolio/web/file-service-dashboard/images/03.jpg",
+          "portfolio/web/file-service-dashboard/images/04.jpg"
+        ],
+        "path": "portfolio/web/file-service-dashboard"
+      },
+      {
+        "slug": "ai-real-estate-cma",
+        "category": "ai",
+        "en": "AI Real Estate CMA Dashboard",
+        "ar": "لوحة تحليل السوق العقاري بالذكاء الاصطناعي",
+        "desc_en": "Prototype of an AI-driven Comparative Market Analysis dashboard: subject property input, ZIP-based comparable search over MLS-style data, weighted similarity scoring (location, sale recency, size, bed/bath, lot, property type, condition, amenities) with adjustable weights, ranked comparables table, price-vs-size chart, AI-generated pricing summary and PDF export.",
+        "desc_ar": "لوحة تحليل مقارن لأسعار العقارات تبحث عن عقارات مشابهة وتقيّمها بأوزان قابلة للتعديل مع ملخص تسعير بالذكاء الاصطناعي.",
+        "skills": [
+          "Web Development",
+          "Python",
+          "Software Architecture",
+          "Machine Learning (ML)",
+          "API"
+        ],
+        "platforms": [
+          {
+            "key": "freelancer",
+            "name": "Freelancer.com",
+            "url": "https://www.freelancer.com/u/yyacoup"
+          }
+        ],
+        "demo": null,
+        "extra": [],
+        "cover": "portfolio/ai/ai-real-estate-cma/images/cover.jpg",
+        "images": [
+          "portfolio/ai/ai-real-estate-cma/images/01.jpg",
+          "portfolio/ai/ai-real-estate-cma/images/02.jpg"
+        ],
+        "path": "portfolio/ai/ai-real-estate-cma"
+      },
+      {
+        "slug": "responsive-single-page",
+        "category": "web",
+        "en": "Responsive Single-Page Website Design",
+        "ar": "تصميم موقع صفحة واحدة متجاوب",
+        "desc_en": "Responsive single-page website prototype built section by section from a Figma-style design: sticky navigation with mobile menu, hero with animated stats, services cards, gallery, auto-rotating testimonial slider, scroll-reveal animations and a validated contact form. Optimised for desktop, tablet and mobile.",
+        "desc_ar": "موقع صفحة واحدة متجاوب مبني من تصميم Figma مع إحصائيات متحركة ومعرض وآراء عملاء ونموذج تواصل.",
+        "skills": [
+          "Website Design",
+          "HTML",
+          "Web Design",
+          "UI / User Interface",
+          "Figma"
+        ],
+        "platforms": [
+          {
+            "key": "freelancer",
+            "name": "Freelancer.com",
+            "url": "https://www.freelancer.com/u/yyacoup"
+          }
+        ],
+        "demo": null,
+        "extra": [],
+        "cover": "portfolio/web/responsive-single-page/images/cover.jpg",
+        "images": [
+          "portfolio/web/responsive-single-page/images/01.jpg",
+          "portfolio/web/responsive-single-page/images/02.jpg",
+          "portfolio/web/responsive-single-page/images/03.jpg"
+        ],
+        "path": "portfolio/web/responsive-single-page"
+      },
+      {
+        "slug": "smart-traffic-signal",
+        "category": "web",
+        "en": "Smart Traffic Signal Simulation Demo",
+        "ar": "محاكاة إشارة مرور ذكية",
+        "desc_en": "Interactive smart traffic signal simulation built with plain HTML, CSS and vanilla JavaScript: a four-way intersection with automatic red/yellow/green cycling, animated traffic from light to heavy flow, sensor-based emergency vehicle detection that automatically gives the ambulance's lane right of way, and a slide-in dashboard to tune cycle durations and reset. Fully responsive on desktop and mobile.",
+        "desc_ar": "محاكاة تفاعلية لتقاطع مروري بإشارات ذكية تكتشف سيارات الإسعاف وتعطيها الأولوية، مبنية بـ JavaScript فقط.",
+        "skills": [
+          "JavaScript",
+          "CSS",
+          "Web Development",
+          "HTML",
+          "Frontend Development",
+          "Animation"
+        ],
+        "platforms": [
+          {
+            "key": "freelancer",
+            "name": "Freelancer.com",
+            "url": "https://www.freelancer.com/u/yyacoup"
+          }
+        ],
+        "demo": null,
+        "extra": [],
+        "cover": "portfolio/web/smart-traffic-signal/images/cover.jpg",
+        "images": [
+          "portfolio/web/smart-traffic-signal/images/01.jpg",
+          "portfolio/web/smart-traffic-signal/images/02.jpg",
+          "portfolio/web/smart-traffic-signal/images/03.jpg",
+          "portfolio/web/smart-traffic-signal/images/04.jpg"
+        ],
+        "path": "portfolio/web/smart-traffic-signal"
+      },
+      {
+        "slug": "premium-business-website",
+        "category": "web",
+        "en": "Premium Responsive Business Website",
+        "ar": "موقع أعمال احترافي متجاوب",
+        "desc_en": "Interactive prototype of a modern, premium multi-page business website: sticky responsive navigation with a mobile menu, Work/Services/About/Testimonials/FAQ sections, a validated contact form, a dark/light theme toggle, and a simple CMS-style 'Edit content' panel for easy updates. Built with HTML5, CSS3 and JavaScript, focused on fast loading and a clean UI.",
+        "desc_ar": "موقع أعمال متعدد الصفحات بوضع ليلي/نهاري ولوحة بسيطة لتعديل المحتوى ونموذج تواصل.",
+        "skills": [
+          "JavaScript",
+          "Website Design",
+          "CSS",
+          "HTML"
+        ],
+        "platforms": [
+          {
+            "key": "freelancer",
+            "name": "Freelancer.com",
+            "url": "https://www.freelancer.com/u/yyacoup"
+          }
+        ],
+        "demo": null,
+        "extra": [],
+        "cover": "portfolio/web/premium-business-website/images/cover.jpg",
+        "images": [
+          "portfolio/web/premium-business-website/images/01.jpg",
+          "portfolio/web/premium-business-website/images/02.jpg",
+          "portfolio/web/premium-business-website/images/03.jpg",
+          "portfolio/web/premium-business-website/images/04.jpg"
+        ],
+        "path": "portfolio/web/premium-business-website"
+      },
+      {
+        "slug": "lottery-results-website",
+        "category": "web",
+        "en": "Lottery Results Website – Interactive Prototype",
+        "ar": "موقع نتائج اليانصيب",
+        "desc_en": "Interactive prototype of a lottery results platform: latest-draw hero card with winning numbers, bonus ball and prize-tier payouts; searchable, paginated archive of past draws with date/draw filters; hot/cold number frequency stats; share links; and an admin panel to enter new draws that appear live instantly. Built with React, responsive mobile-first UI.",
+        "desc_ar": "منصة نتائج سحوبات مع أرشيف قابل للبحث وإحصائيات الأرقام ولوحة إدارة لإضافة السحوبات مباشرة.",
+        "skills": [
+          "Web Development",
+          "React.js",
+          "Frontend Development",
+          "Python",
+          "Django"
+        ],
+        "platforms": [
+          {
+            "key": "freelancer",
+            "name": "Freelancer.com",
+            "url": "https://www.freelancer.com/u/yyacoup"
+          }
+        ],
+        "demo": null,
+        "extra": [],
+        "cover": "portfolio/web/lottery-results-website/images/cover.jpg",
+        "images": [
+          "portfolio/web/lottery-results-website/images/01.jpg",
+          "portfolio/web/lottery-results-website/images/02.jpg",
+          "portfolio/web/lottery-results-website/images/03.jpg",
+          "portfolio/web/lottery-results-website/images/04.jpg",
+          "portfolio/web/lottery-results-website/images/05.jpg"
+        ],
+        "path": "portfolio/web/lottery-results-website"
+      },
+      {
+        "slug": "shopify-booking-storefront",
+        "category": "ecommerce",
+        "en": "Shopify Storefront Booking Prototype",
+        "ar": "متجر Shopify مع نظام حجز",
+        "desc_en": "Interactive prototype of a Shopify-style storefront rebuilt from a WordPress design: responsive homepage, course/product page, and a booking flow with calendar availability, service durations, buffer times, blackout dates, time-slot selection and confirmation screen.\n\n---",
+        "desc_ar": "متجر بأسلوب Shopify أعيد بناؤه من تصميم ووردبريس مع نظام حجز بالتقويم والمواعيد المتاحة.",
+        "skills": [
+          "JavaScript",
+          "Website Design",
+          "CSS",
+          "Shopify",
+          "HTML"
+        ],
+        "platforms": [
+          {
+            "key": "freelancer",
+            "name": "Freelancer.com",
+            "url": "https://www.freelancer.com/u/yyacoup"
+          }
+        ],
+        "demo": "https://claude.ai/artifact/9xkXJhEfLky62f7QGphMnJ",
+        "extra": [],
+        "cover": "portfolio/ecommerce/shopify-booking-storefront/images/cover.jpg",
+        "images": [
+          "portfolio/ecommerce/shopify-booking-storefront/images/01.jpg",
+          "portfolio/ecommerce/shopify-booking-storefront/images/02.jpg",
+          "portfolio/ecommerce/shopify-booking-storefront/images/03.jpg",
+          "portfolio/ecommerce/shopify-booking-storefront/images/04.jpg"
+        ],
+        "path": "portfolio/ecommerce/shopify-booking-storefront"
+      },
+      {
+        "slug": "cafe-landing-page",
+        "category": "web",
+        "en": "Café Landing Page with Digital Menu",
+        "ar": "تصميم صفحة هبوط لكافيه مع عرض المنيو",
+        "desc_en": "Responsive Arabic landing page for a café: categorized menu with prices, WhatsApp ordering and a QR-code menu section.",
+        "desc_ar": "نموذج صفحة هبوط عربية متجاوبة لكافيه بتصميم Minimalist دافئ: واجهة رئيسية جذابة، منيو مقسم حسب الأقسام (مشروبات ساخنة، باردة، حلويات) مع الأسعار، زر طلب عبر واتساب، وقسم QR Code للوصول السريع للمنيو. تم التنفيذ بـ HTML وCSS وJavaScript. جميع الأسماء والأسعار افتراضية.",
+        "skills": [
+          "HTML",
+          "CSS"
+        ],
+        "platforms": [
+          {
+            "key": "nafezly",
+            "name": "Nafezly · نفذلي",
+            "url": "https://nafezly.com/portfolio/270020-%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D8%B5%D9%81%D8%AD%D8%A9-%D9%87%D8%A8%D9%88%D8%B7-%D9%84%D9%83%D8%A7%D9%81%D9%8A%D9%87-%D9%85%D8%B9-%D8%B9%D8%B1%D8%B6-%D8%A7%D9%84%D9%85%D9%86%D9%8A%D9%88"
+          }
+        ],
+        "demo": null,
+        "extra": [],
+        "cover": "portfolio/web/cafe-landing-page/images/cover.jpg",
+        "images": [
+          "portfolio/web/cafe-landing-page/images/01.jpg"
+        ],
+        "path": "portfolio/web/cafe-landing-page"
+      },
+      {
+        "slug": "minimal-logo-concepts",
+        "category": "design",
+        "en": "3 Modern Minimalist Logo Concepts",
+        "ar": "تصميم 3 مفاهيم شعار عصرية وهوية بصرية مينيمالية",
+        "desc_en": "Three minimalist logo concepts (geometric, luxury, organic) with a color palette each, delivered as SVG and PNG.",
+        "desc_ar": "نموذج لثلاثة مفاهيم شعار عصرية ومينيمالية لعلامات تجارية افتراضية: مفهوم هندسي واثق، ومفهوم فاخر على خلفية داكنة، ومفهوم عضوي يعبر عن النمو، مع لوحة ألوان لكل مفهوم. التسليم يشمل ملفات SVG فيكتور وPNG عالي الدقة.",
+        "skills": [
+          "تصميم الشعارات",
+          "تصميم الجرافيك",
+          "Illustrator",
+          "هوية المؤسسات"
+        ],
+        "platforms": [
+          {
+            "key": "nafezly",
+            "name": "Nafezly · نفذلي",
+            "url": "https://nafezly.com/portfolio/269860-%D8%AA%D8%B5%D9%85%D9%8A%D9%85-3-%D9%85%D9%81%D8%A7%D9%87%D9%8A%D9%85-%D8%B4%D8%B9%D8%A7%D8%B1-%D8%B9%D8%B5%D8%B1%D9%8A%D8%A9-%D9%88%D9%87%D9%88%D9%8A%D8%A9-%D8%A8%D8%B5%D8%B1%D9%8A%D8%A9-%D9%85%D9%8A%D9%86%D9%8A%D9%85%D8%A7%D9%84%D9%8A%D8%A9"
+          }
+        ],
+        "demo": null,
+        "extra": [],
+        "cover": "portfolio/design/minimal-logo-concepts/images/cover.jpg",
+        "images": [
+          "portfolio/design/minimal-logo-concepts/images/01.jpg",
+          "portfolio/design/minimal-logo-concepts/images/02.jpg",
+          "portfolio/design/minimal-logo-concepts/images/03.jpg",
+          "portfolio/design/minimal-logo-concepts/images/04.jpg"
+        ],
+        "path": "portfolio/design/minimal-logo-concepts"
+      },
+      {
+        "slug": "arabic-publisher-identity",
+        "category": "design",
+        "en": "Arabic Publishing House Identity – Nuqta, Ataba, Waraqa",
+        "ar": "مفاهيم هوية وشعار لدار نشر عربية – نقطة، عتبة، ورقة",
+        "desc_en": "Concept board with three identity directions for an Arabic publisher, including palettes, typography and book/business-card mockups.",
+        "desc_ar": "لوحة مفاهيم لشعار دار نشر عربية تضم ثلاثة اتجاهات تصميمية: نقطة (Nuqta)، عتبة (Ataba)، وورقة (Waraqa). لكل اتجاه معالجة للشعار بنسخ ملونة وأحادية اللون، ولوحة ألوان بأكواد HEX، واقتراحات للخطوط العربية واللاتينية، مع تطبيقات موكاب على أغلفة وكعوب الكتب وبطاقات العمل. توضح اللوحة الفكرة التصميمية لكل اتجاه وتناسبه مع أنماط النشر المختلفة. تنويه: الأسماء المعروضة أسماء عمل مقترحة وليست اسماً نهائياً للدار، وبيانات الأشخاص والاتصال في الموكابات تجريبية. اللوحة تركز على موكابات الكتب وبطاقات العمل ولا تتضمن نموذجاً لواجهة الموقع.",
+        "skills": [
+          "تصميم الشعارات",
+          "تصميم الجرافيك",
+          "هوية المؤسسات"
+        ],
+        "platforms": [
+          {
+            "key": "nafezly",
+            "name": "Nafezly · نفذلي",
+            "url": "https://nafezly.com/portfolio/269220-%D9%85%D9%81%D8%A7%D9%87%D9%8A%D9%85-%D9%87%D9%88%D9%8A%D8%A9-%D9%88%D8%B4%D8%B9%D8%A7%D8%B1-%D9%84%D8%AF%D8%A7%D8%B1-%D9%86%D8%B4%D8%B1-%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%E2%80%93-%D9%86%D9%82%D8%B7%D8%A9%D8%8C-%D8%B9%D8%AA%D8%A8%D8%A9%D8%8C-%D9%88%D8%B1%D9%82%D8%A9"
+          }
+        ],
+        "demo": "https://claude.ai/artifact/Xc4Y8amKS5d69RsrDP4ewX",
+        "extra": [],
+        "cover": "portfolio/design/arabic-publisher-identity/images/cover.jpg",
+        "images": [
+          "portfolio/design/arabic-publisher-identity/images/01.jpg",
+          "portfolio/design/arabic-publisher-identity/images/02.jpg",
+          "portfolio/design/arabic-publisher-identity/images/03.jpg",
+          "portfolio/design/arabic-publisher-identity/images/04.jpg"
+        ],
+        "path": "portfolio/design/arabic-publisher-identity"
+      },
+      {
+        "slug": "taskflow-api",
+        "category": "backend",
+        "en": "TaskFlow API",
+        "ar": "TaskFlow API – واجهة برمجية لإدارة المهام",
+        "desc_en": "Interactive documentation for a task-management API: clean 4-layer architecture, JWT auth flow, endpoints, data model and reports.",
+        "desc_ar": "واجهة توثيق تفاعلية لواجهة TaskFlow API لإدارة المهام. تعرض التصميم المعماري النظيف بأربع طبقات، تدفق مصادقة JWT، ومراجع نقاط النهاية لمجموعات المصادقة والمهام والفئات والأولويات وتتبع الوقت والتقارير، مع أمثلة الطلبات والاستجابات ونموذج البيانات ولوحة ملخص أسبوعي. تتضمن الصفحة بيانات توضيحية لشرح الواجهة.",
+        "skills": [
+          "HTML",
+          "CSS",
+          "جافاسكربت"
+        ],
+        "platforms": [
+          {
+            "key": "nafezly",
+            "name": "Nafezly · نفذلي",
+            "url": "https://nafezly.com/portfolio/269216-TaskFlow-API"
+          }
+        ],
+        "demo": null,
+        "extra": [],
+        "cover": "portfolio/backend/taskflow-api/images/cover.jpg",
+        "images": [
+          "portfolio/backend/taskflow-api/images/01.jpg",
+          "portfolio/backend/taskflow-api/images/02.jpg",
+          "portfolio/backend/taskflow-api/images/03.jpg"
+        ],
+        "path": "portfolio/backend/taskflow-api"
+      },
+      {
+        "slug": "rose-and-sugar-identity",
+        "category": "design",
+        "en": "Rose & Sugar – Arabic Bakery Brand Identity",
+        "ar": "Rose & Sugar / ورد وسكّر — هوية بصرية متكاملة لمخبز عربي",
+        "desc_en": "Complete bilingual bakery identity: brand story, logo directions, colors, typography, baklava-inspired pattern and packaging/social applications.",
+        "desc_ar": "صمّمت لوحة هوية بصرية متكاملة لعلامة مخبوزات وحلويات عربية باسم Rose & Sugar (ورد وسكّر)، بهوية دافئة مستوحاة من حلويات القاهرة وعلبة الورد المربوطة بالشريط الذهبي. تشمل اللوحة قصة العلامة وتموضعها وشعارًا عربيًا/لاتينيًا وثلاثة اتجاهات للشعار بنسخ ملونة وأحادية اللون، ونظام ألوان موثقًا بالقيم اللونية، وتوليفة خطوط عربية ولاتينية، ونمطًا زخرفيًا مستلهمًا من تقطيع البقلاوة. كما تتضمن تطبيقات الهوية على علبة المعجنات، والأكياس والملصقات، ومنشورات إنستغرام، مع مراعاة اتجاه الكتابة العربية من اليمين إلى اليسار.",
+        "skills": [
+          "هوية المؤسسات",
+          "تصميم الشعارات"
+        ],
+        "platforms": [
+          {
+            "key": "nafezly",
+            "name": "Nafezly · نفذلي",
+            "url": "https://nafezly.com/portfolio/269214-Rose---Sugar-%D9%88%D8%B1%D8%AF-%D9%88%D8%B3%D9%83%D9%91%D8%B1-%E2%80%94-%D9%87%D9%88%D9%8A%D8%A9-%D8%A8%D8%B5%D8%B1%D9%8A%D8%A9-%D9%85%D8%AA%D9%83%D8%A7%D9%85%D9%84%D8%A9-%D9%84%D9%85%D8%AE%D8%A8%D8%B2-%D8%B9%D8%B1%D8%A8%D9%8A"
+          }
+        ],
+        "demo": null,
+        "extra": [],
+        "cover": "portfolio/design/rose-and-sugar-identity/images/cover.jpg",
+        "images": [
+          "portfolio/design/rose-and-sugar-identity/images/01.jpg",
+          "portfolio/design/rose-and-sugar-identity/images/02.jpg",
+          "portfolio/design/rose-and-sugar-identity/images/03.jpg"
+        ],
+        "path": "portfolio/design/rose-and-sugar-identity"
+      },
+      {
+        "slug": "floor-chair-storyboard",
+        "category": "content",
+        "en": "Interactive Storyboard – Vertical Video Ad",
+        "ar": "ستوري بورد تفاعلي لإعلان فيديو عمودي – الكرسي الأرضي الطبي",
+        "desc_en": "Interactive 35-second Reels/TikTok storyboard: 7 timed scenes, mobile rhythm preview, voice-over, on-screen text and alternate hooks.",
+        "desc_ar": "ستوري بورد تفاعلي احترافي لإعلان فيديو عمودي مدته 35 ثانية (ريلز وتيك توك) لكرسي أرضي طبي، يتضمن 7 مشاهد بتوقيتاتها، خط زمني تفاعلي، معاينة إيقاع على شاشة جوال، النص الكامل للتعليق الصوتي، النصوص على الشاشة، اللقطات المقترحة والمؤثرات الصوتية لكل مشهد، بالإضافة إلى خطّافات بديلة للاختبار وملاحظات إنتاج، بما يناسب إنتاج الفيديو بأدوات الذكاء الاصطناعي.",
+        "skills": [
+          "كتابة السيناريو",
+          "كتابة سكريبت الفيديو",
+          "تحرير الفيديو",
+          "إنتاج الفيديو",
+          "كتابة الإعلانات"
+        ],
+        "platforms": [
+          {
+            "key": "nafezly",
+            "name": "Nafezly · نفذلي",
+            "url": "https://nafezly.com/portfolio/269208-%D8%B3%D8%AA%D9%88%D8%B1%D9%8A-%D8%A8%D9%88%D8%B1%D8%AF-%D8%AA%D9%81%D8%A7%D8%B9%D9%84%D9%8A-%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%86-%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%B9%D9%85%D9%88%D8%AF%D9%8A-%E2%80%93-%D8%A7%D9%84%D9%83%D8%B1%D8%B3%D9%8A-%D8%A7%D9%84%D8%A3%D8%B1%D8%B6%D9%8A-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A"
+          }
+        ],
+        "demo": null,
+        "extra": [],
+        "cover": "portfolio/content/floor-chair-storyboard/images/cover.jpg",
+        "images": [
+          "portfolio/content/floor-chair-storyboard/images/01.jpg",
+          "portfolio/content/floor-chair-storyboard/images/02.jpg",
+          "portfolio/content/floor-chair-storyboard/images/03.jpg"
+        ],
+        "path": "portfolio/content/floor-chair-storyboard"
+      },
+      {
+        "slug": "nova-trade-identity",
+        "category": "design",
+        "en": "Nova Trade – Complete Visual Identity",
+        "ar": "هوية بصرية متكاملة لشركة Nova Trade",
+        "desc_en": "Full identity for a trading company: three logo concepts, HEX palette, Arabic/Latin type pairing, stationery and social templates.",
+        "desc_ar": "لوحة هوية بصرية متكاملة لشركة تجارية حديثة (Nova Trade) تشمل: ثلاثة مفاهيم للشعار (شعار نصي، رمز مع نص، ومونوجرام) بنسخ ملونة وأبيض وأسود، لوحة ألوان مع أكواد HEX، اختيار خطوط عربية ولاتينية متناسقة (Alexandria و Sora) مع أمثلة للعناوين والنصوص، تصاميم للمطبوعات (كارت شخصي بوجهين، ورق رسمي، وظرف)، وثلاثة قوالب لمنشورات السوشيال ميديا. تصميم أنيق ومنظم يعكس هوية احترافية موحدة لجميع نقاط التواصل مع العملاء.",
+        "skills": [
+          "تصميم الشعارات",
+          "تصميم الجرافيك",
+          "Illustrator"
+        ],
+        "platforms": [
+          {
+            "key": "nafezly",
+            "name": "Nafezly · نفذلي",
+            "url": "https://nafezly.com/portfolio/269197-%D9%87%D9%88%D9%8A%D8%A9-%D8%A8%D8%B5%D8%B1%D9%8A%D8%A9-%D9%85%D8%AA%D9%83%D8%A7%D9%85%D9%84%D8%A9-%D9%84%D8%B4%D8%B1%D9%83%D8%A9-Nova-Trade"
+          }
+        ],
+        "demo": "https://claude.ai/artifact/BNYzMS3FUYdUADdCmVWsTc",
+        "extra": [],
+        "cover": "portfolio/design/nova-trade-identity/images/cover.jpg",
+        "images": [
+          "portfolio/design/nova-trade-identity/images/01.jpg",
+          "portfolio/design/nova-trade-identity/images/02.jpg",
+          "portfolio/design/nova-trade-identity/images/03.jpg",
+          "portfolio/design/nova-trade-identity/images/04.jpg",
+          "portfolio/design/nova-trade-identity/images/05.jpg"
+        ],
+        "path": "portfolio/design/nova-trade-identity"
+      },
+      {
+        "slug": "hr-analytics-dashboard",
+        "category": "data",
+        "en": "HR Analytics Interactive Dashboard",
+        "ar": "لوحة تحكم الموارد البشرية – داشبورد تفاعلي لتحليل بيانات الموظفين",
+        "desc_en": "Arabic HR dashboard with KPIs (headcount, hires, turnover, salaries), interactive filters, charts and an Excel-ready summary table.",
+        "desc_ar": "لوحة تحكم تفاعلية باللغة العربية لتحليل بيانات الموارد البشرية، تعرض مؤشرات الأداء الرئيسية مثل إجمالي الموظفين، التعيينات الجديدة، معدل دوران الموظفين، متوسط الرواتب وإجمالي الرواتب. تتضمن فلاتر تفاعلية حسب القسم والسنة ونوع العقد، ورسوماً بيانية للتعيينات مقابل المغادرين شهرياً، وتوزيع الموظفين حسب القسم، واتجاه معدل الدوران مقارنة بالمستهدف، ونطاقات الرواتب لكل قسم، وتركيبة القوى العاملة حسب الجنس ونوع العقد، مع جدول ملخص للأقسام قابل للنسخ إلى Excel ووضع ليلي. تصميم متجاوب واحترافي يناسب العرض على الإدارة.",
+        "skills": [
+          "Microsoft Excel",
+          "تحليل البيانات",
+          "HTML"
+        ],
+        "platforms": [
+          {
+            "key": "nafezly",
+            "name": "Nafezly · نفذلي",
+            "url": "https://nafezly.com/portfolio/269162-%D9%84%D9%88%D8%AD%D8%A9-%D8%AA%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B1%D8%AF-%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9-%E2%80%93-%D8%AF%D8%A7%D8%B4%D8%A8%D9%88%D8%B1%D8%AF-%D8%AA%D9%81%D8%A7%D8%B9%D9%84%D9%8A-%D9%84%D8%AA%D8%AD%D9%84%D9%8A%D9%84-%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%88%D8%B8%D9%81%D9%8A%D9%86"
+          }
+        ],
+        "demo": "https://claude.ai/artifact/Qx3zUcXHGb3NSYoTPYCS7j",
+        "extra": [],
+        "cover": "portfolio/data/hr-analytics-dashboard/images/cover.jpg",
+        "images": [
+          "portfolio/data/hr-analytics-dashboard/images/01.jpg",
+          "portfolio/data/hr-analytics-dashboard/images/02.jpg",
+          "portfolio/data/hr-analytics-dashboard/images/03.jpg",
+          "portfolio/data/hr-analytics-dashboard/images/04.jpg"
+        ],
+        "path": "portfolio/data/hr-analytics-dashboard"
+      },
+      {
+        "slug": "sales-history-cleaning",
+        "category": "data",
+        "en": "Historical Sales Cleanup & Excel Reporting",
+        "ar": "تنظيف سجل المبيعات التاريخي وإعداد لوحة تقارير Excel",
+        "desc_en": "Excel/Power Query case study: 3,262 messy records cleaned in 8 traceable steps to 100% valid rows, plus a filterable reporting dashboard.",
+        "desc_ar": "دراسة حالة تفاعلية لتنظيف سجل مبيعات تاريخي لثلاث سنوات باستخدام Excel وPower Query. بدأت البيانات التجريبية من 3,262 سجلًا، وتضمنت التكرارات والقيم الناقصة واختلاف صيغ التواريخ والأرقام وأسماء العملاء والفروع، بما في ذلك اختلافات الكتابة العربية. نُفذت ثماني خطوات تنظيف قابلة للتتبع مع أمثلة قبل/بعد وسجل تدقيق، فنتج 3,096 سجلًا نظيفًا وإصلاح 6,909 خلايا، وارتفعت نسبة السجلات السليمة تمامًا من 22% إلى 100%. تتضمن لوحة التقارير فلاتر للسنة والفرع والفئة، ومؤشرات أداء، واتجاهات المبيعات الشهرية والسنوية والنمو والموسمية وأكبر العملاء. جميع البيانات اصطناعية لأغراض العرض ولا تمثل بيانات عميل حقيقية.",
+        "skills": [
+          "Microsoft Excel",
+          "تحليل البيانات"
+        ],
+        "platforms": [
+          {
+            "key": "nafezly",
+            "name": "Nafezly · نفذلي",
+            "url": "https://nafezly.com/portfolio/269151-%D8%AA%D9%86%D8%B8%D9%8A%D9%81-%D8%B3%D8%AC%D9%84-%D8%A7%D9%84%D9%85%D8%A8%D9%8A%D8%B9%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A-%D9%88%D8%A5%D8%B9%D8%AF%D8%A7%D8%AF-%D9%84%D9%88%D8%AD%D8%A9-%D8%AA%D9%82%D8%A7%D8%B1%D9%8A%D8%B1-Excel"
+          }
+        ],
+        "demo": "https://claude.ai/artifact/5KcAEEeu29UBhZZKb83H1q",
+        "extra": [],
+        "cover": "portfolio/data/sales-history-cleaning/images/cover.jpg",
+        "images": [
+          "portfolio/data/sales-history-cleaning/images/01.jpg",
+          "portfolio/data/sales-history-cleaning/images/02.jpg",
+          "portfolio/data/sales-history-cleaning/images/03.jpg",
+          "portfolio/data/sales-history-cleaning/images/04.jpg"
+        ],
+        "path": "portfolio/data/sales-history-cleaning"
+      },
+      {
+        "slug": "luxury-watch-ad-campaign",
+        "category": "content",
+        "en": "Ad Campaign & Copy for a Luxury Product",
+        "ar": "حملة إعلانية ونصوص تسويقية لمنتج فاخر لمتجر إلكتروني",
+        "desc_en": "Launch campaign for a luxury watch: five ad angles, Facebook/Instagram copy, A/B headline pairs, product-page copy and a tone guide.",
+        "desc_ar": "نموذج لحملة إطلاق ساعة فاخرة من علامة افتراضية، يوضح كيف تتكامل الفكرة الإعلانية مع رسائل المتجر الإلكتروني. يتضمن العمل خمس زوايا إعلانية، ولكل زاوية عنوانًا رئيسيًا ونصًا إعلانيًا ودعوة واضحة لاتخاذ الإجراء، إلى جانب نسخ قصيرة مناسبة لفيسبوك وإنستغرام. كما يضم خمسة أزواج من العناوين لاختبار A/B مع فرضية موجزة لكل اختبار، ووصفًا مقترحًا لصفحة المنتج، ودليلًا مختصرًا لنبرة العلامة. صيغت الرسائل لإبراز الطابع الراقي والهدية والتميّز اليومي، مع تجنب المواصفات أو الادعاءات غير الموثقة. المنتج والعلامة في هذه العينة افتراضيان، والمحتوى معدّ للعرض كنموذج أعمال لمشروع كتابة إعلانية لمنتج فاخر في التجارة الإلكترونية.",
+        "skills": [
+          "العربية",
+          "كتابة المحتوى",
+          "كتابة النسخ",
+          "كتابة الإعلانات",
+          "التسويق عبر الإنترنت"
+        ],
+        "platforms": [
+          {
+            "key": "nafezly",
+            "name": "Nafezly · نفذلي",
+            "url": "https://nafezly.com/portfolio/269112-%D9%83%D8%AA%D8%A7%D8%A8%D8%A9-%D9%85%D8%AD%D8%AA%D9%88%D9%89-%D8%A5%D8%B9%D9%84%D8%A7%D9%86%D9%8A-%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A-%D9%84%D9%85%D9%86%D8%AA%D8%AC-%D9%81%D8%A7%D8%AE%D8%B1-%E2%80%93-%D8%AD%D9%85%D9%84%D8%A9-%D8%B3%D8%A7%D8%B9%D8%A7%D8%AA-%D8%B4%D8%B1%D9%82%D8%AF-%D8%B3%D9%8F%D8%B1%D9%89"
+          }
+        ],
+        "demo": "https://claude.ai/artifact/CfKCpuMNjUcPXxvebpghrQ",
+        "extra": [],
+        "cover": "portfolio/content/luxury-watch-ad-campaign/images/cover.jpg",
+        "images": [
+          "portfolio/content/luxury-watch-ad-campaign/images/01.jpg",
+          "portfolio/content/luxury-watch-ad-campaign/images/02.jpg",
+          "portfolio/content/luxury-watch-ad-campaign/images/03.jpg",
+          "portfolio/content/luxury-watch-ad-campaign/images/04.jpg"
+        ],
+        "path": "portfolio/content/luxury-watch-ad-campaign"
+      },
+      {
+        "slug": "excel-sales-cleanup",
+        "category": "data",
+        "en": "Excel Sales Data Cleanup with Summary Dashboard",
+        "ar": "تنظيف وتنسيق بيانات مبيعات Excel مع لوحة ملخص",
+        "desc_en": "Removing duplicates, standardizing formats and filling missing values in sales data, with a KPI summary dashboard by month and product.",
+        "desc_ar": "تنظيف وتنسيق بيانات مبيعات Excel من خلال إزالة الصفوف المكررة، وتوحيد تنسيقات النصوص والتواريخ والأرقام، ومعالجة القيم المفقودة بالاعتماد على بيانات مرجعية، ثم تنظيم البيانات في جدول واضح. يتضمن العمل لوحة ملخص تعرض إجمالي المبيعات وعدد الطلبات ومتوسط قيمة الطلب، مع رسوم توضح المبيعات حسب الشهر والمنتج.",
+        "skills": [
+          "Microsoft Excel",
+          "إدخال البيانات",
+          "تحليل البيانات"
+        ],
+        "platforms": [
+          {
+            "key": "nafezly",
+            "name": "Nafezly · نفذلي",
+            "url": "https://nafezly.com/portfolio/269023-%D8%AA%D9%86%D8%B8%D9%8A%D9%81-%D9%88%D8%AA%D9%86%D8%B3%D9%8A%D9%82-%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-%D9%85%D8%A8%D9%8A%D8%B9%D8%A7%D8%AA-Excel-%D9%85%D8%B9-%D9%84%D9%88%D8%AD%D8%A9-%D9%85%D9%84%D8%AE%D8%B5"
+          }
+        ],
+        "demo": "https://claude.ai/artifact/TS2z7oyrDWLf9sQ4PK2oFB",
+        "extra": [],
+        "cover": "portfolio/data/excel-sales-cleanup/images/cover.jpg",
+        "images": [
+          "portfolio/data/excel-sales-cleanup/images/01.jpg",
+          "portfolio/data/excel-sales-cleanup/images/02.jpg"
+        ],
+        "path": "portfolio/data/excel-sales-cleanup"
+      },
+      {
+        "slug": "secure-aws-infrastructure",
+        "category": "backend",
+        "en": "Secure AWS Infrastructure Design",
+        "ar": "تصميم بنية تحتية آمنة على AWS",
+        "desc_en": "Sample deliverable for Nafezly project #58468: a secure multi-AZ AWS reference architecture with CloudFront/WAF, ALB, ECS Fargate, isolated encrypted RDS Multi-AZ, private S3, IAM least privilege, KMS, Secrets Manager, CloudTrail, Config, GuardDuty, Security Hub, CloudWatch and AWS Backup. Includes an SVG architecture diagram, security-control matrix, Terraform module outline with VPC/RDS snippets, and a phased four-week implementation plan. Sample only: values are illustrative, and Terraform was not applied or validated against an AWS account.",
+        "desc_ar": "تصميم مرجعي لبنية تحتية آمنة على AWS متعددة مناطق التوافر (Multi-AZ) تشمل CloudFront/WAF وALB وECS Fargate وRDS مشفرة ومعزولة وS3 خاص وKMS وGuardDuty، مع مخطط معماري SVG ومصفوفة ضوابط الأمان وهيكلة Terraform وخطة تنفيذ على 4 أسابيع.",
+        "skills": [
+          "Terraform",
+          "Amazon Web Services",
+          "الحوسبة السحابية",
+          "DevOps"
+        ],
+        "platforms": [
+          {
+            "key": "nafezly",
+            "name": "Nafezly · نفذلي",
+            "url": "https://nafezly.com/portfolio/268987-Secure-AWS-Infrastructure-Design-%E2%80%94-Nafezly-58468"
+          }
+        ],
+        "demo": "https://claude.ai/artifact/8FeLgRjc5j6LqgiapsBPDs",
+        "extra": [],
+        "cover": "portfolio/backend/secure-aws-infrastructure/images/cover.jpg",
+        "images": [
+          "portfolio/backend/secure-aws-infrastructure/images/01.jpg",
+          "portfolio/backend/secure-aws-infrastructure/images/02.jpg",
+          "portfolio/backend/secure-aws-infrastructure/images/03.jpg",
+          "portfolio/backend/secure-aws-infrastructure/images/04.jpg",
+          "portfolio/backend/secure-aws-infrastructure/images/05.jpg",
+          "portfolio/backend/secure-aws-infrastructure/images/06.jpg",
+          "portfolio/backend/secure-aws-infrastructure/images/07.jpg"
+        ],
+        "path": "portfolio/backend/secure-aws-infrastructure"
+      },
+      {
+        "slug": "floor-chair-video-script",
+        "category": "content",
+        "en": "Short Video Ad Script – \"Al-Sanad\" Floor Chair",
+        "ar": "سكريبت إعلان فيديو قصير لكرسي أرضي طبي «السند»",
+        "desc_en": "35-second Reels/TikTok/Shorts ad script in Egyptian dialect: strong hook, scene-by-scene breakdown, CTA and A/B hooks.",
+        "desc_ar": "سكريبت إعلاني احترافي لفيديو قصير (35 ثانية) مخصص لريلز وتيك توك وشورتس، لكرسي أرضي طبي مريح للظهر. يتضمن خطّاف (Hook) قوي في أول ثوانٍ، وتقسيم مشهد بمشهد (المشهد البصري، التعليق الصوتي، النص على الشاشة، المدة)، ودعوة واضحة لاتخاذ إجراء، مع خطّافات بديلة لاختبار A/B. مكتوب بلهجة مصرية بسيطة قريبة من الجمهور وجاهز للتصوير مباشرة.",
+        "skills": [
+          "كتابة المحتوى",
+          "كتابة النسخ",
+          "كتابة الإعلانات",
+          "كتابة السيناريو"
+        ],
+        "platforms": [
+          {
+            "key": "nafezly",
+            "name": "Nafezly · نفذلي",
+            "url": "https://nafezly.com/portfolio/268816-%D8%B3%D9%83%D8%B1%D9%8A%D8%A8%D8%AA-%D8%A5%D8%B9%D9%84%D8%A7%D9%86-%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%82%D8%B5%D9%8A%D8%B1-%D9%84%D9%83%D8%B1%D8%B3%D9%8A-%D8%A3%D8%B1%D8%B6%D9%8A-%D8%B7%D8%A8%D9%8A-%C2%AB%D8%A7%D9%84%D8%B3%D9%86%D8%AF%C2%BB"
+          }
+        ],
+        "demo": "https://claude.ai/artifact/2Dmbk8JnL56yNZiDpsTqio",
+        "extra": [],
+        "cover": "portfolio/content/floor-chair-video-script/images/cover.jpg",
+        "images": [
+          "portfolio/content/floor-chair-video-script/images/01.jpg",
+          "portfolio/content/floor-chair-video-script/images/02.jpg",
+          "portfolio/content/floor-chair-video-script/images/03.jpg"
+        ],
+        "path": "portfolio/content/floor-chair-video-script"
+      },
+      {
+        "slug": "luxury-watch-ai-storyboard",
+        "category": "content",
+        "en": "AI Video Ad Storyboard – Luxury Watch",
+        "ar": "ستوريبورد ومفهوم بصري لإعلان فيديو لساعة فاخرة بالذكاء الاصطناعي",
+        "desc_en": "Shot-by-shot storyboard for a luxury watch ad: camera angles, lighting, palette, on-screen copy and transitions for AI video production.",
+        "desc_ar": "تصور بصري متكامل (Storyboard) لإعلان فيديو قصير لعلامة ساعات فاخرة، يتضمن تقسيم المشاهد لقطةً بلقطة، زوايا التصوير وحركة الكاميرا، الإضاءة ولوحة الألوان، النصوص الإعلانية على الشاشة، والمؤثرات والانتقالات، كأساس جاهز لإنتاج الإعلان بأدوات الفيديو بالذكاء الاصطناعي.",
+        "skills": [
+          "إنتاج الفيديو",
+          "تحرير الفيديو",
+          "تصميم الإعلانات",
+          "موشن جرافيك",
+          "توليد الفيديو بالذكاء الاصطناعي",
+          "كتابة السيناريو"
+        ],
+        "platforms": [
+          {
+            "key": "nafezly",
+            "name": "Nafezly · نفذلي",
+            "url": "https://nafezly.com/portfolio/268805-%D8%B3%D8%AA%D9%88%D8%B1%D9%8A%D8%A8%D9%88%D8%B1%D8%AF-%D9%88%D9%85%D9%81%D9%87%D9%88%D9%85-%D8%A8%D8%B5%D8%B1%D9%8A-%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%86-%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%84%D8%B3%D8%A7%D8%B9%D8%A9-%D9%81%D8%A7%D8%AE%D8%B1%D8%A9-%D8%A8%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A"
+          }
+        ],
+        "demo": "https://claude.ai/artifact/6DWsWDi57ccH5My7AAmXS3",
+        "extra": [],
+        "cover": "portfolio/content/luxury-watch-ai-storyboard/images/cover.jpg",
+        "images": [
+          "portfolio/content/luxury-watch-ai-storyboard/images/01.jpg",
+          "portfolio/content/luxury-watch-ai-storyboard/images/02.jpg",
+          "portfolio/content/luxury-watch-ai-storyboard/images/03.jpg"
+        ],
+        "path": "portfolio/content/luxury-watch-ai-storyboard"
+      },
+      {
+        "slug": "madar-landing-page",
+        "category": "web",
+        "en": "\"Madar\" Arabic RTL Landing Page",
+        "ar": "صفحة هبوط إعلانية احترافية «مَدار» – HTML وCSS متجاوبة بالعربية",
+        "desc_en": "Single-file Arabic RTL landing page in pure HTML/CSS/JS: responsive nav, hero, services, stats, testimonials, FAQ and contact form.",
+        "desc_ar": "صفحة ويب إعلانية (Landing Page) احترافية باللغة العربية واتجاه RTL، مبنية بملف HTML واحد مستقل باستخدام HTML5 وCSS3 وقليل من JavaScript دون أي مكتبات خارجية. تتضمن: شريط تنقل متجاوب مع قائمة للجوال، قسم رئيسي (Hero) بعنوان جذاب وزرَّي دعوة لاتخاذ إجراء، بطاقات خدمات، قسم أرقام وإنجازات، آراء العملاء، أسئلة شائعة قابلة للطي، نموذج تواصل، وتذييل. تصميم عصري متناسق الألوان، سريع التحميل ومتوافق مع جميع الشاشات ومراعٍ لإمكانية الوصول.",
+        "skills": [
+          "HTML",
+          "CSS",
+          "جافاسكربت",
+          "تصميم صفحات الهبوط"
+        ],
+        "platforms": [
+          {
+            "key": "nafezly",
+            "name": "Nafezly · نفذلي",
+            "url": "https://nafezly.com/portfolio/268779-%D8%B5%D9%81%D8%AD%D8%A9-%D9%87%D8%A8%D9%88%D8%B7-%D8%A5%D8%B9%D9%84%D8%A7%D9%86%D9%8A%D8%A9-%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A%D8%A9-%C2%AB%D9%85%D9%8E%D8%AF%D8%A7%D8%B1%C2%BB-%E2%80%93-HTML-%D9%88CSS-%D9%85%D8%AA%D8%AC%D8%A7%D9%88%D8%A8%D8%A9-%D8%A8%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9"
+          }
+        ],
+        "demo": "https://claude.ai/artifact/VypasF3C4YrKCxJqzDq9fR",
+        "extra": [],
+        "cover": "portfolio/web/madar-landing-page/images/cover.jpg",
+        "images": [
+          "portfolio/web/madar-landing-page/images/01.jpg",
+          "portfolio/web/madar-landing-page/images/02.jpg",
+          "portfolio/web/madar-landing-page/images/03.jpg"
+        ],
+        "path": "portfolio/web/madar-landing-page"
+      },
+      {
+        "slug": "arabic-portfolio-website",
+        "category": "web",
+        "en": "Arabic Personal Portfolio Website",
+        "ar": "موقع بورتفوليو شخصي احترافي باللغة العربية – نموذج تفاعلي",
+        "desc_en": "Interactive Arabic personal portfolio built with Tailwind CSS: about, skills, services, projects and contact sections.",
+        "desc_ar": "نموذج تفاعلي لموقع بورتفوليو شخصي عربي يعرض الهوية المهنية والأعمال بأسلوب عصري. تصميم متجاوب يعمل على الهواتف والأجهزة اللوحية والحواسيب. يتضمن أقسام نبذة عني والمهارات والخدمات والمشاريع ووسائل التواصل. واجهة أنيقة بتدرج بصري واضح وتجربة استخدام سهلة. منفذ كصفحة HTML واحدة باستخدام Tailwind CSS وJavaScript.",
+        "skills": [
+          "HTML",
+          "CSS",
+          "جافاسكربت",
+          "Tailwind CSS"
+        ],
+        "platforms": [
+          {
+            "key": "nafezly",
+            "name": "Nafezly · نفذلي",
+            "url": "https://nafezly.com/portfolio/268751-%D9%85%D9%88%D9%82%D8%B9-%D8%A8%D9%88%D8%B1%D8%AA%D9%81%D9%88%D9%84%D9%8A%D9%88-%D8%B4%D8%AE%D8%B5%D9%8A-%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A-%D8%A8%D8%A7%D9%84%D9%84%D8%BA%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%E2%80%93-%D9%86%D9%85%D9%88%D8%B0%D8%AC-%D8%AA%D9%81%D8%A7%D8%B9%D9%84%D9%8A"
+          }
+        ],
+        "demo": "https://claude.ai/artifact/KRu1iUxbWH6SoNoV6PGoiQ",
+        "extra": [],
+        "cover": "portfolio/web/arabic-portfolio-website/images/cover.jpg",
+        "images": [
+          "portfolio/web/arabic-portfolio-website/images/01.jpg",
+          "portfolio/web/arabic-portfolio-website/images/02.jpg",
+          "portfolio/web/arabic-portfolio-website/images/03.jpg"
+        ],
+        "path": "portfolio/web/arabic-portfolio-website"
+      },
+      {
+        "slug": "merge-fullstack-identity",
+        "category": "design",
+        "en": "\"Merge\" – Full-Stack Engineer Visual Identity",
+        "ar": "هوية بصرية لمهندس Full Stack – شعار Merge ولوحة الهوية الكاملة",
+        "desc_en": "Personal brand for a full-stack engineer around a Y-shaped \"Merge\" logo: variations, palette, type, business cards and social covers.",
+        "desc_ar": "لوحة هوية بصرية متكاملة لمهندس Full Stack، محورها شعار \"Merge\" على شكل حرف Y يجمع بين الواجهات (Frontend) والبنية التحتية (Backend). تشمل اللوحة: تنويعات الشعار، لوحة الألوان والخطوط، رسالة وتموضع العلامة، نماذج كروت شخصية (Business Cards)، وأغلفة لحسابات التواصل الاجتماعي. تم تصميمها لتمنح المهندس حضوراً احترافياً متسقاً عبر جميع المنصات.",
+        "skills": [
+          "تصميم الشعارات",
+          "تصميم الجرافيك",
+          "هوية المؤسسات",
+          "Illustrator",
+          "العلامات التجارية"
+        ],
+        "platforms": [
+          {
+            "key": "nafezly",
+            "name": "Nafezly · نفذلي",
+            "url": "https://nafezly.com/portfolio/268749-%D9%87%D9%88%D9%8A%D8%A9-%D8%A8%D8%B5%D8%B1%D9%8A%D8%A9-%D9%84%D9%85%D9%87%D9%86%D8%AF%D8%B3-Full-Stack-%E2%80%93-%D8%B4%D8%B9%D8%A7%D8%B1-Merge-%D9%88%D9%84%D9%88%D8%AD%D8%A9-%D8%A7%D9%84%D9%87%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84%D8%A9"
+          }
+        ],
+        "demo": null,
+        "extra": [],
+        "cover": "portfolio/design/merge-fullstack-identity/images/cover.jpg",
+        "images": [
+          "portfolio/design/merge-fullstack-identity/images/01.jpg",
+          "portfolio/design/merge-fullstack-identity/images/02.jpg",
+          "portfolio/design/merge-fullstack-identity/images/03.jpg"
+        ],
+        "path": "portfolio/design/merge-fullstack-identity"
+      },
+      {
+        "slug": "vr-ar-presentation",
+        "category": "design",
+        "en": "VR & AR Professional Presentation",
+        "ar": "عرض تقديمي احترافي عن تقنيات الواقع الافتراضي والواقع المعزز VR & AR",
+        "desc_en": "Academic Arabic (RTL) presentation on VR/AR: definitions, hardware, comparison table, applications, stats and infographics.",
+        "desc_ar": "نموذج أولي لعرض تقديمي أكاديمي احترافي عن تقنيات الواقع الافتراضي والواقع المعزز، بتصميم عصري موحّد يدعم اللغة العربية (RTL). يتضمن شريحة العنوان، تعريف الواقع الافتراضي والمعزز والفرق بينهما، آلية العمل والأجهزة المستخدمة، جدول مقارنة منهجي بين VR وAR، مجالات التطبيق في التعليم والطب والألعاب والصناعة والهندسة، وإحصائيات واتجاهات مستقبلية مدعومة برسوم بيانية وإنفوجرافيك. التصميم قابل للتسليم بصيغة PowerPoint قابلة للتعديل وPDF.",
+        "skills": [
+          "Powerpoint",
+          "Microsoft Office",
+          "الرسوم البيانية",
+          "التصميم الإبداعي"
+        ],
+        "platforms": [
+          {
+            "key": "nafezly",
+            "name": "Nafezly · نفذلي",
+            "url": "https://nafezly.com/portfolio/268669-%D8%B9%D8%B1%D8%B6-%D8%AA%D9%82%D8%AF%D9%8A%D9%85%D9%8A-%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A-%D8%B9%D9%86-%D8%AA%D9%82%D9%86%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%88%D8%A7%D9%82%D8%B9-%D8%A7%D9%84%D8%A7%D9%81%D8%AA%D8%B1%D8%A7%D8%B6%D9%8A-%D9%88%D8%A7%D9%84%D9%88%D8%A7%D9%82%D8%B9-%D8%A7%D9%84%D9%85%D8%B9%D8%B2%D8%B2-VR---AR"
+          }
+        ],
+        "demo": null,
+        "extra": [],
+        "cover": "portfolio/design/vr-ar-presentation/images/cover.jpg",
+        "images": [
+          "portfolio/design/vr-ar-presentation/images/01.jpg",
+          "portfolio/design/vr-ar-presentation/images/02.jpg",
+          "portfolio/design/vr-ar-presentation/images/03.jpg",
+          "portfolio/design/vr-ar-presentation/images/04.jpg"
+        ],
+        "path": "portfolio/design/vr-ar-presentation"
+      },
+      {
+        "slug": "kaggle-ai-agent-security",
+        "category": "ai",
+        "en": "Kaggle Bronze – AI Agent Security",
+        "ar": "ميدالية برونزية على Kaggle – أمن وكلاء الذكاء الاصطناعي",
+        "desc_en": "Kaggle competition notebook detecting multi-step tool attacks on AI agents — Bronze medal, rank 377 of 4,186 (top 9%).",
+        "desc_ar": "دفتر مشاركة في مسابقة Kaggle حول اكتشاف هجمات الأدوات متعددة الخطوات على وكلاء الذكاء الاصطناعي. حصلت على ميدالية Bronze بترتيب 377 من أصل 4,186 مشاركًا (ضمن أفضل 9%). يتضمن العمل تحليل البيانات وبناء وتقييم حل المسابقة. هذا مشروع تنافسي/بحثي باستخدام دفتر Kaggle، وليس منتجًا أمنيًا منشورًا للإنتاج.",
+        "skills": [
+          "Python",
+          "Artificial Intelligence",
+          "Machine Learning",
+          "AI Agent Development",
+          "Data Analysis"
+        ],
+        "platforms": [
+          {
+            "key": "nafezly",
+            "name": "Nafezly · نفذلي",
+            "url": "https://nafezly.com/portfolio/266812-Kaggle-Bronze-%E2%80%93-AI-Agent-Security"
+          },
+          {
+            "key": "upwork",
+            "name": "Upwork",
+            "url": "https://www.upwork.com/freelancers/~016f07b2d17f649923?p=2118985792452550656"
+          },
+          {
+            "key": "mostaql",
+            "name": "Mostaql · مستقل",
+            "url": "https://mostaql.com/portfolio/2256173-%D8%A3%D9%85%D9%86-%D9%88%D9%83%D9%84%D8%A7%D8%A1-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D8%A8%D8%B1%D9%88%D9%86%D8%B2%D9%8A%D8%A9-kaggle"
+          }
+        ],
+        "demo": null,
+        "extra": [
+          {
+            "label": "Kaggle Notebook",
+            "url": "https://www.kaggle.com/code/youssefyacoup/ai-agent?scriptVersionId=344201601"
+          },
+          {
+            "label": "GitHub Repository",
+            "url": "https://github.com/Youssef123ya/Kaggle-Competitions"
+          },
+          {
+            "label": "Kaggle Certificate",
+            "url": "https://www.kaggle.com/certification/competitions/youssefyacoup/ai-agent-security-multi-step-tool-attacks"
+          }
+        ],
+        "cover": "portfolio/ai/kaggle-ai-agent-security/images/cover.jpg",
+        "images": [
+          "portfolio/ai/kaggle-ai-agent-security/images/01.jpg",
+          "portfolio/ai/kaggle-ai-agent-security/images/02.jpg",
+          "portfolio/ai/kaggle-ai-agent-security/images/03.jpg",
+          "portfolio/ai/kaggle-ai-agent-security/images/04.jpg"
+        ],
+        "path": "portfolio/ai/kaggle-ai-agent-security"
+      },
+      {
+        "slug": "invoicepilot",
+        "category": "ai",
+        "en": "InvoicePilot – Smart Invoices for Freelancers",
+        "ar": "InvoicePilot – فواتير ذكية للمستقلين",
+        "desc_en": "Web app that turns freelancer work notes into reviewable invoice drafts with Gemini, then creates them in PayPal Sandbox (React, TS, Cloudflare Workers).",
+        "desc_ar": "تطبيق ويب يحوّل ملاحظات المستقل عن العمل إلى مسودة فاتورة قابلة للمراجعة قبل إنشائها. يستخدم Gemini لاستخراج بنود الفاتورة وطرح أسئلة عند نقص الكميات أو الأسعار. بعد مراجعة المستخدم، ينشئ فاتورة في PayPal Sandbox، ويمكنه تفعيل رابط الدفع وقراءة الحالة الفعلية من PayPal. بنيته باستخدام React وTypeScript وCloudflare Workers وZod، مع التحقق من الطلبات في الخادم وحفظ اختياري للمسودة محليًا. المشروع مقدم إلى PayPal AI Hackathon. ملاحظة: التكامل مع PayPal يعمل في بيئة Sandbox، وعينة العرض غير مدفوعة.",
+        "skills": [
+          "TypeScript",
+          "React",
+          "API Integration",
+          "Generative AI",
+          "PayPal Integration"
+        ],
+        "platforms": [
+          {
+            "key": "nafezly",
+            "name": "Nafezly · نفذلي",
+            "url": "https://nafezly.com/portfolio/266804-InvoicePilot-%E2%80%93-%D9%81%D9%88%D8%A7%D8%AA%D9%8A%D8%B1-%D8%B0%D9%83%D9%8A%D8%A9-%D9%84%D9%84%D9%85%D8%B3%D8%AA%D9%82%D9%84%D9%8A%D9%86"
+          },
+          {
+            "key": "upwork",
+            "name": "Upwork",
+            "url": "https://www.upwork.com/freelancers/~016f07b2d17f649923?p=2118989579278434304"
+          },
+          {
+            "key": "mostaql",
+            "name": "Mostaql · مستقل",
+            "url": "https://mostaql.com/portfolio/2256178-invoicepilot-%D9%85%D8%B3%D8%A7%D8%B9%D8%AF-%D8%B0%D9%83%D9%8A-%D9%84%D8%A5%D8%B9%D8%AF%D8%A7%D8%AF-%D8%A7%D9%84%D9%81%D9%88%D8%A7%D8%AA%D9%8A%D8%B1"
+          }
+        ],
+        "demo": null,
+        "extra": [
+          {
+            "label": "Devpost",
+            "url": "https://devpost.com/software/invoicepilot-s9euh1"
+          },
+          {
+            "label": "GitHub Repository",
+            "url": "https://github.com/Youssef123ya/invoicepilot-paypal-ai"
+          },
+          {
+            "label": "YouTube Demo",
+            "url": "https://youtube.com/shorts/KYOtxpa2Lqk"
+          }
+        ],
+        "cover": "portfolio/ai/invoicepilot/images/cover.jpg",
+        "images": [
+          "portfolio/ai/invoicepilot/images/01.jpg",
+          "portfolio/ai/invoicepilot/images/02.jpg",
+          "portfolio/ai/invoicepilot/images/03.jpg"
+        ],
+        "path": "portfolio/ai/invoicepilot"
+      },
+      {
+        "slug": "sand-dune-encroachment-tracker",
+        "category": "ai",
+        "en": "Sand Dune Encroachment Tracker – Geospatial ML",
+        "ar": "متتبّع زحف الكثبان الرملية – تعلّم آلي جيومكاني",
+        "desc_en": "For the TechMind Challenge, my team built a Python prototype that uses satellite imagery and spatial analysis to track sand dunes and forecast their movement. The dashboard visualizes predicted trajectories and areas where dunes could encroach on farmland or infrastructure. Our team placed first in Challenge 3.",
+        "desc_ar": "نموذج أولي بـ Python لمسابقة TechMind Challenge يستخدم صور الأقمار الصناعية والتحليل المكاني لتتبع الكثبان الرملية والتنبؤ بحركتها، مع لوحة عرض للمسارات المتوقعة والمناطق المعرضة للزحف على الأراضي الزراعية والبنية التحتية — حصل الفريق على المركز الأول في التحدي الثالث.",
+        "skills": [
+          "Machine Learning",
+          "Geospatial Data",
+          "Data Visualization",
+          "GIS",
+          "Python"
+        ],
+        "platforms": [
+          {
+            "key": "upwork",
+            "name": "Upwork",
+            "url": "https://www.upwork.com/freelancers/~016f07b2d17f649923?p=2118985485468385280"
+          }
+        ],
+        "demo": null,
+        "extra": [
+          {
+            "label": "GitHub Repository",
+            "url": "https://github.com/Youssef123ya/Challenge-3-Sand-Dune-Encroachment-Tracker"
+          }
+        ],
+        "cover": "portfolio/ai/sand-dune-encroachment-tracker/images/cover.jpg",
+        "images": [
+          "portfolio/ai/sand-dune-encroachment-tracker/images/01.jpg"
+        ],
+        "path": "portfolio/ai/sand-dune-encroachment-tracker"
+      },
+      {
+        "slug": "medmonitor-24-7",
+        "category": "backend",
+        "en": "MedMonitor 24/7 – Hospital Bed & Vitals Monitoring",
+        "ar": "MedMonitor 24/7 — نظام لمراقبة أسرّة المستشفى",
+        "desc_en": "Team hospital bed & vital-signs monitoring prototype scoring 100/100 as a graduation project (Top 15 at Nahda University CS faculty). Built .NET backend services and Azure cloud integration streaming real-time vitals to the monitoring UI.",
+        "desc_ar": "عملت ضمن فريق مشروع التخرج MedMonitor 24/7 لتطوير نموذج أولي لمراقبة أسرّة المستشفى والعلامات الحيوية. توليت تطوير أجزاء من الواجهة الخلفية باستخدام .NET وإعداد خدمات Azure التي تدعم نقل البيانات إلى واجهة المتابعة. توضح الصور المرفقة شاشة العلامات الحيوية داخل التطبيق، وأرفقت الملفات المصدرية للمراجعة. حصل المشروع الجماعي على 100/100، وكان ضمن أفضل 15 مشروعًا في كلية علوم الحاسب بجامعة النهضة.",
+        "skills": [
+          "ASP.NET",
+          ".NET",
+          "Microsoft Azure",
+          "C#",
+          "REST API"
+        ],
+        "platforms": [
+          {
+            "key": "mostaql",
+            "name": "Mostaql · مستقل",
+            "url": "https://mostaql.com/portfolio/2256167-medmonitor-247-%D9%86%D8%B8%D8%A7%D9%85-%D9%84%D9%85%D8%B1%D8%A7%D9%82%D8%A8%D8%A9-%D8%A3%D8%B3%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%B4%D9%81%D9%89"
+          }
+        ],
+        "demo": null,
+        "extra": [
+          {
+            "label": "GitHub Repository",
+            "url": "https://github.com/Youssef123ya/MedMonitor-24-7"
+          }
+        ],
+        "cover": "portfolio/backend/medmonitor-24-7/images/cover.jpg",
+        "images": [
+          "portfolio/backend/medmonitor-24-7/images/01.jpg",
+          "portfolio/backend/medmonitor-24-7/images/02.jpg",
+          "portfolio/backend/medmonitor-24-7/images/03.jpg"
+        ],
+        "path": "portfolio/backend/medmonitor-24-7"
+      },
+      {
+        "slug": "hail-social-media-kit",
+        "category": "design",
+        "en": "Modern Social Media Design Kit – Specialty Coffee (Hail)",
+        "ar": "Modern Social Media Design Kit – تصميمات سوشيال ميديا حديثة لعلامة قهوة مختصة",
+        "desc_en": "Unified social media design kit for a specialty coffee brand (Hail) sized per platform: Instagram square post (1080×1080), Reels/TikTok story (1080×1920), Facebook/X ad banner (1200×628), and carousel cover (1080×1350), plus shared colors, typography, and CTA system.",
+        "desc_ar": "مجموعة تصميمات سوشيال ميديا حديثة ومبتكرة بهوية بصرية موحدة لعلامة قهوة مختصة (هَيْل)، مصممة بالمقاسات الفعلية لكل منصة: منشور إنستغرام مربع 1080×1080 للإعلان عن منتج جديد، ستوري إنستغرام وتيك توك 1080×1920 لعرض نهاية الأسبوع، بانر إعلاني لفيسبوك وX بمقاس 1200×628 مع كود خصم، وغلاف منشور كاروسيل 1080×1350. تعتمد التصميمات على ألوان متناسقة وتايبوجرافي عربي واضح وتسلسل بصري قوي مع دعوات واضحة لاتخاذ إجراء، بالإضافة إلى نظام هوية مشترك (الألوان والخطوط والأزرار).",
+        "skills": [
+          "تصميم إعلان",
+          "تصميم بنرات",
+          "تصميم جرافيك",
+          "التسويق عبر مواقع التواصل الاجتماعي"
+        ],
+        "platforms": [
+          {
+            "key": "mostaql",
+            "name": "Mostaql · مستقل",
+            "url": "https://mostaql.com/portfolio/3916859-modern-social-media-design-kit-%D8%AA%D8%B5%D9%85%D9%8A%D9%85%D8%A7%D8%AA-%D8%B3%D9%88%D8%B4%D9%8A%D8%A7%D9%84-%D9%85%D9%8A%D8%AF%D9%8A%D8%A7-%D8%AD%D8%AF%D9%8A%D8%AB%D8%A9-%D9%84%D8%B9%D9%84%D8%A7%D9%85%D8%A9-%D9%82%D9%87%D9%88%D8%A9-%D9%85%D8%AE%D8%AA%D8%B5%D8%A9"
+          }
+        ],
+        "demo": "https://claude.ai/artifact/2m6rL3qCszNer19P36deXb",
+        "extra": [],
+        "cover": "portfolio/design/hail-social-media-kit/images/cover.jpg",
+        "images": [
+          "portfolio/design/hail-social-media-kit/images/01.jpg",
+          "portfolio/design/hail-social-media-kit/images/02.jpg",
+          "portfolio/design/hail-social-media-kit/images/03.jpg"
+        ],
+        "path": "portfolio/design/hail-social-media-kit"
+      }
+    ],
+    "services": [
+      {
+        "slug": "landing-page-design",
+        "en": "Responsive Landing Page Design & Development",
+        "ar": "سأصمم لك صفحة هبوط Landing Page متجاوبة واحترافية",
+        "listed": true,
+        "price": "$10",
+        "delivery": "3 days · ٣ أيام",
+        "intro_en": "A modern, fast landing page that presents your product or service clearly and turns visitors into customers.",
+        "intro_ar": "أصمم صفحات هبوط حديثة وسريعة تعرض منتجك أو خدمتك بشكل واضح وتساعد على تحويل الزوار إلى عملاء.",
+        "includes": [
+          {
+            "en": "One complete landing page, up to 5 sections",
+            "ar": "صفحة هبوط كاملة حتى 5 أقسام (الرئيسية، المميزات، الخدمات، آراء العملاء، التواصل)"
+          },
+          {
+            "en": "Fully responsive on mobile, tablet & desktop",
+            "ar": "تصميم متجاوب على الجوال والتابلت والكمبيوتر"
+          },
+          {
+            "en": "Clean, organized HTML, CSS & JavaScript",
+            "ar": "كود نظيف ومنظم بـ HTML وCSS وJavaScript سهل التعديل"
+          },
+          {
+            "en": "Fast loading & cross-browser compatible",
+            "ar": "سرعة تحميل عالية وتوافق مع كل المتصفحات الحديثة"
+          },
+          {
+            "en": "CTA buttons, WhatsApp & social links",
+            "ar": "أزرار دعوة لاتخاذ إجراء وروابط واتساب ووسائل التواصل"
+          },
+          {
+            "en": "Free revisions within scope",
+            "ar": "تعديلات مجانية حتى رضاك ضمن نطاق الخدمة"
+          }
+        ],
+        "steps": [
+          {
+            "en": "Understand the idea, audience & content",
+            "ar": "فهم فكرة المشروع والجمهور المستهدف والمحتوى"
+          },
+          {
+            "en": "Design the UI and get your approval",
+            "ar": "تصميم الواجهة وعرضها عليك للموافقة"
+          },
+          {
+            "en": "Build & test on all screen sizes",
+            "ar": "برمجة الصفحة وتجربتها على كل الشاشات"
+          },
+          {
+            "en": "Deliver all files + a short upload guide",
+            "ar": "تسليم الملفات كاملة مع شرح مختصر لطريقة رفعها"
+          }
+        ],
+        "upgrades": [
+          {
+            "title": "إضافة قسمين إضافيين للصفحة",
+            "price_usd": 5.0,
+            "extra_days": 1
+          },
+          {
+            "title": "إضافة نموذج تواصل يرسل الرسائل إلى بريدك",
+            "price_usd": 5.0,
+            "extra_days": 1
+          },
+          {
+            "title": "رفع الصفحة ونشرها على استضافة مجانية (Netlify أو GitHub Pages)",
+            "price_usd": 5.0,
+            "extra_days": 1
+          },
+          {
+            "title": "تسليم سريع خلال يوم واحد",
+            "price_usd": 10.0,
+            "delivery_days_total": 1
+          }
+        ],
+        "tools": [
+          "Figma",
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "Tailwind CSS"
+        ],
+        "related": [
+          "madar-landing-page",
+          "cafe-landing-page",
+          "lead-gen-landing-page",
+          "arabic-portfolio-website"
+        ],
+        "order": [
+          {
+            "label": "Khamsat · خمسات",
+            "url": "https://khamsat.com/programming/custom-website-development/4505135-%D8%B3%D8%A3%D8%B5%D9%85%D9%85-%D9%84%D9%83-%D8%B5%D9%81%D8%AD%D8%A9-%D9%87%D8%A8%D9%88%D8%B7-landing-page-%D9%85%D8%AA%D8%AC%D8%A7%D9%88%D8%A8%D8%A9-%D9%88%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A%D8%A9"
+          }
+        ],
+        "cover": "services/landing-page-design/images/cover.jpg",
+        "images": [
+          "services/landing-page-design/images/01.jpg",
+          "services/landing-page-design/images/02.jpg",
+          "services/landing-page-design/images/03.jpg",
+          "services/landing-page-design/images/04.jpg",
+          "services/landing-page-design/images/05.jpg"
+        ],
+        "path": "services/landing-page-design"
+      },
+      {
+        "slug": "backend-api-development",
+        "en": "Backend & REST API Development",
+        "ar": "تطوير الباك إند وواجهات REST API",
+        "listed": false,
+        "price": null,
+        "delivery": null,
+        "intro_en": "Reliable backends and REST APIs that connect your app, database and third-party services — documented and ready to maintain.",
+        "intro_ar": "أبني أنظمة Backend وواجهات REST API موثوقة تربط تطبيقك بقاعدة البيانات والخدمات الخارجية، مع توثيق واضح وكود سهل الصيانة.",
+        "includes": [
+          {
+            "en": "API design & endpoint documentation",
+            "ar": "تصميم الـ API وتوثيق نقاط النهاية"
+          },
+          {
+            "en": "Database schema & SQL queries",
+            "ar": "تصميم قاعدة البيانات واستعلامات SQL"
+          },
+          {
+            "en": "Authentication (JWT) & role-based access",
+            "ar": "المصادقة (JWT) والصلاحيات حسب الأدوار"
+          },
+          {
+            "en": "Integrations with payment / third-party APIs",
+            "ar": "الربط مع بوابات الدفع والخدمات الخارجية"
+          },
+          {
+            "en": "Docker & cloud deployment (Azure / Google Cloud / AWS)",
+            "ar": "Docker والنشر على السحابة (Azure / Google Cloud / AWS)"
+          },
+          {
+            "en": "Run instructions & handover docs",
+            "ar": "توثيق خطوات التشغيل والتسليم"
+          }
+        ],
+        "steps": [],
+        "upgrades": [],
+        "tools": [
+          "C#",
+          "ASP.NET Core",
+          ".NET",
+          "Python",
+          "Node.js",
+          "SQL",
+          "Docker",
+          "Azure",
+          "Terraform"
+        ],
+        "related": [
+          "medmonitor-24-7",
+          "taskflow-api",
+          "real-estate-erp-leads",
+          "secure-aws-infrastructure"
+        ],
+        "order": [
+          {
+            "label": "Upwork",
+            "url": "https://www.upwork.com/freelancers/~016f07b2d17f649923"
+          },
+          {
+            "label": "Freelancer.com",
+            "url": "https://www.freelancer.com/u/yyacoup"
+          },
+          {
+            "label": "Mostaql · مستقل",
+            "url": "https://mostaql.com/u/yyacoup"
+          },
+          {
+            "label": "Nafezly · نفذلي",
+            "url": "https://nafezly.com/u/YoussefYacoup"
+          }
+        ],
+        "cover": "services/backend-api-development/images/cover.jpg",
+        "images": [],
+        "path": "services/backend-api-development"
+      },
+      {
+        "slug": "ai-apps-automation",
+        "en": "AI-Powered Apps & Workflow Automation",
+        "ar": "تطبيقات وأتمتة بالذكاء الاصطناعي",
+        "listed": false,
+        "price": null,
+        "delivery": null,
+        "intro_en": "AI features that do real work — structured outputs, a human review step, and integrations with the tools you already use.",
+        "intro_ar": "أضيف ميزات ذكاء اصطناعي تؤدي شغل حقيقي: مخرجات منظمة، وخطوة مراجعة بشرية، وربط مع الأدوات اللي بتستخدمها.",
+        "includes": [
+          {
+            "en": "LLM assistants & chat widgets (Gemini, GPT, Claude)",
+            "ar": "مساعدات ذكية وشات بوت (Gemini وGPT وClaude)"
+          },
+          {
+            "en": "Structured extraction with validation (e.g. Zod)",
+            "ar": "استخراج بيانات منظمة مع التحقق منها"
+          },
+          {
+            "en": "Human-in-the-loop review & approval gates",
+            "ar": "مراجعة بشرية وموافقات قبل التنفيذ"
+          },
+          {
+            "en": "Automations for Slack, email, CRM, invoices",
+            "ar": "أتمتة Slack والإيميل والـ CRM والفواتير"
+          },
+          {
+            "en": "Admin panel, logs & analytics",
+            "ar": "لوحة إدارة وسجلات وتحليلات"
+          }
+        ],
+        "steps": [],
+        "upgrades": [],
+        "tools": [
+          "Python",
+          "TypeScript",
+          "React",
+          "Cloudflare Workers",
+          "Gemini API",
+          "REST APIs"
+        ],
+        "related": [
+          "invoicepilot",
+          "opspilot-slack-automation",
+          "ai-marketing-copy-assistant",
+          "ai-real-estate-cma"
+        ],
+        "order": [
+          {
+            "label": "Upwork",
+            "url": "https://www.upwork.com/freelancers/~016f07b2d17f649923"
+          },
+          {
+            "label": "Freelancer.com",
+            "url": "https://www.freelancer.com/u/yyacoup"
+          },
+          {
+            "label": "Mostaql · مستقل",
+            "url": "https://mostaql.com/u/yyacoup"
+          },
+          {
+            "label": "Nafezly · نفذلي",
+            "url": "https://nafezly.com/u/YoussefYacoup"
+          }
+        ],
+        "cover": "services/ai-apps-automation/images/cover.jpg",
+        "images": [],
+        "path": "services/ai-apps-automation"
+      },
+      {
+        "slug": "machine-learning-data-science",
+        "en": "Machine Learning & Data Science Prototypes",
+        "ar": "نماذج تعلّم الآلة وعلوم البيانات",
+        "listed": false,
+        "price": null,
+        "delivery": null,
+        "intro_en": "Turn your dataset into a baseline model you can trust: cleaning, EDA, modeling, evaluation and a clear report.",
+        "intro_ar": "أحوّل بياناتك لنموذج أولي تقدر تعتمد عليه: تنظيف، تحليل استكشافي، بناء نموذج، تقييم، وتقرير واضح.",
+        "includes": [
+          {
+            "en": "Data cleaning & exploratory analysis (pandas)",
+            "ar": "تنظيف البيانات والتحليل الاستكشافي (pandas)"
+          },
+          {
+            "en": "Baseline ML models & evaluation metrics",
+            "ar": "نماذج تعلّم آلة أولية ومقاييس تقييم"
+          },
+          {
+            "en": "Kaggle-grade notebooks, reproducible",
+            "ar": "دفاتر Jupyter منظمة وقابلة لإعادة التشغيل"
+          },
+          {
+            "en": "Model serving via API or dashboard",
+            "ar": "تشغيل النموذج عبر API أو لوحة تحكم"
+          }
+        ],
+        "steps": [],
+        "upgrades": [],
+        "tools": [
+          "Python",
+          "pandas",
+          "scikit-learn",
+          "Jupyter",
+          "Kaggle",
+          "GIS"
+        ],
+        "related": [
+          "ai-real-estate-cma",
+          "kaggle-ai-agent-security",
+          "sand-dune-encroachment-tracker"
+        ],
+        "order": [
+          {
+            "label": "Upwork",
+            "url": "https://www.upwork.com/freelancers/~016f07b2d17f649923"
+          },
+          {
+            "label": "Freelancer.com",
+            "url": "https://www.freelancer.com/u/yyacoup"
+          },
+          {
+            "label": "Mostaql · مستقل",
+            "url": "https://mostaql.com/u/yyacoup"
+          },
+          {
+            "label": "Nafezly · نفذلي",
+            "url": "https://nafezly.com/u/YoussefYacoup"
+          }
+        ],
+        "cover": "services/machine-learning-data-science/images/cover.jpg",
+        "images": [],
+        "path": "services/machine-learning-data-science"
+      },
+      {
+        "slug": "data-cleaning-excel-dashboards",
+        "en": "Data Cleaning & Excel Dashboards",
+        "ar": "تنظيف البيانات ولوحات تحكم Excel",
+        "listed": false,
+        "price": null,
+        "delivery": null,
+        "intro_en": "Messy spreadsheets turned into clean, trustworthy data and interactive dashboards your team can actually use.",
+        "intro_ar": "أحوّل ملفات Excel العشوائية لبيانات نظيفة وموثوقة ولوحات تحكم تفاعلية يقدر فريقك يستخدمها.",
+        "includes": [
+          {
+            "en": "Remove duplicates, fix formats & missing values",
+            "ar": "إزالة التكرار وتوحيد التنسيقات ومعالجة القيم الناقصة"
+          },
+          {
+            "en": "Traceable Power Query cleaning steps",
+            "ar": "خطوات تنظيف قابلة للتتبع بـ Power Query"
+          },
+          {
+            "en": "KPI dashboards with filters & charts",
+            "ar": "لوحات مؤشرات أداء بفلاتر ورسوم بيانية"
+          },
+          {
+            "en": "Arabic-ready reports",
+            "ar": "تقارير تدعم اللغة العربية"
+          }
+        ],
+        "steps": [],
+        "upgrades": [],
+        "tools": [
+          "Microsoft Excel",
+          "Power Query",
+          "Data Analysis",
+          "HTML"
+        ],
+        "related": [
+          "sales-history-cleaning",
+          "excel-sales-cleanup",
+          "hr-analytics-dashboard"
+        ],
+        "order": [
+          {
+            "label": "Mostaql · مستقل",
+            "url": "https://mostaql.com/u/yyacoup"
+          },
+          {
+            "label": "Nafezly · نفذلي",
+            "url": "https://nafezly.com/u/YoussefYacoup"
+          },
+          {
+            "label": "Upwork",
+            "url": "https://www.upwork.com/freelancers/~016f07b2d17f649923"
+          },
+          {
+            "label": "Freelancer.com",
+            "url": "https://www.freelancer.com/u/yyacoup"
+          }
+        ],
+        "cover": "services/data-cleaning-excel-dashboards/images/cover.jpg",
+        "images": [],
+        "path": "services/data-cleaning-excel-dashboards"
+      },
+      {
+        "slug": "websites-ecommerce",
+        "en": "Websites, Stores & Web Prototypes",
+        "ar": "تطوير المواقع والمتاجر والنماذج التفاعلية",
+        "listed": false,
+        "price": null,
+        "delivery": null,
+        "intro_en": "Business websites, online stores and interactive prototypes — responsive, fast and easy to update.",
+        "intro_ar": "مواقع شركات ومتاجر إلكترونية ونماذج تفاعلية، متجاوبة وسريعة وسهلة التعديل.",
+        "includes": [
+          {
+            "en": "Business & portfolio websites",
+            "ar": "مواقع شركات وبورتفوليو"
+          },
+          {
+            "en": "E-commerce storefronts with cart, checkout & admin",
+            "ar": "متاجر إلكترونية بسلة ودفع ولوحة إدارة"
+          },
+          {
+            "en": "WordPress / Elementor & Shopify-style builds",
+            "ar": "تنفيذ على ووردبريس/Elementor وبأسلوب Shopify"
+          },
+          {
+            "en": "Dashboards & admin UIs (React, Tailwind)",
+            "ar": "لوحات تحكم وواجهات إدارة (React وTailwind)"
+          }
+        ],
+        "steps": [],
+        "upgrades": [],
+        "tools": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "React",
+          "Tailwind CSS",
+          "WordPress",
+          "Shopify"
+        ],
+        "related": [
+          "francesko-fashion-store",
+          "shopify-booking-storefront",
+          "digital-download-store",
+          "premium-business-website"
+        ],
+        "order": [
+          {
+            "label": "Upwork",
+            "url": "https://www.upwork.com/freelancers/~016f07b2d17f649923"
+          },
+          {
+            "label": "Freelancer.com",
+            "url": "https://www.freelancer.com/u/yyacoup"
+          },
+          {
+            "label": "Mostaql · مستقل",
+            "url": "https://mostaql.com/u/yyacoup"
+          },
+          {
+            "label": "Nafezly · نفذلي",
+            "url": "https://nafezly.com/u/YoussefYacoup"
+          }
+        ],
+        "cover": "services/websites-ecommerce/images/cover.jpg",
+        "images": [],
+        "path": "services/websites-ecommerce"
+      },
+      {
+        "slug": "brand-identity-design",
+        "en": "Logo & Visual Identity Design",
+        "ar": "تصميم الشعارات والهوية البصرية",
+        "listed": false,
+        "price": null,
+        "delivery": null,
+        "intro_en": "Logos and complete brand boards — colors, typography, patterns and real-world mockups, in Arabic and English.",
+        "intro_ar": "شعارات ولوحات هوية متكاملة: ألوان وخطوط وأنماط وتطبيقات واقعية، بالعربي والإنجليزي.",
+        "includes": [
+          {
+            "en": "2–3 logo concepts (color & mono)",
+            "ar": "من 2 إلى 3 مفاهيم شعار (ملوّن وأحادي)"
+          },
+          {
+            "en": "Color palette with HEX codes",
+            "ar": "لوحة ألوان بأكواد HEX"
+          },
+          {
+            "en": "Arabic + Latin font pairing",
+            "ar": "توليفة خطوط عربية ولاتينية"
+          },
+          {
+            "en": "Stationery, packaging & social mockups",
+            "ar": "مطبوعات وتغليف وقوالب سوشيال ميديا"
+          },
+          {
+            "en": "SVG vector + high-res PNG",
+            "ar": "ملفات SVG فيكتور وPNG عالية الدقة"
+          }
+        ],
+        "steps": [],
+        "upgrades": [],
+        "tools": [
+          "Illustrator",
+          "Logo Design",
+          "Brand Identity",
+          "Graphic Design"
+        ],
+        "related": [
+          "rose-and-sugar-identity",
+          "hail-social-media-kit",
+          "nova-trade-identity",
+          "arabic-publisher-identity",
+          "merge-fullstack-identity",
+          "minimal-logo-concepts"
+        ],
+        "order": [
+          {
+            "label": "Mostaql · مستقل",
+            "url": "https://mostaql.com/u/yyacoup"
+          },
+          {
+            "label": "Nafezly · نفذلي",
+            "url": "https://nafezly.com/u/YoussefYacoup"
+          },
+          {
+            "label": "Upwork",
+            "url": "https://www.upwork.com/freelancers/~016f07b2d17f649923"
+          },
+          {
+            "label": "Freelancer.com",
+            "url": "https://www.freelancer.com/u/yyacoup"
+          }
+        ],
+        "cover": "services/brand-identity-design/images/cover.jpg",
+        "images": [],
+        "path": "services/brand-identity-design"
+      },
+      {
+        "slug": "ad-copy-video-scripts",
+        "en": "Ad Copy, Video Scripts & Storyboards",
+        "ar": "كتابة الإعلانات وسيناريوهات الفيديو والستوري بورد",
+        "listed": false,
+        "price": null,
+        "delivery": null,
+        "intro_en": "Short-form ad scripts, storyboards and marketing copy ready for Reels, TikTok, Shorts and AI video tools.",
+        "intro_ar": "سكريبتات إعلانات قصيرة وستوري بورد ونصوص تسويقية جاهزة للريلز وتيك توك وشورتس وأدوات الفيديو بالذكاء الاصطناعي.",
+        "includes": [
+          {
+            "en": "Hook-first scripts with scene breakdown",
+            "ar": "سكريبت يبدأ بخطّاف قوي مع تقسيم المشاهد"
+          },
+          {
+            "en": "Interactive storyboards with timing",
+            "ar": "ستوري بورد تفاعلي بالتوقيتات"
+          },
+          {
+            "en": "Ad angles & A/B headline variants",
+            "ar": "زوايا إعلانية وعناوين لاختبار A/B"
+          },
+          {
+            "en": "Arabic (incl. Egyptian dialect) copy",
+            "ar": "كتابة بالعربية الفصحى واللهجة المصرية"
+          }
+        ],
+        "steps": [],
+        "upgrades": [],
+        "tools": [
+          "Copywriting",
+          "Scriptwriting",
+          "Storyboarding",
+          "AI Video"
+        ],
+        "related": [
+          "floor-chair-video-script",
+          "floor-chair-storyboard",
+          "luxury-watch-ad-campaign",
+          "luxury-watch-ai-storyboard"
+        ],
+        "order": [
+          {
+            "label": "Mostaql · مستقل",
+            "url": "https://mostaql.com/u/yyacoup"
+          },
+          {
+            "label": "Nafezly · نفذلي",
+            "url": "https://nafezly.com/u/YoussefYacoup"
+          },
+          {
+            "label": "Upwork",
+            "url": "https://www.upwork.com/freelancers/~016f07b2d17f649923"
+          },
+          {
+            "label": "Freelancer.com",
+            "url": "https://www.freelancer.com/u/yyacoup"
+          }
+        ],
+        "cover": "services/ad-copy-video-scripts/images/cover.jpg",
+        "images": [],
+        "path": "services/ad-copy-video-scripts"
+      }
+    ],
+    "profiles": [
+      {
+        "key": "upwork",
+        "name_en": "Upwork",
+        "name_ar": "أب وورك",
+        "url": "https://www.upwork.com/freelancers/~016f07b2d17f649923",
+        "color": "#14A800",
+        "meta_en": "$20/hr · >30 hrs/wk · Contract-to-hire",
+        "meta_ar": "$20/ساعة · أكثر من 30 ساعة/أسبوع",
+        "count_en": "3 portfolio items",
+        "count_ar": "3 أعمال في المعرض",
+        "doc": "profiles/upwork.md",
+        "filterable": true
+      },
+      {
+        "key": "freelancer",
+        "name_en": "Freelancer.com",
+        "name_ar": "فريلانسر",
+        "url": "https://www.freelancer.com/u/yyacoup",
+        "color": "#29B2FE",
+        "meta_en": "$10/hr · Payment, Phone & Email verified",
+        "meta_ar": "$10/ساعة · موثّق الدفع والهاتف والبريد",
+        "count_en": "16 portfolio items",
+        "count_ar": "16 عملًا في المعرض",
+        "doc": "profiles/freelancer.md",
+        "filterable": true
+      },
+      {
+        "key": "mostaql",
+        "name_en": "Mostaql",
+        "name_ar": "مستقل",
+        "url": "https://mostaql.com/u/yyacoup",
+        "color": "#2386C8",
+        "meta_en": "ID Verified · 2-year member",
+        "meta_ar": "هوية موثّقة · عضو منذ سنتين",
+        "count_en": "4 portfolio items",
+        "count_ar": "4 أعمال في المعرض",
+        "doc": "profiles/mostaql.md",
+        "filterable": true
+      },
+      {
+        "key": "nafezly",
+        "name_en": "Nafezly",
+        "name_ar": "نفذلي",
+        "url": "https://nafezly.com/u/YoussefYacoup",
+        "color": "#4F46E5",
+        "meta_en": "Backend & AI Developer · Egypt",
+        "meta_ar": "مطور Backend وAI · مصر",
+        "count_en": "20 portfolio items",
+        "count_ar": "20 عملًا في المعرض",
+        "doc": "profiles/nafezly.md",
+        "filterable": true
+      },
+      {
+        "key": "khamsat",
+        "name_en": "Khamsat",
+        "name_ar": "خمسات",
+        "url": "https://khamsat.com/user/youssefyacoup",
+        "color": "#F7931E",
+        "meta_en": "ID Verified · 100% Fundamentals score",
+        "meta_ar": "هوية موثّقة · 100% في أساسيات خمسات",
+        "count_en": "1 service · from $10",
+        "count_ar": "خدمة واحدة · تبدأ من $10",
+        "doc": "profiles/khamsat.md",
+        "filterable": false
+      }
+    ],
+    "open_source": [
+      {
+        "name": "InvoicePilot",
+        "repo": "invoicepilot-paypal-ai",
+        "url": "https://github.com/Youssef123ya/invoicepilot-paypal-ai",
+        "summary": "AI invoice assistant · PayPal AI Hackathon"
+      },
+      {
+        "name": "Sand Dune Encroachment Tracker",
+        "repo": "Challenge-3-Sand-Dune-Encroachment-Tracker",
+        "url": "https://github.com/Youssef123ya/Challenge-3-Sand-Dune-Encroachment-Tracker",
+        "summary": "1st place · TechMind Challenge 3 (Geospatial ML)"
+      },
+      {
+        "name": "MedMonitor 24/7",
+        "repo": "MedMonitor-24-7",
+        "url": "https://github.com/Youssef123ya/MedMonitor-24-7",
+        "summary": "Hospital monitoring · graduation project 100/100"
+      },
+      {
+        "name": "Kaggle Competitions",
+        "repo": "Kaggle-Competitions",
+        "url": "https://github.com/Youssef123ya/Kaggle-Competitions",
+        "summary": "2 bronze medals"
+      },
+      {
+        "name": "TechMind Challenge 2025",
+        "repo": "TechMind-Challenge-2025",
+        "url": "https://github.com/Youssef123ya/TechMind-Challenge-2025",
+        "summary": "1st place · TechMind Challenge"
+      },
+      {
+        "name": "Devpost Competitions",
+        "repo": "Devpost_Competitons",
+        "url": "https://github.com/Youssef123ya/Devpost_Competitons",
+        "summary": "Hackathon projects collection"
+      },
+      {
+        "name": "rollout-trace",
+        "repo": "rollout-trace",
+        "url": "https://github.com/Youssef123ya/rollout-trace",
+        "summary": "Deployment-failure research desk · ODSC × Nebius"
+      },
+      {
+        "name": "sleight-of-eye",
+        "repo": "sleight-of-eye",
+        "url": "https://github.com/Youssef123ya/sleight-of-eye",
+        "summary": "WebXR game for Meta Quest"
+      },
+      {
+        "name": "ghostlight-kiroween-2026",
+        "repo": "ghostlight-kiroween-2026",
+        "url": "https://github.com/Youssef123ya/ghostlight-kiroween-2026",
+        "summary": "HTML accessibility repair workshop"
+      }
+    ],
+    "experience": [
+      {
+        "role_en": "Machine Learning Engineer (Part-time)",
+        "role_ar": "مهندس تعلّم آلة (دوام جزئي)",
+        "org": "Shipd / Datacurve",
+        "period": "Mar 2026 – Present"
+      },
+      {
+        "role_en": "Freelance Backend Developer",
+        "role_ar": "مطور Backend مستقل",
+        "org": "ALX Ventures (Gig-at-a-Startup)",
+        "period": "Oct 2024 – Present"
+      },
+      {
+        "role_en": "AI & Machine Learning Intern",
+        "role_ar": "متدرب ذكاء اصطناعي وتعلّم آلة",
+        "org": "Genius Technology Center (GTC)",
+        "period": "Aug 2025 – Sep 2025"
+      },
+      {
+        "role_en": "React Web Development Trainee",
+        "role_ar": "متدرب تطوير واجهات React",
+        "org": "Information Technology Institute (ITI)",
+        "period": "Sep 2024"
+      }
+    ],
+    "credentials": [
+      {
+        "title_en": "B.Sc. Computer Science (IT)",
+        "title_ar": "بكالوريوس علوم الحاسب (IT)",
+        "org": "Nahda University in Beni Suef",
+        "year": "2022–2026"
+      },
+      {
+        "title_en": "ALX / Holberton Software Engineering — Backend",
+        "title_ar": "هندسة البرمجيات (تخصص Backend) — ALX / Holberton",
+        "org": "ALX Africa",
+        "year": "2024"
+      },
+      {
+        "title_en": "IBM Full Stack Software Developer",
+        "title_ar": "شهادة IBM الاحترافية لتطوير البرمجيات Full Stack",
+        "org": "Coursera",
+        "year": "2024",
+        "url": "https://www.coursera.org/verify/professional-cert/86A8LFNLFG9B"
+      },
+      {
+        "title_en": "Kaggle Bronze Medal — AI Agent Security (Top 9%)",
+        "title_ar": "ميدالية برونزية Kaggle — أمن وكلاء الذكاء الاصطناعي",
+        "org": "Kaggle",
+        "year": "2026",
+        "url": "https://www.kaggle.com/certification/competitions/youssefyacoup/ai-agent-security-multi-step-tool-attacks"
+      },
+      {
+        "title_en": "Google Cloud Technical Series: AI in Action",
+        "title_ar": "شارة Google Cloud: AI in Action",
+        "org": "Google Cloud",
+        "year": "2026"
+      },
+      {
+        "title_en": "DEPI React · GTC ML · ITI React & PHP · Walmart Forage",
+        "title_ar": "DEPI React · تدريب GTC ML · ITI React وPHP · Walmart Forage",
+        "org": "Certificates",
+        "year": "2024–2025"
+      },
+      {
+        "title_en": "Khamsat Work Fundamentals (100%)",
+        "title_ar": "أساسيات العمل على خمسات (100%)",
+        "org": "Khbra / Khamsat",
+        "year": "2026",
+        "url": "https://khbra.com/attempts/e301455c-d1ad-4e63-b583-5f9dee3a576b"
+      }
+    ]
+  }
 }

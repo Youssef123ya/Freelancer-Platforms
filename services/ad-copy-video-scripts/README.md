@@ -6,9 +6,9 @@
 
 <h3 dir="rtl">كتابة الإعلانات وسيناريوهات الفيديو والستوري بورد</h3>
 
-<img src="https://img.shields.io/badge/Upwork-%2420%20/%20hour-14A800?style=flat-square"> <img src="https://img.shields.io/badge/Freelancer-%2410%20/%20hour-29B2FE?style=flat-square"> <img src="https://img.shields.io/badge/Nafezly-Custom%20quote-6366F1?style=flat-square">
+<img src="https://img.shields.io/badge/Upwork-%2420%20/%20hour-14A800?style=flat-square"> <img src="https://img.shields.io/badge/Freelancer-%2410%20/%20hour-29B2FE?style=flat-square"> <img src="https://img.shields.io/badge/Mostaql%20/%20Nafezly-Custom%20quote-6366F1?style=flat-square">
 
-<a href="https://www.upwork.com/freelancers/~016f07b2d17f649923"><img src="https://img.shields.io/badge/Upwork-14A800?style=for-the-badge&logo=upwork&logoColor=white"></a> <a href="https://www.freelancer.com/u/yyacoup"><img src="https://img.shields.io/badge/Freelancer.com-29B2FE?style=for-the-badge&logo=freelancer&logoColor=white"></a> <a href="https://nafezly.com/u/YoussefYacoup"><img src="https://img.shields.io/badge/Nafezly-2E3A87?style=for-the-badge"></a>
+<a href="https://www.upwork.com/freelancers/~016f07b2d17f649923"><img src="https://img.shields.io/badge/Upwork-14A800?style=for-the-badge&logo=upwork&logoColor=white"></a> <a href="https://www.freelancer.com/u/yyacoup"><img src="https://img.shields.io/badge/Freelancer.com-29B2FE?style=for-the-badge&logo=freelancer&logoColor=white"></a> <a href="https://mostaql.com/u/yyacoup"><img src="https://img.shields.io/badge/Mostaql-2386C8?style=for-the-badge"></a> <a href="https://nafezly.com/u/YoussefYacoup"><img src="https://img.shields.io/badge/Nafezly-2E3A87?style=for-the-badge"></a>
 
 </div>
 
@@ -46,6 +46,7 @@ Short-form ad scripts, storyboards and marketing copy ready for Reels, TikTok, S
 
 ## 📩 Order / Contact · اطلب الخدمة
 
+- **Mostaql · مستقل** → https://mostaql.com/u/yyacoup
 - **Nafezly · نفذلي** → https://nafezly.com/u/YoussefYacoup
 - **Upwork** → https://www.upwork.com/freelancers/~016f07b2d17f649923
 - **Freelancer.com** → https://www.freelancer.com/u/yyacoup

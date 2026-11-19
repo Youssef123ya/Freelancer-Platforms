@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youssef Yacoup — Services &amp; Portfolio | خدمات ومعرض أعمال يوسف يعقوب</title>
+  <meta name="description" content="AI &amp; Backend Developer (Python, .NET, Azure, React). Interactive portfolio, services, and freelance profiles across Upwork, Freelancer.com, Mostaql, Nafezly, and Khamsat.">
+  <meta property="og:title" content="Youssef Yacoup — Services &amp; Portfolio">
+  <meta property="og:description" content="39 portfolio projects, 8 services, and 5 freelance platforms — interactive bilingual showcase.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0%25' stop-color='%236366f1'/%3E%3Cstop offset='100%25' stop-color='%2306b6d4'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Segoe UI,Arial,sans-serif' font-size='28' font-weight='800' fill='white'%3EYY%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="site/styles.css">
+</head>
+<body>
+  <div class="bg-orb bg-orb-1" aria-hidden="true"></div>
+  <div class="bg-orb bg-orb-2" aria-hidden="true"></div>
+
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#top" class="brand" aria-label="Home">
+        <span class="brand-mark">YY</span>
+        <span class="brand-text" data-i18n="brand">يوسف يعقوب</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a href="#services" data-i18n="navServices">خدماتي</a>
+        <a href="#portfolio" data-i18n="navPortfolio">معرض الأعمال</a>
+        <a href="#platforms" data-i18n="navPlatforms">المنصات</a>
+        <a href="#opensource" data-i18n="navOpenSource">مفتوح المصدر</a>
+        <a href="#experience" data-i18n="navExperience">الخبرات</a>
+        <a href="#contact" data-i18n="navContact">تواصل</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="icon-btn lang-btn" id="langToggle" type="button" title="Switch language">EN</button>
+        <button class="icon-btn theme-btn" id="themeToggle" type="button" aria-label="Toggle theme" title="Toggle theme">☀️</button>
+        <a href="#contact" class="btn btn-primary btn-sm nav-cta" data-i18n="navHire">اطلب خدمة</a>
+        <button class="icon-btn menu-btn" id="menuToggle" type="button" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="availability-pill">
+          <span class="pulse-dot"></span>
+          <span data-i18n="heroBadge">متاح لمشاريع العمل الحر والتعاقد · القاهرة، مصر</span>
+        </div>
+
+        <h1 class="hero-title">
+          <span data-i18n="heroTitlePrefix">يوسف يعقوب —</span>
+          <span class="gradient-text" data-i18n="heroTitleRole">مطوّر ذكاء اصطناعي وباك إند</span>
+        </h1>
+
+        <p class="hero-subtitle" data-i18n="heroSubtitle">
+          أطوّر نماذج تعلّم الآلة بـ Python وأنظمة Backend بـ .NET وAzure وتطبيقات ويب بالذكاء الاصطناعي — أحوّل بياناتك أو فكرتك إلى تطبيق عملي جاهز للاستخدام والتطوير.
+        </p>
+
+        <div class="hero-ctas">
+          <a href="#portfolio" class="btn btn-primary btn-lg" data-i18n="heroCtaPortfolio">تصفّح معرض الأعمال (39)</a>
+          <a href="#services" class="btn btn-secondary btn-lg" data-i18n="heroCtaServices">استعرض الخدمات (8)</a>
+          <a href="https://github.com/Youssef123ya/Freelancer-Platforms" target="_blank" rel="noopener" class="btn btn-ghost btn-lg" data-i18n="heroCtaRepo">مستودع GitHub ↗</a>
+        </div>
+
+        <!-- Platform Pills -->
+        <div class="platform-strip" id="heroPlatforms" aria-label="Freelance platforms"></div>
+
+        <!-- Social Links -->
+        <div class="social-strip">
+          <a href="https://github.com/Youssef123ya" target="_blank" rel="noopener">GitHub</a>
+          <span class="sep">·</span>
+          <a href="https://www.linkedin.com/in/youssef-yacoup-745234280/" target="_blank" rel="noopener">LinkedIn</a>
+          <span class="sep">·</span>
+          <a href="https://www.kaggle.com/youssefyacoup" target="_blank" rel="noopener">Kaggle</a>
+          <span class="sep">·</span>
+          <a href="https://devpost.com/Youssef123ya" target="_blank" rel="noopener">Devpost</a>
+          <span class="sep">·</span>
+          <a href="https://www.youtube.com/@YoussefYacoup" target="_blank" rel="noopener">YouTube</a>
+        </div>
+
+        <!-- Stats -->
+        <div class="stats-grid" id="statsGrid">
+          <div class="stat-card">
+            <div class="stat-value" id="statProjects">39</div>
+            <div class="stat-label" data-i18n="statProjects">عمل في المعرض</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value" id="statServices">8</div>
+            <div class="stat-label" data-i18n="statServices">خدمات متخصصة</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value" id="statPlatforms">5</div>
+            <div class="stat-label" data-i18n="statPlatforms">منصات عمل حر</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value" id="statDemos">13</div>
+            <div class="stat-label" data-i18n="statDemos">نسخ تجريبية مباشرة</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow" data-i18n="servicesEyebrow">ماذا أقدّم لك</span>
+            <h2 class="section-title" data-i18n="servicesTitle">خدماتي</h2>
+            <p class="section-desc" data-i18n="servicesDesc">اضغط على أي خدمة لعرض التفاصيل الكاملة، مراحل العمل، الأسعار، والأعمال المرتبطة بها.</p>
+          </div>
+          <div class="pricing-note" data-i18n="servicesPricing">
+            خمسات: تبدأ من $10 · فريلانسر: $10/ساعة · Upwork: $20/ساعة · مستقل ونفذلي: حسب المشروع
+          </div>
+        </div>
+
+        <div class="services-grid" id="servicesGrid">
+          <div class="loading-box" data-i18n="loading">جاري التحميل...</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="section section-alt" id="portfolio">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow" data-i18n="portfolioEyebrow">أعمال حقيقية بالصور والروابط</span>
+            <h2 class="section-title" data-i18n="portfolioTitle">معرض الأعمال</h2>
+            <p class="section-desc" data-i18n="portfolioDesc">ابحث بالعربي أو الإنجليزي، وفلتر حسب التصنيف أو المنصة أو المشاريع التي تحتوي على ديمو تفاعلي مباشر.</p>
+          </div>
+        </div>
+
+        <!-- Filter Bar -->
+        <div class="filter-panel">
+          <div class="filter-top-row">
+            <div class="search-box">
+              <span class="search-icon" aria-hidden="true">🔍</span>
+              <input type="search" id="searchInput" autocomplete="off" placeholder="ابحث في المشاريع، المهارات، التقنيات (مثل Python, React, AWS, شعار)...">
+              <button class="search-clear" id="searchClear" type="button" aria-label="Clear search" hidden>✕</button>
+            </div>
+
+            <div class="filter-controls">
+              <select id="platformFilter" class="select-input" aria-label="Filter by platform">
+                <option value="all">كل المنصات</option>
+                <option value="upwork">Upwork</option>
+                <option value="freelancer">Freelancer.com</option>
+                <option value="mostaql">مستقل · Mostaql</option>
+                <option value="nafezly">نفذلي · Nafezly</option>
+              </select>
+
+              <button type="button" class="toggle-chip" id="demoOnlyBtn" aria-pressed="false">
+                <span>▶</span>
+                <span data-i18n="demoOnly">ديمو مباشر فقط</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="category-chips" id="categoryChips" role="tablist" aria-label="Project categories"></div>
+
+          <div class="results-bar">
+            <span class="results-count" id="resultsCount"></span>
+            <button type="button" class="reset-btn" id="resetFiltersBtn" hidden data-i18n="resetFilters">إعادة ضبط الفلاتر</button>
+          </div>
+        </div>
+
+        <!-- Portfolio Grid -->
+        <div class="portfolio-grid" id="portfolioGrid">
+          <div class="loading-box" data-i18n="loading">جاري التحميل...</div>
+        </div>
+
+        <!-- Empty state -->
+        <div class="empty-state" id="emptyState" hidden>
+          <div class="empty-icon">🔎</div>
+          <h3 data-i18n="emptyTitle">لا توجد أعمال مطابقة للبحث</h3>
+          <p data-i18n="emptyDesc">جرّب كلمات بحث أخرى أو أعد ضبط الفلاتر لعرض كل الأعمال.</p>
+          <button type="button" class="btn btn-primary" id="emptyResetBtn" data-i18n="resetFilters">إعادة ضبط الفلاتر</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Platforms Section -->
+    <section class="section" id="platforms">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow" data-i18n="platformsEyebrow">تواجدي على منصات العمل الحر</span>
+            <h2 class="section-title" data-i18n="platformsTitle">حساباتي على المنصات</h2>
+            <p class="section-desc" data-i18n="platformsDesc">اختر المنصة الأنسب لك للطلب المباشر أو لتصفية الأعمال المنشورة عليها.</p>
+          </div>
+        </div>
+
+        <div class="platforms-grid" id="platformsGrid"></div>
+      </div>
+    </section>
+
+    <!-- Open Source Section -->
+    <section class="section section-alt" id="opensource">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow" data-i18n="ossEyebrow">GitHub · الهاكاثونات والمسابقات</span>
+            <h2 class="section-title" data-i18n="ossTitle">مشاريع مفتوحة المصدر ومسابقات</h2>
+          </div>
+          <a href="https://github.com/Youssef123ya?tab=repositories" target="_blank" rel="noopener" class="btn btn-secondary btn-sm" data-i18n="ossAll">كل المستودعات على GitHub ↗</a>
+        </div>
+
+        <div class="oss-grid" id="ossGrid"></div>
+      </div>
+    </section>
+
+    <!-- Experience & Credentials -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow" data-i18n="expEyebrow">الخلفية المهنية والأكاديمية</span>
+            <h2 class="section-title" data-i18n="expTitle">الخبرات والشهادات</h2>
+          </div>
+        </div>
+
+        <div class="exp-layout">
+          <div class="panel-card">
+            <h3 class="panel-heading" data-i18n="expHeading">💼 الخبرة العملية</h3>
+            <div class="timeline" id="expTimeline"></div>
+          </div>
+
+          <div class="panel-card">
+            <h3 class="panel-heading" data-i18n="credHeading">🎓 التعليم والشهادات</h3>
+            <div class="cred-list" id="credList"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section class="section section-cta" id="contact">
+      <div class="container">
+        <div class="cta-card">
+          <span class="eyebrow" data-i18n="ctaEyebrow">ابدأ مشروعك</span>
+          <h2 class="cta-title" data-i18n="ctaTitle">جاهز نشتغل على مشروعك الجاي؟</h2>
+          <p class="cta-desc" data-i18n="ctaDesc">ابعتلي تفاصيل فكرتك أو بياناتك أو متطلبات الـ API على أي منصة تفضلها، ونتفق على أول مرحلة قابلة للتسليم وطريقة تقييمها.</p>
+          <div class="cta-buttons" id="ctaPlatforms"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="footer-copy" data-i18n="footerCopy">© 2026 يوسف يعقوب — جميع الحقوق محفوظة · مبني مباشرة من بيانات مستودع Freelancer-Platforms</p>
+      <div class="footer-links">
+        <a href="https://github.com/Youssef123ya/Freelancer-Platforms" target="_blank" rel="noopener" data-i18n="footerRepo">عرض الريبو على GitHub</a>
+        <a href="#top" data-i18n="footerTop">العودة للأعلى ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Detail Modal (Project & Service) -->
+  <div class="modal-backdrop" id="modalBackdrop" hidden role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-dialog">
+      <button class="modal-close" id="modalClose" type="button" aria-label="Close">✕</button>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="site/app.js"></script>
+</body>
+</html>

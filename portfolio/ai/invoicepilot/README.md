@@ -6,9 +6,9 @@
 
 <h3 dir="rtl">InvoicePilot – فواتير ذكية للمستقلين</h3>
 
-<img src="https://img.shields.io/badge/Category-AI%20%26%20Machine%20Learning-4F46E5?style=flat-square"> <img src="https://img.shields.io/badge/Platform-Nafezly%20/%20Upwork-0EA5E9?style=flat-square"> <img src="https://img.shields.io/badge/Images-2-10B981?style=flat-square">
+<img src="https://img.shields.io/badge/Category-AI%20%26%20Machine%20Learning-4F46E5?style=flat-square"> <img src="https://img.shields.io/badge/Platform-Nafezly%20/%20Upwork%20/%20Mostaql-0EA5E9?style=flat-square"> <img src="https://img.shields.io/badge/Images-3-10B981?style=flat-square">
 
-<a href="https://nafezly.com/portfolio/266804-InvoicePilot-%E2%80%93-%D9%81%D9%88%D8%A7%D8%AA%D9%8A%D8%B1-%D8%B0%D9%83%D9%8A%D8%A9-%D9%84%D9%84%D9%85%D8%B3%D8%AA%D9%82%D9%84%D9%8A%D9%86"><img src="https://img.shields.io/badge/Nafezly-2E3A87?style=for-the-badge" alt="View on Nafezly"></a> <a href="https://www.upwork.com/freelancers/~016f07b2d17f649923?p=2118989579278434304"><img src="https://img.shields.io/badge/Upwork-14A800?style=for-the-badge&logo=upwork&logoColor=white" alt="View on Upwork"></a> <a href="https://devpost.com/software/invoicepilot-s9euh1"><img src="https://img.shields.io/badge/Devpost-181717?style=for-the-badge&logo=devpost&logoColor=white" alt="Devpost"></a> <a href="https://github.com/Youssef123ya/invoicepilot-paypal-ai"><img src="https://img.shields.io/badge/GitHub_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository"></a> <a href="https://youtube.com/shorts/KYOtxpa2Lqk"><img src="https://img.shields.io/badge/YouTube_Demo-181717?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Demo"></a>
+<a href="https://nafezly.com/portfolio/266804-InvoicePilot-%E2%80%93-%D9%81%D9%88%D8%A7%D8%AA%D9%8A%D8%B1-%D8%B0%D9%83%D9%8A%D8%A9-%D9%84%D9%84%D9%85%D8%B3%D8%AA%D9%82%D9%84%D9%8A%D9%86"><img src="https://img.shields.io/badge/Nafezly-2E3A87?style=for-the-badge" alt="View on Nafezly"></a> <a href="https://www.upwork.com/freelancers/~016f07b2d17f649923?p=2118989579278434304"><img src="https://img.shields.io/badge/Upwork-14A800?style=for-the-badge&logo=upwork&logoColor=white" alt="View on Upwork"></a> <a href="https://mostaql.com/portfolio/2256178-invoicepilot-%D9%85%D8%B3%D8%A7%D8%B9%D8%AF-%D8%B0%D9%83%D9%8A-%D9%84%D8%A5%D8%B9%D8%AF%D8%A7%D8%AF-%D8%A7%D9%84%D9%81%D9%88%D8%A7%D8%AA%D9%8A%D8%B1"><img src="https://img.shields.io/badge/Mostaql-2386C8?style=for-the-badge" alt="View on Mostaql"></a> <a href="https://devpost.com/software/invoicepilot-s9euh1"><img src="https://img.shields.io/badge/Devpost-181717?style=for-the-badge&logo=devpost&logoColor=white" alt="Devpost"></a> <a href="https://github.com/Youssef123ya/invoicepilot-paypal-ai"><img src="https://img.shields.io/badge/GitHub_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository"></a> <a href="https://youtube.com/shorts/KYOtxpa2Lqk"><img src="https://img.shields.io/badge/YouTube_Demo-181717?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Demo"></a>
 
 </div>
 
@@ -32,6 +32,7 @@
 
 <table>
 <tr><td width="50%"><a href="images/01.jpg"><img src="images/01.jpg" width="100%"></a></td><td width="50%"><a href="images/02.jpg"><img src="images/02.jpg" width="100%"></a></td></tr>
+<tr><td width="50%"><a href="images/03.jpg"><img src="images/03.jpg" width="100%"></a></td><td width="50%"></td></tr>
 </table>
 
 ## 🔗 Links · الروابط
@@ -40,6 +41,7 @@
 |---|---|
 | **View on Nafezly** | [Nafezly · نفذلي](https://nafezly.com/portfolio/266804-InvoicePilot-%E2%80%93-%D9%81%D9%88%D8%A7%D8%AA%D9%8A%D8%B1-%D8%B0%D9%83%D9%8A%D8%A9-%D9%84%D9%84%D9%85%D8%B3%D8%AA%D9%82%D9%84%D9%8A%D9%86) |
 | **View on Upwork** | [Upwork](https://www.upwork.com/freelancers/~016f07b2d17f649923?p=2118989579278434304) |
+| **View on Mostaql** | [Mostaql · مستقل](https://mostaql.com/portfolio/2256178-invoicepilot-%D9%85%D8%B3%D8%A7%D8%B9%D8%AF-%D8%B0%D9%83%D9%8A-%D9%84%D8%A5%D8%B9%D8%AF%D8%A7%D8%AF-%D8%A7%D9%84%D9%81%D9%88%D8%A7%D8%AA%D9%8A%D8%B1) |
 | **Devpost** | [https://devpost.com/software/invoicepilot-s9euh1](https://devpost.com/software/invoicepilot-s9euh1) |
 | **GitHub Repository** | [https://github.com/Youssef123ya/invoicepilot-paypal-ai](https://github.com/Youssef123ya/invoicepilot-paypal-ai) |
 | **YouTube Demo** | [https://youtube.com/shorts/KYOtxpa2Lqk](https://youtube.com/shorts/KYOtxpa2Lqk) |
