@@ -1318,3 +1318,251 @@ html[lang="ar"] .tag { font-family: var(--font-ar); font-size: 0.74rem; }
   .cta-card { padding: 1.75rem 1.35rem; }
   .modal-content { padding: 1.15rem; }
 }
+
+/* ==========================================================================
+   Dynamic Motion, Kinetic Typography & Interactive Micro-Interactions
+   ========================================================================== */
+
+/* 1. Top Scroll Progress Bar */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  inset-inline-start: 0;
+  width: 100%;
+  height: 2.5px;
+  background: var(--text);
+  transform-origin: 0% 50%;
+  transform: scaleX(0);
+  z-index: 60;
+  transition: transform 0.08s linear;
+}
+html[dir="rtl"] .scroll-progress {
+  transform-origin: 100% 50%;
+}
+
+/* 2. Active Scroll-Spy Nav Pill */
+.nav-links a.active {
+  color: var(--text);
+  background: var(--surface-2);
+  box-shadow: inset 0 -2px 0 var(--text);
+}
+
+/* 3. Pulsing Live Status Dot & Avatar Ring */
+.status-dot {
+  position: relative;
+}
+.status-dot::after {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: 999px;
+  border: 1.5px solid var(--status);
+  opacity: 0;
+  animation: statusPulse 2.4s cubic-bezier(0.22, 1, 0.36, 1) infinite;
+}
+@keyframes statusPulse {
+  0% { transform: scale(0.75); opacity: 0.75; }
+  100% { transform: scale(2.1); opacity: 0; }
+}
+
+.hero-avatar {
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.35s ease;
+}
+.hero-avatar:hover {
+  transform: scale(1.05) rotate(-1.5deg);
+  box-shadow: 0 12px 28px rgba(20, 20, 19, 0.14);
+}
+
+/* 4. Kinetic Typewriter Role Ticker */
+.typewriter-wrap {
+  display: inline-flex;
+  align-items: center;
+  color: var(--text);
+  font-weight: 700;
+}
+.tw-cursor {
+  display: inline-block;
+  margin-inline-start: 2px;
+  font-weight: 400;
+  color: var(--text-muted);
+  animation: blinkCursor 0.9s steps(2, start) infinite;
+}
+@keyframes blinkCursor {
+  to { visibility: hidden; }
+}
+
+/* 5. Infinite Kinetic Tech & Achievements Marquee */
+.marquee-bar {
+  margin-top: 2.75rem;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+  overflow: hidden;
+  padding: 0.78rem 0;
+  position: relative;
+  mask-image: linear-gradient(to right, transparent 0%, black 7%, black 93%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 7%, black 93%, transparent 100%);
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marqueeScroll 34s linear infinite;
+}
+.marquee-bar:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+.marquee-group {
+  display: flex;
+  align-items: center;
+  gap: 1.15rem;
+  padding-inline-end: 1.15rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-soft);
+  white-space: nowrap;
+}
+
+.m-dot {
+  color: var(--text-muted);
+  opacity: 0.55;
+}
+
+@keyframes marqueeScroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* 6. Staggered Scroll-Reveal & Filter Cascade */
+.reveal-item {
+  opacity: 0;
+  transform: translateY(22px) scale(0.985);
+  transition:
+    opacity 0.55s cubic-bezier(0.22, 1, 0.36, 1) var(--stagger, 0ms),
+    transform 0.55s cubic-bezier(0.22, 1, 0.36, 1) var(--stagger, 0ms),
+    border-color 0.18s ease,
+    box-shadow 0.22s ease;
+  will-change: opacity, transform;
+}
+
+.reveal-item.is-visible {
+  opacity: 1;
+  transform: perspective(900px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)) translateY(var(--ty, 0px)) scale(1);
+}
+
+/* 7. Cursor Radial Spotlight & 3D Card Hover */
+.service-card,
+.project-card,
+.platform-card,
+.oss-card {
+  position: relative;
+}
+
+.service-card::after,
+.project-card::after,
+.platform-card::after,
+.oss-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background: radial-gradient(
+    360px circle at var(--mx, 50%) var(--my, 50%),
+    rgba(20, 20, 19, 0.045),
+    transparent 65%
+  );
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+html[data-theme="dark"] .service-card::after,
+html[data-theme="dark"] .project-card::after,
+html[data-theme="dark"] .platform-card::after,
+html[data-theme="dark"] .oss-card::after {
+  background: radial-gradient(
+    360px circle at var(--mx, 50%) var(--my, 50%),
+    rgba(255, 255, 255, 0.065),
+    transparent 65%
+  );
+}
+
+.service-card:hover::after,
+.project-card:hover::after,
+.platform-card:hover::after,
+.oss-card:hover::after {
+  opacity: 1;
+}
+
+/* Project Card Image Slide-Up Preview Bar */
+.card-hover-cta {
+  position: absolute;
+  inset-inline: 10px;
+  bottom: 10px;
+  padding: 0.42rem 0.75rem;
+  border-radius: 7px;
+  background: rgba(20, 20, 19, 0.88);
+  color: #FAF9F6;
+  font-size: 0.78rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.22s ease, transform 0.22s cubic-bezier(0.22, 1, 0.36, 1);
+  pointer-events: none;
+}
+
+.project-card:hover .card-hover-cta,
+.service-card:hover .card-hover-cta {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* 8. Modal Image Crossfade */
+.modal-hero img {
+  transition: opacity 0.18s ease, transform 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.modal-hero img.switching {
+  opacity: 0.25;
+  transform: scale(0.985);
+}
+
+/* 9. Floating Back-to-Top Button */
+.back-to-top {
+  position: fixed;
+  bottom: 24px;
+  inset-inline-end: 24px;
+  z-index: 50;
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  border: 1px solid var(--border-strong);
+  background: var(--accent);
+  color: var(--accent-fg);
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.22s ease, transform 0.22s cubic-bezier(0.22, 1, 0.36, 1), background 0.15s ease;
+}
+.back-to-top[hidden] { display: none; }
+.back-to-top.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.back-to-top:hover {
+  transform: translateY(-3px);
+  background: var(--accent-hover);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track, .status-dot::after, .tw-cursor { animation: none !important; }
+  .reveal-item { opacity: 1 !important; transform: none !important; transition: none !important; }
+}

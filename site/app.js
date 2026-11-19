@@ -40,15 +40,14 @@
       navHire: 'اطلب خدمة',
       heroBadge: 'متاح لمشاريع العمل الحر والتعاقد · القاهرة، مصر',
       heroName: 'يوسف يعقوب',
-      heroRole: 'مطوّر ذكاء اصطناعي وباك إند — Python · .NET · Azure · React',
+      heroRolePrefix: 'مطوّر ذكاء اصطناعي وباك إند —',
       heroSubtitle: 'أبني نماذج تعلّم الآلة بلغة Python، وأنظمة Backend وواجهات REST API بتقنيات C# / .NET و Azure، وتطبيقات ويب عملية — أحوّل بياناتك أو فكرتك إلى منتج قابل للاختبار والتشغيل بتوثيق واضح.',
       heroCtaPortfolio: (n) => `تصفّح معرض الأعمال (${n})`,
       heroCtaServices: (n) => `الخدمات والأسعار (${n})`,
-      heroCtaWhatsapp: 'واتساب: \u2066+20 127 341 3749\u2069',
       heroCtaRepo: 'مستودع GitHub',
       heroPlatformsLabel: 'منصات العمل الحر',
       stackLabel: 'التقنيات الأساسية',
-      linksLabel: 'الروابط والتواصل المباشر',
+      linksLabel: 'الروابط المهنية',
       statProjects: 'عمل في المعرض',
       statServices: 'خدمات متخصصة',
       statPlatforms: 'منصات عمل حر',
@@ -124,15 +123,14 @@
       navHire: 'Hire Me',
       heroBadge: 'Available for freelance & contract · Cairo, Egypt',
       heroName: 'Youssef Yacoup',
-      heroRole: 'AI & Backend Developer — Python · .NET · Azure · React',
+      heroRolePrefix: 'AI & Backend Developer —',
       heroSubtitle: 'I build Python machine-learning prototypes, .NET & Azure REST backends, and practical web applications — turning datasets or workflows into documented, testable software.',
       heroCtaPortfolio: (n) => `Browse Portfolio (${n})`,
       heroCtaServices: (n) => `Services & Pricing (${n})`,
-      heroCtaWhatsapp: 'WhatsApp: +20 127 341 3749',
       heroCtaRepo: 'GitHub Repository',
       heroPlatformsLabel: 'Freelance Platforms',
       stackLabel: 'Core Stack',
-      linksLabel: 'Direct Contact & Links',
+      linksLabel: 'Professional Links',
       statProjects: 'Portfolio Projects',
       statServices: 'Services',
       statPlatforms: 'Freelance Platforms',
@@ -265,21 +263,17 @@
       </a>`;
     }).join('');
 
-    const waLabel = isAr ? 'واتساب: \u2066+20 127 341 3749\u2069' : 'WhatsApp: +20 127 341 3749';
-    const waBtn = `<a class="btn btn-primary btn-sm" href="https://wa.me/201273413749" target="_blank" rel="noopener">
-      <span class="plat-dot" style="background:#15803D"></span><span>${esc(waLabel)}</span>${SVG.ext}
-    </a>`;
-    $('ctaPlatforms').innerHTML = waBtn + web.profiles.map((p) => {
+    $('ctaPlatforms').innerHTML = web.profiles.map((p) => {
       const label = isAr ? p.name_ar.split(' ·')[0] : p.name_en;
       return `<a class="btn btn-secondary btn-sm" href="${esc(p.url)}" target="_blank" rel="noopener">
         <span class="plat-dot" style="background:${p.color}"></span><span>${esc(label)}</span>${SVG.ext}
       </a>`;
     }).join('');
 
-    $('statProjects').textContent = web.items.length;
-    $('statServices').textContent = web.services.length;
-    $('statPlatforms').textContent = web.profiles.length;
-    $('statDemos').textContent = web.items.filter((i) => i.demo).length;
+    animateStat('statProjects', web.items.length);
+    animateStat('statServices', web.services.length);
+    animateStat('statPlatforms', web.profiles.length);
+    animateStat('statDemos', web.items.filter((i) => i.demo).length);
 
     const ctaP = document.querySelector('[data-i18n="heroCtaPortfolio"]');
     const ctaS = document.querySelector('[data-i18n="heroCtaServices"]');
@@ -289,15 +283,16 @@
 
   function renderServices() {
     const isAr = state.lang === 'ar';
-    $('servicesGrid').innerHTML = state.data.web.services.map((s) => {
+    $('servicesGrid').innerHTML = state.data.web.services.map((s, idx) => {
       const title = isAr ? s.ar : s.en;
       const intro = isAr ? s.intro_ar : s.intro_en;
       const badgeText = s.listed ? t('listedKhamsat') : t('customQuote');
       const tools = s.tools.slice(0, 3).map((x) => `<span class="tag">${esc(x)}</span>`).join('');
       const more = s.tools.length > 3 ? `<span class="tag">+${s.tools.length - 3}</span>` : '';
-      return `<article class="service-card" data-service="${esc(s.slug)}" tabindex="0" role="button">
+      return `<article class="service-card reveal-item" style="--stagger:${idx * 55}ms" data-service="${esc(s.slug)}" tabindex="0" role="button">
         <div class="card-media">
           <img src="${esc(s.cover)}" alt="${esc(title)}" loading="lazy">
+          <div class="card-hover-cta"><span>${esc(t('serviceDetails'))}</span><span>${isAr ? '←' : '→'}</span></div>
         </div>
         <div class="card-body">
           <div class="card-meta-line">
@@ -368,7 +363,7 @@
     }
     $('emptyState').hidden = true;
 
-    $('portfolioGrid').innerHTML = list.map((it) => {
+    $('portfolioGrid').innerHTML = list.map((it, idx) => {
       const cat = catMap[it.category];
       const title = isAr ? it.ar : it.en;
       const excerpt = (isAr ? (it.desc_ar || it.desc_en) : (it.desc_en || it.desc_ar)).replace(/\s+/g, ' ');
@@ -378,9 +373,10 @@
       }).join('');
       const skills = it.skills.slice(0, 3).map((s) => `<span class="tag">${esc(s)}</span>`).join('');
       const more = it.skills.length > 3 ? `<span class="tag">+${it.skills.length - 3}</span>` : '';
-      return `<article class="project-card" data-project="${esc(it.slug)}" tabindex="0" role="button">
+      return `<article class="project-card reveal-item" style="--stagger:${(idx % 9) * 45}ms" data-project="${esc(it.slug)}" tabindex="0" role="button">
         <div class="card-media">
           <img src="${esc(it.cover)}" alt="${esc(title)}" loading="lazy">
+          <div class="card-hover-cta"><span>${esc(t('serviceDetails'))}</span><span>${isAr ? '←' : '→'}</span></div>
         </div>
         <div class="card-body">
           <div class="card-meta-line">
@@ -397,12 +393,13 @@
         </div>
       </article>`;
     }).join('');
+    observeReveals();
   }
 
   function renderPlatforms() {
     const isAr = state.lang === 'ar';
-    $('platformsGrid').innerHTML = state.data.web.profiles.map((p) => `
-      <div class="platform-card">
+    $('platformsGrid').innerHTML = state.data.web.profiles.map((p, idx) => `
+      <div class="platform-card reveal-item" style="--stagger:${idx * 55}ms">
         <div class="platform-card-head">
           <span class="plat-dot" style="background:${p.color};width:9px;height:9px"></span>
           <h3>${esc(isAr ? p.name_ar.split(' ·')[0] : p.name_en)}</h3>
@@ -421,8 +418,8 @@
 
   function renderOpenSource() {
     const isAr = state.lang === 'ar';
-    $('ossGrid').innerHTML = state.data.web.open_source.map((r) => `
-      <a class="oss-card" href="${esc(r.url)}" target="_blank" rel="noopener">
+    $('ossGrid').innerHTML = state.data.web.open_source.map((r, idx) => `
+      <a class="oss-card reveal-item" style="--stagger:${(idx % 6) * 45}ms" href="${esc(r.url)}" target="_blank" rel="noopener">
         <div class="oss-top">
           <h3>${esc(r.name)}</h3>
           ${SVG.ext}
@@ -461,6 +458,8 @@
     renderPlatforms();
     renderOpenSource();
     renderExperience();
+    observeReveals();
+    restartTypewriter();
   }
 
   /* ---- Modal Logic ---- */
@@ -470,7 +469,13 @@
     const src = state.modalImages[state.modalImgIdx];
     const mainImg = $('modalMainImg');
     const openLink = $('modalFullLink');
-    if (mainImg) mainImg.src = src;
+    if (mainImg) {
+      mainImg.classList.add('switching');
+      setTimeout(() => {
+        mainImg.src = src;
+        mainImg.classList.remove('switching');
+      }, 110);
+    }
     if (openLink) openLink.href = src;
     document.querySelectorAll('.modal-thumb').forEach((btn, i) => {
       btn.classList.toggle('active', i === state.modalImgIdx);
@@ -623,7 +628,6 @@
 
         <div class="modal-actions">
           ${s.order.map((o, idx) => `<a class="btn ${idx === 0 ? 'btn-primary' : 'btn-secondary'} btn-sm" href="${esc(o.url)}" target="_blank" rel="noopener">${esc(t('orderOn'))} ${esc(o.label.split(' ·')[0])} ${SVG.ext}</a>`).join('')}
-          <a class="btn btn-secondary btn-sm" href="https://wa.me/201273413749" target="_blank" rel="noopener"><span class="plat-dot" style="background:#15803D"></span><span dir="ltr">WhatsApp: +20 127 341 3749</span> ${SVG.ext}</a>
         </div>
       </div>
     `;
@@ -751,6 +755,156 @@
   $('modalBackdrop').addEventListener('click', (e) => {
     if (e.target === $('modalBackdrop')) closeModal();
   });
+
+  /* ---- Dynamic Motion & Kinetic Interactions ---- */
+  function animateStat(id, target) {
+    const el = $(id);
+    if (!el) return;
+    const dur = 950;
+    const start = performance.now();
+    function tick(now) {
+      const p = Math.min(1, (now - start) / dur);
+      const eased = 1 - Math.pow(1 - p, 3);
+      el.textContent = Math.round(eased * target);
+      if (p < 1) requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  }
+
+  let revealObserver = null;
+  function observeReveals() {
+    if (!('IntersectionObserver' in window)) {
+      document.querySelectorAll('.reveal-item').forEach((el) => el.classList.add('is-visible'));
+      return;
+    }
+    if (!revealObserver) {
+      revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach((en) => {
+          if (en.isIntersecting) {
+            en.target.classList.add('is-visible');
+            revealObserver.unobserve(en.target);
+          }
+        });
+      }, { threshold: 0.08, rootMargin: '0px 0px -30px 0px' });
+    }
+    document.querySelectorAll('.reveal-item:not(.is-visible)').forEach((el) => revealObserver.observe(el));
+  }
+
+  const ROLES = {
+    ar: [
+      'نماذج تعلّم الآلة بلغة Python',
+      'واجهات REST API بـ C# و ASP.NET Core',
+      'الحوسبة السحابية على Microsoft Azure',
+      'تطبيقات ويب تفاعلية بـ React و TypeScript',
+      'أتمتة سير العمل بالذكاء الاصطناعي',
+    ],
+    en: [
+      'Python Machine Learning Prototypes',
+      'C# & ASP.NET Core REST APIs',
+      'Microsoft Azure Cloud Architecture',
+      'Interactive React & TypeScript Apps',
+      'AI-Assisted Workflow Automation',
+    ],
+  };
+  let twTimer = null;
+  let twIdx = 0;
+  let twChar = 0;
+  let twDeleting = false;
+
+  function restartTypewriter() {
+    if (twTimer) clearTimeout(twTimer);
+    twIdx = 0;
+    twChar = 0;
+    twDeleting = false;
+    stepTypewriter();
+  }
+
+  function stepTypewriter() {
+    const el = $('typewriterText');
+    if (!el) return;
+    const list = ROLES[state.lang] || ROLES.ar;
+    const word = list[twIdx % list.length];
+    if (!twDeleting) {
+      twChar++;
+      el.textContent = word.slice(0, twChar);
+      if (twChar >= word.length) {
+        twDeleting = true;
+        twTimer = setTimeout(stepTypewriter, 2100);
+        return;
+      }
+      twTimer = setTimeout(stepTypewriter, 42);
+    } else {
+      twChar--;
+      el.textContent = word.slice(0, twChar);
+      if (twChar <= 0) {
+        twDeleting = false;
+        twIdx = (twIdx + 1) % list.length;
+        twTimer = setTimeout(stepTypewriter, 260);
+        return;
+      }
+      twTimer = setTimeout(stepTypewriter, 22);
+    }
+  }
+
+  // 3D Tilt & Cursor Spotlight on Cards
+  let activeCard = null;
+  document.addEventListener('pointermove', (e) => {
+    const card = e.target.closest('.service-card, .project-card, .platform-card, .oss-card');
+    if (activeCard && activeCard !== card) {
+      activeCard.style.setProperty('--rx', '0deg');
+      activeCard.style.setProperty('--ry', '0deg');
+      activeCard.style.setProperty('--ty', '0px');
+      activeCard = null;
+    }
+    if (!card) return;
+    activeCard = card;
+    const r = card.getBoundingClientRect();
+    const x = e.clientX - r.left;
+    const y = e.clientY - r.top;
+    const px = (x / r.width) - 0.5;
+    const py = (y / r.height) - 0.5;
+    card.style.setProperty('--mx', `${x.toFixed(0)}px`);
+    card.style.setProperty('--my', `${y.toFixed(0)}px`);
+    card.style.setProperty('--rx', `${(-py * 4.5).toFixed(2)}deg`);
+    card.style.setProperty('--ry', `${(px * 4.5).toFixed(2)}deg`);
+    card.style.setProperty('--ty', '-3px');
+  }, { passive: true });
+
+  // Scroll Progress Bar, Back-to-Top & Scroll-Spy Navbar
+  const btt = $('backToTop');
+  if (btt) {
+    btt.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+  }
+
+  const sections = ['services', 'portfolio', 'platforms', 'opensource', 'experience', 'contact'];
+  function onScroll() {
+    const doc = document.documentElement;
+    const max = doc.scrollHeight - doc.clientHeight;
+    const ratio = max > 0 ? Math.min(1, Math.max(0, window.scrollY / max)) : 0;
+    const bar = $('scrollProgress');
+    if (bar) bar.style.transform = `scaleX(${ratio.toFixed(4)})`;
+
+    if (btt) {
+      if (window.scrollY > 380) {
+        btt.hidden = false;
+        requestAnimationFrame(() => btt.classList.add('visible'));
+      } else {
+        btt.classList.remove('visible');
+      }
+    }
+
+    let current = '';
+    const offset = window.scrollY + 180;
+    for (const id of sections) {
+      const sec = $(id);
+      if (sec && sec.offsetTop <= offset) current = id;
+    }
+    document.querySelectorAll('.nav-links a').forEach((a) => {
+      a.classList.toggle('active', a.getAttribute('href') === `#${current}`);
+    });
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
 
   /* ---- Init ---- */
   applyTheme();

@@ -3,7 +3,6 @@
 <img src="assets/banner.svg" width="100%" alt="Youssef Yacoup — Freelancer Platforms">
 
 <a href="https://youssef123ya.github.io/Freelancer-Platforms/"><img src="https://img.shields.io/badge/Live_Interactive_Portfolio_Site-111317?style=for-the-badge" alt="Live Interactive Website"></a>
-<a href="https://wa.me/201273413749"><img src="https://img.shields.io/badge/WhatsApp-%2B20_127_341_3749-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp +201273413749"></a>
 
 <a href="https://www.upwork.com/freelancers/~016f07b2d17f649923"><img src="https://img.shields.io/badge/Upwork-14A800?style=for-the-badge&logo=upwork&logoColor=white" alt="Upwork"></a>
 <a href="https://www.freelancer.com/u/yyacoup"><img src="https://img.shields.io/badge/Freelancer.com-29B2FE?style=for-the-badge&logo=freelancer&logoColor=white" alt="Freelancer.com"></a>
@@ -135,7 +134,6 @@ Share your dataset, API requirements or project brief — we'll agree on the fir
 
 <p dir="rtl">ابعتلي فكرتك أو بياناتك أو متطلبات الـ API، ونتفق على أول مرحلة وطريقة تقييمها.</p>
 
-<a href="https://wa.me/201273413749"><img src="https://img.shields.io/badge/WhatsApp-%2B20_127_341_3749-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp +201273413749"></a>
 <a href="https://www.upwork.com/freelancers/~016f07b2d17f649923"><img src="https://img.shields.io/badge/Upwork-14A800?style=for-the-badge&logo=upwork&logoColor=white" alt="Upwork"></a>
 <a href="https://www.freelancer.com/u/yyacoup"><img src="https://img.shields.io/badge/Freelancer.com-29B2FE?style=for-the-badge&logo=freelancer&logoColor=white" alt="Freelancer.com"></a>
 <a href="https://mostaql.com/u/yyacoup"><img src="https://img.shields.io/badge/Mostaql-2386C8?style=for-the-badge" alt="Mostaql"></a>

@@ -15,6 +15,9 @@
   <link rel="stylesheet" href="site/styles.css">
 </head>
 <body>
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
   <!-- Header -->
   <header class="navbar" id="navbar">
     <div class="container nav-inner">
@@ -61,7 +64,10 @@
                 <span data-i18n="heroBadge">متاح لمشاريع العمل الحر والتعاقد · القاهرة، مصر</span>
               </div>
               <h1 class="hero-title" data-i18n="heroName">يوسف يعقوب</h1>
-              <p class="hero-role" data-i18n="heroRole">مطوّر ذكاء اصطناعي وباك إند — Python · .NET · Azure · React</p>
+              <p class="hero-role">
+                <span data-i18n="heroRolePrefix">مطوّر ذكاء اصطناعي وباك إند —</span>
+                <span class="typewriter-wrap"><span id="typewriterText">Python · .NET · Azure · React</span><span class="tw-cursor" aria-hidden="true">|</span></span>
+              </p>
             </div>
           </div>
 
@@ -72,10 +78,6 @@
           <div class="hero-ctas">
             <a href="#portfolio" class="btn btn-primary btn-lg" data-i18n="heroCtaPortfolio">تصفّح معرض الأعمال (39)</a>
             <a href="#services" class="btn btn-secondary btn-lg" data-i18n="heroCtaServices">الخدمات والأسعار (8)</a>
-            <a href="https://wa.me/201273413749" target="_blank" rel="noopener" class="btn btn-secondary btn-lg">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-              <span data-i18n="heroCtaWhatsapp">واتساب: &#8294;+20 127 341 3749&#8297;</span>
-            </a>
             <a href="https://github.com/Youssef123ya/Freelancer-Platforms" target="_blank" rel="noopener" class="btn btn-text btn-lg">
               <span data-i18n="heroCtaRepo">مستودع GitHub</span>
               <svg class="ic" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg>
@@ -128,9 +130,8 @@
           <div class="panel-divider"></div>
 
           <div class="panel-block">
-            <div class="meta-kicker" data-i18n="linksLabel">الروابط والتواصل المباشر</div>
+            <div class="meta-kicker" data-i18n="linksLabel">الروابط المهنية</div>
             <div class="social-strip">
-              <a href="https://wa.me/201273413749" target="_blank" rel="noopener" dir="ltr">WhatsApp: +20 127 341 3749</a>
               <a href="https://github.com/Youssef123ya" target="_blank" rel="noopener">GitHub</a>
               <a href="https://www.linkedin.com/in/youssef-yacoup-745234280/" target="_blank" rel="noopener">LinkedIn</a>
               <a href="https://www.kaggle.com/youssefyacoup" target="_blank" rel="noopener">Kaggle</a>
@@ -139,6 +140,40 @@
             </div>
           </div>
         </aside>
+      </div>
+
+      <!-- Kinetic Tech & Achievements Marquee -->
+      <div class="marquee-bar" aria-label="Technologies and achievements">
+        <div class="marquee-track" id="marqueeTrack" dir="ltr">
+          <div class="marquee-group">
+            <span>Python</span><span class="m-dot">·</span>
+            <span>C# / .NET</span><span class="m-dot">·</span>
+            <span>ASP.NET Core</span><span class="m-dot">·</span>
+            <span>Microsoft Azure</span><span class="m-dot">·</span>
+            <span>RESTful APIs</span><span class="m-dot">·</span>
+            <span>Machine Learning</span><span class="m-dot">·</span>
+            <span>React &amp; TypeScript</span><span class="m-dot">·</span>
+            <span>SQL &amp; Database Design</span><span class="m-dot">·</span>
+            <span>Docker &amp; Terraform</span><span class="m-dot">·</span>
+            <span>Kaggle 2× Bronze Medalist</span><span class="m-dot">·</span>
+            <span>MedMonitor 24/7 (100/100)</span><span class="m-dot">·</span>
+            <span>TechMind Challenge 1st Place</span><span class="m-dot">·</span>
+          </div>
+          <div class="marquee-group" aria-hidden="true">
+            <span>Python</span><span class="m-dot">·</span>
+            <span>C# / .NET</span><span class="m-dot">·</span>
+            <span>ASP.NET Core</span><span class="m-dot">·</span>
+            <span>Microsoft Azure</span><span class="m-dot">·</span>
+            <span>RESTful APIs</span><span class="m-dot">·</span>
+            <span>Machine Learning</span><span class="m-dot">·</span>
+            <span>React &amp; TypeScript</span><span class="m-dot">·</span>
+            <span>SQL &amp; Database Design</span><span class="m-dot">·</span>
+            <span>Docker &amp; Terraform</span><span class="m-dot">·</span>
+            <span>Kaggle 2× Bronze Medalist</span><span class="m-dot">·</span>
+            <span>MedMonitor 24/7 (100/100)</span><span class="m-dot">·</span>
+            <span>TechMind Challenge 1st Place</span><span class="m-dot">·</span>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -305,6 +340,11 @@
       </div>
     </div>
   </footer>
+
+  <!-- Floating Back to Top -->
+  <button type="button" class="back-to-top" id="backToTop" aria-label="Back to top" hidden>
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+  </button>
 
   <!-- Detail Modal (Project & Service) -->
   <div class="modal-backdrop" id="modalBackdrop" hidden role="dialog" aria-modal="true" aria-labelledby="modalTitle">
