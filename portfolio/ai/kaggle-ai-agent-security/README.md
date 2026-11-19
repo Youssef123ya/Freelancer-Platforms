@@ -1,14 +1,14 @@
 <div align="center">
 
-<a href="images/01.jpg"><img src="images/01.jpg" alt="Kaggle Bronze – AI Agent Security" width="100%"></a>
+<a href="images/cover.jpg"><img src="images/cover.jpg" alt="Kaggle Bronze – AI Agent Security" width="100%"></a>
 
 # Kaggle Bronze – AI Agent Security
 
 <h3 dir="rtl">ميدالية برونزية على Kaggle – أمن وكلاء الذكاء الاصطناعي</h3>
 
-<img src="https://img.shields.io/badge/Category-AI%20%26%20Machine%20Learning-4F46E5?style=flat-square"> <img src="https://img.shields.io/badge/Platform-Nafezly-0EA5E9?style=flat-square"> <img src="https://img.shields.io/badge/Images-1-10B981?style=flat-square">
+<img src="https://img.shields.io/badge/Category-AI%20%26%20Machine%20Learning-4F46E5?style=flat-square"> <img src="https://img.shields.io/badge/Platform-Nafezly%20/%20Upwork-0EA5E9?style=flat-square"> <img src="https://img.shields.io/badge/Images-2-10B981?style=flat-square">
 
-<a href="https://nafezly.com/portfolio/266812-Kaggle-Bronze-%E2%80%93-AI-Agent-Security"><img src="https://img.shields.io/badge/Nafezly-2E3A87?style=for-the-badge" alt="View on Nafezly"></a> <a href="https://www.kaggle.com/code/youssefyacoup/ai-agent?scriptVersionId=344201601"><img src="https://img.shields.io/badge/Kaggle_Notebook-181717?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle Notebook"></a> <a href="https://github.com/Youssef123ya/Kaggle-Competitions"><img src="https://img.shields.io/badge/GitHub_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository"></a>
+<a href="https://nafezly.com/portfolio/266812-Kaggle-Bronze-%E2%80%93-AI-Agent-Security"><img src="https://img.shields.io/badge/Nafezly-2E3A87?style=for-the-badge" alt="View on Nafezly"></a> <a href="https://www.upwork.com/freelancers/~016f07b2d17f649923?p=2118985792452550656"><img src="https://img.shields.io/badge/Upwork-14A800?style=for-the-badge&logo=upwork&logoColor=white" alt="View on Upwork"></a> <a href="https://www.kaggle.com/code/youssefyacoup/ai-agent?scriptVersionId=344201601"><img src="https://img.shields.io/badge/Kaggle_Notebook-181717?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle Notebook"></a> <a href="https://github.com/Youssef123ya/Kaggle-Competitions"><img src="https://img.shields.io/badge/GitHub_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository"></a> <a href="https://www.kaggle.com/certification/competitions/youssefyacoup/ai-agent-security-multi-step-tool-attacks"><img src="https://img.shields.io/badge/Kaggle_Certificate-181717?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle Certificate"></a>
 
 </div>
 
@@ -24,13 +24,25 @@
 
 </div>
 
+## 🧰 Skills & Tools · المهارات والأدوات
+
+<code>Python</code> <code>Artificial Intelligence</code> <code>Machine Learning</code> <code>AI Agent Development</code> <code>Data Analysis</code>
+
+## 🖼️ Gallery · معرض الصور
+
+<table>
+<tr><td width="50%"><a href="images/01.jpg"><img src="images/01.jpg" width="100%"></a></td><td width="50%"><a href="images/02.jpg"><img src="images/02.jpg" width="100%"></a></td></tr>
+</table>
+
 ## 🔗 Links · الروابط
 
 | | |
 |---|---|
 | **View on Nafezly** | [Nafezly · نفذلي](https://nafezly.com/portfolio/266812-Kaggle-Bronze-%E2%80%93-AI-Agent-Security) |
+| **View on Upwork** | [Upwork](https://www.upwork.com/freelancers/~016f07b2d17f649923?p=2118985792452550656) |
 | **Kaggle Notebook** | [https://www.kaggle.com/code/youssefyacoup/ai-agent?scriptVersionId=344201601](https://www.kaggle.com/code/youssefyacoup/ai-agent?scriptVersionId=344201601) |
 | **GitHub Repository** | [https://github.com/Youssef123ya/Kaggle-Competitions](https://github.com/Youssef123ya/Kaggle-Competitions) |
+| **Kaggle Certificate** | [https://www.kaggle.com/certification/competitions/youssefyacoup/ai-agent-security-multi-step-tool-attacks](https://www.kaggle.com/certification/competitions/youssefyacoup/ai-agent-security-multi-step-tool-attacks) |
 | **Category · التصنيف** | AI & Machine Learning · الذكاء الاصطناعي وتعلّم الآلة |
 
 <div align="center">

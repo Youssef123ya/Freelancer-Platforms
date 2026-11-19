@@ -6,9 +6,9 @@
 
 <h3 dir="rtl">تصميم الشعارات والهوية البصرية</h3>
 
-<img src="https://img.shields.io/badge/Rate-%2410%20/%20hour%20on%20Freelancer.com-16A34A?style=flat-square"> <img src="https://img.shields.io/badge/Type-Custom%20quote-6366F1?style=flat-square">
+<img src="https://img.shields.io/badge/Upwork-%2420%20/%20hour-14A800?style=flat-square"> <img src="https://img.shields.io/badge/Freelancer-%2410%20/%20hour-29B2FE?style=flat-square"> <img src="https://img.shields.io/badge/Nafezly-Custom%20quote-6366F1?style=flat-square">
 
-<a href="https://www.freelancer.com/u/yyacoup"><img src="https://img.shields.io/badge/Freelancer.com-29B2FE?style=for-the-badge&logo=freelancer&logoColor=white"></a> <a href="https://nafezly.com/u/YoussefYacoup"><img src="https://img.shields.io/badge/Nafezly-2E3A87?style=for-the-badge"></a>
+<a href="https://www.upwork.com/freelancers/~016f07b2d17f649923"><img src="https://img.shields.io/badge/Upwork-14A800?style=for-the-badge&logo=upwork&logoColor=white"></a> <a href="https://www.freelancer.com/u/yyacoup"><img src="https://img.shields.io/badge/Freelancer.com-29B2FE?style=for-the-badge&logo=freelancer&logoColor=white"></a> <a href="https://nafezly.com/u/YoussefYacoup"><img src="https://img.shields.io/badge/Nafezly-2E3A87?style=for-the-badge"></a>
 
 </div>
 
@@ -48,6 +48,7 @@ Logos and complete brand boards — colors, typography, patterns and real-world 
 ## 📩 Order / Contact · اطلب الخدمة
 
 - **Nafezly · نفذلي** → https://nafezly.com/u/YoussefYacoup
+- **Upwork** → https://www.upwork.com/freelancers/~016f07b2d17f649923
 - **Freelancer.com** → https://www.freelancer.com/u/yyacoup
 
 <div align="center">

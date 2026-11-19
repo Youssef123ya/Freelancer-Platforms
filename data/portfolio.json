@@ -1,5 +1,5 @@
 {
-  "snapshot_date": "2026-11-18",
+  "snapshot_date": "2026-11-19",
   "owner": {
     "name": "Youssef Yacoup",
     "location": "Egypt",
@@ -14,7 +14,8 @@
       "nafezly": "https://nafezly.com/u/YoussefYacoup",
       "nafezly_portfolio": "https://nafezly.com/u/YoussefYacoup/portfolio",
       "khamsat": "https://khamsat.com/user/youssefyacoup",
-      "khamsat_services": "https://khamsat.com/user/youssefyacoup/services"
+      "khamsat_services": "https://khamsat.com/user/youssefyacoup/services",
+      "upwork": "https://www.upwork.com/freelancers/~016f07b2d17f649923"
     }
   },
   "services": [
@@ -903,7 +904,8 @@
           "title_en": "Kaggle Bronze – AI Agent Security",
           "category_key": "ai",
           "images": [
-            "portfolio/ai/kaggle-ai-agent-security/images/01.jpg"
+            "portfolio/ai/kaggle-ai-agent-security/images/01.jpg",
+            "portfolio/ai/kaggle-ai-agent-security/images/02.jpg"
           ]
         },
         {
@@ -920,7 +922,8 @@
           "title_en": "InvoicePilot – Smart Invoices for Freelancers",
           "category_key": "ai",
           "images": [
-            "portfolio/ai/invoicepilot/images/01.jpg"
+            "portfolio/ai/invoicepilot/images/01.jpg",
+            "portfolio/ai/invoicepilot/images/02.jpg"
           ]
         }
       ]
@@ -930,6 +933,74 @@
       "services_url": "https://khamsat.com/user/youssefyacoup/services",
       "services_count": 1,
       "assessment_url": "https://khbra.com/attempts/e301455c-d1ad-4e63-b583-5f9dee3a576b"
+    },
+    "upwork": {
+      "profile_url": "https://www.upwork.com/freelancers/~016f07b2d17f649923",
+      "display_name": "Youssef Y.",
+      "headline": "AI & Backend Developer | Python, .NET, Azure",
+      "hourly_rate_usd": 20.0,
+      "location": "Cairo, Egypt",
+      "availability": "More than 30 hrs/week · Open to contract to hire",
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "API Development",
+        ".NET Framework",
+        "Microsoft Azure",
+        "C#",
+        "RESTful API",
+        "Data Science",
+        "Data Analysis",
+        "Generative AI",
+        "SQL",
+        "Git"
+      ],
+      "project_catalog_count": 0,
+      "portfolio_count": 3,
+      "portfolio": [
+        {
+          "id": "2118989579278434304",
+          "title": "InvoicePilot | Gemini & PayPal Sandbox Invoicing",
+          "url": "https://www.upwork.com/freelancers/~016f07b2d17f649923?p=2118989579278434304",
+          "path": "portfolio/ai/invoicepilot",
+          "github_url": "https://github.com/Youssef123ya/invoicepilot-paypal-ai",
+          "images": [
+            "portfolio/ai/invoicepilot/images/01.jpg",
+            "portfolio/ai/invoicepilot/images/02.jpg"
+          ]
+        },
+        {
+          "id": "2118985792452550656",
+          "title": "AI Agent Security | Kaggle Bronze Medal",
+          "url": "https://www.upwork.com/freelancers/~016f07b2d17f649923?p=2118985792452550656",
+          "path": "portfolio/ai/kaggle-ai-agent-security",
+          "certificate_url": "https://www.kaggle.com/certification/competitions/youssefyacoup/ai-agent-security-multi-step-tool-attacks",
+          "images": [
+            "portfolio/ai/kaggle-ai-agent-security/images/01.jpg",
+            "portfolio/ai/kaggle-ai-agent-security/images/02.jpg"
+          ]
+        },
+        {
+          "id": "2118985485468385280",
+          "title": "Sand Dune Encroachment Tracker – Geospatial ML",
+          "title_ar": "متتبّع زحف الكثبان الرملية – تعلّم آلي جيومكاني",
+          "url": "https://www.upwork.com/freelancers/~016f07b2d17f649923?p=2118985485468385280",
+          "path": "portfolio/ai/sand-dune-encroachment-tracker",
+          "category": "ai",
+          "skills": [
+            "Machine Learning",
+            "Geospatial Data",
+            "Data Visualization",
+            "GIS",
+            "Python"
+          ],
+          "github_url": "https://github.com/Youssef123ya/Challenge-3-Sand-Dune-Encroachment-Tracker",
+          "description": "For the TechMind Challenge, my team built a Python prototype that uses satellite imagery and spatial analysis to track sand dunes and forecast their movement. The dashboard visualizes predicted trajectories and areas where dunes could encroach on farmland or infrastructure. Our team placed first in Challenge 3.",
+          "images": [
+            "portfolio/ai/sand-dune-encroachment-tracker/images/01.jpg"
+          ]
+        }
+      ]
     }
   },
   "flagship_github_projects": [
@@ -1035,11 +1106,13 @@
         "pandas",
         "scikit-learn",
         "Jupyter",
-        "Kaggle"
+        "Kaggle",
+        "GIS"
       ],
       "related": [
+        "portfolio/ai/ai-real-estate-cma",
         "portfolio/ai/kaggle-ai-agent-security",
-        "portfolio/ai/ai-real-estate-cma"
+        "portfolio/ai/sand-dune-encroachment-tracker"
       ]
     },
     {

@@ -4,9 +4,9 @@
 
 # 🗂️ Portfolio · معرض الأعمال
 
-**36 projects** from Freelancer.com & Nafezly — each one has its own folder with real screenshots, description and links.
+**37 projects** from Upwork, Freelancer.com & Nafezly — each one has its own folder with real screenshots, description and links.
 
-<p dir="rtl"><b>36 عملاً</b> من فريلانسر ونفذلي — لكل عمل فولدر خاص فيه الصور الحقيقية والوصف والروابط.</p>
+<p dir="rtl"><b>37 عملاً</b> من أب وورك وفريلانسر ونفذلي — لكل عمل فولدر خاص فيه الصور الحقيقية والوصف والروابط.</p>
 
 [🤖 AI & Machine Learning](#cat-ai) · [⚙️ Backend, APIs & Cloud](#cat-backend) · [📊 Data Analysis & Dashboards](#cat-data) · [🛒 E-Commerce](#cat-ecommerce) · [🌐 Websites & Landing Pages](#cat-web) · [🎨 Branding & Visual Identity](#cat-design) · [🎬 Video, Scripts & Copywriting](#cat-content)
 
@@ -20,7 +20,7 @@
 
 <table>
 <tr><td align="center" valign="top" width="33%"><a href="ai/ai-marketing-copy-assistant/"><img src="ai/ai-marketing-copy-assistant/images/cover.jpg" width="100%" alt="AI Chat Marketing Copy Assistant"></a><br><b><a href="ai/ai-marketing-copy-assistant/">AI Chat Marketing Copy Assistant</a></b><br><sub dir="rtl">مساعد ذكاء اصطناعي لكتابة النصوص التسويقية</sub><br><sub>Freelancer.com</sub></td><td align="center" valign="top" width="33%"><a href="ai/opspilot-slack-automation/"><img src="ai/opspilot-slack-automation/images/cover.jpg" width="100%" alt="OpsPilot – Slack Task Automation"></a><br><b><a href="ai/opspilot-slack-automation/">OpsPilot – Slack Task Automation</a></b><br><sub dir="rtl">OpsPilot لأتمتة المهام على Slack</sub><br><sub>Freelancer.com</sub></td><td align="center" valign="top" width="33%"><a href="ai/ai-real-estate-cma/"><img src="ai/ai-real-estate-cma/images/cover.jpg" width="100%" alt="AI Real Estate CMA Dashboard"></a><br><b><a href="ai/ai-real-estate-cma/">AI Real Estate CMA Dashboard</a></b><br><sub dir="rtl">لوحة تحليل السوق العقاري بالذكاء الاصطناعي</sub><br><sub>Freelancer.com</sub></td></tr>
-<tr><td align="center" valign="top" width="33%"><a href="ai/kaggle-ai-agent-security/"><img src="ai/kaggle-ai-agent-security/images/cover.jpg" width="100%" alt="Kaggle Bronze – AI Agent Security"></a><br><b><a href="ai/kaggle-ai-agent-security/">Kaggle Bronze – AI Agent Security</a></b><br><sub dir="rtl">ميدالية برونزية على Kaggle – أمن وكلاء الذكاء الاصطناعي</sub><br><sub>Nafezly</sub></td><td align="center" valign="top" width="33%"><a href="ai/invoicepilot/"><img src="ai/invoicepilot/images/cover.jpg" width="100%" alt="InvoicePilot – Smart Invoices for Freelancers"></a><br><b><a href="ai/invoicepilot/">InvoicePilot – Smart Invoices for Freelancers</a></b><br><sub dir="rtl">InvoicePilot – فواتير ذكية للمستقلين</sub><br><sub>Nafezly</sub></td><td width="33%"></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="ai/kaggle-ai-agent-security/"><img src="ai/kaggle-ai-agent-security/images/cover.jpg" width="100%" alt="Kaggle Bronze – AI Agent Security"></a><br><b><a href="ai/kaggle-ai-agent-security/">Kaggle Bronze – AI Agent Security</a></b><br><sub dir="rtl">ميدالية برونزية على Kaggle – أمن وكلاء الذكاء الاصطناعي</sub><br><sub>Nafezly · Upwork</sub></td><td align="center" valign="top" width="33%"><a href="ai/invoicepilot/"><img src="ai/invoicepilot/images/cover.jpg" width="100%" alt="InvoicePilot – Smart Invoices for Freelancers"></a><br><b><a href="ai/invoicepilot/">InvoicePilot – Smart Invoices for Freelancers</a></b><br><sub dir="rtl">InvoicePilot – فواتير ذكية للمستقلين</sub><br><sub>Nafezly · Upwork</sub></td><td align="center" valign="top" width="33%"><a href="ai/sand-dune-encroachment-tracker/"><img src="ai/sand-dune-encroachment-tracker/images/cover.jpg" width="100%" alt="Sand Dune Encroachment Tracker – Geospatial ML"></a><br><b><a href="ai/sand-dune-encroachment-tracker/">Sand Dune Encroachment Tracker – Geospatial ML</a></b><br><sub dir="rtl">متتبّع زحف الكثبان الرملية – تعلّم آلي جيومكاني</sub><br><sub>Upwork</sub></td></tr>
 </table>
 
 <a id="cat-backend"></a>
