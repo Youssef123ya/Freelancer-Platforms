@@ -1401,7 +1401,7 @@
   applyLang();
   initHeroCanvas();
 
-  fetch('data/portfolio.json?v=20261119-6')
+  fetch('data/portfolio.json?v=20261119-8')
     .then((r) => {
       if (!r.ok) throw new Error('HTTP ' + r.status);
       return r.json();
