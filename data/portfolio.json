@@ -2595,7 +2595,8 @@
         "ar": "سأصمم لك صفحة هبوط Landing Page متجاوبة واحترافية",
         "listed": true,
         "price": "$10",
-        "delivery": "3 days · ٣ أيام",
+        "delivery_en": "3 days",
+        "delivery_ar": "3 أيام",
         "intro_en": "A modern, fast landing page that presents your product or service clearly and turns visitors into customers.",
         "intro_ar": "أصمم صفحات هبوط حديثة وسريعة تعرض منتجك أو خدمتك بشكل واضح وتساعد على تحويل الزوار إلى عملاء.",
         "includes": [
@@ -2646,22 +2647,26 @@
           {
             "title": "إضافة قسمين إضافيين للصفحة",
             "price_usd": 5.0,
-            "extra_days": 1
+            "extra_days": 1,
+            "title_en": "Add 2 additional page sections"
           },
           {
             "title": "إضافة نموذج تواصل يرسل الرسائل إلى بريدك",
             "price_usd": 5.0,
-            "extra_days": 1
+            "extra_days": 1,
+            "title_en": "Add a contact form forwarding messages to your email"
           },
           {
             "title": "رفع الصفحة ونشرها على استضافة مجانية (Netlify أو GitHub Pages)",
             "price_usd": 5.0,
-            "extra_days": 1
+            "extra_days": 1,
+            "title_en": "Deploy and publish on free hosting (Netlify or GitHub Pages)"
           },
           {
             "title": "تسليم سريع خلال يوم واحد",
             "price_usd": 10.0,
-            "delivery_days_total": 1
+            "delivery_days_total": 1,
+            "title_en": "Express 1-day delivery"
           }
         ],
         "tools": [
@@ -2699,7 +2704,8 @@
         "ar": "تطوير الباك إند وواجهات REST API",
         "listed": false,
         "price": null,
-        "delivery": null,
+        "delivery_en": null,
+        "delivery_ar": null,
         "intro_en": "Reliable backends and REST APIs that connect your app, database and third-party services — documented and ready to maintain.",
         "intro_ar": "أبني أنظمة Backend وواجهات REST API موثوقة تربط تطبيقك بقاعدة البيانات والخدمات الخارجية، مع توثيق واضح وكود سهل الصيانة.",
         "includes": [
@@ -2775,7 +2781,8 @@
         "ar": "تطبيقات وأتمتة بالذكاء الاصطناعي",
         "listed": false,
         "price": null,
-        "delivery": null,
+        "delivery_en": null,
+        "delivery_ar": null,
         "intro_en": "AI features that do real work — structured outputs, a human review step, and integrations with the tools you already use.",
         "intro_ar": "أضيف ميزات ذكاء اصطناعي تؤدي شغل حقيقي: مخرجات منظمة، وخطوة مراجعة بشرية، وربط مع الأدوات اللي بتستخدمها.",
         "includes": [
@@ -2844,7 +2851,8 @@
         "ar": "نماذج تعلّم الآلة وعلوم البيانات",
         "listed": false,
         "price": null,
-        "delivery": null,
+        "delivery_en": null,
+        "delivery_ar": null,
         "intro_en": "Turn your dataset into a baseline model you can trust: cleaning, EDA, modeling, evaluation and a clear report.",
         "intro_ar": "أحوّل بياناتك لنموذج أولي تقدر تعتمد عليه: تنظيف، تحليل استكشافي، بناء نموذج، تقييم، وتقرير واضح.",
         "includes": [
@@ -2908,7 +2916,8 @@
         "ar": "تنظيف البيانات ولوحات تحكم Excel",
         "listed": false,
         "price": null,
-        "delivery": null,
+        "delivery_en": null,
+        "delivery_ar": null,
         "intro_en": "Messy spreadsheets turned into clean, trustworthy data and interactive dashboards your team can actually use.",
         "intro_ar": "أحوّل ملفات Excel العشوائية لبيانات نظيفة وموثوقة ولوحات تحكم تفاعلية يقدر فريقك يستخدمها.",
         "includes": [
@@ -2970,7 +2979,8 @@
         "ar": "تطوير المواقع والمتاجر والنماذج التفاعلية",
         "listed": false,
         "price": null,
-        "delivery": null,
+        "delivery_en": null,
+        "delivery_ar": null,
         "intro_en": "Business websites, online stores and interactive prototypes — responsive, fast and easy to update.",
         "intro_ar": "مواقع شركات ومتاجر إلكترونية ونماذج تفاعلية، متجاوبة وسريعة وسهلة التعديل.",
         "includes": [
@@ -3036,7 +3046,8 @@
         "ar": "تصميم الشعارات والهوية البصرية",
         "listed": false,
         "price": null,
-        "delivery": null,
+        "delivery_en": null,
+        "delivery_ar": null,
         "intro_en": "Logos and complete brand boards — colors, typography, patterns and real-world mockups, in Arabic and English.",
         "intro_ar": "شعارات ولوحات هوية متكاملة: ألوان وخطوط وأنماط وتطبيقات واقعية، بالعربي والإنجليزي.",
         "includes": [
@@ -3105,7 +3116,8 @@
         "ar": "كتابة الإعلانات وسيناريوهات الفيديو والستوري بورد",
         "listed": false,
         "price": null,
-        "delivery": null,
+        "delivery_en": null,
+        "delivery_ar": null,
         "intro_en": "Short-form ad scripts, storyboards and marketing copy ready for Reels, TikTok, Shorts and AI video tools.",
         "intro_ar": "سكريبتات إعلانات قصيرة وستوري بورد ونصوص تسويقية جاهزة للريلز وتيك توك وشورتس وأدوات الفيديو بالذكاء الاصطناعي.",
         "includes": [
@@ -3167,9 +3179,9 @@
       {
         "key": "upwork",
         "name_en": "Upwork",
-        "name_ar": "أب وورك",
+        "name_ar": "أب وورك · Upwork",
         "url": "https://www.upwork.com/freelancers/~016f07b2d17f649923",
-        "color": "#14A800",
+        "color": "#15803D",
         "meta_en": "$20/hr · >30 hrs/wk · Contract-to-hire",
         "meta_ar": "$20/ساعة · أكثر من 30 ساعة/أسبوع",
         "count_en": "3 portfolio items",
@@ -3180,9 +3192,9 @@
       {
         "key": "freelancer",
         "name_en": "Freelancer.com",
-        "name_ar": "فريلانسر",
+        "name_ar": "فريلانسر · Freelancer",
         "url": "https://www.freelancer.com/u/yyacoup",
-        "color": "#29B2FE",
+        "color": "#0369A1",
         "meta_en": "$10/hr · Payment, Phone & Email verified",
         "meta_ar": "$10/ساعة · موثّق الدفع والهاتف والبريد",
         "count_en": "16 portfolio items",
@@ -3193,9 +3205,9 @@
       {
         "key": "mostaql",
         "name_en": "Mostaql",
-        "name_ar": "مستقل",
+        "name_ar": "مستقل · Mostaql",
         "url": "https://mostaql.com/u/yyacoup",
-        "color": "#2386C8",
+        "color": "#1D4ED8",
         "meta_en": "ID Verified · 2-year member",
         "meta_ar": "هوية موثّقة · عضو منذ سنتين",
         "count_en": "4 portfolio items",
@@ -3206,9 +3218,9 @@
       {
         "key": "nafezly",
         "name_en": "Nafezly",
-        "name_ar": "نفذلي",
+        "name_ar": "نفذلي · Nafezly",
         "url": "https://nafezly.com/u/YoussefYacoup",
-        "color": "#4F46E5",
+        "color": "#334155",
         "meta_en": "Backend & AI Developer · Egypt",
         "meta_ar": "مطور Backend وAI · مصر",
         "count_en": "20 portfolio items",
@@ -3219,9 +3231,9 @@
       {
         "key": "khamsat",
         "name_en": "Khamsat",
-        "name_ar": "خمسات",
+        "name_ar": "خمسات · Khamsat",
         "url": "https://khamsat.com/user/youssefyacoup",
-        "color": "#F7931E",
+        "color": "#B45309",
         "meta_en": "ID Verified · 100% Fundamentals score",
         "meta_ar": "هوية موثّقة · 100% في أساسيات خمسات",
         "count_en": "1 service · from $10",
@@ -3235,55 +3247,64 @@
         "name": "InvoicePilot",
         "repo": "invoicepilot-paypal-ai",
         "url": "https://github.com/Youssef123ya/invoicepilot-paypal-ai",
-        "summary": "AI invoice assistant · PayPal AI Hackathon"
+        "summary_en": "AI invoice assistant · PayPal AI Hackathon",
+        "summary_ar": "مساعد فواتير ذكي للمستقلين · هاكاثون PayPal AI"
       },
       {
         "name": "Sand Dune Encroachment Tracker",
         "repo": "Challenge-3-Sand-Dune-Encroachment-Tracker",
         "url": "https://github.com/Youssef123ya/Challenge-3-Sand-Dune-Encroachment-Tracker",
-        "summary": "1st place · TechMind Challenge 3 (Geospatial ML)"
+        "summary_en": "1st place · TechMind Challenge 3 (Geospatial ML)",
+        "summary_ar": "المركز الأول · TechMind Challenge 3 (تعلّم آلي جيومكاني)"
       },
       {
         "name": "MedMonitor 24/7",
         "repo": "MedMonitor-24-7",
         "url": "https://github.com/Youssef123ya/MedMonitor-24-7",
-        "summary": "Hospital monitoring · graduation project 100/100"
+        "summary_en": "Hospital monitoring · graduation project 100/100",
+        "summary_ar": "مراقبة أسرّة المستشفى · مشروع تخرج 100/100"
       },
       {
         "name": "Kaggle Competitions",
         "repo": "Kaggle-Competitions",
         "url": "https://github.com/Youssef123ya/Kaggle-Competitions",
-        "summary": "2 bronze medals"
+        "summary_en": "2 bronze medals",
+        "summary_ar": "ميداليتان برونزيتان على Kaggle"
       },
       {
         "name": "TechMind Challenge 2025",
         "repo": "TechMind-Challenge-2025",
         "url": "https://github.com/Youssef123ya/TechMind-Challenge-2025",
-        "summary": "1st place · TechMind Challenge"
+        "summary_en": "1st place · TechMind Challenge",
+        "summary_ar": "المركز الأول · مسابقة TechMind"
       },
       {
         "name": "Devpost Competitions",
         "repo": "Devpost_Competitons",
         "url": "https://github.com/Youssef123ya/Devpost_Competitons",
-        "summary": "Hackathon projects collection"
+        "summary_en": "Hackathon projects collection",
+        "summary_ar": "مجموعة مشاريع الهاكاثونات والمسابقات على Devpost"
       },
       {
         "name": "rollout-trace",
         "repo": "rollout-trace",
         "url": "https://github.com/Youssef123ya/rollout-trace",
-        "summary": "Deployment-failure research desk · ODSC × Nebius"
+        "summary_en": "Deployment-failure research desk · ODSC × Nebius",
+        "summary_ar": "أداة تتبّع أعطال النشر بمصادر موثّقة · ODSC × Nebius"
       },
       {
         "name": "sleight-of-eye",
         "repo": "sleight-of-eye",
         "url": "https://github.com/Youssef123ya/sleight-of-eye",
-        "summary": "WebXR game for Meta Quest"
+        "summary_en": "WebXR game for Meta Quest",
+        "summary_ar": "لعبة WebXR لنظارات Meta Quest"
       },
       {
         "name": "ghostlight-kiroween-2026",
         "repo": "ghostlight-kiroween-2026",
         "url": "https://github.com/Youssef123ya/ghostlight-kiroween-2026",
-        "summary": "HTML accessibility repair workshop"
+        "summary_en": "HTML accessibility repair workshop",
+        "summary_ar": "ورشة فحص وإصلاح إمكانية الوصول لصفحات HTML"
       }
     ],
     "experience": [
@@ -3291,70 +3312,81 @@
         "role_en": "Machine Learning Engineer (Part-time)",
         "role_ar": "مهندس تعلّم آلة (دوام جزئي)",
         "org": "Shipd / Datacurve",
-        "period": "Mar 2026 – Present"
+        "period_en": "Mar 2026 – Present",
+        "period_ar": "مارس 2026 – الآن"
       },
       {
         "role_en": "Freelance Backend Developer",
         "role_ar": "مطور Backend مستقل",
         "org": "ALX Ventures (Gig-at-a-Startup)",
-        "period": "Oct 2024 – Present"
+        "period_en": "Oct 2024 – Present",
+        "period_ar": "أكتوبر 2024 – الآن"
       },
       {
         "role_en": "AI & Machine Learning Intern",
         "role_ar": "متدرب ذكاء اصطناعي وتعلّم آلة",
         "org": "Genius Technology Center (GTC)",
-        "period": "Aug 2025 – Sep 2025"
+        "period_en": "Aug 2025 – Sep 2025",
+        "period_ar": "أغسطس – سبتمبر 2025"
       },
       {
         "role_en": "React Web Development Trainee",
         "role_ar": "متدرب تطوير واجهات React",
         "org": "Information Technology Institute (ITI)",
-        "period": "Sep 2024"
+        "period_en": "Sep 2024",
+        "period_ar": "سبتمبر 2024"
       }
     ],
     "credentials": [
       {
         "title_en": "B.Sc. Computer Science (IT)",
         "title_ar": "بكالوريوس علوم الحاسب (IT)",
-        "org": "Nahda University in Beni Suef",
+        "org_en": "Nahda University in Beni Suef",
+        "org_ar": "جامعة النهضة ببني سويف",
         "year": "2022–2026"
       },
       {
         "title_en": "ALX / Holberton Software Engineering — Backend",
         "title_ar": "هندسة البرمجيات (تخصص Backend) — ALX / Holberton",
-        "org": "ALX Africa",
+        "org_en": "ALX Africa",
+        "org_ar": "ALX Africa",
         "year": "2024"
       },
       {
         "title_en": "IBM Full Stack Software Developer",
         "title_ar": "شهادة IBM الاحترافية لتطوير البرمجيات Full Stack",
-        "org": "Coursera",
+        "org_en": "IBM / Coursera",
+        "org_ar": "IBM / Coursera",
         "year": "2024",
         "url": "https://www.coursera.org/verify/professional-cert/86A8LFNLFG9B"
       },
       {
         "title_en": "Kaggle Bronze Medal — AI Agent Security (Top 9%)",
         "title_ar": "ميدالية برونزية Kaggle — أمن وكلاء الذكاء الاصطناعي",
-        "org": "Kaggle",
+        "org_en": "Kaggle",
+        "org_ar": "Kaggle",
         "year": "2026",
         "url": "https://www.kaggle.com/certification/competitions/youssefyacoup/ai-agent-security-multi-step-tool-attacks"
       },
       {
         "title_en": "Google Cloud Technical Series: AI in Action",
         "title_ar": "شارة Google Cloud: AI in Action",
-        "org": "Google Cloud",
+        "org_en": "Google Cloud",
+        "org_ar": "Google Cloud",
         "year": "2026"
       },
       {
         "title_en": "DEPI React · GTC ML · ITI React & PHP · Walmart Forage",
         "title_ar": "DEPI React · تدريب GTC ML · ITI React وPHP · Walmart Forage",
-        "org": "Certificates",
+        "org_en": "Training Certificates",
+        "org_ar": "شهادات تدريبية",
         "year": "2024–2025"
       },
       {
         "title_en": "Khamsat Work Fundamentals (100%)",
         "title_ar": "أساسيات العمل على خمسات (100%)",
-        "org": "Khbra / Khamsat",
+        "org_en": "Khbra / Khamsat",
+        "org_ar": "خبرة / خمسات",
         "year": "2026",
         "url": "https://khbra.com/attempts/e301455c-d1ad-4e63-b583-5f9dee3a576b"
       }

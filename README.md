@@ -2,7 +2,7 @@
 
 <img src="assets/banner.svg" width="100%" alt="Youssef Yacoup — Freelancer Platforms">
 
-<a href="https://youssef123ya.github.io/Freelancer-Platforms/"><img src="https://img.shields.io/badge/🌐_Live_Interactive_Portfolio_Site-4F46E5?style=for-the-badge" alt="Live Interactive Website"></a>
+<a href="https://youssef123ya.github.io/Freelancer-Platforms/"><img src="https://img.shields.io/badge/Live_Interactive_Portfolio_Site-111317?style=for-the-badge" alt="Live Interactive Website"></a>
 
 <a href="https://www.upwork.com/freelancers/~016f07b2d17f649923"><img src="https://img.shields.io/badge/Upwork-14A800?style=for-the-badge&logo=upwork&logoColor=white" alt="Upwork"></a>
 <a href="https://www.freelancer.com/u/yyacoup"><img src="https://img.shields.io/badge/Freelancer.com-29B2FE?style=for-the-badge&logo=freelancer&logoColor=white" alt="Freelancer.com"></a>
