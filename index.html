@@ -12,7 +12,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="site/styles.css">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <link rel="stylesheet" href="site/styles.css?v=20261119-5">
 </head>
 <body>
   <!-- Scroll Progress Bar -->
@@ -44,6 +47,14 @@
           <kbd>Ctrl K</kbd>
         </button>
 
+                <!-- Live Editorial Pigment Switcher -->
+        <div class="accent-switcher" id="accentSwitcher" role="group" aria-label="Editorial color theme" title="تغيير اللون الرئيسي | Switch Editorial Pigment">
+          <button type="button" class="swatch-btn active" data-pigment="terracotta" style="--sw:#C2410C" aria-label="Terracotta"></button>
+          <button type="button" class="swatch-btn" data-pigment="cobalt" style="--sw:#1D4ED8" aria-label="Oxford Cobalt"></button>
+          <button type="button" class="swatch-btn" data-pigment="emerald" style="--sw:#047857" aria-label="Forest Emerald"></button>
+          <button type="button" class="swatch-btn" data-pigment="amber" style="--sw:#B45309" aria-label="Amber Ochre"></button>
+          <button type="button" class="swatch-btn" data-pigment="teal" style="--sw:#0F766E" aria-label="Deep Teal"></button>
+        </div>
         <!-- Segmented Arabic / English Switch -->
         <div class="lang-switch" role="group" aria-label="Language">
           <button type="button" class="lang-opt" data-set-lang="ar" id="langAr">العربية</button>
@@ -62,6 +73,8 @@
   <main id="top">
     <!-- Hero -->
     <section class="hero">
+      <canvas id="heroCanvas" class="hero-canvas" aria-hidden="true"></canvas>
+      <div class="hero-ribbon" aria-hidden="true"></div>
       <div class="container hero-grid">
         <div class="hero-main">
           <div class="hero-identity">
@@ -105,20 +118,28 @@
         <aside class="hero-panel">
           <div class="stats-grid" id="statsGrid">
             <div class="stat-cell stat-cobalt">
+              <div class="stat-top"><span class="stat-dot"></span><span class="stat-tag">PORTFOLIO</span></div>
               <div class="stat-value" id="statProjects">39</div>
               <div class="stat-label" data-i18n="statProjects">عمل في المعرض</div>
+              <div class="stat-meter"><span style="width:94%"></span></div>
             </div>
             <div class="stat-cell stat-terracotta">
+              <div class="stat-top"><span class="stat-dot"></span><span class="stat-tag">SERVICES</span></div>
               <div class="stat-value" id="statServices">8</div>
               <div class="stat-label" data-i18n="statServices">خدمات متخصصة</div>
+              <div class="stat-meter"><span style="width:88%"></span></div>
             </div>
             <div class="stat-cell stat-emerald">
+              <div class="stat-top"><span class="stat-dot"></span><span class="stat-tag">PLATFORMS</span></div>
               <div class="stat-value" id="statPlatforms">5</div>
               <div class="stat-label" data-i18n="statPlatforms">منصات عمل حر</div>
+              <div class="stat-meter"><span style="width:100%"></span></div>
             </div>
             <div class="stat-cell stat-amber">
+              <div class="stat-top"><span class="stat-dot"></span><span class="stat-tag">LIVE DEMOS</span></div>
               <div class="stat-value" id="statDemos">13</div>
               <div class="stat-label" data-i18n="statDemos">نسخ تجريبية مباشرة</div>
+              <div class="stat-meter"><span style="width:82%"></span></div>
             </div>
           </div>
 
@@ -409,6 +430,6 @@
     </div>
   </div>
 
-  <script src="site/app.js"></script>
+  <script src="site/app.js?v=20261119-5"></script>
 </body>
 </html>

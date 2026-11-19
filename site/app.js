@@ -323,7 +323,7 @@
     const isAr = state.lang === 'ar';
     $('heroPlatforms').innerHTML = web.profiles.map((p) => {
       const label = isAr ? p.name_ar.split(' ·')[0] : p.name_en;
-      return `<a class="platform-pill magnetic" href="${esc(p.url)}" target="_blank" rel="noopener" style="--plat-color:${p.color}">
+      return `<a class="platform-pill magnetic" data-plat="${esc(p.key)}" href="${esc(p.url)}" target="_blank" rel="noopener" style="--plat-color:${p.color}">
         <span class="plat-dot"></span><span>${esc(label)}</span>${SVG.ext}
       </a>`;
     }).join('');
@@ -562,7 +562,7 @@
   function renderPlatforms() {
     const isAr = state.lang === 'ar';
     $('platformsGrid').innerHTML = state.data.web.profiles.map((p, idx) => `
-      <div class="platform-card reveal-item" style="--stagger:${idx * 55}ms;border-top:3px solid ${p.color}">
+      <div class="platform-card reveal-item" data-plat="${esc(p.key)}" style="--stagger:${idx * 55}ms;border-top:4px solid ${p.color}">
         <div class="platform-card-head">
           <span class="plat-dot" style="background:${p.color};width:9px;height:9px"></span>
           <h3>${esc(isAr ? p.name_ar.split(' ·')[0] : p.name_en)}</h3>
@@ -570,7 +570,7 @@
         <p class="platform-meta">${esc(isAr ? p.meta_ar : p.meta_en)}</p>
         <p class="platform-count">${esc(isAr ? p.count_ar : p.count_en)}</p>
         <div class="platform-actions">
-          <a class="btn btn-primary btn-sm" style="background:${p.color};border-color:${p.color};box-shadow:none" href="${esc(p.url)}" target="_blank" rel="noopener">${esc(t('visitProfile'))} ${SVG.ext}</a>
+          <a class="btn btn-sm" style="background:var(--plat-c,${p.color});border-color:var(--plat-c,${p.color});color:#fff" href="${esc(p.url)}" target="_blank" rel="noopener">${esc(t('visitProfile'))} ${SVG.ext}</a>
           ${p.filterable
             ? `<button type="button" class="btn btn-secondary btn-sm" data-filter-platform="${esc(p.key)}">${esc(t('filterByPlatform'))}</button>`
             : `<button type="button" class="btn btn-secondary btn-sm" data-service="landing-page-design">${esc(t('viewKhamsatService'))}</button>`}
@@ -1259,11 +1259,149 @@
   onScroll();
   requestAnimationFrame(tickSpotlight);
 
+
+  /* ---- Live Editorial Pigment Switcher ---- */
+  const PIGMENT_MAP = {
+    terracotta: { light: ['#C2410C', '#9A3412', '#FFF3EC', 'rgba(194,65,12,0.32)'], dark: ['#FB923C', '#EA580C', 'rgba(234,88,12,0.18)', 'rgba(251,146,60,0.38)'] },
+    cobalt:     { light: ['#1D4ED8', '#1E40AF', '#EFF5FF', 'rgba(29,78,216,0.32)'], dark: ['#60A5FA', '#3B82F6', 'rgba(29,78,216,0.20)', 'rgba(96,165,250,0.38)'] },
+    emerald:    { light: ['#047857', '#065F46', '#ECFDF5', 'rgba(4,120,87,0.32)'],  dark: ['#34D399', '#10B981', 'rgba(4,120,87,0.20)',  'rgba(52,211,153,0.38)'] },
+    amber:      { light: ['#B45309', '#92400E', '#FFFBEB', 'rgba(180,83,9,0.32)'],  dark: ['#FBBF24', '#D97706', 'rgba(180,83,9,0.20)',  'rgba(251,191,36,0.38)'] },
+    teal:       { light: ['#0F766E', '#115E59', '#F0FDFA', 'rgba(15,118,110,0.32)'],dark: ['#2DD4BF', '#14B8A6', 'rgba(15,118,110,0.20)','rgba(45,212,191,0.38)'] }
+  };
+
+  let currentPigment = localStorage.getItem('yy_pigment') || 'terracotta';
+  function applyPigment(name) {
+    if (!PIGMENT_MAP[name]) name = 'terracotta';
+    currentPigment = name;
+    localStorage.setItem('yy_pigment', name);
+    const mode = state.theme === 'dark' ? 'dark' : 'light';
+    const [p, pd, pbg, pbd] = PIGMENT_MAP[name][mode];
+    const root = document.documentElement;
+    root.style.setProperty('--p-primary', p);
+    root.style.setProperty('--p-primary-dark', pd);
+    root.style.setProperty('--p-primary-bg', pbg);
+    root.style.setProperty('--p-primary-bd', pbd);
+    document.querySelectorAll('.swatch-btn').forEach((b) => {
+      b.classList.toggle('active', b.dataset.pigment === name);
+    });
+  }
+
+  document.querySelectorAll('.swatch-btn').forEach((btn) => {
+    btn.addEventListener('click', () => applyPigment(btn.dataset.pigment));
+  });
+
+  const origApplyTheme = applyTheme;
+  // Re-apply pigment when theme toggles
+  $('themeToggle').addEventListener('click', () => setTimeout(() => applyPigment(currentPigment), 10));
+
+  /* ---- Interactive Architectural Blueprint Canvas in Hero ---- */
+  function initHeroCanvas() {
+    const canvas = $('heroCanvas');
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    const COLORS = ['#C2410C', '#1D4ED8', '#047857', '#D97706', '#0F766E', '#BE123C'];
+    let w = 0, h = 0;
+    const nodes = [];
+    const mouse = { x: -9999, y: -9999 };
+
+    function resize() {
+      const rect = canvas.parentElement.getBoundingClientRect();
+      const dpr = Math.min(window.devicePixelRatio || 1, 2);
+      w = rect.width;
+      h = rect.height;
+      canvas.width = w * dpr;
+      canvas.height = h * dpr;
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    }
+    resize();
+    window.addEventListener('resize', resize, { passive: true });
+
+    const count = 34;
+    for (let i = 0; i < count; i++) {
+      nodes.push({
+        x: Math.random() * (w || 1200),
+        y: Math.random() * (h || 520),
+        vx: (Math.random() - 0.5) * 0.55,
+        vy: (Math.random() - 0.5) * 0.55,
+        r: 2.2 + Math.random() * 2.2,
+        color: COLORS[i % COLORS.length]
+      });
+    }
+
+    const heroEl = canvas.parentElement;
+    heroEl.addEventListener('pointermove', (e) => {
+      const r = heroEl.getBoundingClientRect();
+      mouse.x = e.clientX - r.left;
+      mouse.y = e.clientY - r.top;
+    }, { passive: true });
+    heroEl.addEventListener('pointerleave', () => {
+      mouse.x = -9999;
+      mouse.y = -9999;
+    });
+
+    function draw() {
+      ctx.clearRect(0, 0, w, h);
+      const isDark = state.theme === 'dark';
+      for (let i = 0; i < nodes.length; i++) {
+        const n = nodes[i];
+        n.x += n.vx;
+        n.y += n.vy;
+        if (n.x < 0 || n.x > w) n.vx *= -1;
+        if (n.y < 0 || n.y > h) n.vy *= -1;
+
+        // Connect nearby nodes
+        for (let j = i + 1; j < nodes.length; j++) {
+          const m = nodes[j];
+          const dx = n.x - m.x;
+          const dy = n.y - m.y;
+          const dist = Math.hypot(dx, dy);
+          if (dist < 135) {
+            const alpha = (1 - dist / 135) * (isDark ? 0.22 : 0.16);
+            ctx.strokeStyle = isDark ? `rgba(251, 146, 60, ${alpha.toFixed(3)})` : `rgba(29, 78, 216, ${alpha.toFixed(3)})`;
+            ctx.lineWidth = 1;
+            ctx.beginPath();
+            ctx.moveTo(n.x, n.y);
+            ctx.lineTo(m.x, m.y);
+            ctx.stroke();
+          }
+        }
+
+        // Connect to mouse cursor
+        const mdx = n.x - mouse.x;
+        const mdy = n.y - mouse.y;
+        const mdist = Math.hypot(mdx, mdy);
+        if (mdist < 180) {
+          const mAlpha = (1 - mdist / 180) * 0.45;
+          ctx.strokeStyle = n.color;
+          ctx.globalAlpha = mAlpha;
+          ctx.lineWidth = 1.4;
+          ctx.beginPath();
+          ctx.moveTo(n.x, n.y);
+          ctx.lineTo(mouse.x, mouse.y);
+          ctx.stroke();
+          ctx.globalAlpha = 1;
+        }
+
+        // Draw colored node
+        ctx.fillStyle = n.color;
+        ctx.globalAlpha = isDark ? 0.85 : 0.72;
+        ctx.beginPath();
+        ctx.arc(n.x, n.y, n.r, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.globalAlpha = 1;
+      }
+      requestAnimationFrame(draw);
+    }
+    requestAnimationFrame(draw);
+  }
+
   /* ---- Init ---- */
   applyTheme();
+  applyPigment(currentPigment);
   applyLang();
+  initHeroCanvas();
 
-  fetch('data/portfolio.json')
+  fetch('data/portfolio.json?v=20261119-5')
     .then((r) => {
       if (!r.ok) throw new Error('HTTP ' + r.status);
       return r.json();
