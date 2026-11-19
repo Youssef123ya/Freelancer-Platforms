@@ -2678,3 +2678,5 @@ html[data-theme="dark"] .stat-meter {
   background: none !important;
   opacity: 0 !important;
 }
+
+.avatar-badge { display: none !important; }
