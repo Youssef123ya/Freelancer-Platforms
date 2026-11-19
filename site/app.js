@@ -9,6 +9,37 @@
     khamsat: '#B45309',
   };
 
+  // Natural Editorial Pigment Colors (0% AI purple/cyan)
+  const CAT_PALETTE = {
+    ai: { color: 'var(--p-teal)', bg: 'var(--p-teal-bg)', bd: 'var(--p-teal-bd)' },
+    backend: { color: 'var(--p-cobalt)', bg: 'var(--p-cobalt-bg)', bd: 'var(--p-cobalt-bd)' },
+    data: { color: 'var(--p-emerald)', bg: 'var(--p-emerald-bg)', bd: 'var(--p-emerald-bd)' },
+    ecommerce: { color: 'var(--p-terracotta)', bg: 'var(--p-terracotta-bg)', bd: 'var(--p-terracotta-bd)' },
+    web: { color: 'var(--p-amber)', bg: 'var(--p-amber-bg)', bd: 'var(--p-amber-bd)' },
+    design: { color: 'var(--p-crimson)', bg: 'var(--p-crimson-bg)', bd: 'var(--p-crimson-bd)' },
+    content: { color: 'var(--p-sienna)', bg: 'var(--p-sienna-bg)', bd: 'var(--p-sienna-bd)' },
+  };
+
+  const SERVICE_CAT = {
+    'landing-page-design': 'web',
+    'backend-api-development': 'backend',
+    'ai-apps-automation': 'ai',
+    'machine-learning-data-science': 'ai',
+    'data-cleaning-excel-dashboards': 'data',
+    'websites-ecommerce': 'ecommerce',
+    'brand-identity-design': 'design',
+    'ad-copy-video-scripts': 'content',
+  };
+
+  const FEATURED_SLUGS = [
+    'medmonitor-24-7',
+    'invoicepilot',
+    'sand-dune-encroachment-tracker',
+    'secure-aws-infrastructure',
+    'hr-analytics-dashboard',
+    'rose-and-sugar-identity',
+  ];
+
   const SVG = {
     sun: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>',
     moon: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>',
@@ -31,6 +62,7 @@
     ar: {
       pageTitle: 'يوسف يعقوب — الخدمات ومعرض الأعمال',
       brand: 'يوسف يعقوب',
+      navFeatured: 'المختارات',
       navServices: 'خدماتي',
       navPortfolio: 'معرض الأعمال',
       navPlatforms: 'المنصات',
@@ -38,6 +70,14 @@
       navExperience: 'الخبرات',
       navContact: 'تواصل',
       navHire: 'اطلب خدمة',
+      cmdBtn: 'بحث سريع',
+      cmdPlaceholder: 'ابحث وانتقل سريعًا لأي مشروع أو خدمة أو منصة...',
+      cmdProject: 'مشروع',
+      cmdService: 'خدمة',
+      cmdPlatform: 'منصة',
+      cmdAction: 'إجراء',
+      cmdSwitchLang: 'تغيير اللغة إلى English',
+      cmdSwitchTheme: 'تبديل الوضع الليلي / النهاري',
       heroBadge: 'متاح لمشاريع العمل الحر والتعاقد · القاهرة، مصر',
       heroName: 'يوسف يعقوب',
       heroRolePrefix: 'مطوّر ذكاء اصطناعي وباك إند —',
@@ -45,19 +85,22 @@
       heroCtaPortfolio: (n) => `تصفّح معرض الأعمال (${n})`,
       heroCtaServices: (n) => `الخدمات والأسعار (${n})`,
       heroCtaRepo: 'مستودع GitHub',
-      heroPlatformsLabel: 'منصات العمل الحر',
+      heroPlatformsLabel: 'منصات العمل الحر المعتمدة',
       stackLabel: 'التقنيات الأساسية',
       linksLabel: 'الروابط المهنية',
       statProjects: 'عمل في المعرض',
       statServices: 'خدمات متخصصة',
       statPlatforms: 'منصات عمل حر',
       statDemos: 'نسخ تجريبية مباشرة',
+      featuredEyebrow: 'مختارات هندسية وتصميمية',
+      featuredTitle: 'أبرز المشاريع ودراسات الحالة',
+      openCaseStudy: 'عرض دراسة الحالة والصور',
       servicesEyebrow: 'نطاق العمل',
       servicesTitle: 'خدماتي',
       servicesDesc: 'اضغط على أي خدمة لعرض تفاصيل التنفيذ، المخرجات، التطويرات الاختيارية، والأعمال المرتبطة بها.',
       servicesPricing: 'خمسات: من $10 · فريلانسر: $10/ساعة · Upwork: $20/ساعة · مستقل ونفذلي: حسب المشروع',
       portfolioEyebrow: 'أعمال موثّقة بالصور والروابط',
-      portfolioTitle: 'معرض الأعمال',
+      portfolioTitle: 'معرض الأعمال الكامل',
       portfolioDesc: 'ابحث بالعربي أو الإنجليزي، وفلتر حسب المجال أو المنصة أو الأعمال المتاح لها نسخة تجريبية مباشرة.',
       searchPlaceholder: 'ابحث في المشاريع، المهارات، التقنيات (مثل Python, React, AWS, شعار)...',
       platformOptions: ['كل المنصات', 'Upwork · أب وورك', 'Freelancer.com · فريلانسر', 'مستقل · Mostaql', 'نفذلي · Nafezly'],
@@ -114,6 +157,7 @@
     en: {
       pageTitle: 'Youssef Yacoup — Services & Portfolio',
       brand: 'Youssef Yacoup',
+      navFeatured: 'Featured',
       navServices: 'Services',
       navPortfolio: 'Portfolio',
       navPlatforms: 'Platforms',
@@ -121,6 +165,14 @@
       navExperience: 'Experience',
       navContact: 'Contact',
       navHire: 'Hire Me',
+      cmdBtn: 'Quick Search',
+      cmdPlaceholder: 'Type to jump to any project, service, platform, or action...',
+      cmdProject: 'Project',
+      cmdService: 'Service',
+      cmdPlatform: 'Platform',
+      cmdAction: 'Action',
+      cmdSwitchLang: 'Switch language to العربية',
+      cmdSwitchTheme: 'Toggle Light / Dark theme',
       heroBadge: 'Available for freelance & contract · Cairo, Egypt',
       heroName: 'Youssef Yacoup',
       heroRolePrefix: 'AI & Backend Developer —',
@@ -128,19 +180,22 @@
       heroCtaPortfolio: (n) => `Browse Portfolio (${n})`,
       heroCtaServices: (n) => `Services & Pricing (${n})`,
       heroCtaRepo: 'GitHub Repository',
-      heroPlatformsLabel: 'Freelance Platforms',
+      heroPlatformsLabel: 'Verified Freelance Platforms',
       stackLabel: 'Core Stack',
       linksLabel: 'Professional Links',
       statProjects: 'Portfolio Projects',
       statServices: 'Services',
       statPlatforms: 'Freelance Platforms',
       statDemos: 'Interactive Demos',
+      featuredEyebrow: 'Selected Engineering & Design',
+      featuredTitle: 'Featured Projects & Case Studies',
+      openCaseStudy: 'View Case Study & Gallery',
       servicesEyebrow: 'Capabilities',
       servicesTitle: 'Services',
       servicesDesc: 'Select any service to inspect deliverables, workflow steps, optional add-ons, and related portfolio projects.',
       servicesPricing: 'Khamsat: from $10 · Freelancer: $10/hr · Upwork: $20/hr · Mostaql & Nafezly: custom quote',
       portfolioEyebrow: 'Selected & Published Work',
-      portfolioTitle: 'Portfolio',
+      portfolioTitle: 'Full Portfolio Gallery',
       portfolioDesc: 'Search in English or Arabic, and filter by category, freelance platform, or projects with a live interactive demo.',
       searchPlaceholder: 'Search projects, skills, technologies (e.g. Python, React, AWS, Logo)...',
       platformOptions: ['All Platforms', 'Upwork', 'Freelancer.com', 'Mostaql', 'Nafezly'],
@@ -203,6 +258,11 @@
     platform: 'all',
     demoOnly: false,
     search: '',
+    view: 'grid-3',
+    spotIdx: 0,
+    spotPaused: false,
+    cmdIdx: 0,
+    cmdList: [],
     data: null,
     modalImages: [],
     modalImgIdx: 0,
@@ -216,6 +276,10 @@
   const t = (key, ...args) => {
     const v = I18N[state.lang][key];
     return typeof v === 'function' ? v(...args) : v;
+  };
+  const palStyle = (cat) => {
+    const p = CAT_PALETTE[cat] || CAT_PALETTE.ecommerce;
+    return `--cat-color:${p.color};--cat-bg:${p.bg};--cat-bd:${p.bd}`;
   };
 
   function applyTheme() {
@@ -232,6 +296,7 @@
     $('langAr').classList.toggle('active', isAr);
     $('langEn').classList.toggle('active', !isAr);
     $('searchInput').placeholder = t('searchPlaceholder');
+    if ($('cmdInput')) $('cmdInput').placeholder = t('cmdPlaceholder');
 
     document.querySelectorAll('[data-i18n]').forEach((el) => {
       const k = el.dataset.i18n;
@@ -258,14 +323,14 @@
     const isAr = state.lang === 'ar';
     $('heroPlatforms').innerHTML = web.profiles.map((p) => {
       const label = isAr ? p.name_ar.split(' ·')[0] : p.name_en;
-      return `<a class="platform-pill" href="${esc(p.url)}" target="_blank" rel="noopener" style="--plat-color:${p.color}">
+      return `<a class="platform-pill magnetic" href="${esc(p.url)}" target="_blank" rel="noopener" style="--plat-color:${p.color}">
         <span class="plat-dot"></span><span>${esc(label)}</span>${SVG.ext}
       </a>`;
     }).join('');
 
     $('ctaPlatforms').innerHTML = web.profiles.map((p) => {
       const label = isAr ? p.name_ar.split(' ·')[0] : p.name_en;
-      return `<a class="btn btn-secondary btn-sm" href="${esc(p.url)}" target="_blank" rel="noopener">
+      return `<a class="btn btn-secondary btn-sm magnetic" href="${esc(p.url)}" target="_blank" rel="noopener">
         <span class="plat-dot" style="background:${p.color}"></span><span>${esc(label)}</span>${SVG.ext}
       </a>`;
     }).join('');
@@ -281,6 +346,97 @@
     if (ctaS) ctaS.textContent = t('heroCtaServices', web.services.length);
   }
 
+  /* ---- Interactive Featured Spotlight Deck ---- */
+  function featuredList() {
+    return FEATURED_SLUGS
+      .map((sl) => state.data.web.items.find((x) => x.slug === sl))
+      .filter(Boolean);
+  }
+
+  function renderSpotlight() {
+    const list = featuredList();
+    if (!list.length) return;
+    const isAr = state.lang === 'ar';
+    const catMap = Object.fromEntries(state.data.web.categories.map((c) => [c.key, c]));
+    state.spotIdx = ((state.spotIdx % list.length) + list.length) % list.length;
+    const it = list[state.spotIdx];
+    const cat = catMap[it.category];
+    const pal = CAT_PALETTE[it.category] || CAT_PALETTE.ecommerce;
+
+    $('spotlightTabs').innerHTML = list.map((proj, i) => {
+      const pPal = CAT_PALETTE[proj.category] || CAT_PALETTE.ecommerce;
+      const shortTitle = (isAr ? proj.ar : proj.en).split(/[\u2013\u2014—-]/)[0].trim().slice(0, 22);
+      return `<button type="button" class="spot-tab ${i === state.spotIdx ? 'active' : ''}" style="--spot-color:${pPal.color}" data-spot-idx="${i}">
+        <span class="spot-num">0${i + 1}</span>
+        <span>${esc(shortTitle)}</span>
+      </button>`;
+    }).join('');
+
+    const title = isAr ? it.ar : it.en;
+    const sub = isAr ? it.en : it.ar;
+    const desc = isAr ? (it.desc_ar || it.desc_en) : (it.desc_en || it.desc_ar);
+    const plats = it.platforms.map((p) => `<span class="plat-label"><span class="plat-dot" style="background:${PLATFORM_COLORS[p.key] || '#555'}"></span>${esc(p.name.split(' ·')[0])}</span>`).join('');
+    const skills = it.skills.slice(0, 6).map((s) => `<span class="tag">${esc(s)}</span>`).join('');
+    const extraBtns = it.extra.slice(0, 2).map((e) => {
+      const lbl = isAr ? (EXTRA_AR[e.label] || e.label) : e.label;
+      return `<a class="btn btn-secondary btn-sm" href="${esc(e.url)}" target="_blank" rel="noopener">${esc(lbl)} ${SVG.ext}</a>`;
+    }).join('');
+
+    const deck = $('spotlightDeck');
+    deck.style.setProperty('--spot-color', pal.color);
+    deck.innerHTML = `
+      <div class="spot-progress-bar"><div class="spot-progress-fill" id="spotProgressFill"></div></div>
+      <div class="spot-grid">
+        <div class="spot-media" data-project="${esc(it.slug)}">
+          <img src="${esc(it.images[0] || it.cover)}" alt="${esc(title)}">
+          <div class="card-hover-cta"><span>${esc(t('openCaseStudy'))}</span><span>${isAr ? '←' : '→'}</span></div>
+        </div>
+        <div class="spot-body" style="${palStyle(it.category)}">
+          <div>
+            <div class="card-meta-line">
+              <span class="cat-badge">${esc(isAr ? cat.ar : cat.en)}</span>
+              <div class="card-meta-left">${plats}</div>
+            </div>
+            <h3 class="spot-title">${esc(title)}</h3>
+            <p class="spot-sub">${esc(sub)}</p>
+            <p class="spot-desc">${esc(desc)}</p>
+            <div class="tags-row" style="margin-top:0.85rem">${skills}</div>
+          </div>
+          <div class="spot-footer">
+            <div style="display:flex;flex-wrap:wrap;gap:0.5rem">
+              <button type="button" class="btn btn-primary btn-sm" data-project="${esc(it.slug)}">${esc(t('openCaseStudy'))}</button>
+              ${it.demo ? `<a class="btn btn-secondary btn-sm" href="${esc(it.demo)}" target="_blank" rel="noopener">${SVG.play} ${esc(t('openDemo'))}</a>` : ''}
+              ${extraBtns}
+            </div>
+            <div class="spot-arrows">
+              <button type="button" class="icon-btn" id="spotPrev" aria-label="Previous">${isAr ? SVG.next : SVG.prev}</button>
+              <button type="button" class="icon-btn" id="spotNext" aria-label="Next">${isAr ? SVG.prev : SVG.next}</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+    spotStart = performance.now();
+  }
+
+  let spotStart = performance.now();
+  const SPOT_DURATION = 5800;
+  function tickSpotlight(now) {
+    if (state.data && !state.spotPaused && $('modalBackdrop').hidden && $('cmdBackdrop').hidden) {
+      const elapsed = now - spotStart;
+      const pct = Math.min(100, (elapsed / SPOT_DURATION) * 100);
+      const fill = $('spotProgressFill');
+      if (fill) fill.style.width = `${pct.toFixed(1)}%`;
+      if (elapsed >= SPOT_DURATION) {
+        state.spotIdx++;
+        renderSpotlight();
+      }
+    } else {
+      spotStart = now;
+    }
+    requestAnimationFrame(tickSpotlight);
+  }
+
   function renderServices() {
     const isAr = state.lang === 'ar';
     $('servicesGrid').innerHTML = state.data.web.services.map((s, idx) => {
@@ -289,14 +445,15 @@
       const badgeText = s.listed ? t('listedKhamsat') : t('customQuote');
       const tools = s.tools.slice(0, 3).map((x) => `<span class="tag">${esc(x)}</span>`).join('');
       const more = s.tools.length > 3 ? `<span class="tag">+${s.tools.length - 3}</span>` : '';
-      return `<article class="service-card reveal-item" style="--stagger:${idx * 55}ms" data-service="${esc(s.slug)}" tabindex="0" role="button">
+      const sCat = SERVICE_CAT[s.slug] || 'web';
+      return `<article class="service-card reveal-item" style="--stagger:${idx * 50}ms;${palStyle(sCat)}" data-service="${esc(s.slug)}" tabindex="0" role="button">
         <div class="card-media">
           <img src="${esc(s.cover)}" alt="${esc(title)}" loading="lazy">
           <div class="card-hover-cta"><span>${esc(t('serviceDetails'))}</span><span>${isAr ? '←' : '→'}</span></div>
         </div>
         <div class="card-body">
           <div class="card-meta-line">
-            <span class="badge-subtle ${s.listed ? 'badge-live' : ''}">${esc(badgeText)}</span>
+            <span class="cat-badge">${esc(badgeText)}</span>
           </div>
           <h3 class="card-title">${esc(title)}</h3>
           <p class="card-excerpt">${esc(intro)}</p>
@@ -330,15 +487,17 @@
       return true;
     });
     const chips = [
-      { key: 'all', label: t('allCategories'), count: baseItems.length },
+      { key: 'all', label: t('allCategories'), count: baseItems.length, style: '--cat-color:var(--p-terracotta)' },
       ...web.categories.map((c) => ({
         key: c.key,
         label: isAr ? c.ar : c.en,
         count: baseItems.filter((i) => i.category === c.key).length,
+        style: palStyle(c.key),
       })),
     ];
     $('categoryChips').innerHTML = chips.map((c) => `
-      <button type="button" class="cat-chip ${state.category === c.key ? 'active' : ''}" data-cat="${esc(c.key)}" role="tab" aria-selected="${state.category === c.key}">
+      <button type="button" class="cat-chip ${state.category === c.key ? 'active' : ''}" style="${c.style}" data-cat="${esc(c.key)}" role="tab" aria-selected="${state.category === c.key}">
+        <span class="cat-dot"></span>
         <span>${esc(c.label)}</span>
         <span class="cat-count">${c.count}</span>
       </button>
@@ -351,19 +510,23 @@
     const catMap = Object.fromEntries(web.categories.map((c) => [c.key, c]));
     const list = filteredItems();
 
+    const gridEl = $('portfolioGrid');
+    gridEl.classList.toggle('grid-2', state.view === 'grid-2');
+    gridEl.classList.toggle('list-view', state.view === 'list-view');
+
     $('resultsCount').textContent = t('showing', list.length, web.items.length);
     const hasFilter = state.category !== 'all' || state.platform !== 'all' || state.demoOnly || state.search.trim() !== '';
     $('resetFiltersBtn').hidden = !hasFilter;
     $('searchClear').hidden = state.search.trim() === '';
 
     if (!list.length) {
-      $('portfolioGrid').innerHTML = '';
+      gridEl.innerHTML = '';
       $('emptyState').hidden = false;
       return;
     }
     $('emptyState').hidden = true;
 
-    $('portfolioGrid').innerHTML = list.map((it, idx) => {
+    gridEl.innerHTML = list.map((it, idx) => {
       const cat = catMap[it.category];
       const title = isAr ? it.ar : it.en;
       const excerpt = (isAr ? (it.desc_ar || it.desc_en) : (it.desc_en || it.desc_ar)).replace(/\s+/g, ' ');
@@ -373,7 +536,7 @@
       }).join('');
       const skills = it.skills.slice(0, 3).map((s) => `<span class="tag">${esc(s)}</span>`).join('');
       const more = it.skills.length > 3 ? `<span class="tag">+${it.skills.length - 3}</span>` : '';
-      return `<article class="project-card reveal-item" style="--stagger:${(idx % 9) * 45}ms" data-project="${esc(it.slug)}" tabindex="0" role="button">
+      return `<article class="project-card reveal-item" style="--stagger:${(idx % 9) * 40}ms;${palStyle(it.category)}" data-project="${esc(it.slug)}" tabindex="0" role="button">
         <div class="card-media">
           <img src="${esc(it.cover)}" alt="${esc(title)}" loading="lazy">
           <div class="card-hover-cta"><span>${esc(t('serviceDetails'))}</span><span>${isAr ? '←' : '→'}</span></div>
@@ -381,7 +544,7 @@
         <div class="card-body">
           <div class="card-meta-line">
             <div class="card-meta-left">
-              <span>${esc(isAr ? cat.ar : cat.en)}</span>
+              <span class="cat-badge">${esc(isAr ? cat.ar : cat.en)}</span>
               ${it.demo ? `<span class="badge-subtle badge-live">${SVG.play} ${esc(t('liveDemoBadge'))}</span>` : ''}
             </div>
             <span class="photo-count">${esc(t('photosCount', it.images.length))}</span>
@@ -399,7 +562,7 @@
   function renderPlatforms() {
     const isAr = state.lang === 'ar';
     $('platformsGrid').innerHTML = state.data.web.profiles.map((p, idx) => `
-      <div class="platform-card reveal-item" style="--stagger:${idx * 55}ms">
+      <div class="platform-card reveal-item" style="--stagger:${idx * 55}ms;border-top:3px solid ${p.color}">
         <div class="platform-card-head">
           <span class="plat-dot" style="background:${p.color};width:9px;height:9px"></span>
           <h3>${esc(isAr ? p.name_ar.split(' ·')[0] : p.name_en)}</h3>
@@ -407,7 +570,7 @@
         <p class="platform-meta">${esc(isAr ? p.meta_ar : p.meta_en)}</p>
         <p class="platform-count">${esc(isAr ? p.count_ar : p.count_en)}</p>
         <div class="platform-actions">
-          <a class="btn btn-primary btn-sm" href="${esc(p.url)}" target="_blank" rel="noopener">${esc(t('visitProfile'))} ${SVG.ext}</a>
+          <a class="btn btn-primary btn-sm" style="background:${p.color};border-color:${p.color};box-shadow:none" href="${esc(p.url)}" target="_blank" rel="noopener">${esc(t('visitProfile'))} ${SVG.ext}</a>
           ${p.filterable
             ? `<button type="button" class="btn btn-secondary btn-sm" data-filter-platform="${esc(p.key)}">${esc(t('filterByPlatform'))}</button>`
             : `<button type="button" class="btn btn-secondary btn-sm" data-service="landing-page-design">${esc(t('viewKhamsatService'))}</button>`}
@@ -418,16 +581,18 @@
 
   function renderOpenSource() {
     const isAr = state.lang === 'ar';
-    $('ossGrid').innerHTML = state.data.web.open_source.map((r, idx) => `
-      <a class="oss-card reveal-item" style="--stagger:${(idx % 6) * 45}ms" href="${esc(r.url)}" target="_blank" rel="noopener">
+    const colors = ['cobalt', 'terracotta', 'emerald', 'teal', 'amber', 'crimson'];
+    $('ossGrid').innerHTML = state.data.web.open_source.map((r, idx) => {
+      const c = colors[idx % colors.length];
+      return `<a class="oss-card reveal-item" style="--stagger:${(idx % 6) * 45}ms;border-top:3px solid var(--p-${c})" href="${esc(r.url)}" target="_blank" rel="noopener">
         <div class="oss-top">
           <h3>${esc(r.name)}</h3>
           ${SVG.ext}
         </div>
         <p>${esc(isAr ? (r.summary_ar || r.summary_en) : (r.summary_en || r.summary))}</p>
-        <div class="oss-repo">Youssef123ya/${esc(r.repo)}</div>
-      </a>
-    `).join('');
+        <div class="oss-repo" style="color:var(--p-${c})">Youssef123ya/${esc(r.repo)}</div>
+      </a>`;
+    }).join('');
   }
 
   function renderExperience() {
@@ -452,6 +617,7 @@
 
   function renderAll() {
     renderHeroPlatforms();
+    renderSpotlight();
     renderServices();
     renderCategoryChips();
     renderPortfolio();
@@ -523,9 +689,9 @@
           <button type="button" class="carousel-btn carousel-next" id="modalNext" aria-label="Next">${isAr ? SVG.prev : SVG.next}</button>` : ''}
       </div>
       ${thumbs}
-      <div class="modal-content">
+      <div class="modal-content" style="${palStyle(it.category)}">
         <div class="modal-meta-row">
-          <span class="badge-subtle">${esc(isAr ? cat.ar : cat.en)}</span>
+          <span class="cat-badge">${esc(isAr ? cat.ar : cat.en)}</span>
           ${it.platforms.map((p) => `<span class="badge-subtle"><span class="plat-dot" style="background:${PLATFORM_COLORS[p.key] || '#555'}"></span>${esc(p.name.split(' ·')[0])}</span>`).join('')}
           <a id="modalFullLink" href="${esc(state.modalImages[0])}" target="_blank" rel="noopener" class="cred-link" style="margin-inline-start:auto">${esc(t('openImage'))} ${SVG.ext}</a>
         </div>
@@ -586,9 +752,9 @@
           <button type="button" class="carousel-btn carousel-next" id="modalNext" aria-label="Next">${isAr ? SVG.prev : SVG.next}</button>` : ''}
       </div>
       ${thumbs}
-      <div class="modal-content">
+      <div class="modal-content" style="${palStyle(SERVICE_CAT[s.slug] || 'web')}">
         <div class="modal-meta-row">
-          <span class="badge-subtle ${s.listed ? 'badge-live' : ''}">${esc(s.listed ? t('listedKhamsat') : t('customQuote'))}</span>
+          <span class="cat-badge">${esc(s.listed ? t('listedKhamsat') : t('customQuote'))}</span>
           ${delivery ? `<span class="badge-subtle">${esc(delivery)}</span>` : ''}
         </div>
         <h2 class="modal-title" id="modalTitle">${esc(title)}</h2>
@@ -645,6 +811,114 @@
     document.body.style.overflow = '';
   }
 
+  /* ---- Quick Command Palette (Ctrl+K) ---- */
+  function openCmd() {
+    if (!state.data) return;
+    $('cmdBackdrop').hidden = false;
+    $('cmdInput').value = '';
+    state.cmdIdx = 0;
+    renderCmdResults('');
+    $('cmdInput').focus();
+  }
+
+  function closeCmd() {
+    $('cmdBackdrop').hidden = true;
+  }
+
+  function renderCmdResults(query) {
+    const q = query.trim().toLowerCase();
+    const isAr = state.lang === 'ar';
+    const web = state.data.web;
+    const entries = [];
+
+    web.services.forEach((s) => {
+      entries.push({
+        type: t('cmdService'),
+        color: 'var(--p-cobalt)',
+        bg: 'var(--p-cobalt-bg)',
+        title: isAr ? s.ar : s.en,
+        sub: isAr ? s.en : s.ar,
+        thumb: s.cover,
+        hay: [s.en, s.ar, ...s.tools].join(' ').toLowerCase(),
+        run: () => { closeCmd(); openServiceModal(s.slug); },
+      });
+    });
+
+    web.items.forEach((it) => {
+      const pal = CAT_PALETTE[it.category] || CAT_PALETTE.ecommerce;
+      entries.push({
+        type: t('cmdProject'),
+        color: pal.color,
+        bg: pal.bg,
+        title: isAr ? it.ar : it.en,
+        sub: it.skills.slice(0, 4).join(' · ') || (isAr ? it.en : it.ar),
+        thumb: it.cover,
+        hay: [it.en, it.ar, ...it.skills].join(' ').toLowerCase(),
+        run: () => { closeCmd(); openProjectModal(it.slug); },
+      });
+    });
+
+    web.profiles.forEach((p) => {
+      entries.push({
+        type: t('cmdPlatform'),
+        color: p.color,
+        bg: 'var(--surface-2)',
+        title: isAr ? p.name_ar : p.name_en,
+        sub: isAr ? p.meta_ar : p.meta_en,
+        thumb: null,
+        hay: [p.name_en, p.name_ar, p.meta_en].join(' ').toLowerCase(),
+        run: () => { closeCmd(); window.open(p.url, '_blank', 'noopener'); },
+      });
+    });
+
+    entries.push({
+      type: t('cmdAction'),
+      color: 'var(--p-terracotta)',
+      bg: 'var(--p-terracotta-bg)',
+      title: t('cmdSwitchLang'),
+      sub: 'AR ↔ EN',
+      thumb: null,
+      hay: 'language english arabic لغة عربي انجليزي',
+      run: () => {
+        closeCmd();
+        state.lang = state.lang === 'ar' ? 'en' : 'ar';
+        localStorage.setItem('yy_lang', state.lang);
+        applyLang();
+      },
+    });
+    entries.push({
+      type: t('cmdAction'),
+      color: 'var(--p-emerald)',
+      bg: 'var(--p-emerald-bg)',
+      title: t('cmdSwitchTheme'),
+      sub: 'Light ↔ Dark',
+      thumb: null,
+      hay: 'theme dark light ثيم ليلي نهاري',
+      run: () => {
+        closeCmd();
+        state.theme = state.theme === 'dark' ? 'light' : 'dark';
+        localStorage.setItem('yy_theme_v2', state.theme);
+        applyTheme();
+      },
+    });
+
+    state.cmdList = (q ? entries.filter((e) => e.hay.includes(q)) : entries).slice(0, 14);
+    state.cmdIdx = 0;
+
+    $('cmdResults').innerHTML = state.cmdList.map((item, idx) => `
+      <button type="button" class="cmd-item ${idx === state.cmdIdx ? 'active' : ''}" data-cmd-idx="${idx}">
+        <div class="cmd-item-left">
+          ${item.thumb ? `<img class="cmd-thumb" src="${esc(item.thumb)}" alt="">` : ''}
+          <div style="min-width:0">
+            <div class="cmd-title">${esc(item.title)}</div>
+            <div class="cmd-sub">${esc(item.sub)}</div>
+          </div>
+        </div>
+        <span class="cmd-type" style="color:${item.color};background:${item.bg}">${esc(item.type)}</span>
+      </button>
+    `).join('');
+  }
+
   function resetFilters() {
     state.category = 'all';
     state.platform = 'all';
@@ -682,6 +956,19 @@
     if (e.target.tagName === 'A') $('navLinks').classList.remove('open');
   });
 
+  // View Mode Switcher (3x / 2x / List)
+  document.querySelectorAll('[data-view]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      state.view = btn.dataset.view;
+      document.querySelectorAll('[data-view]').forEach((b) => b.classList.toggle('active', b === btn));
+      renderPortfolio();
+    });
+  });
+
+  // Spotlight hover pause
+  $('spotlightDeck').addEventListener('pointerenter', () => { state.spotPaused = true; });
+  $('spotlightDeck').addEventListener('pointerleave', () => { state.spotPaused = false; spotStart = performance.now(); });
+
   $('searchInput').addEventListener('input', (e) => {
     state.search = e.target.value;
     renderPortfolio();
@@ -714,7 +1001,31 @@
     renderPortfolio();
   });
 
+  // Command Palette events
+  $('cmdTrigger').addEventListener('click', openCmd);
+  $('cmdEsc').addEventListener('click', closeCmd);
+  $('cmdBackdrop').addEventListener('click', (e) => {
+    if (e.target === $('cmdBackdrop')) closeCmd();
+  });
+  $('cmdInput').addEventListener('input', (e) => renderCmdResults(e.target.value));
+
   document.addEventListener('click', (e) => {
+    const cmdBtn = e.target.closest('[data-cmd-idx]');
+    if (cmdBtn) {
+      const item = state.cmdList[Number(cmdBtn.dataset.cmdIdx)];
+      if (item) item.run();
+      return;
+    }
+
+    const spotTab = e.target.closest('[data-spot-idx]');
+    if (spotTab) {
+      state.spotIdx = Number(spotTab.dataset.spotIdx);
+      renderSpotlight();
+      return;
+    }
+    if (e.target.closest('#spotPrev')) { state.spotIdx--; renderSpotlight(); return; }
+    if (e.target.closest('#spotNext')) { state.spotIdx++; renderSpotlight(); return; }
+
     const projCard = e.target.closest('[data-project]');
     if (projCard) { openProjectModal(projCard.dataset.project); return; }
 
@@ -739,6 +1050,33 @@
   });
 
   document.addEventListener('keydown', (e) => {
+    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
+      e.preventDefault();
+      if ($('cmdBackdrop').hidden) openCmd();
+      else closeCmd();
+      return;
+    }
+    if (!$('cmdBackdrop').hidden) {
+      if (e.key === 'Escape') { closeCmd(); return; }
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        state.cmdIdx = (state.cmdIdx + 1) % Math.max(1, state.cmdList.length);
+        document.querySelectorAll('.cmd-item').forEach((el, i) => el.classList.toggle('active', i === state.cmdIdx));
+        return;
+      }
+      if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        state.cmdIdx = (state.cmdIdx - 1 + Math.max(1, state.cmdList.length)) % Math.max(1, state.cmdList.length);
+        document.querySelectorAll('.cmd-item').forEach((el, i) => el.classList.toggle('active', i === state.cmdIdx));
+        return;
+      }
+      if (e.key === 'Enter' && state.cmdList[state.cmdIdx]) {
+        e.preventDefault();
+        state.cmdList[state.cmdIdx].run();
+        return;
+      }
+      return;
+    }
     if (!$('modalBackdrop').hidden) {
       if (e.key === 'Escape') closeModal();
       else if (e.key === 'ArrowLeft') setModalImage(state.modalImgIdx + (state.lang === 'ar' ? 1 : -1));
@@ -846,9 +1184,23 @@
     }
   }
 
-  // 3D Tilt & Cursor Spotlight on Cards
+  // 3D Tilt & Cursor Spotlight on Cards + Magnetic Buttons
   let activeCard = null;
+  let activeMag = null;
   document.addEventListener('pointermove', (e) => {
+    const mag = e.target.closest('.magnetic');
+    if (activeMag && activeMag !== mag) {
+      activeMag.style.transform = '';
+      activeMag = null;
+    }
+    if (mag) {
+      activeMag = mag;
+      const r = mag.getBoundingClientRect();
+      const dx = (e.clientX - (r.left + r.width / 2)) * 0.22;
+      const dy = (e.clientY - (r.top + r.height / 2)) * 0.22;
+      mag.style.transform = `translate(${dx.toFixed(1)}px, ${dy.toFixed(1)}px)`;
+    }
+
     const card = e.target.closest('.service-card, .project-card, .platform-card, .oss-card');
     if (activeCard && activeCard !== card) {
       activeCard.style.setProperty('--rx', '0deg');
@@ -876,7 +1228,7 @@
     btt.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
   }
 
-  const sections = ['services', 'portfolio', 'platforms', 'opensource', 'experience', 'contact'];
+  const sections = ['featured', 'services', 'portfolio', 'platforms', 'opensource', 'experience', 'contact'];
   function onScroll() {
     const doc = document.documentElement;
     const max = doc.scrollHeight - doc.clientHeight;
@@ -905,6 +1257,7 @@
   }
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();
+  requestAnimationFrame(tickSpotlight);
 
   /* ---- Init ---- */
   applyTheme();
