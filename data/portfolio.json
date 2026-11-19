@@ -82,7 +82,17 @@
             "HTML5",
             "Shopify"
           ],
-          "description": "Working interactive demo of a conversion-focused online fashion store with admin dashboard.\n- Storefront with collections, filters (category, size, price), search and product pages with variants and stock status\n- Cart drawer and multi-step checkout with shipping/tax rules by country, discount codes and order confirmation\n- Admin dashboard: sales stats and chart, orders table with status updates and CSV export\n- Product and inventory manager plus shipping & tax rules editor\n- Premium, fully responsive design for mobile and desktop\n- Skills: e-commerce, Shopify-style store design, HTML5, CSS3, JavaScript, responsive UI/UX."
+          "description": "Working interactive demo of a conversion-focused online fashion store with admin dashboard.\n- Storefront with collections, filters (category, size, price), search and product pages with variants and stock status\n- Cart drawer and multi-step checkout with shipping/tax rules by country, discount codes and order confirmation\n- Admin dashboard: sales stats and chart, orders table with status updates and CSV export\n- Product and inventory manager plus shipping & tax rules editor\n- Premium, fully responsive design for mobile and desktop\n- Skills: e-commerce, Shopify-style store design, HTML5, CSS3, JavaScript, responsive UI/UX.",
+          "path": "portfolio/ecommerce/francesko-fashion-store",
+          "title_ar": "متجر أزياء Francesko مع لوحة تحكم",
+          "category": "ecommerce",
+          "images": [
+            "portfolio/ecommerce/francesko-fashion-store/images/01.jpg",
+            "portfolio/ecommerce/francesko-fashion-store/images/02.jpg",
+            "portfolio/ecommerce/francesko-fashion-store/images/03.jpg",
+            "portfolio/ecommerce/francesko-fashion-store/images/04.jpg",
+            "portfolio/ecommerce/francesko-fashion-store/images/05.jpg"
+          ]
         },
         {
           "id": "16123644",
@@ -97,7 +107,17 @@
             "Landing Pages",
             "Unbounce"
           ],
-          "description": "Working interactive demo of a high-converting, Unbounce-style lead generation landing page for a B2B SaaS offer.\n- Hero with strong headline and CTA, benefits, social proof, testimonials, pricing, FAQ accordion, sticky CTA\n- Lead capture form with inline validation, thank-you state and popup/sticky bar variant\n- A/B variant toggle (Variant A / B) for testing headlines and layouts\n- Leads dashboard: timestamps, variant, UTM source/campaign, CSV export, conversion stats per variant and chart\n- Mock CRM integration panel (HubSpot / Mailchimp webhooks) with per-lead sync status\n- Fully responsive for mobile and desktop\n- Skills: landing page design, conversion optimization, HTML5, CSS3, JavaScript, responsive UI/UX."
+          "description": "Working interactive demo of a high-converting, Unbounce-style lead generation landing page for a B2B SaaS offer.\n- Hero with strong headline and CTA, benefits, social proof, testimonials, pricing, FAQ accordion, sticky CTA\n- Lead capture form with inline validation, thank-you state and popup/sticky bar variant\n- A/B variant toggle (Variant A / B) for testing headlines and layouts\n- Leads dashboard: timestamps, variant, UTM source/campaign, CSV export, conversion stats per variant and chart\n- Mock CRM integration panel (HubSpot / Mailchimp webhooks) with per-lead sync status\n- Fully responsive for mobile and desktop\n- Skills: landing page design, conversion optimization, HTML5, CSS3, JavaScript, responsive UI/UX.",
+          "path": "portfolio/web/lead-gen-landing-page",
+          "title_ar": "صفحة هبوط لجمع العملاء المحتملين",
+          "category": "web",
+          "images": [
+            "portfolio/web/lead-gen-landing-page/images/01.jpg",
+            "portfolio/web/lead-gen-landing-page/images/02.jpg",
+            "portfolio/web/lead-gen-landing-page/images/03.jpg",
+            "portfolio/web/lead-gen-landing-page/images/04.jpg",
+            "portfolio/web/lead-gen-landing-page/images/05.jpg"
+          ]
         },
         {
           "id": "16123630",
@@ -112,7 +132,16 @@
             "WordPress",
             "Elementor"
           ],
-          "description": "A fully responsive one-page personal portfolio landing page, designed to be rebuilt 1:1 in Elementor on WordPress with editable global colors and fonts.\n- Sticky header with smooth-scroll navigation, active-section highlighting and a mobile hamburger menu\n- Hero with name, title, intro, call-to-action buttons and photo\n- About section and a \"How a project runs\" process timeline\n- Skills section with animated skill bars and tool badges\n- Selected Work grid with category filters and project detail modals\n- Client reviews and a validated contact form with success state\n- On-page SEO structure: single H1, semantic sections, meta tags, alt text, Open Graph\n- Skills: WordPress, Elementor, HTML5, CSS3, JavaScript, responsive UI/UX design, on-page SEO."
+          "description": "A fully responsive one-page personal portfolio landing page, designed to be rebuilt 1:1 in Elementor on WordPress with editable global colors and fonts.\n- Sticky header with smooth-scroll navigation, active-section highlighting and a mobile hamburger menu\n- Hero with name, title, intro, call-to-action buttons and photo\n- About section and a \"How a project runs\" process timeline\n- Skills section with animated skill bars and tool badges\n- Selected Work grid with category filters and project detail modals\n- Client reviews and a validated contact form with success state\n- On-page SEO structure: single H1, semantic sections, meta tags, alt text, Open Graph\n- Skills: WordPress, Elementor, HTML5, CSS3, JavaScript, responsive UI/UX design, on-page SEO.",
+          "path": "portfolio/web/elementor-portfolio",
+          "title_ar": "بورتفوليو صفحة واحدة بـ Elementor",
+          "category": "web",
+          "images": [
+            "portfolio/web/elementor-portfolio/images/01.jpg",
+            "portfolio/web/elementor-portfolio/images/02.jpg",
+            "portfolio/web/elementor-portfolio/images/03.jpg",
+            "portfolio/web/elementor-portfolio/images/04.jpg"
+          ]
         },
         {
           "id": "16123591",
@@ -126,7 +155,17 @@
             "Web Development",
             "Chatbot"
           ],
-          "description": "BrightLeaf Copy Assistant is a working demo of an AI marketing-copy assistant embedded in a business website's chat widget.\n- Floating chat bubble on a realistic small-business site that opens an embedded assistant (full-screen on mobile)\n- Quick prompts for Facebook ads, Instagram posts, promo and follow-up emails and Google ads, with tone, length and 500-character cap controls\n- On-brand copy with character counts, copy and regenerate buttons, and replies in under 2 seconds\n- Moderation with an editable banned-words list\n- Admin panel: switchable model provider (GPT-4, Claude or custom) through one adapter config, system prompt, temperature and limits\n- Analytics and prompt log with stats, charts and CSV export\n- Skills: JavaScript, HTML5, CSS3, chatbot UI/UX, AI integration architecture, responsive design."
+          "description": "BrightLeaf Copy Assistant is a working demo of an AI marketing-copy assistant embedded in a business website's chat widget.\n- Floating chat bubble on a realistic small-business site that opens an embedded assistant (full-screen on mobile)\n- Quick prompts for Facebook ads, Instagram posts, promo and follow-up emails and Google ads, with tone, length and 500-character cap controls\n- On-brand copy with character counts, copy and regenerate buttons, and replies in under 2 seconds\n- Moderation with an editable banned-words list\n- Admin panel: switchable model provider (GPT-4, Claude or custom) through one adapter config, system prompt, temperature and limits\n- Analytics and prompt log with stats, charts and CSV export\n- Skills: JavaScript, HTML5, CSS3, chatbot UI/UX, AI integration architecture, responsive design.",
+          "path": "portfolio/ai/ai-marketing-copy-assistant",
+          "title_ar": "مساعد ذكاء اصطناعي لكتابة النصوص التسويقية",
+          "category": "ai",
+          "images": [
+            "portfolio/ai/ai-marketing-copy-assistant/images/01.jpg",
+            "portfolio/ai/ai-marketing-copy-assistant/images/02.jpg",
+            "portfolio/ai/ai-marketing-copy-assistant/images/03.jpg",
+            "portfolio/ai/ai-marketing-copy-assistant/images/04.jpg",
+            "portfolio/ai/ai-marketing-copy-assistant/images/05.jpg"
+          ]
         },
         {
           "id": "16123583",
@@ -138,7 +177,17 @@
             "CSS",
             "HTML"
           ],
-          "description": "PixelVault Digital is a fully working, responsive e-commerce demo for selling digital products with instant download.\n- Storefront with category filters, search, sorting and detailed product pages (preview, format, file size, licenses, reviews)\n- Cart and checkout with simulated Stripe, PayPal and Mobile Money payments and working discount codes\n- Automatic delivery: order confirmation, a \"My downloads\" area with expiring download links, download limits and a license key per purchase\n- Admin dashboard: add, edit and delete products, manage discount codes and orders, sales analytics with a revenue chart\n- GDPR cookie consent, privacy policy and SEO-ready semantic markup\n- Mobile-first responsive layout\n- Skills: HTML5, CSS3, JavaScript, responsive UI/UX design, e-commerce front-end, admin dashboards."
+          "description": "PixelVault Digital is a fully working, responsive e-commerce demo for selling digital products with instant download.\n- Storefront with category filters, search, sorting and detailed product pages (preview, format, file size, licenses, reviews)\n- Cart and checkout with simulated Stripe, PayPal and Mobile Money payments and working discount codes\n- Automatic delivery: order confirmation, a \"My downloads\" area with expiring download links, download limits and a license key per purchase\n- Admin dashboard: add, edit and delete products, manage discount codes and orders, sales analytics with a revenue chart\n- GDPR cookie consent, privacy policy and SEO-ready semantic markup\n- Mobile-first responsive layout\n- Skills: HTML5, CSS3, JavaScript, responsive UI/UX design, e-commerce front-end, admin dashboards.",
+          "path": "portfolio/ecommerce/digital-download-store",
+          "title_ar": "متجر منتجات رقمية مع تحميل فوري",
+          "category": "ecommerce",
+          "images": [
+            "portfolio/ecommerce/digital-download-store/images/01.jpg",
+            "portfolio/ecommerce/digital-download-store/images/02.jpg",
+            "portfolio/ecommerce/digital-download-store/images/03.jpg",
+            "portfolio/ecommerce/digital-download-store/images/04.jpg",
+            "portfolio/ecommerce/digital-download-store/images/05.jpg"
+          ]
         },
         {
           "id": "16123519",
@@ -153,7 +202,17 @@
             "Elementor",
             "HTML"
           ],
-          "description": "Responsive one-page website for a local cleaning company (SparkleClean Co. demo), designed for a WordPress/Elementor build. Includes a sticky header with smooth-scroll navigation, a hero with quote and click-to-call CTAs, service cards (home, deep, office, move-in/out, carpet, windows), a \"Why choose us\" trust section, an interactive price estimator (service, rooms, frequency discounts), a testimonials slider, an FAQ accordion, and a validated inquiry form with a success state. It also has a sticky mobile call/quote bar. Mobile-first layout, accessible markup and fast loading. Built with HTML5, CSS3 and JavaScript."
+          "description": "Responsive one-page website for a local cleaning company (SparkleClean Co. demo), designed for a WordPress/Elementor build. Includes a sticky header with smooth-scroll navigation, a hero with quote and click-to-call CTAs, service cards (home, deep, office, move-in/out, carpet, windows), a \"Why choose us\" trust section, an interactive price estimator (service, rooms, frequency discounts), a testimonials slider, an FAQ accordion, and a validated inquiry form with a success state. It also has a sticky mobile call/quote bar. Mobile-first layout, accessible markup and fast loading. Built with HTML5, CSS3 and JavaScript.",
+          "path": "portfolio/web/cleaning-company-website",
+          "title_ar": "موقع صفحة واحدة لشركة تنظيف",
+          "category": "web",
+          "images": [
+            "portfolio/web/cleaning-company-website/images/01.jpg",
+            "portfolio/web/cleaning-company-website/images/02.jpg",
+            "portfolio/web/cleaning-company-website/images/03.jpg",
+            "portfolio/web/cleaning-company-website/images/04.jpg",
+            "portfolio/web/cleaning-company-website/images/05.jpg"
+          ]
         },
         {
           "id": "16123193",
@@ -167,7 +226,17 @@
             "HTML",
             "Web Design"
           ],
-          "description": "Personal brand website design for a coach/consultant: a calm, editorial public site (hero, about, services, how it works, testimonials) with an inquiry form that emails the owner, plus a private client area unlocked by an access code — overview dashboard, session booking, resource library, rates and messages. Fully responsive layout, ready to be built on WordPress/Elementor from the client's chosen template. Built with HTML, CSS and JavaScript using mock content."
+          "description": "Personal brand website design for a coach/consultant: a calm, editorial public site (hero, about, services, how it works, testimonials) with an inquiry form that emails the owner, plus a private client area unlocked by an access code — overview dashboard, session booking, resource library, rates and messages. Fully responsive layout, ready to be built on WordPress/Elementor from the client's chosen template. Built with HTML, CSS and JavaScript using mock content.",
+          "path": "portfolio/web/wordpress-personal-brand",
+          "title_ar": "موقع علامة شخصية على ووردبريس",
+          "category": "web",
+          "images": [
+            "portfolio/web/wordpress-personal-brand/images/01.jpg",
+            "portfolio/web/wordpress-personal-brand/images/02.jpg",
+            "portfolio/web/wordpress-personal-brand/images/03.jpg",
+            "portfolio/web/wordpress-personal-brand/images/04.jpg",
+            "portfolio/web/wordpress-personal-brand/images/05.jpg"
+          ]
         },
         {
           "id": "16123439",
@@ -181,7 +250,16 @@
             "Web Design",
             "AI Development"
           ],
-          "description": "OpsPilot is a polished, interactive prototype of a Claude-powered task-automation assistant for Slack. It demonstrates a conversational assistant for email triage, CRM updates and team reminders; configurable workflows; role-based permissions with approval gates for sensitive actions; and an audit log that records who requested and approved each action. The responsive dashboard uses realistic mock data to show how a small team can automate routine operations while keeping work transparent and controlled."
+          "description": "OpsPilot is a polished, interactive prototype of a Claude-powered task-automation assistant for Slack. It demonstrates a conversational assistant for email triage, CRM updates and team reminders; configurable workflows; role-based permissions with approval gates for sensitive actions; and an audit log that records who requested and approved each action. The responsive dashboard uses realistic mock data to show how a small team can automate routine operations while keeping work transparent and controlled.",
+          "path": "portfolio/ai/opspilot-slack-automation",
+          "title_ar": "OpsPilot لأتمتة المهام على Slack",
+          "category": "ai",
+          "images": [
+            "portfolio/ai/opspilot-slack-automation/images/01.jpg",
+            "portfolio/ai/opspilot-slack-automation/images/02.jpg",
+            "portfolio/ai/opspilot-slack-automation/images/03.jpg",
+            "portfolio/ai/opspilot-slack-automation/images/04.jpg"
+          ]
         },
         {
           "id": "16123211",
@@ -195,7 +273,16 @@
             "ASP.NET",
             "UI / User Interface"
           ],
-          "description": "Admin UI prototype for a real estate ERP lead workflow: KPI dashboard and leads table, an assign-lead modal that previews the exact lead and agent mapping before confirming, an edit-lead form with save confirmation, and a change-history panel tracing every lead-to-agent change. Built to demonstrate a clean, verifiable fix for lead assignment and update issues in an ASP.NET / C# system."
+          "description": "Admin UI prototype for a real estate ERP lead workflow: KPI dashboard and leads table, an assign-lead modal that previews the exact lead and agent mapping before confirming, an edit-lead form with save confirmation, and a change-history panel tracing every lead-to-agent change. Built to demonstrate a clean, verifiable fix for lead assignment and update issues in an ASP.NET / C# system.",
+          "path": "portfolio/backend/real-estate-erp-leads",
+          "title_ar": "واجهة توزيع العملاء لنظام ERP عقاري",
+          "category": "backend",
+          "images": [
+            "portfolio/backend/real-estate-erp-leads/images/01.jpg",
+            "portfolio/backend/real-estate-erp-leads/images/02.jpg",
+            "portfolio/backend/real-estate-erp-leads/images/03.jpg",
+            "portfolio/backend/real-estate-erp-leads/images/04.jpg"
+          ]
         },
         {
           "id": "16123137",
@@ -212,7 +299,16 @@
             "Figma",
             "Tailwind CSS"
           ],
-          "description": "Interactive frontend prototype for a file-sharing service: drag-and-drop uploads with live progress, pause and retry; folder browser with instant search, grid/list views and a quick-preview drawer for images, PDFs and text; admin console with role management, storage quota bars and a filterable audit log. Fully responsive desktop and mobile layout."
+          "description": "Interactive frontend prototype for a file-sharing service: drag-and-drop uploads with live progress, pause and retry; folder browser with instant search, grid/list views and a quick-preview drawer for images, PDFs and text; admin console with role management, storage quota bars and a filterable audit log. Fully responsive desktop and mobile layout.",
+          "path": "portfolio/web/file-service-dashboard",
+          "title_ar": "لوحة تحكم لخدمة مشاركة الملفات",
+          "category": "web",
+          "images": [
+            "portfolio/web/file-service-dashboard/images/01.jpg",
+            "portfolio/web/file-service-dashboard/images/02.jpg",
+            "portfolio/web/file-service-dashboard/images/03.jpg",
+            "portfolio/web/file-service-dashboard/images/04.jpg"
+          ]
         },
         {
           "id": "16123124",
@@ -226,11 +322,18 @@
             "Machine Learning (ML)",
             "API"
           ],
-          "description": "Prototype of an AI-driven Comparative Market Analysis dashboard: subject property input, ZIP-based comparable search over MLS-style data, weighted similarity scoring (location, sale recency, size, bed/bath, lot, property type, condition, amenities) with adjustable weights, ranked comparables table, price-vs-size chart, AI-generated pricing summary and PDF export."
+          "description": "Prototype of an AI-driven Comparative Market Analysis dashboard: subject property input, ZIP-based comparable search over MLS-style data, weighted similarity scoring (location, sale recency, size, bed/bath, lot, property type, condition, amenities) with adjustable weights, ranked comparables table, price-vs-size chart, AI-generated pricing summary and PDF export.",
+          "path": "portfolio/ai/ai-real-estate-cma",
+          "title_ar": "لوحة تحليل السوق العقاري بالذكاء الاصطناعي",
+          "category": "ai",
+          "images": [
+            "portfolio/ai/ai-real-estate-cma/images/01.jpg",
+            "portfolio/ai/ai-real-estate-cma/images/02.jpg"
+          ]
         },
         {
           "id": "16123116",
-          "title": "Responsive Single-Page Website Desig",
+          "title": "Responsive Single-Page Website Design",
           "profile_url": "https://www.freelancer.com/u/yyacoup",
           "live_demo_url": null,
           "skills": [
@@ -240,7 +343,15 @@
             "UI / User Interface",
             "Figma"
           ],
-          "description": "Responsive single-page website prototype built section by section from a Figma-style design: sticky navigation with mobile menu, hero with animated stats, services cards, gallery, auto-rotating testimonial slider, scroll-reveal animations and a validated contact form. Optimised for desktop, tablet and mobile."
+          "description": "Responsive single-page website prototype built section by section from a Figma-style design: sticky navigation with mobile menu, hero with animated stats, services cards, gallery, auto-rotating testimonial slider, scroll-reveal animations and a validated contact form. Optimised for desktop, tablet and mobile.",
+          "path": "portfolio/web/responsive-single-page",
+          "title_ar": "تصميم موقع صفحة واحدة متجاوب",
+          "category": "web",
+          "images": [
+            "portfolio/web/responsive-single-page/images/01.jpg",
+            "portfolio/web/responsive-single-page/images/02.jpg",
+            "portfolio/web/responsive-single-page/images/03.jpg"
+          ]
         },
         {
           "id": "16123109",
@@ -255,7 +366,16 @@
             "Frontend Development",
             "Animation"
           ],
-          "description": "Interactive smart traffic signal simulation built with plain HTML, CSS and vanilla JavaScript: a four-way intersection with automatic red/yellow/green cycling, animated traffic from light to heavy flow, sensor-based emergency vehicle detection that automatically gives the ambulance's lane right of way, and a slide-in dashboard to tune cycle durations and reset. Fully responsive on desktop and mobile."
+          "description": "Interactive smart traffic signal simulation built with plain HTML, CSS and vanilla JavaScript: a four-way intersection with automatic red/yellow/green cycling, animated traffic from light to heavy flow, sensor-based emergency vehicle detection that automatically gives the ambulance's lane right of way, and a slide-in dashboard to tune cycle durations and reset. Fully responsive on desktop and mobile.",
+          "path": "portfolio/web/smart-traffic-signal",
+          "title_ar": "محاكاة إشارة مرور ذكية",
+          "category": "web",
+          "images": [
+            "portfolio/web/smart-traffic-signal/images/01.jpg",
+            "portfolio/web/smart-traffic-signal/images/02.jpg",
+            "portfolio/web/smart-traffic-signal/images/03.jpg",
+            "portfolio/web/smart-traffic-signal/images/04.jpg"
+          ]
         },
         {
           "id": "16122219",
@@ -268,11 +388,20 @@
             "CSS",
             "HTML"
           ],
-          "description": "Interactive prototype of a modern, premium multi-page business website: sticky responsive navigation with a mobile menu, Work/Services/About/Testimonials/FAQ sections, a validated contact form, a dark/light theme toggle, and a simple CMS-style 'Edit content' panel for easy updates. Built with HTML5, CSS3 and JavaScript, focused on fast loading and a clean UI."
+          "description": "Interactive prototype of a modern, premium multi-page business website: sticky responsive navigation with a mobile menu, Work/Services/About/Testimonials/FAQ sections, a validated contact form, a dark/light theme toggle, and a simple CMS-style 'Edit content' panel for easy updates. Built with HTML5, CSS3 and JavaScript, focused on fast loading and a clean UI.",
+          "path": "portfolio/web/premium-business-website",
+          "title_ar": "موقع أعمال احترافي متجاوب",
+          "category": "web",
+          "images": [
+            "portfolio/web/premium-business-website/images/01.jpg",
+            "portfolio/web/premium-business-website/images/02.jpg",
+            "portfolio/web/premium-business-website/images/03.jpg",
+            "portfolio/web/premium-business-website/images/04.jpg"
+          ]
         },
         {
           "id": "16121892",
-          "title": "Lottery Results Website – Interactiv",
+          "title": "Lottery Results Website – Interactive Prototype",
           "profile_url": "https://www.freelancer.com/u/yyacoup",
           "live_demo_url": null,
           "skills": [
@@ -282,7 +411,17 @@
             "Python",
             "Django"
           ],
-          "description": "Interactive prototype of a lottery results platform: latest-draw hero card with winning numbers, bonus ball and prize-tier payouts; searchable, paginated archive of past draws with date/draw filters; hot/cold number frequency stats; share links; and an admin panel to enter new draws that appear live instantly. Built with React, responsive mobile-first UI."
+          "description": "Interactive prototype of a lottery results platform: latest-draw hero card with winning numbers, bonus ball and prize-tier payouts; searchable, paginated archive of past draws with date/draw filters; hot/cold number frequency stats; share links; and an admin panel to enter new draws that appear live instantly. Built with React, responsive mobile-first UI.",
+          "path": "portfolio/web/lottery-results-website",
+          "title_ar": "موقع نتائج اليانصيب",
+          "category": "web",
+          "images": [
+            "portfolio/web/lottery-results-website/images/01.jpg",
+            "portfolio/web/lottery-results-website/images/02.jpg",
+            "portfolio/web/lottery-results-website/images/03.jpg",
+            "portfolio/web/lottery-results-website/images/04.jpg",
+            "portfolio/web/lottery-results-website/images/05.jpg"
+          ]
         },
         {
           "id": "16121540",
@@ -296,7 +435,16 @@
             "Shopify",
             "HTML"
           ],
-          "description": "Interactive prototype of a Shopify-style storefront rebuilt from a WordPress design: responsive homepage, course/product page, and a booking flow with calendar availability, service durations, buffer times, blackout dates, time-slot selection and confirmation screen.\n\n---"
+          "description": "Interactive prototype of a Shopify-style storefront rebuilt from a WordPress design: responsive homepage, course/product page, and a booking flow with calendar availability, service durations, buffer times, blackout dates, time-slot selection and confirmation screen.\n\n---",
+          "path": "portfolio/ecommerce/shopify-booking-storefront",
+          "title_ar": "متجر Shopify مع نظام حجز",
+          "category": "ecommerce",
+          "images": [
+            "portfolio/ecommerce/shopify-booking-storefront/images/01.jpg",
+            "portfolio/ecommerce/shopify-booking-storefront/images/02.jpg",
+            "portfolio/ecommerce/shopify-booking-storefront/images/03.jpg",
+            "portfolio/ecommerce/shopify-booking-storefront/images/04.jpg"
+          ]
         }
       ]
     },
@@ -318,7 +466,13 @@
           "external_url": null,
           "github_url": null,
           "youtube_url": null,
-          "description": "نموذج صفحة هبوط عربية متجاوبة لكافيه بتصميم Minimalist دافئ: واجهة رئيسية جذابة، منيو مقسم حسب الأقسام (مشروبات ساخنة، باردة، حلويات) مع الأسعار، زر طلب عبر واتساب، وقسم QR Code للوصول السريع للمنيو. تم التنفيذ بـ HTML وCSS وJavaScript. جميع الأسماء والأسعار افتراضية."
+          "description": "نموذج صفحة هبوط عربية متجاوبة لكافيه بتصميم Minimalist دافئ: واجهة رئيسية جذابة، منيو مقسم حسب الأقسام (مشروبات ساخنة، باردة، حلويات) مع الأسعار، زر طلب عبر واتساب، وقسم QR Code للوصول السريع للمنيو. تم التنفيذ بـ HTML وCSS وJavaScript. جميع الأسماء والأسعار افتراضية.",
+          "path": "portfolio/web/cafe-landing-page",
+          "title_en": "Café Landing Page with Digital Menu",
+          "category_key": "web",
+          "images": [
+            "portfolio/web/cafe-landing-page/images/01.jpg"
+          ]
         },
         {
           "title": "تصميم 3 مفاهيم شعار عصرية وهوية بصرية مينيمالية",
@@ -334,7 +488,16 @@
           "external_url": null,
           "github_url": null,
           "youtube_url": null,
-          "description": "نموذج لثلاثة مفاهيم شعار عصرية ومينيمالية لعلامات تجارية افتراضية: مفهوم هندسي واثق، ومفهوم فاخر على خلفية داكنة، ومفهوم عضوي يعبر عن النمو، مع لوحة ألوان لكل مفهوم. التسليم يشمل ملفات SVG فيكتور وPNG عالي الدقة."
+          "description": "نموذج لثلاثة مفاهيم شعار عصرية ومينيمالية لعلامات تجارية افتراضية: مفهوم هندسي واثق، ومفهوم فاخر على خلفية داكنة، ومفهوم عضوي يعبر عن النمو، مع لوحة ألوان لكل مفهوم. التسليم يشمل ملفات SVG فيكتور وPNG عالي الدقة.",
+          "path": "portfolio/design/minimal-logo-concepts",
+          "title_en": "3 Modern Minimalist Logo Concepts",
+          "category_key": "design",
+          "images": [
+            "portfolio/design/minimal-logo-concepts/images/01.jpg",
+            "portfolio/design/minimal-logo-concepts/images/02.jpg",
+            "portfolio/design/minimal-logo-concepts/images/03.jpg",
+            "portfolio/design/minimal-logo-concepts/images/04.jpg"
+          ]
         },
         {
           "title": "مفاهيم هوية وشعار لدار نشر عربية – نقطة، عتبة، ورقة",
@@ -349,7 +512,16 @@
           "external_url": "https://claude.ai/artifact/Xc4Y8amKS5d69RsrDP4ewX",
           "github_url": null,
           "youtube_url": null,
-          "description": "لوحة مفاهيم لشعار دار نشر عربية تضم ثلاثة اتجاهات تصميمية: نقطة (Nuqta)، عتبة (Ataba)، وورقة (Waraqa). لكل اتجاه معالجة للشعار بنسخ ملونة وأحادية اللون، ولوحة ألوان بأكواد HEX، واقتراحات للخطوط العربية واللاتينية، مع تطبيقات موكاب على أغلفة وكعوب الكتب وبطاقات العمل. توضح اللوحة الفكرة التصميمية لكل اتجاه وتناسبه مع أنماط النشر المختلفة. تنويه: الأسماء المعروضة أسماء عمل مقترحة وليست اسماً نهائياً للدار، وبيانات الأشخاص والاتصال في الموكابات تجريبية. اللوحة تركز على موكابات الكتب وبطاقات العمل ولا تتضمن نموذجاً لواجهة الموقع."
+          "description": "لوحة مفاهيم لشعار دار نشر عربية تضم ثلاثة اتجاهات تصميمية: نقطة (Nuqta)، عتبة (Ataba)، وورقة (Waraqa). لكل اتجاه معالجة للشعار بنسخ ملونة وأحادية اللون، ولوحة ألوان بأكواد HEX، واقتراحات للخطوط العربية واللاتينية، مع تطبيقات موكاب على أغلفة وكعوب الكتب وبطاقات العمل. توضح اللوحة الفكرة التصميمية لكل اتجاه وتناسبه مع أنماط النشر المختلفة. تنويه: الأسماء المعروضة أسماء عمل مقترحة وليست اسماً نهائياً للدار، وبيانات الأشخاص والاتصال في الموكابات تجريبية. اللوحة تركز على موكابات الكتب وبطاقات العمل ولا تتضمن نموذجاً لواجهة الموقع.",
+          "path": "portfolio/design/arabic-publisher-identity",
+          "title_en": "Arabic Publishing House Identity – Nuqta, Ataba, Waraqa",
+          "category_key": "design",
+          "images": [
+            "portfolio/design/arabic-publisher-identity/images/01.jpg",
+            "portfolio/design/arabic-publisher-identity/images/02.jpg",
+            "portfolio/design/arabic-publisher-identity/images/03.jpg",
+            "portfolio/design/arabic-publisher-identity/images/04.jpg"
+          ]
         },
         {
           "title": "TaskFlow API",
@@ -364,7 +536,15 @@
           "external_url": null,
           "github_url": null,
           "youtube_url": null,
-          "description": "واجهة توثيق تفاعلية لواجهة TaskFlow API لإدارة المهام. تعرض التصميم المعماري النظيف بأربع طبقات، تدفق مصادقة JWT، ومراجع نقاط النهاية لمجموعات المصادقة والمهام والفئات والأولويات وتتبع الوقت والتقارير، مع أمثلة الطلبات والاستجابات ونموذج البيانات ولوحة ملخص أسبوعي. تتضمن الصفحة بيانات توضيحية لشرح الواجهة."
+          "description": "واجهة توثيق تفاعلية لواجهة TaskFlow API لإدارة المهام. تعرض التصميم المعماري النظيف بأربع طبقات، تدفق مصادقة JWT، ومراجع نقاط النهاية لمجموعات المصادقة والمهام والفئات والأولويات وتتبع الوقت والتقارير، مع أمثلة الطلبات والاستجابات ونموذج البيانات ولوحة ملخص أسبوعي. تتضمن الصفحة بيانات توضيحية لشرح الواجهة.",
+          "path": "portfolio/backend/taskflow-api",
+          "title_en": "TaskFlow API",
+          "category_key": "backend",
+          "images": [
+            "portfolio/backend/taskflow-api/images/01.jpg",
+            "portfolio/backend/taskflow-api/images/02.jpg",
+            "portfolio/backend/taskflow-api/images/03.jpg"
+          ]
         },
         {
           "title": "Rose & Sugar / ورد وسكّر — هوية بصرية متكاملة لمخبز عربي",
@@ -378,7 +558,15 @@
           "external_url": null,
           "github_url": null,
           "youtube_url": null,
-          "description": "صمّمت لوحة هوية بصرية متكاملة لعلامة مخبوزات وحلويات عربية باسم Rose & Sugar (ورد وسكّر)، بهوية دافئة مستوحاة من حلويات القاهرة وعلبة الورد المربوطة بالشريط الذهبي. تشمل اللوحة قصة العلامة وتموضعها وشعارًا عربيًا/لاتينيًا وثلاثة اتجاهات للشعار بنسخ ملونة وأحادية اللون، ونظام ألوان موثقًا بالقيم اللونية، وتوليفة خطوط عربية ولاتينية، ونمطًا زخرفيًا مستلهمًا من تقطيع البقلاوة. كما تتضمن تطبيقات الهوية على علبة المعجنات، والأكياس والملصقات، ومنشورات إنستغرام، مع مراعاة اتجاه الكتابة العربية من اليمين إلى اليسار."
+          "description": "صمّمت لوحة هوية بصرية متكاملة لعلامة مخبوزات وحلويات عربية باسم Rose & Sugar (ورد وسكّر)، بهوية دافئة مستوحاة من حلويات القاهرة وعلبة الورد المربوطة بالشريط الذهبي. تشمل اللوحة قصة العلامة وتموضعها وشعارًا عربيًا/لاتينيًا وثلاثة اتجاهات للشعار بنسخ ملونة وأحادية اللون، ونظام ألوان موثقًا بالقيم اللونية، وتوليفة خطوط عربية ولاتينية، ونمطًا زخرفيًا مستلهمًا من تقطيع البقلاوة. كما تتضمن تطبيقات الهوية على علبة المعجنات، والأكياس والملصقات، ومنشورات إنستغرام، مع مراعاة اتجاه الكتابة العربية من اليمين إلى اليسار.",
+          "path": "portfolio/design/rose-and-sugar-identity",
+          "title_en": "Rose & Sugar – Arabic Bakery Brand Identity",
+          "category_key": "design",
+          "images": [
+            "portfolio/design/rose-and-sugar-identity/images/01.jpg",
+            "portfolio/design/rose-and-sugar-identity/images/02.jpg",
+            "portfolio/design/rose-and-sugar-identity/images/03.jpg"
+          ]
         },
         {
           "title": "ستوري بورد تفاعلي لإعلان فيديو عمودي – الكرسي الأرضي الطبي",
@@ -395,7 +583,15 @@
           "external_url": null,
           "github_url": null,
           "youtube_url": null,
-          "description": "ستوري بورد تفاعلي احترافي لإعلان فيديو عمودي مدته 35 ثانية (ريلز وتيك توك) لكرسي أرضي طبي، يتضمن 7 مشاهد بتوقيتاتها، خط زمني تفاعلي، معاينة إيقاع على شاشة جوال، النص الكامل للتعليق الصوتي، النصوص على الشاشة، اللقطات المقترحة والمؤثرات الصوتية لكل مشهد، بالإضافة إلى خطّافات بديلة للاختبار وملاحظات إنتاج، بما يناسب إنتاج الفيديو بأدوات الذكاء الاصطناعي."
+          "description": "ستوري بورد تفاعلي احترافي لإعلان فيديو عمودي مدته 35 ثانية (ريلز وتيك توك) لكرسي أرضي طبي، يتضمن 7 مشاهد بتوقيتاتها، خط زمني تفاعلي، معاينة إيقاع على شاشة جوال، النص الكامل للتعليق الصوتي، النصوص على الشاشة، اللقطات المقترحة والمؤثرات الصوتية لكل مشهد، بالإضافة إلى خطّافات بديلة للاختبار وملاحظات إنتاج، بما يناسب إنتاج الفيديو بأدوات الذكاء الاصطناعي.",
+          "path": "portfolio/content/floor-chair-storyboard",
+          "title_en": "Interactive Storyboard – Vertical Video Ad",
+          "category_key": "content",
+          "images": [
+            "portfolio/content/floor-chair-storyboard/images/01.jpg",
+            "portfolio/content/floor-chair-storyboard/images/02.jpg",
+            "portfolio/content/floor-chair-storyboard/images/03.jpg"
+          ]
         },
         {
           "title": "هوية بصرية متكاملة لشركة Nova Trade",
@@ -410,7 +606,17 @@
           "external_url": "https://claude.ai/artifact/BNYzMS3FUYdUADdCmVWsTc",
           "github_url": null,
           "youtube_url": null,
-          "description": "لوحة هوية بصرية متكاملة لشركة تجارية حديثة (Nova Trade) تشمل: ثلاثة مفاهيم للشعار (شعار نصي، رمز مع نص، ومونوجرام) بنسخ ملونة وأبيض وأسود، لوحة ألوان مع أكواد HEX، اختيار خطوط عربية ولاتينية متناسقة (Alexandria و Sora) مع أمثلة للعناوين والنصوص، تصاميم للمطبوعات (كارت شخصي بوجهين، ورق رسمي، وظرف)، وثلاثة قوالب لمنشورات السوشيال ميديا. تصميم أنيق ومنظم يعكس هوية احترافية موحدة لجميع نقاط التواصل مع العملاء."
+          "description": "لوحة هوية بصرية متكاملة لشركة تجارية حديثة (Nova Trade) تشمل: ثلاثة مفاهيم للشعار (شعار نصي، رمز مع نص، ومونوجرام) بنسخ ملونة وأبيض وأسود، لوحة ألوان مع أكواد HEX، اختيار خطوط عربية ولاتينية متناسقة (Alexandria و Sora) مع أمثلة للعناوين والنصوص، تصاميم للمطبوعات (كارت شخصي بوجهين، ورق رسمي، وظرف)، وثلاثة قوالب لمنشورات السوشيال ميديا. تصميم أنيق ومنظم يعكس هوية احترافية موحدة لجميع نقاط التواصل مع العملاء.",
+          "path": "portfolio/design/nova-trade-identity",
+          "title_en": "Nova Trade – Complete Visual Identity",
+          "category_key": "design",
+          "images": [
+            "portfolio/design/nova-trade-identity/images/01.jpg",
+            "portfolio/design/nova-trade-identity/images/02.jpg",
+            "portfolio/design/nova-trade-identity/images/03.jpg",
+            "portfolio/design/nova-trade-identity/images/04.jpg",
+            "portfolio/design/nova-trade-identity/images/05.jpg"
+          ]
         },
         {
           "title": "لوحة تحكم الموارد البشرية – داشبورد تفاعلي لتحليل بيانات الموظفين",
@@ -425,7 +631,16 @@
           "external_url": "https://claude.ai/artifact/Qx3zUcXHGb3NSYoTPYCS7j",
           "github_url": null,
           "youtube_url": null,
-          "description": "لوحة تحكم تفاعلية باللغة العربية لتحليل بيانات الموارد البشرية، تعرض مؤشرات الأداء الرئيسية مثل إجمالي الموظفين، التعيينات الجديدة، معدل دوران الموظفين، متوسط الرواتب وإجمالي الرواتب. تتضمن فلاتر تفاعلية حسب القسم والسنة ونوع العقد، ورسوماً بيانية للتعيينات مقابل المغادرين شهرياً، وتوزيع الموظفين حسب القسم، واتجاه معدل الدوران مقارنة بالمستهدف، ونطاقات الرواتب لكل قسم، وتركيبة القوى العاملة حسب الجنس ونوع العقد، مع جدول ملخص للأقسام قابل للنسخ إلى Excel ووضع ليلي. تصميم متجاوب واحترافي يناسب العرض على الإدارة."
+          "description": "لوحة تحكم تفاعلية باللغة العربية لتحليل بيانات الموارد البشرية، تعرض مؤشرات الأداء الرئيسية مثل إجمالي الموظفين، التعيينات الجديدة، معدل دوران الموظفين، متوسط الرواتب وإجمالي الرواتب. تتضمن فلاتر تفاعلية حسب القسم والسنة ونوع العقد، ورسوماً بيانية للتعيينات مقابل المغادرين شهرياً، وتوزيع الموظفين حسب القسم، واتجاه معدل الدوران مقارنة بالمستهدف، ونطاقات الرواتب لكل قسم، وتركيبة القوى العاملة حسب الجنس ونوع العقد، مع جدول ملخص للأقسام قابل للنسخ إلى Excel ووضع ليلي. تصميم متجاوب واحترافي يناسب العرض على الإدارة.",
+          "path": "portfolio/data/hr-analytics-dashboard",
+          "title_en": "HR Analytics Interactive Dashboard",
+          "category_key": "data",
+          "images": [
+            "portfolio/data/hr-analytics-dashboard/images/01.jpg",
+            "portfolio/data/hr-analytics-dashboard/images/02.jpg",
+            "portfolio/data/hr-analytics-dashboard/images/03.jpg",
+            "portfolio/data/hr-analytics-dashboard/images/04.jpg"
+          ]
         },
         {
           "title": "تنظيف سجل المبيعات التاريخي وإعداد لوحة تقارير Excel",
@@ -439,7 +654,16 @@
           "external_url": "https://claude.ai/artifact/5KcAEEeu29UBhZZKb83H1q",
           "github_url": null,
           "youtube_url": null,
-          "description": "دراسة حالة تفاعلية لتنظيف سجل مبيعات تاريخي لثلاث سنوات باستخدام Excel وPower Query. بدأت البيانات التجريبية من 3,262 سجلًا، وتضمنت التكرارات والقيم الناقصة واختلاف صيغ التواريخ والأرقام وأسماء العملاء والفروع، بما في ذلك اختلافات الكتابة العربية. نُفذت ثماني خطوات تنظيف قابلة للتتبع مع أمثلة قبل/بعد وسجل تدقيق، فنتج 3,096 سجلًا نظيفًا وإصلاح 6,909 خلايا، وارتفعت نسبة السجلات السليمة تمامًا من 22% إلى 100%. تتضمن لوحة التقارير فلاتر للسنة والفرع والفئة، ومؤشرات أداء، واتجاهات المبيعات الشهرية والسنوية والنمو والموسمية وأكبر العملاء. جميع البيانات اصطناعية لأغراض العرض ولا تمثل بيانات عميل حقيقية."
+          "description": "دراسة حالة تفاعلية لتنظيف سجل مبيعات تاريخي لثلاث سنوات باستخدام Excel وPower Query. بدأت البيانات التجريبية من 3,262 سجلًا، وتضمنت التكرارات والقيم الناقصة واختلاف صيغ التواريخ والأرقام وأسماء العملاء والفروع، بما في ذلك اختلافات الكتابة العربية. نُفذت ثماني خطوات تنظيف قابلة للتتبع مع أمثلة قبل/بعد وسجل تدقيق، فنتج 3,096 سجلًا نظيفًا وإصلاح 6,909 خلايا، وارتفعت نسبة السجلات السليمة تمامًا من 22% إلى 100%. تتضمن لوحة التقارير فلاتر للسنة والفرع والفئة، ومؤشرات أداء، واتجاهات المبيعات الشهرية والسنوية والنمو والموسمية وأكبر العملاء. جميع البيانات اصطناعية لأغراض العرض ولا تمثل بيانات عميل حقيقية.",
+          "path": "portfolio/data/sales-history-cleaning",
+          "title_en": "Historical Sales Cleanup & Excel Reporting",
+          "category_key": "data",
+          "images": [
+            "portfolio/data/sales-history-cleaning/images/01.jpg",
+            "portfolio/data/sales-history-cleaning/images/02.jpg",
+            "portfolio/data/sales-history-cleaning/images/03.jpg",
+            "portfolio/data/sales-history-cleaning/images/04.jpg"
+          ]
         },
         {
           "title": "حملة إعلانية ونصوص تسويقية لمنتج فاخر لمتجر إلكتروني",
@@ -456,7 +680,16 @@
           "external_url": "https://claude.ai/artifact/CfKCpuMNjUcPXxvebpghrQ",
           "github_url": null,
           "youtube_url": null,
-          "description": "نموذج لحملة إطلاق ساعة فاخرة من علامة افتراضية، يوضح كيف تتكامل الفكرة الإعلانية مع رسائل المتجر الإلكتروني. يتضمن العمل خمس زوايا إعلانية، ولكل زاوية عنوانًا رئيسيًا ونصًا إعلانيًا ودعوة واضحة لاتخاذ الإجراء، إلى جانب نسخ قصيرة مناسبة لفيسبوك وإنستغرام. كما يضم خمسة أزواج من العناوين لاختبار A/B مع فرضية موجزة لكل اختبار، ووصفًا مقترحًا لصفحة المنتج، ودليلًا مختصرًا لنبرة العلامة. صيغت الرسائل لإبراز الطابع الراقي والهدية والتميّز اليومي، مع تجنب المواصفات أو الادعاءات غير الموثقة. المنتج والعلامة في هذه العينة افتراضيان، والمحتوى معدّ للعرض كنموذج أعمال لمشروع كتابة إعلانية لمنتج فاخر في التجارة الإلكترونية."
+          "description": "نموذج لحملة إطلاق ساعة فاخرة من علامة افتراضية، يوضح كيف تتكامل الفكرة الإعلانية مع رسائل المتجر الإلكتروني. يتضمن العمل خمس زوايا إعلانية، ولكل زاوية عنوانًا رئيسيًا ونصًا إعلانيًا ودعوة واضحة لاتخاذ الإجراء، إلى جانب نسخ قصيرة مناسبة لفيسبوك وإنستغرام. كما يضم خمسة أزواج من العناوين لاختبار A/B مع فرضية موجزة لكل اختبار، ووصفًا مقترحًا لصفحة المنتج، ودليلًا مختصرًا لنبرة العلامة. صيغت الرسائل لإبراز الطابع الراقي والهدية والتميّز اليومي، مع تجنب المواصفات أو الادعاءات غير الموثقة. المنتج والعلامة في هذه العينة افتراضيان، والمحتوى معدّ للعرض كنموذج أعمال لمشروع كتابة إعلانية لمنتج فاخر في التجارة الإلكترونية.",
+          "path": "portfolio/content/luxury-watch-ad-campaign",
+          "title_en": "Ad Campaign & Copy for a Luxury Product",
+          "category_key": "content",
+          "images": [
+            "portfolio/content/luxury-watch-ad-campaign/images/01.jpg",
+            "portfolio/content/luxury-watch-ad-campaign/images/02.jpg",
+            "portfolio/content/luxury-watch-ad-campaign/images/03.jpg",
+            "portfolio/content/luxury-watch-ad-campaign/images/04.jpg"
+          ]
         },
         {
           "title": "تنظيف وتنسيق بيانات مبيعات Excel مع لوحة ملخص",
@@ -471,7 +704,14 @@
           "external_url": "https://claude.ai/artifact/TS2z7oyrDWLf9sQ4PK2oFB",
           "github_url": null,
           "youtube_url": null,
-          "description": "تنظيف وتنسيق بيانات مبيعات Excel من خلال إزالة الصفوف المكررة، وتوحيد تنسيقات النصوص والتواريخ والأرقام، ومعالجة القيم المفقودة بالاعتماد على بيانات مرجعية، ثم تنظيم البيانات في جدول واضح. يتضمن العمل لوحة ملخص تعرض إجمالي المبيعات وعدد الطلبات ومتوسط قيمة الطلب، مع رسوم توضح المبيعات حسب الشهر والمنتج."
+          "description": "تنظيف وتنسيق بيانات مبيعات Excel من خلال إزالة الصفوف المكررة، وتوحيد تنسيقات النصوص والتواريخ والأرقام، ومعالجة القيم المفقودة بالاعتماد على بيانات مرجعية، ثم تنظيم البيانات في جدول واضح. يتضمن العمل لوحة ملخص تعرض إجمالي المبيعات وعدد الطلبات ومتوسط قيمة الطلب، مع رسوم توضح المبيعات حسب الشهر والمنتج.",
+          "path": "portfolio/data/excel-sales-cleanup",
+          "title_en": "Excel Sales Data Cleanup with Summary Dashboard",
+          "category_key": "data",
+          "images": [
+            "portfolio/data/excel-sales-cleanup/images/01.jpg",
+            "portfolio/data/excel-sales-cleanup/images/02.jpg"
+          ]
         },
         {
           "title": "Secure AWS Infrastructure Design — Nafezly #58468",
@@ -487,7 +727,19 @@
           "external_url": "https://claude.ai/artifact/8FeLgRjc5j6LqgiapsBPDs",
           "github_url": null,
           "youtube_url": null,
-          "description": "Sample deliverable for Nafezly project #58468: a secure multi-AZ AWS reference architecture with CloudFront/WAF, ALB, ECS Fargate, isolated encrypted RDS Multi-AZ, private S3, IAM least privilege, KMS, Secrets Manager, CloudTrail, Config, GuardDuty, Security Hub, CloudWatch and AWS Backup. Includes an SVG architecture diagram, security-control matrix, Terraform module outline with VPC/RDS snippets, and a phased four-week implementation plan. Sample only: values are illustrative, and Terraform was not applied or validated against an AWS account."
+          "description": "Sample deliverable for Nafezly project #58468: a secure multi-AZ AWS reference architecture with CloudFront/WAF, ALB, ECS Fargate, isolated encrypted RDS Multi-AZ, private S3, IAM least privilege, KMS, Secrets Manager, CloudTrail, Config, GuardDuty, Security Hub, CloudWatch and AWS Backup. Includes an SVG architecture diagram, security-control matrix, Terraform module outline with VPC/RDS snippets, and a phased four-week implementation plan. Sample only: values are illustrative, and Terraform was not applied or validated against an AWS account.",
+          "path": "portfolio/backend/secure-aws-infrastructure",
+          "title_en": "Secure AWS Infrastructure Design",
+          "category_key": "backend",
+          "images": [
+            "portfolio/backend/secure-aws-infrastructure/images/01.jpg",
+            "portfolio/backend/secure-aws-infrastructure/images/02.jpg",
+            "portfolio/backend/secure-aws-infrastructure/images/03.jpg",
+            "portfolio/backend/secure-aws-infrastructure/images/04.jpg",
+            "portfolio/backend/secure-aws-infrastructure/images/05.jpg",
+            "portfolio/backend/secure-aws-infrastructure/images/06.jpg",
+            "portfolio/backend/secure-aws-infrastructure/images/07.jpg"
+          ]
         },
         {
           "title": "سكريبت إعلان فيديو قصير لكرسي أرضي طبي «السند»",
@@ -503,7 +755,15 @@
           "external_url": "https://claude.ai/artifact/2Dmbk8JnL56yNZiDpsTqio",
           "github_url": null,
           "youtube_url": null,
-          "description": "سكريبت إعلاني احترافي لفيديو قصير (35 ثانية) مخصص لريلز وتيك توك وشورتس، لكرسي أرضي طبي مريح للظهر. يتضمن خطّاف (Hook) قوي في أول ثوانٍ، وتقسيم مشهد بمشهد (المشهد البصري، التعليق الصوتي، النص على الشاشة، المدة)، ودعوة واضحة لاتخاذ إجراء، مع خطّافات بديلة لاختبار A/B. مكتوب بلهجة مصرية بسيطة قريبة من الجمهور وجاهز للتصوير مباشرة."
+          "description": "سكريبت إعلاني احترافي لفيديو قصير (35 ثانية) مخصص لريلز وتيك توك وشورتس، لكرسي أرضي طبي مريح للظهر. يتضمن خطّاف (Hook) قوي في أول ثوانٍ، وتقسيم مشهد بمشهد (المشهد البصري، التعليق الصوتي، النص على الشاشة، المدة)، ودعوة واضحة لاتخاذ إجراء، مع خطّافات بديلة لاختبار A/B. مكتوب بلهجة مصرية بسيطة قريبة من الجمهور وجاهز للتصوير مباشرة.",
+          "path": "portfolio/content/floor-chair-video-script",
+          "title_en": "Short Video Ad Script – \"Al-Sanad\" Floor Chair",
+          "category_key": "content",
+          "images": [
+            "portfolio/content/floor-chair-video-script/images/01.jpg",
+            "portfolio/content/floor-chair-video-script/images/02.jpg",
+            "portfolio/content/floor-chair-video-script/images/03.jpg"
+          ]
         },
         {
           "title": "ستوريبورد ومفهوم بصري لإعلان فيديو لساعة فاخرة بالذكاء الاصطناعي",
@@ -521,7 +781,15 @@
           "external_url": "https://claude.ai/artifact/6DWsWDi57ccH5My7AAmXS3",
           "github_url": null,
           "youtube_url": null,
-          "description": "تصور بصري متكامل (Storyboard) لإعلان فيديو قصير لعلامة ساعات فاخرة، يتضمن تقسيم المشاهد لقطةً بلقطة، زوايا التصوير وحركة الكاميرا، الإضاءة ولوحة الألوان، النصوص الإعلانية على الشاشة، والمؤثرات والانتقالات، كأساس جاهز لإنتاج الإعلان بأدوات الفيديو بالذكاء الاصطناعي."
+          "description": "تصور بصري متكامل (Storyboard) لإعلان فيديو قصير لعلامة ساعات فاخرة، يتضمن تقسيم المشاهد لقطةً بلقطة، زوايا التصوير وحركة الكاميرا، الإضاءة ولوحة الألوان، النصوص الإعلانية على الشاشة، والمؤثرات والانتقالات، كأساس جاهز لإنتاج الإعلان بأدوات الفيديو بالذكاء الاصطناعي.",
+          "path": "portfolio/content/luxury-watch-ai-storyboard",
+          "title_en": "AI Video Ad Storyboard – Luxury Watch",
+          "category_key": "content",
+          "images": [
+            "portfolio/content/luxury-watch-ai-storyboard/images/01.jpg",
+            "portfolio/content/luxury-watch-ai-storyboard/images/02.jpg",
+            "portfolio/content/luxury-watch-ai-storyboard/images/03.jpg"
+          ]
         },
         {
           "title": "صفحة هبوط إعلانية احترافية «مَدار» – HTML وCSS متجاوبة بالعربية",
@@ -537,7 +805,15 @@
           "external_url": "https://claude.ai/artifact/VypasF3C4YrKCxJqzDq9fR",
           "github_url": null,
           "youtube_url": null,
-          "description": "صفحة ويب إعلانية (Landing Page) احترافية باللغة العربية واتجاه RTL، مبنية بملف HTML واحد مستقل باستخدام HTML5 وCSS3 وقليل من JavaScript دون أي مكتبات خارجية. تتضمن: شريط تنقل متجاوب مع قائمة للجوال، قسم رئيسي (Hero) بعنوان جذاب وزرَّي دعوة لاتخاذ إجراء، بطاقات خدمات، قسم أرقام وإنجازات، آراء العملاء، أسئلة شائعة قابلة للطي، نموذج تواصل، وتذييل. تصميم عصري متناسق الألوان، سريع التحميل ومتوافق مع جميع الشاشات ومراعٍ لإمكانية الوصول."
+          "description": "صفحة ويب إعلانية (Landing Page) احترافية باللغة العربية واتجاه RTL، مبنية بملف HTML واحد مستقل باستخدام HTML5 وCSS3 وقليل من JavaScript دون أي مكتبات خارجية. تتضمن: شريط تنقل متجاوب مع قائمة للجوال، قسم رئيسي (Hero) بعنوان جذاب وزرَّي دعوة لاتخاذ إجراء، بطاقات خدمات، قسم أرقام وإنجازات، آراء العملاء، أسئلة شائعة قابلة للطي، نموذج تواصل، وتذييل. تصميم عصري متناسق الألوان، سريع التحميل ومتوافق مع جميع الشاشات ومراعٍ لإمكانية الوصول.",
+          "path": "portfolio/web/madar-landing-page",
+          "title_en": "\"Madar\" Arabic RTL Landing Page",
+          "category_key": "web",
+          "images": [
+            "portfolio/web/madar-landing-page/images/01.jpg",
+            "portfolio/web/madar-landing-page/images/02.jpg",
+            "portfolio/web/madar-landing-page/images/03.jpg"
+          ]
         },
         {
           "title": "موقع بورتفوليو شخصي احترافي باللغة العربية – نموذج تفاعلي",
@@ -553,7 +829,15 @@
           "external_url": "https://claude.ai/artifact/KRu1iUxbWH6SoNoV6PGoiQ",
           "github_url": null,
           "youtube_url": null,
-          "description": "نموذج تفاعلي لموقع بورتفوليو شخصي عربي يعرض الهوية المهنية والأعمال بأسلوب عصري. تصميم متجاوب يعمل على الهواتف والأجهزة اللوحية والحواسيب. يتضمن أقسام نبذة عني والمهارات والخدمات والمشاريع ووسائل التواصل. واجهة أنيقة بتدرج بصري واضح وتجربة استخدام سهلة. منفذ كصفحة HTML واحدة باستخدام Tailwind CSS وJavaScript."
+          "description": "نموذج تفاعلي لموقع بورتفوليو شخصي عربي يعرض الهوية المهنية والأعمال بأسلوب عصري. تصميم متجاوب يعمل على الهواتف والأجهزة اللوحية والحواسيب. يتضمن أقسام نبذة عني والمهارات والخدمات والمشاريع ووسائل التواصل. واجهة أنيقة بتدرج بصري واضح وتجربة استخدام سهلة. منفذ كصفحة HTML واحدة باستخدام Tailwind CSS وJavaScript.",
+          "path": "portfolio/web/arabic-portfolio-website",
+          "title_en": "Arabic Personal Portfolio Website",
+          "category_key": "web",
+          "images": [
+            "portfolio/web/arabic-portfolio-website/images/01.jpg",
+            "portfolio/web/arabic-portfolio-website/images/02.jpg",
+            "portfolio/web/arabic-portfolio-website/images/03.jpg"
+          ]
         },
         {
           "title": "هوية بصرية لمهندس Full Stack – شعار Merge ولوحة الهوية الكاملة",
@@ -570,7 +854,15 @@
           "external_url": null,
           "github_url": null,
           "youtube_url": null,
-          "description": "لوحة هوية بصرية متكاملة لمهندس Full Stack، محورها شعار \"Merge\" على شكل حرف Y يجمع بين الواجهات (Frontend) والبنية التحتية (Backend). تشمل اللوحة: تنويعات الشعار، لوحة الألوان والخطوط، رسالة وتموضع العلامة، نماذج كروت شخصية (Business Cards)، وأغلفة لحسابات التواصل الاجتماعي. تم تصميمها لتمنح المهندس حضوراً احترافياً متسقاً عبر جميع المنصات."
+          "description": "لوحة هوية بصرية متكاملة لمهندس Full Stack، محورها شعار \"Merge\" على شكل حرف Y يجمع بين الواجهات (Frontend) والبنية التحتية (Backend). تشمل اللوحة: تنويعات الشعار، لوحة الألوان والخطوط، رسالة وتموضع العلامة، نماذج كروت شخصية (Business Cards)، وأغلفة لحسابات التواصل الاجتماعي. تم تصميمها لتمنح المهندس حضوراً احترافياً متسقاً عبر جميع المنصات.",
+          "path": "portfolio/design/merge-fullstack-identity",
+          "title_en": "\"Merge\" – Full-Stack Engineer Visual Identity",
+          "category_key": "design",
+          "images": [
+            "portfolio/design/merge-fullstack-identity/images/01.jpg",
+            "portfolio/design/merge-fullstack-identity/images/02.jpg",
+            "portfolio/design/merge-fullstack-identity/images/03.jpg"
+          ]
         },
         {
           "title": "عرض تقديمي احترافي عن تقنيات الواقع الافتراضي والواقع المعزز VR & AR",
@@ -586,7 +878,16 @@
           "external_url": null,
           "github_url": null,
           "youtube_url": null,
-          "description": "نموذج أولي لعرض تقديمي أكاديمي احترافي عن تقنيات الواقع الافتراضي والواقع المعزز، بتصميم عصري موحّد يدعم اللغة العربية (RTL). يتضمن شريحة العنوان، تعريف الواقع الافتراضي والمعزز والفرق بينهما، آلية العمل والأجهزة المستخدمة، جدول مقارنة منهجي بين VR وAR، مجالات التطبيق في التعليم والطب والألعاب والصناعة والهندسة، وإحصائيات واتجاهات مستقبلية مدعومة برسوم بيانية وإنفوجرافيك. التصميم قابل للتسليم بصيغة PowerPoint قابلة للتعديل وPDF."
+          "description": "نموذج أولي لعرض تقديمي أكاديمي احترافي عن تقنيات الواقع الافتراضي والواقع المعزز، بتصميم عصري موحّد يدعم اللغة العربية (RTL). يتضمن شريحة العنوان، تعريف الواقع الافتراضي والمعزز والفرق بينهما، آلية العمل والأجهزة المستخدمة، جدول مقارنة منهجي بين VR وAR، مجالات التطبيق في التعليم والطب والألعاب والصناعة والهندسة، وإحصائيات واتجاهات مستقبلية مدعومة برسوم بيانية وإنفوجرافيك. التصميم قابل للتسليم بصيغة PowerPoint قابلة للتعديل وPDF.",
+          "path": "portfolio/design/vr-ar-presentation",
+          "title_en": "VR & AR Professional Presentation",
+          "category_key": "design",
+          "images": [
+            "portfolio/design/vr-ar-presentation/images/01.jpg",
+            "portfolio/design/vr-ar-presentation/images/02.jpg",
+            "portfolio/design/vr-ar-presentation/images/03.jpg",
+            "portfolio/design/vr-ar-presentation/images/04.jpg"
+          ]
         },
         {
           "title": "Kaggle Bronze – AI Agent Security",
@@ -597,7 +898,13 @@
           "external_url": "https://www.kaggle.com/code/youssefyacoup/ai-agent?scriptVersionId=344201601",
           "github_url": "https://github.com/Youssef123ya/Kaggle-Competitions",
           "youtube_url": null,
-          "description": "دفتر مشاركة في مسابقة Kaggle حول اكتشاف هجمات الأدوات متعددة الخطوات على وكلاء الذكاء الاصطناعي. حصلت على ميدالية Bronze بترتيب 377 من أصل 4,186 مشاركًا (ضمن أفضل 9%). يتضمن العمل تحليل البيانات وبناء وتقييم حل المسابقة. هذا مشروع تنافسي/بحثي باستخدام دفتر Kaggle، وليس منتجًا أمنيًا منشورًا للإنتاج."
+          "description": "دفتر مشاركة في مسابقة Kaggle حول اكتشاف هجمات الأدوات متعددة الخطوات على وكلاء الذكاء الاصطناعي. حصلت على ميدالية Bronze بترتيب 377 من أصل 4,186 مشاركًا (ضمن أفضل 9%). يتضمن العمل تحليل البيانات وبناء وتقييم حل المسابقة. هذا مشروع تنافسي/بحثي باستخدام دفتر Kaggle، وليس منتجًا أمنيًا منشورًا للإنتاج.",
+          "path": "portfolio/ai/kaggle-ai-agent-security",
+          "title_en": "Kaggle Bronze – AI Agent Security",
+          "category_key": "ai",
+          "images": [
+            "portfolio/ai/kaggle-ai-agent-security/images/01.jpg"
+          ]
         },
         {
           "title": "InvoicePilot – فواتير ذكية للمستقلين",
@@ -608,7 +915,13 @@
           "external_url": "https://devpost.com/software/invoicepilot-s9euh1",
           "github_url": "https://github.com/Youssef123ya/invoicepilot-paypal-ai",
           "youtube_url": "https://youtube.com/shorts/KYOtxpa2Lqk",
-          "description": "تطبيق ويب يحوّل ملاحظات المستقل عن العمل إلى مسودة فاتورة قابلة للمراجعة قبل إنشائها. يستخدم Gemini لاستخراج بنود الفاتورة وطرح أسئلة عند نقص الكميات أو الأسعار. بعد مراجعة المستخدم، ينشئ فاتورة في PayPal Sandbox، ويمكنه تفعيل رابط الدفع وقراءة الحالة الفعلية من PayPal. بنيته باستخدام React وTypeScript وCloudflare Workers وZod، مع التحقق من الطلبات في الخادم وحفظ اختياري للمسودة محليًا. المشروع مقدم إلى PayPal AI Hackathon. ملاحظة: التكامل مع PayPal يعمل في بيئة Sandbox، وعينة العرض غير مدفوعة."
+          "description": "تطبيق ويب يحوّل ملاحظات المستقل عن العمل إلى مسودة فاتورة قابلة للمراجعة قبل إنشائها. يستخدم Gemini لاستخراج بنود الفاتورة وطرح أسئلة عند نقص الكميات أو الأسعار. بعد مراجعة المستخدم، ينشئ فاتورة في PayPal Sandbox، ويمكنه تفعيل رابط الدفع وقراءة الحالة الفعلية من PayPal. بنيته باستخدام React وTypeScript وCloudflare Workers وZod، مع التحقق من الطلبات في الخادم وحفظ اختياري للمسودة محليًا. المشروع مقدم إلى PayPal AI Hackathon. ملاحظة: التكامل مع PayPal يعمل في بيئة Sandbox، وعينة العرض غير مدفوعة.",
+          "path": "portfolio/ai/invoicepilot",
+          "title_en": "InvoicePilot – Smart Invoices for Freelancers",
+          "category_key": "ai",
+          "images": [
+            "portfolio/ai/invoicepilot/images/01.jpg"
+          ]
         }
       ]
     },
@@ -644,6 +957,169 @@
       "name": "Devpost Competitions",
       "github": "https://github.com/Youssef123ya/Devpost_Competitons",
       "devpost": "https://devpost.com/Youssef123ya"
+    }
+  ],
+  "services_catalog": [
+    {
+      "slug": "landing-page-design",
+      "en": "Responsive Landing Page Design & Development",
+      "ar": "سأصمم لك صفحة هبوط Landing Page متجاوبة واحترافية",
+      "path": "services/landing-page-design",
+      "listed": true,
+      "tools": [
+        "Figma",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Tailwind CSS"
+      ],
+      "related": [
+        "portfolio/web/madar-landing-page",
+        "portfolio/web/cafe-landing-page",
+        "portfolio/web/lead-gen-landing-page",
+        "portfolio/web/arabic-portfolio-website"
+      ]
+    },
+    {
+      "slug": "backend-api-development",
+      "en": "Backend & REST API Development",
+      "ar": "تطوير الباك إند وواجهات REST API",
+      "path": "services/backend-api-development",
+      "listed": false,
+      "tools": [
+        "C#",
+        "ASP.NET Core",
+        ".NET",
+        "Python",
+        "Node.js",
+        "SQL",
+        "Docker",
+        "Azure",
+        "Terraform"
+      ],
+      "related": [
+        "portfolio/backend/taskflow-api",
+        "portfolio/backend/real-estate-erp-leads",
+        "portfolio/backend/secure-aws-infrastructure"
+      ]
+    },
+    {
+      "slug": "ai-apps-automation",
+      "en": "AI-Powered Apps & Workflow Automation",
+      "ar": "تطبيقات وأتمتة بالذكاء الاصطناعي",
+      "path": "services/ai-apps-automation",
+      "listed": false,
+      "tools": [
+        "Python",
+        "TypeScript",
+        "React",
+        "Cloudflare Workers",
+        "Gemini API",
+        "REST APIs"
+      ],
+      "related": [
+        "portfolio/ai/invoicepilot",
+        "portfolio/ai/opspilot-slack-automation",
+        "portfolio/ai/ai-marketing-copy-assistant",
+        "portfolio/ai/ai-real-estate-cma"
+      ]
+    },
+    {
+      "slug": "machine-learning-data-science",
+      "en": "Machine Learning & Data Science Prototypes",
+      "ar": "نماذج تعلّم الآلة وعلوم البيانات",
+      "path": "services/machine-learning-data-science",
+      "listed": false,
+      "tools": [
+        "Python",
+        "pandas",
+        "scikit-learn",
+        "Jupyter",
+        "Kaggle"
+      ],
+      "related": [
+        "portfolio/ai/kaggle-ai-agent-security",
+        "portfolio/ai/ai-real-estate-cma"
+      ]
+    },
+    {
+      "slug": "data-cleaning-excel-dashboards",
+      "en": "Data Cleaning & Excel Dashboards",
+      "ar": "تنظيف البيانات ولوحات تحكم Excel",
+      "path": "services/data-cleaning-excel-dashboards",
+      "listed": false,
+      "tools": [
+        "Microsoft Excel",
+        "Power Query",
+        "Data Analysis",
+        "HTML"
+      ],
+      "related": [
+        "portfolio/data/sales-history-cleaning",
+        "portfolio/data/excel-sales-cleanup",
+        "portfolio/data/hr-analytics-dashboard"
+      ]
+    },
+    {
+      "slug": "websites-ecommerce",
+      "en": "Websites, Stores & Web Prototypes",
+      "ar": "تطوير المواقع والمتاجر والنماذج التفاعلية",
+      "path": "services/websites-ecommerce",
+      "listed": false,
+      "tools": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React",
+        "Tailwind CSS",
+        "WordPress",
+        "Shopify"
+      ],
+      "related": [
+        "portfolio/ecommerce/francesko-fashion-store",
+        "portfolio/ecommerce/shopify-booking-storefront",
+        "portfolio/ecommerce/digital-download-store",
+        "portfolio/web/premium-business-website"
+      ]
+    },
+    {
+      "slug": "brand-identity-design",
+      "en": "Logo & Visual Identity Design",
+      "ar": "تصميم الشعارات والهوية البصرية",
+      "path": "services/brand-identity-design",
+      "listed": false,
+      "tools": [
+        "Illustrator",
+        "Logo Design",
+        "Brand Identity",
+        "Graphic Design"
+      ],
+      "related": [
+        "portfolio/design/rose-and-sugar-identity",
+        "portfolio/design/nova-trade-identity",
+        "portfolio/design/arabic-publisher-identity",
+        "portfolio/design/merge-fullstack-identity",
+        "portfolio/design/minimal-logo-concepts"
+      ]
+    },
+    {
+      "slug": "ad-copy-video-scripts",
+      "en": "Ad Copy, Video Scripts & Storyboards",
+      "ar": "كتابة الإعلانات وسيناريوهات الفيديو والستوري بورد",
+      "path": "services/ad-copy-video-scripts",
+      "listed": false,
+      "tools": [
+        "Copywriting",
+        "Scriptwriting",
+        "Storyboarding",
+        "AI Video"
+      ],
+      "related": [
+        "portfolio/content/floor-chair-video-script",
+        "portfolio/content/floor-chair-storyboard",
+        "portfolio/content/luxury-watch-ad-campaign",
+        "portfolio/content/luxury-watch-ai-storyboard"
+      ]
     }
   ]
 }

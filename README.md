@@ -1,108 +1,134 @@
-# Youssef Yacoup — Freelancer Platforms, Services & Portfolios
+<div align="center">
 
-Centralized directory of my freelance profiles, services, portfolio projects, live demos, and open-source links across **Freelancer.com**, **Nafezly**, and **Khamsat**.
+<img src="assets/banner.svg" width="100%" alt="Youssef Yacoup — Freelancer Platforms">
 
-**AI & Backend Developer | Python, C# / ASP.NET Core, SQL, Azure, React / TypeScript** · Egypt
+<a href="https://www.freelancer.com/u/yyacoup"><img src="https://img.shields.io/badge/Freelancer.com-29B2FE?style=for-the-badge&logo=freelancer&logoColor=white" alt="Freelancer.com"></a>
+<a href="https://nafezly.com/u/YoussefYacoup"><img src="https://img.shields.io/badge/Nafezly-%D9%86%D9%81%D8%B0%D9%84%D9%8A-2E3A87?style=for-the-badge" alt="Nafezly"></a>
+<a href="https://khamsat.com/user/youssefyacoup"><img src="https://img.shields.io/badge/Khamsat-%D8%AE%D9%85%D8%B3%D8%A7%D8%AA-F7931E?style=for-the-badge" alt="Khamsat"></a>
 
-[![GitHub](https://img.shields.io/badge/GitHub-Youssef123ya-181717?logo=github)](https://github.com/Youssef123ya)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Youssef%20Yacoup-0A66C2?logo=linkedin)](https://www.linkedin.com/in/youssef-yacoup-745234280/)
-[![Kaggle](https://img.shields.io/badge/Kaggle-youssefyacoup-20BEFF?logo=kaggle)](https://www.kaggle.com/youssefyacoup)
-[![Devpost](https://img.shields.io/badge/Devpost-Youssef123ya-003E54)](https://devpost.com/Youssef123ya)
-[![YouTube](https://img.shields.io/badge/YouTube-%40YoussefYacoup-FF0000?logo=youtube)](https://www.youtube.com/@YoussefYacoup)
+<a href="https://github.com/Youssef123ya"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"></a>
+<a href="https://www.linkedin.com/in/youssef-yacoup-745234280/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
+<a href="https://www.kaggle.com/youssefyacoup"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white"></a>
+<a href="https://devpost.com/Youssef123ya"><img src="https://img.shields.io/badge/Devpost-003E54?style=flat-square&logo=devpost&logoColor=white"></a>
+<a href="https://www.youtube.com/@YoussefYacoup"><img src="https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white"></a>
 
----
+<br><br>
 
-## Freelance Platforms Overview
+I build **Python machine-learning prototypes**, **.NET / ASP.NET Core backends** and **AI-powered web apps** —<br>
+and turn data or a workflow into something people can actually use.
 
-| Platform | Profile & Portfolio Links | Services | Portfolio Count | Rate / Starting Price | Details |
-| --- | --- | --- | --- | --- | --- |
-| **Freelancer.com** | [freelancer.com/u/yyacoup](https://www.freelancer.com/u/yyacoup) | Hourly profile (`$10 USD/hr`, bio & offerings; no dedicated Services tab) | **16** items | `$10 USD / Hour` | [platforms/freelancer.md](./platforms/freelancer.md) |
-| **Nafezly (نفذلي)** | [nafezly.com/u/YoussefYacoup](https://nafezly.com/u/YoussefYacoup) · [Portfolio](https://nafezly.com/u/YoussefYacoup/portfolio) | 0 services currently listed on `/my/services` | **20** items | Project-based | [platforms/nafezly.md](./platforms/nafezly.md) |
-| **Khamsat (خمسات)** | [khamsat.com/user/youssefyacoup](https://khamsat.com/user/youssefyacoup) · [Services](https://khamsat.com/user/youssefyacoup/services) | **1** service *(pending review as of 2026-11-18)* | Gallery attached to service | Starting at `$10.00` | [platforms/khamsat.md](./platforms/khamsat.md) |
+<p dir="rtl">بطوّر <b>نماذج تعلّم آلة بـ Python</b> و<b>أنظمة Backend بـ .NET</b> و<b>تطبيقات ويب بالذكاء الاصطناعي</b>،<br>وبحوّل بياناتك أو فكرتك لتطبيق حقيقي قابل للاستخدام.</p>
 
----
+<table>
+<tr>
+<td align="center" width="25%"><h2>36</h2>Portfolio projects<br><sub dir="rtl">عمل في المعرض</sub></td>
+<td align="center" width="25%"><h2>8</h2>Services<br><sub dir="rtl">خدمات</sub></td>
+<td align="center" width="25%"><h2>3</h2>Platforms<br><sub dir="rtl">منصات</sub></td>
+<td align="center" width="25%"><h2>2 🥉</h2>Kaggle medals<br><sub dir="rtl">ميداليات Kaggle</sub></td>
+</tr>
+</table>
 
-## Services & Offerings
+**[🧩 Services](services/README.md)** &nbsp;·&nbsp; **[🗂️ Portfolio](portfolio/README.md)** &nbsp;·&nbsp; **[👤 Profiles](profiles/README.md)** &nbsp;·&nbsp; **[💻 Open Source](#open-source)** &nbsp;·&nbsp; **[📩 Contact](#contact)**
 
-> Full breakdown of service packages, hourly capabilities, and platform details: **[services/README.md](./services/README.md)**
-
-- **Landing Page Design & Development (Khamsat — `$10.00` / 3 days)**  
-  [سأصمم لك صفحة هبوط Landing Page متجاوبة واحترافية](https://khamsat.com/programming/custom-website-development/4505135-%D8%B3%D8%A3%D8%B5%D9%85%D9%85-%D9%84%D9%83-%D8%B5%D9%81%D8%AD%D8%A9-%D9%87%D8%A8%D9%88%D8%B7-landing-page-%D9%85%D8%AA%D8%AC%D8%A7%D9%88%D8%A8%D8%A9-%D9%88%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A%D8%A9)  
-  Responsive up-to-5-section landing page using `Figma`, `HTML5`, `CSS3`, `JavaScript`, and `Tailwind CSS`, with optional upgrades (`+$5` to `+$10`) for extra sections, email contact form, Netlify/GitHub Pages hosting, or 1-day express delivery.
-- **Python, Machine Learning & Data Engineering (Freelancer.com / Nafezly)**  
-  Data cleaning, exploratory analysis (`pandas`), baseline ML prototypes, evaluation, and Excel / Power Query reporting dashboards.
-- **Backend APIs & Cloud Infrastructure (Freelancer.com / Nafezly)**  
-  REST APIs and integrations with `C#`, `ASP.NET Core`, `.NET`, `SQL`, `Node.js`, `Docker`, `Azure`, `Google Cloud`, and AWS/Terraform architecture.
-- **AI-Assisted Workflows & Interactive Web Prototypes**  
-  LLM workflows with structured outputs and human-in-the-loop review steps, e-commerce demos, ERP/admin UIs, and bilingual Arabic/English interfaces.
+</div>
 
 ---
 
-## Featured Projects & Live Links
+## 🧩 Services · خدماتي
 
-> Browse all projects grouped by engineering & design domain (including 15+ public GitHub repos): **[projects/README.md](./projects/README.md)**
+<table>
+<tr><td align="center" valign="top" width="25%"><a href="services/landing-page-design/"><img src="services/landing-page-design/images/cover.jpg" width="100%" alt="Responsive Landing Page Design &amp; Development"></a><br><b><a href="services/landing-page-design/">Responsive Landing Page Design &amp; Development</a></b><br><sub dir="rtl">سأصمم لك صفحة هبوط Landing Page متجاوبة واحترافية</sub><br><sub>🟢 Listed on Khamsat · from $10</sub></td><td align="center" valign="top" width="25%"><a href="services/backend-api-development/"><img src="services/backend-api-development/images/cover.jpg" width="100%" alt="Backend &amp; REST API Development"></a><br><b><a href="services/backend-api-development/">Backend &amp; REST API Development</a></b><br><sub dir="rtl">تطوير الباك إند وواجهات REST API</sub><br><sub>Freelancer.com · Nafezly · custom quote</sub></td><td align="center" valign="top" width="25%"><a href="services/ai-apps-automation/"><img src="services/ai-apps-automation/images/cover.jpg" width="100%" alt="AI-Powered Apps &amp; Workflow Automation"></a><br><b><a href="services/ai-apps-automation/">AI-Powered Apps &amp; Workflow Automation</a></b><br><sub dir="rtl">تطبيقات وأتمتة بالذكاء الاصطناعي</sub><br><sub>Freelancer.com · Nafezly · custom quote</sub></td><td align="center" valign="top" width="25%"><a href="services/machine-learning-data-science/"><img src="services/machine-learning-data-science/images/cover.jpg" width="100%" alt="Machine Learning &amp; Data Science Prototypes"></a><br><b><a href="services/machine-learning-data-science/">Machine Learning &amp; Data Science Prototypes</a></b><br><sub dir="rtl">نماذج تعلّم الآلة وعلوم البيانات</sub><br><sub>Freelancer.com · Nafezly · custom quote</sub></td></tr>
+<tr><td align="center" valign="top" width="25%"><a href="services/data-cleaning-excel-dashboards/"><img src="services/data-cleaning-excel-dashboards/images/cover.jpg" width="100%" alt="Data Cleaning &amp; Excel Dashboards"></a><br><b><a href="services/data-cleaning-excel-dashboards/">Data Cleaning &amp; Excel Dashboards</a></b><br><sub dir="rtl">تنظيف البيانات ولوحات تحكم Excel</sub><br><sub>Freelancer.com · Nafezly · custom quote</sub></td><td align="center" valign="top" width="25%"><a href="services/websites-ecommerce/"><img src="services/websites-ecommerce/images/cover.jpg" width="100%" alt="Websites, Stores &amp; Web Prototypes"></a><br><b><a href="services/websites-ecommerce/">Websites, Stores &amp; Web Prototypes</a></b><br><sub dir="rtl">تطوير المواقع والمتاجر والنماذج التفاعلية</sub><br><sub>Freelancer.com · Nafezly · custom quote</sub></td><td align="center" valign="top" width="25%"><a href="services/brand-identity-design/"><img src="services/brand-identity-design/images/cover.jpg" width="100%" alt="Logo &amp; Visual Identity Design"></a><br><b><a href="services/brand-identity-design/">Logo &amp; Visual Identity Design</a></b><br><sub dir="rtl">تصميم الشعارات والهوية البصرية</sub><br><sub>Freelancer.com · Nafezly · custom quote</sub></td><td align="center" valign="top" width="25%"><a href="services/ad-copy-video-scripts/"><img src="services/ad-copy-video-scripts/images/cover.jpg" width="100%" alt="Ad Copy, Video Scripts &amp; Storyboards"></a><br><b><a href="services/ad-copy-video-scripts/">Ad Copy, Video Scripts &amp; Storyboards</a></b><br><sub dir="rtl">كتابة الإعلانات وسيناريوهات الفيديو والستوري بورد</sub><br><sub>Freelancer.com · Nafezly · custom quote</sub></td></tr>
+</table>
 
-### Flagship & Competition Projects
-- **InvoicePilot** — AI invoice assistant converting work notes into human-reviewed PayPal Sandbox invoices (`React`, `TypeScript`, `Cloudflare Workers`, `Gemini`, `Zod`).  
-  [GitHub Repo](https://github.com/Youssef123ya/invoicepilot-paypal-ai) · [Devpost](https://devpost.com/software/invoicepilot-s9euh1) · [YouTube Demo](https://youtube.com/shorts/KYOtxpa2Lqk) · [Nafezly Portfolio](https://nafezly.com/portfolio/266804-InvoicePilot-%E2%80%93-%D9%81%D9%88%D8%A7%D8%AA%D9%8A%D8%B1-%D8%B0%D9%83%D9%8A%D8%A9-%D9%84%D9%84%D9%85%D8%B3%D8%AA%D9%82%D9%84%D9%8A%D9%86)
-- **MedMonitor 24/7** — Team hospital monitoring graduation prototype scoring `100/100` (top 15 in faculty); contributed `.NET` backend & Azure setup.  
-  [GitHub Repo](https://github.com/Youssef123ya/MedMonitor-24-7)
-- **Kaggle Bronze — AI Agent Security & Wellbore Geology** — Two Kaggle competition bronze medals (including rank 377/4,186 in AI Agent Security).  
-  [AI Agent Notebook](https://www.kaggle.com/code/youssefyacoup/ai-agent?scriptVersionId=344201601) · [GitHub Repo](https://github.com/Youssef123ya/Kaggle-Competitions) · [Nafezly Portfolio](https://nafezly.com/portfolio/266812-Kaggle-Bronze-%E2%80%93-AI-Agent-Security)
-- **TechMind Challenge 2025** — 1st Place in TechMind Challenge 3 (`Python`).  
-  [GitHub Repo](https://github.com/Youssef123ya/TechMind-Challenge-2025)
-- **Other Public GitHub Projects** — [Devpost Competitions](https://github.com/Youssef123ya/Devpost_Competitons) · [rollout-trace](https://github.com/Youssef123ya/rollout-trace) · [ghostlight-kiroween-2026](https://github.com/Youssef123ya/ghostlight-kiroween-2026) · [sleight-of-eye](https://github.com/Youssef123ya/sleight-of-eye) · [client-handoff-check](https://github.com/Youssef123ya/client-handoff-check) · [orbit-lab-specs](https://github.com/Youssef123ya/orbit-lab-specs)
-
-### Live Interactive Prototypes & Demos (`12` Direct Links)
-| Prototype | Category | Platform Listing | Direct Live Link |
-| --- | --- | --- | --- |
-| **Shopify Storefront Booking Prototype** | E-Commerce / Booking | [Freelancer #16121540](https://www.freelancer.com/u/yyacoup) | [Open Demo](https://claude.ai/artifact/9xkXJhEfLky62f7QGphMnJ) |
-| **Secure AWS Infrastructure Design** | Cloud / Terraform | [Nafezly #268987](https://nafezly.com/portfolio/268987-Secure-AWS-Infrastructure-Design-%E2%80%94-Nafezly-58468) | [Open Demo](https://claude.ai/artifact/8FeLgRjc5j6LqgiapsBPDs) |
-| **Madar Arabic RTL Landing Page (`مَدار`)** | Web / HTML & CSS | [Nafezly #268779](https://nafezly.com/portfolio/268779-%D8%B5%D9%81%D8%AD%D8%A9-%D9%87%D8%A8%D9%88%D8%B7-%D8%A5%D8%B9%D9%84%D8%A7%D9%86%D9%8A%D8%A9-%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A%D8%A9-%C2%AB%D9%85%D9%8E%D8%AF%D8%A7%D8%B1%C2%BB-%E2%80%93-HTML-%D9%88CSS-%D9%85%D8%AA%D8%AC%D8%A7%D9%88%D8%A8%D8%A9-%D8%A8%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9) | [Open Demo](https://claude.ai/artifact/VypasF3C4YrKCxJqzDq9fR) |
-| **Arabic Personal Portfolio Prototype** | Web / Tailwind CSS | [Nafezly #268751](https://nafezly.com/portfolio/268751-%D9%85%D9%88%D9%82%D8%B9-%D8%A8%D9%88%D8%B1%D8%AA%D9%81%D9%88%D9%84%D9%8A%D9%88-%D8%B4%D8%AE%D8%B5%D9%8A-%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A-%D8%A8%D8%A7%D9%84%D9%84%D8%BA%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%E2%80%93-%D9%86%D9%85%D9%88%D8%B0%D8%AC-%D8%AA%D9%81%D8%A7%D8%B9%D9%84%D9%8A) | [Open Demo](https://claude.ai/artifact/KRu1iUxbWH6SoNoV6PGoiQ) |
-| **HR Analytics Dashboard (Arabic)** | Data / Excel & HTML | [Nafezly #269162](https://nafezly.com/portfolio/269162-%D9%84%D9%88%D8%AD%D8%A9-%D8%AA%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B1%D8%AF-%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9-%E2%80%93-%D8%AF%D8%A7%D8%B4%D8%A8%D9%88%D8%B1%D8%AF-%D8%AA%D9%81%D8%A7%D8%B9%D9%84%D9%8A-%D9%84%D8%AA%D8%AD%D9%84%D9%8A%D9%84-%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%88%D8%B8%D9%81%D9%8A%D9%86) | [Open Demo](https://claude.ai/artifact/Qx3zUcXHGb3NSYoTPYCS7j) |
-| **Historical Sales Cleaning & Excel Reports** | Data / Power Query | [Nafezly #269151](https://nafezly.com/portfolio/269151-%D8%AA%D9%86%D8%B8%D9%8A%D9%81-%D8%B3%D8%AC%D9%84-%D8%A7%D9%84%D9%85%D8%A8%D9%8A%D8%B9%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A-%D9%88%D8%A5%D8%B9%D8%AF%D8%A7%D8%AF-%D9%84%D9%88%D8%AD%D8%A9-%D8%AA%D9%82%D8%A7%D8%B1%D9%8A%D8%B1-Excel) | [Open Demo](https://claude.ai/artifact/5KcAEEeu29UBhZZKb83H1q) |
-| **Sales Data Cleaning & Summary Dashboard** | Data / Excel | [Nafezly #269023](https://nafezly.com/portfolio/269023-%D8%AA%D9%86%D8%B8%D9%8A%D9%81-%D9%88%D8%AA%D9%86%D8%B3%D9%8A%D9%82-%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-%D9%85%D8%A8%D9%8A%D8%B9%D8%A7%D8%AA-Excel-%D9%85%D8%B9-%D9%84%D9%88%D8%AD%D8%A9-%D9%85%D9%84%D8%AE%D8%B5) | [Open Demo](https://claude.ai/artifact/TS2z7oyrDWLf9sQ4PK2oFB) |
-| **Arabic Publishing House Logos** | Brand Identity | [Nafezly #269220](https://nafezly.com/portfolio/269220-%D9%85%D9%81%D8%A7%D9%87%D9%8A%D9%85-%D9%87%D9%88%D9%8A%D8%A9-%D9%88%D8%B4%D8%B9%D8%A7%D8%B1-%D9%84%D8%AF%D8%A7%D8%B1-%D9%86%D8%B4%D8%B1-%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%E2%80%93-%D9%86%D9%82%D8%B7%D8%A9%D8%8C-%D8%B9%D8%AA%D8%A8%D8%A9%D8%8C-%D9%88%D8%B1%D9%82%D8%A9) | [Open Demo](https://claude.ai/artifact/Xc4Y8amKS5d69RsrDP4ewX) |
-| **Nova Trade Visual Identity** | Brand Identity | [Nafezly #269197](https://nafezly.com/portfolio/269197-%D9%87%D9%88%D9%8A%D8%A9-%D8%A8%D8%B5%D8%B1%D9%8A%D8%A9-%D9%85%D8%AA%D9%83%D8%A7%D9%85%D9%84%D8%A9-%D9%84%D8%B4%D8%B1%D9%83%D8%A9-Nova-Trade) | [Open Demo](https://claude.ai/artifact/BNYzMS3FUYdUADdCmVWsTc) |
-| **Luxury Watch Ad Campaign Copy** | Marketing Copy | [Nafezly #269112](https://nafezly.com/portfolio/269112-%D9%83%D8%AA%D8%A7%D8%A8%D8%A9-%D9%85%D8%AD%D8%AA%D9%88%D9%89-%D8%A5%D8%B9%D9%84%D8%A7%D9%86%D9%8A-%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A-%D9%84%D9%85%D9%86%D8%AA%D8%AC-%D9%81%D8%A7%D8%AE%D8%B1-%E2%80%93-%D8%AD%D9%85%D9%84%D8%A9-%D8%B3%D8%A7%D8%B9%D8%A7%D8%AA-%D8%B4%D8%B1%D9%82%D8%AF-%D8%B3%D9%8F%D8%B1%D9%89) | [Open Demo](https://claude.ai/artifact/CfKCpuMNjUcPXxvebpghrQ) |
-| **Medical Floor Chair Video Script** | Video Script | [Nafezly #268816](https://nafezly.com/portfolio/268816-%D8%B3%D9%83%D8%B1%D9%8A%D8%A8%D8%AA-%D8%A5%D8%B9%D9%84%D8%A7%D9%86-%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%82%D8%B5%D9%8A%D8%B1-%D9%84%D9%83%D8%B1%D8%B3%D9%8A-%D8%A3%D8%B1%D8%B6%D9%8A-%D8%B7%D8%A8%D9%8A-%C2%AB%D8%A7%D9%84%D8%B3%D9%86%D8%AF%C2%BB) | [Open Demo](https://claude.ai/artifact/2Dmbk8JnL56yNZiDpsTqio) |
-| **Luxury Watch AI Video Storyboard** | AI Video Storyboard | [Nafezly #268805](https://nafezly.com/portfolio/268805-%D8%B3%D8%AA%D9%88%D8%B1%D9%8A%D8%A8%D9%88%D8%B1%D8%AF-%D9%88%D9%85%D9%81%D9%87%D9%88%D9%85-%D8%A8%D8%B5%D8%B1%D9%8A-%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%86-%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%84%D8%B3%D8%A7%D8%B9%D8%A9-%D9%81%D8%A7%D8%AE%D8%B1%D8%A9-%D8%A8%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A) | [Open Demo](https://claude.ai/artifact/6DWsWDi57ccH5My7AAmXS3) |
+<div align="center"><a href="services/README.md"><b>See all service details → · كل تفاصيل الخدمات</b></a></div>
 
 ---
 
-## Experience, Education & Credentials
+## ⭐ Featured Work · أعمال مميزة
 
-- **Education**: B.Sc. in Computer Science (Information Technology), Nahda University in Beni Suef *(2022 – 2026)*
-- **Experience**:
-  - Machine Learning Engineer (Part-time) — **Shipd (Datacurve)** *(Mar 2026 – Present)*
-  - Freelance Backend Developer — **ALX Ventures** *(Oct 2024 – Present)*
-  - AI & Machine Learning Intern — **Genius Technology Center (GTC)** *(Aug 2025 – Sep 2025)*
-  - React Web Development Trainee — **Information Technology Institute (ITI)** *(Sep 2024)*
-- **Certifications & Badges**:
-  - ALX Software Engineering (Backend Specialization, 2024) & ALX Ventures Gig-at-a-Startup (2024)
-  - IBM Full Stack Software Developer Professional Certificate (Coursera, 2024)
-  - Google Cloud Technical Series: AI in Action Badge (Mar 2026)
-  - DEPI React Frontend Web Developer (2025), ITI React (2024) & PHP (2025), GTC Machine Learning Track (2025)
-  - [Khamsat Work Fundamentals Assessment](https://khbra.com/attempts/e301455c-d1ad-4e63-b583-5f9dee3a576b) — `100.0%`
+<table>
+<tr><td align="center" valign="top" width="33%"><a href="portfolio/ai/invoicepilot/"><img src="portfolio/ai/invoicepilot/images/cover.jpg" width="100%" alt="InvoicePilot – Smart Invoices for Freelancers"></a><br><b><a href="portfolio/ai/invoicepilot/">InvoicePilot – Smart Invoices for Freelancers</a></b><br><sub dir="rtl">InvoicePilot – فواتير ذكية للمستقلين</sub><br><sub>Nafezly</sub></td><td align="center" valign="top" width="33%"><a href="portfolio/backend/secure-aws-infrastructure/"><img src="portfolio/backend/secure-aws-infrastructure/images/cover.jpg" width="100%" alt="Secure AWS Infrastructure Design"></a><br><b><a href="portfolio/backend/secure-aws-infrastructure/">Secure AWS Infrastructure Design</a></b><br><sub dir="rtl">تصميم بنية تحتية آمنة على AWS</sub><br><sub>Nafezly · ▶ Live demo</sub></td><td align="center" valign="top" width="33%"><a href="portfolio/data/hr-analytics-dashboard/"><img src="portfolio/data/hr-analytics-dashboard/images/cover.jpg" width="100%" alt="HR Analytics Interactive Dashboard"></a><br><b><a href="portfolio/data/hr-analytics-dashboard/">HR Analytics Interactive Dashboard</a></b><br><sub dir="rtl">لوحة تحكم الموارد البشرية – داشبورد تفاعلي لتحليل بيانات الموظفين</sub><br><sub>Nafezly · ▶ Live demo</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="portfolio/design/rose-and-sugar-identity/"><img src="portfolio/design/rose-and-sugar-identity/images/cover.jpg" width="100%" alt="Rose &amp; Sugar – Arabic Bakery Brand Identity"></a><br><b><a href="portfolio/design/rose-and-sugar-identity/">Rose &amp; Sugar – Arabic Bakery Brand Identity</a></b><br><sub dir="rtl">Rose &amp; Sugar / ورد وسكّر — هوية بصرية متكاملة لمخبز عربي</sub><br><sub>Nafezly</sub></td><td align="center" valign="top" width="33%"><a href="portfolio/ecommerce/shopify-booking-storefront/"><img src="portfolio/ecommerce/shopify-booking-storefront/images/cover.jpg" width="100%" alt="Shopify Storefront Booking Prototype"></a><br><b><a href="portfolio/ecommerce/shopify-booking-storefront/">Shopify Storefront Booking Prototype</a></b><br><sub dir="rtl">متجر Shopify مع نظام حجز</sub><br><sub>Freelancer.com · ▶ Live demo</sub></td><td align="center" valign="top" width="33%"><a href="portfolio/web/madar-landing-page/"><img src="portfolio/web/madar-landing-page/images/cover.jpg" width="100%" alt="&quot;Madar&quot; Arabic RTL Landing Page"></a><br><b><a href="portfolio/web/madar-landing-page/">"Madar" Arabic RTL Landing Page</a></b><br><sub dir="rtl">صفحة هبوط إعلانية احترافية «مَدار» – HTML وCSS متجاوبة بالعربية</sub><br><sub>Nafezly · ▶ Live demo</sub></td></tr>
+</table>
 
 ---
 
-## Repository Structure
+## 🗂️ Portfolio by Category · المعرض حسب التصنيف
 
-```text
-Freelancer-Platforms/
-├── README.md                 # Main overview, platform links, live demos & highlights
-├── services/
-│   └── README.md             # Detailed freelance services & hourly offerings
-├── projects/
-│   └── README.md             # Domain-grouped projects, GitHub repos & live demos
-├── platforms/
-│   ├── freelancer.md         # Freelancer.com profile & 16 portfolio items
-│   ├── nafezly.md            # Nafezly profile & 20 portfolio items with links
-│   └── khamsat.md            # Khamsat profile, assessment & service listing
-└── data/
-    └── portfolio.json        # Machine-readable catalog of profiles, services & portfolios
-```
+| | Category | التصنيف | Projects |
+|:-:|---|---|:-:|
+| 🤖 | [**AI & Machine Learning**](portfolio/README.md#cat-ai) | <div dir="rtl">الذكاء الاصطناعي وتعلّم الآلة</div> | 5 |
+| ⚙️ | [**Backend, APIs & Cloud**](portfolio/README.md#cat-backend) | <div dir="rtl">الباك إند والـ APIs والسحابة</div> | 3 |
+| 📊 | [**Data Analysis & Dashboards**](portfolio/README.md#cat-data) | <div dir="rtl">تحليل البيانات ولوحات التحكم</div> | 3 |
+| 🛒 | [**E-Commerce**](portfolio/README.md#cat-ecommerce) | <div dir="rtl">التجارة الإلكترونية</div> | 3 |
+| 🌐 | [**Websites & Landing Pages**](portfolio/README.md#cat-web) | <div dir="rtl">المواقع وصفحات الهبوط</div> | 12 |
+| 🎨 | [**Branding & Visual Identity**](portfolio/README.md#cat-design) | <div dir="rtl">الهوية البصرية والتصميم</div> | 6 |
+| 🎬 | [**Video, Scripts & Copywriting**](portfolio/README.md#cat-content) | <div dir="rtl">الفيديو والسيناريو والإعلانات</div> | 4 |
 
-*(Snapshot compiled on `2026-11-18` from the connected platform profiles.)*
+<div align="center"><a href="portfolio/README.md"><b>Open the full gallery (36 projects) → · افتح المعرض كامل</b></a></div>
+
+---
+
+<a id="open-source"></a>
+
+## 💻 Open Source & Competitions · مشاريع مفتوحة المصدر ومسابقات
+
+| Project | Highlights | Repo |
+|---|---|---|
+| **InvoicePilot** | AI invoice assistant · PayPal AI Hackathon | [![repo](https://img.shields.io/badge/-invoicepilot--paypal--ai-181717?style=flat-square&logo=github)](https://github.com/Youssef123ya/invoicepilot-paypal-ai) |
+| **MedMonitor 24/7** | Hospital monitoring · graduation project 100/100 | [![repo](https://img.shields.io/badge/-MedMonitor--24--7-181717?style=flat-square&logo=github)](https://github.com/Youssef123ya/MedMonitor-24-7) |
+| **Kaggle Competitions** | 2 bronze medals | [![repo](https://img.shields.io/badge/-Kaggle--Competitions-181717?style=flat-square&logo=github)](https://github.com/Youssef123ya/Kaggle-Competitions) |
+| **TechMind Challenge 2025** | 1st place · TechMind Challenge 3 | [![repo](https://img.shields.io/badge/-TechMind--Challenge--2025-181717?style=flat-square&logo=github)](https://github.com/Youssef123ya/TechMind-Challenge-2025) |
+| **Devpost Competitions** | Hackathon projects collection | [![repo](https://img.shields.io/badge/-Devpost__Competitons-181717?style=flat-square&logo=github)](https://github.com/Youssef123ya/Devpost_Competitons) |
+| **rollout-trace** | Deployment-failure research desk · ODSC × Nebius | [![repo](https://img.shields.io/badge/-rollout--trace-181717?style=flat-square&logo=github)](https://github.com/Youssef123ya/rollout-trace) |
+| **sleight-of-eye** | WebXR game for Meta Quest | [![repo](https://img.shields.io/badge/-sleight--of--eye-181717?style=flat-square&logo=github)](https://github.com/Youssef123ya/sleight-of-eye) |
+| **ghostlight-kiroween-2026** | HTML accessibility repair workshop | [![repo](https://img.shields.io/badge/-ghostlight--kiroween--2026-181717?style=flat-square&logo=github)](https://github.com/Youssef123ya/ghostlight-kiroween-2026) |
+
+---
+
+## 🎓 Experience & Credentials · الخبرات والشهادات
+
+<table>
+<tr>
+<td valign="top" width="50%">
+
+**💼 Experience**
+- ML Engineer (part-time) — **Shipd / Datacurve** · 2026–now
+- Freelance Backend Developer — **ALX Ventures** · 2024–now
+- AI & ML Intern — **GTC** · 2025
+- React Trainee — **ITI** · 2024
+
+</td>
+<td valign="top" width="50%">
+
+**📜 Education & Certificates**
+- B.Sc. Computer Science — **Nahda University** (2022–2026)
+- ALX Software Engineering — Backend
+- IBM Full Stack Software Developer
+- Google Cloud: AI in Action badge
+- DEPI React · GTC Machine Learning
+
+</td>
+</tr>
+</table>
+
+---
+
+<a id="contact"></a>
+
+## 📩 Contact · تواصل معايا
+
+<div align="center">
+
+Share your dataset, API requirements or project brief — we'll agree on the first deliverable and how to evaluate it.
+
+<p dir="rtl">ابعتلي فكرتك أو بياناتك أو متطلبات الـ API، ونتفق على أول مرحلة وطريقة تقييمها.</p>
+
+<a href="https://www.freelancer.com/u/yyacoup"><img src="https://img.shields.io/badge/Freelancer.com-29B2FE?style=for-the-badge&logo=freelancer&logoColor=white"></a>
+<a href="https://nafezly.com/u/YoussefYacoup"><img src="https://img.shields.io/badge/Nafezly-%D9%86%D9%81%D8%B0%D9%84%D9%8A-2E3A87?style=for-the-badge"></a>
+<a href="https://khamsat.com/user/youssefyacoup"><img src="https://img.shields.io/badge/Khamsat-%D8%AE%D9%85%D8%B3%D8%A7%D8%AA-F7931E?style=for-the-badge"></a>
+
+<sub>Content synced from my platform profiles · Last updated: November 2026</sub>
+
+</div>
