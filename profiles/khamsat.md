@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://khamsat.com/user/youssefyacoup"><img src="https://img.shields.io/badge/Khamsat-%D8%AE%D9%85%D8%B3%D8%A7%D8%AA-F7931E?style=for-the-badge"></a>
+<a href="https://khamsat.com/user/youssefyacoup"><img src="https://img.shields.io/badge/Khamsat-F7931E?style=for-the-badge"></a>
 
 </div>
 

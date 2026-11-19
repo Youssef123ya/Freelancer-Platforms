@@ -8,7 +8,7 @@
 
 <img src="https://img.shields.io/badge/Category-Backend%2C%20APIs%20%26%20Cloud-4F46E5?style=flat-square"> <img src="https://img.shields.io/badge/Platform-Nafezly-0EA5E9?style=flat-square"> <img src="https://img.shields.io/badge/Images-3-10B981?style=flat-square">
 
-<a href="https://nafezly.com/portfolio/269216-TaskFlow-API"><img src="https://img.shields.io/badge/Nafezly-%D9%86%D9%81%D8%B0%D9%84%D9%8A-2E3A87?style=for-the-badge" alt="View on Nafezly"></a>
+<a href="https://nafezly.com/portfolio/269216-TaskFlow-API"><img src="https://img.shields.io/badge/Nafezly-2E3A87?style=for-the-badge" alt="View on Nafezly"></a>
 
 </div>
 

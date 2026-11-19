@@ -8,7 +8,7 @@
 
 <img src="https://img.shields.io/badge/Price-from%20%2410-16A34A?style=flat-square"> <img src="https://img.shields.io/badge/Delivery-3%20days-0EA5E9?style=flat-square"> <img src="https://img.shields.io/badge/Status-Pending%20review-F59E0B?style=flat-square">
 
-<a href="https://khamsat.com/programming/custom-website-development/4505135-%D8%B3%D8%A3%D8%B5%D9%85%D9%85-%D9%84%D9%83-%D8%B5%D9%81%D8%AD%D8%A9-%D9%87%D8%A8%D9%88%D8%B7-landing-page-%D9%85%D8%AA%D8%AC%D8%A7%D9%88%D8%A8%D8%A9-%D9%88%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A%D8%A9"><img src="https://img.shields.io/badge/Khamsat-%D8%AE%D9%85%D8%B3%D8%A7%D8%AA-F7931E?style=for-the-badge" alt="Order on Khamsat"></a>
+<a href="https://khamsat.com/programming/custom-website-development/4505135-%D8%B3%D8%A3%D8%B5%D9%85%D9%85-%D9%84%D9%83-%D8%B5%D9%81%D8%AD%D8%A9-%D9%87%D8%A8%D9%88%D8%B7-landing-page-%D9%85%D8%AA%D8%AC%D8%A7%D9%88%D8%A8%D8%A9-%D9%88%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A%D8%A9"><img src="https://img.shields.io/badge/Khamsat-F7931E?style=for-the-badge" alt="Order on Khamsat"></a>
 
 </div>
 

@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://nafezly.com/u/YoussefYacoup"><img src="https://img.shields.io/badge/Nafezly-%D9%86%D9%81%D8%B0%D9%84%D9%8A-2E3A87?style=for-the-badge"></a>
+<a href="https://nafezly.com/u/YoussefYacoup"><img src="https://img.shields.io/badge/Nafezly-2E3A87?style=for-the-badge"></a>
 
 </div>
 

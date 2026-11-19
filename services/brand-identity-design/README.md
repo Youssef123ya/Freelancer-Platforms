@@ -8,7 +8,7 @@
 
 <img src="https://img.shields.io/badge/Rate-%2410%20/%20hour%20on%20Freelancer.com-16A34A?style=flat-square"> <img src="https://img.shields.io/badge/Type-Custom%20quote-6366F1?style=flat-square">
 
-<a href="https://www.freelancer.com/u/yyacoup"><img src="https://img.shields.io/badge/Freelancer.com-29B2FE?style=for-the-badge&logo=freelancer&logoColor=white"></a> <a href="https://nafezly.com/u/YoussefYacoup"><img src="https://img.shields.io/badge/Nafezly-%D9%86%D9%81%D8%B0%D9%84%D9%8A-2E3A87?style=for-the-badge"></a>
+<a href="https://www.freelancer.com/u/yyacoup"><img src="https://img.shields.io/badge/Freelancer.com-29B2FE?style=for-the-badge&logo=freelancer&logoColor=white"></a> <a href="https://nafezly.com/u/YoussefYacoup"><img src="https://img.shields.io/badge/Nafezly-2E3A87?style=for-the-badge"></a>
 
 </div>
 

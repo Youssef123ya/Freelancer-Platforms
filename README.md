@@ -3,8 +3,8 @@
 <img src="assets/banner.svg" width="100%" alt="Youssef Yacoup — Freelancer Platforms">
 
 <a href="https://www.freelancer.com/u/yyacoup"><img src="https://img.shields.io/badge/Freelancer.com-29B2FE?style=for-the-badge&logo=freelancer&logoColor=white" alt="Freelancer.com"></a>
-<a href="https://nafezly.com/u/YoussefYacoup"><img src="https://img.shields.io/badge/Nafezly-%D9%86%D9%81%D8%B0%D9%84%D9%8A-2E3A87?style=for-the-badge" alt="Nafezly"></a>
-<a href="https://khamsat.com/user/youssefyacoup"><img src="https://img.shields.io/badge/Khamsat-%D8%AE%D9%85%D8%B3%D8%A7%D8%AA-F7931E?style=for-the-badge" alt="Khamsat"></a>
+<a href="https://nafezly.com/u/YoussefYacoup"><img src="https://img.shields.io/badge/Nafezly-2E3A87?style=for-the-badge" alt="Nafezly"></a>
+<a href="https://khamsat.com/user/youssefyacoup"><img src="https://img.shields.io/badge/Khamsat-F7931E?style=for-the-badge" alt="Khamsat"></a>
 
 <a href="https://github.com/Youssef123ya"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"></a>
 <a href="https://www.linkedin.com/in/youssef-yacoup-745234280/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
@@ -126,8 +126,8 @@ Share your dataset, API requirements or project brief — we'll agree on the fir
 <p dir="rtl">ابعتلي فكرتك أو بياناتك أو متطلبات الـ API، ونتفق على أول مرحلة وطريقة تقييمها.</p>
 
 <a href="https://www.freelancer.com/u/yyacoup"><img src="https://img.shields.io/badge/Freelancer.com-29B2FE?style=for-the-badge&logo=freelancer&logoColor=white"></a>
-<a href="https://nafezly.com/u/YoussefYacoup"><img src="https://img.shields.io/badge/Nafezly-%D9%86%D9%81%D8%B0%D9%84%D9%8A-2E3A87?style=for-the-badge"></a>
-<a href="https://khamsat.com/user/youssefyacoup"><img src="https://img.shields.io/badge/Khamsat-%D8%AE%D9%85%D8%B3%D8%A7%D8%AA-F7931E?style=for-the-badge"></a>
+<a href="https://nafezly.com/u/YoussefYacoup"><img src="https://img.shields.io/badge/Nafezly-2E3A87?style=for-the-badge"></a>
+<a href="https://khamsat.com/user/youssefyacoup"><img src="https://img.shields.io/badge/Khamsat-F7931E?style=for-the-badge"></a>
 
 <sub>Content synced from my platform profiles · Last updated: November 2026</sub>
 

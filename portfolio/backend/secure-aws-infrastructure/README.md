@@ -8,7 +8,7 @@
 
 <img src="https://img.shields.io/badge/Category-Backend%2C%20APIs%20%26%20Cloud-4F46E5?style=flat-square"> <img src="https://img.shields.io/badge/Platform-Nafezly-0EA5E9?style=flat-square"> <img src="https://img.shields.io/badge/Images-7-10B981?style=flat-square">
 
-<a href="https://nafezly.com/portfolio/268987-Secure-AWS-Infrastructure-Design-%E2%80%94-Nafezly-58468"><img src="https://img.shields.io/badge/Nafezly-%D9%86%D9%81%D8%B0%D9%84%D9%8A-2E3A87?style=for-the-badge" alt="View on Nafezly"></a> <a href="https://claude.ai/artifact/8FeLgRjc5j6LqgiapsBPDs"><img src="https://img.shields.io/badge/Live_Demo-%E2%96%B6-111827?style=for-the-badge" alt="Live demo"></a>
+<a href="https://nafezly.com/portfolio/268987-Secure-AWS-Infrastructure-Design-%E2%80%94-Nafezly-58468"><img src="https://img.shields.io/badge/Nafezly-2E3A87?style=for-the-badge" alt="View on Nafezly"></a> <a href="https://claude.ai/artifact/8FeLgRjc5j6LqgiapsBPDs"><img src="https://img.shields.io/badge/Live_Demo-%E2%96%B6-111827?style=for-the-badge" alt="Live demo"></a>
 
 </div>
 
@@ -20,7 +20,7 @@ Sample deliverable for Nafezly project #58468: a secure multi-AZ AWS reference a
 
 <div dir="rtl">
 
-> **بالعربي —** None
+> **بالعربي —** تصميم مرجعي لبنية تحتية آمنة على AWS متعددة مناطق التوافر (Multi-AZ) تشمل CloudFront/WAF وALB وECS Fargate وRDS مشفرة ومعزولة وS3 خاص وKMS وGuardDuty، مع مخطط معماري SVG ومصفوفة ضوابط الأمان وهيكلة Terraform وخطة تنفيذ على 4 أسابيع.
 
 </div>
 
