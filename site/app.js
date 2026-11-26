@@ -71,6 +71,7 @@
       navContact: 'تواصل',
       navHire: 'اطلب خدمة',
       cmdBtn: 'بحث سريع',
+      pigmentTitle: 'اللون الرئيسي',
       cmdPlaceholder: 'ابحث وانتقل سريعًا لأي مشروع أو خدمة أو منصة...',
       cmdProject: 'مشروع',
       cmdService: 'خدمة',
@@ -166,6 +167,7 @@
       navContact: 'Contact',
       navHire: 'Hire Me',
       cmdBtn: 'Quick Search',
+      pigmentTitle: 'Accent Color',
       cmdPlaceholder: 'Type to jump to any project, service, platform, or action...',
       cmdProject: 'Project',
       cmdService: 'Service',
@@ -948,12 +950,22 @@
     applyTheme();
   });
 
-  $('menuToggle').addEventListener('click', () => {
+  $('menuToggle').addEventListener('click', (e) => {
+    e.stopPropagation();
     const open = $('navLinks').classList.toggle('open');
     $('menuToggle').setAttribute('aria-expanded', String(open));
   });
   $('navLinks').addEventListener('click', (e) => {
-    if (e.target.tagName === 'A') $('navLinks').classList.remove('open');
+    if (e.target.tagName === 'A') {
+      $('navLinks').classList.remove('open');
+      $('menuToggle').setAttribute('aria-expanded', 'false');
+    }
+  });
+  document.addEventListener('click', (e) => {
+    if ($('navLinks').classList.contains('open') && !e.target.closest('#navbar')) {
+      $('navLinks').classList.remove('open');
+      $('menuToggle').setAttribute('aria-expanded', 'false');
+    }
   });
 
   // View Mode Switcher (3x / 2x / List)
@@ -1233,6 +1245,8 @@
     const doc = document.documentElement;
     const max = doc.scrollHeight - doc.clientHeight;
     const ratio = max > 0 ? Math.min(1, Math.max(0, window.scrollY / max)) : 0;
+    const navEl = $('navbar');
+    if (navEl) navEl.classList.toggle('scrolled', window.scrollY > 18);
     const bar = $('scrollProgress');
     if (bar) bar.style.transform = `scaleX(${ratio.toFixed(4)})`;
 
@@ -1287,8 +1301,36 @@
   }
 
   document.querySelectorAll('.swatch-btn').forEach((btn) => {
-    btn.addEventListener('click', () => applyPigment(btn.dataset.pigment));
+    btn.addEventListener('click', () => {
+      applyPigment(btn.dataset.pigment);
+      if ($('accentPopover')) { $('accentPopover').hidden = true; $('accentTrigger')?.setAttribute('aria-expanded', 'false'); }
+    });
   });
+
+  // V10 Pigment Popover Dropdown
+  const accTrigger = $('accentTrigger');
+  const accPopover = $('accentPopover');
+  if (accTrigger && accPopover) {
+    accTrigger.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const willOpen = accPopover.hidden;
+      accPopover.hidden = !willOpen;
+      accTrigger.setAttribute('aria-expanded', String(willOpen));
+    });
+    document.addEventListener('click', (e) => {
+      if (!accPopover.hidden && !e.target.closest('#accentDropdown')) {
+        accPopover.hidden = true;
+        accTrigger.setAttribute('aria-expanded', 'false');
+      }
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !accPopover.hidden) {
+        accPopover.hidden = true;
+        accTrigger.setAttribute('aria-expanded', 'false');
+      }
+    });
+  }
+
 
   const origApplyTheme = applyTheme;
   // Re-apply pigment when theme toggles
@@ -1401,7 +1443,7 @@
   applyLang();
   initHeroCanvas();
 
-  fetch('data/portfolio.json?v=20261119-9')
+  fetch('data/portfolio.json?v=20261119-10')
     .then((r) => {
       if (!r.ok) throw new Error('HTTP ' + r.status);
       return r.json();
