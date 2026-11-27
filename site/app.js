@@ -1471,7 +1471,7 @@
   applyLang();
   // 3D Hero Canvas is driven by site/scene3d.js
 
-  fetch('data/portfolio.json?v=20261127-12')
+  fetch('data/portfolio.json?v=20261127-13')
     .then((r) => {
       if (!r.ok) throw new Error('HTTP ' + r.status);
       return r.json();

@@ -4108,3 +4108,367 @@ html[data-theme="dark"] .gyro-ring-2 {
     animation: none !important;
   }
 }
+
+
+/* ==========================================================================
+   V13 ENLARGED 3D ORBITAL PROFILE PORTRAIT & ULTRA-POLISHED 3D CODE STUDIO
+   ========================================================================== */
+
+.avatar-stage-3d {
+  position: relative !important;
+  width: 268px !important;
+  height: 236px !important;
+  margin: 0.2rem auto 0.5rem !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  perspective: 950px;
+  isolation: isolate;
+}
+
+.av-portrait-tilt {
+  --av-rx: 0deg;
+  --av-ry: 0deg;
+  position: relative;
+  width: 184px;
+  height: 184px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform-style: preserve-3d;
+  transform: rotateX(var(--av-rx)) rotateY(var(--av-ry));
+  transition: transform 0.24s cubic-bezier(0.22, 1, 0.36, 1);
+  z-index: 4;
+}
+
+/* Spinning Editorial Multi-Pigment Conic Ring right around the Enlarged Portrait */
+.av-ring-conic {
+  position: absolute;
+  inset: -6px;
+  border-radius: 50%;
+  background: conic-gradient(
+    from 0deg,
+    #C2410C 0deg 65deg,
+    #1D4ED8 75deg 145deg,
+    #047857 155deg 220deg,
+    #D97706 230deg 290deg,
+    #0F766E 300deg 350deg,
+    #C2410C 360deg
+  );
+  animation: avConicSpin 11s linear infinite;
+  box-shadow: 0 14px 36px -8px rgba(15, 23, 42, 0.24);
+  z-index: 1;
+}
+
+.av-ring-conic::after {
+  content: '';
+  position: absolute;
+  inset: 3.5px;
+  border-radius: 50%;
+  background: var(--surface);
+}
+
+@keyframes avConicSpin {
+  to { transform: rotate(360deg); }
+}
+
+/* Enlarged Crisp Portrait Photo (176px x 176px) */
+.avatar-stage-3d .hero-avatar {
+  position: relative !important;
+  z-index: 2 !important;
+  width: 176px !important;
+  height: 176px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  object-position: center 18% !important;
+  border: 4px solid var(--surface) !important;
+  padding: 0 !important;
+  box-shadow: 0 16px 38px -10px rgba(15, 23, 42, 0.28) !important;
+  transform: translateZ(14px);
+  transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.28s ease !important;
+}
+
+.avatar-stage-3d:hover .hero-avatar {
+  transform: translateZ(20px) scale(1.02);
+  box-shadow: 0 22px 48px -10px var(--p-primary-bd) !important;
+}
+
+/* Subtle Breathing Editorial Architectural Rings behind Portrait */
+.av-pulse-ring {
+  position: absolute;
+  width: 192px;
+  height: 192px;
+  border-radius: 50%;
+  border: 1.5px solid var(--p-primary);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 1;
+  animation: avHairlinePulse 4.2s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+}
+
+.av-pulse-2 {
+  border-color: #1D4ED8;
+  animation-delay: 2.1s;
+}
+
+@keyframes avHairlinePulse {
+  0%   { transform: scale(0.96); opacity: 0.45; }
+  75%  { transform: scale(1.36); opacity: 0; }
+  100% { transform: scale(1.36); opacity: 0; }
+}
+
+/* 3D Tilted Orbital Blueprint Rings with Orbiting Pigment Satellites */
+.av-ring-orbit {
+  position: absolute;
+  width: 248px;
+  height: 248px;
+  border-radius: 50%;
+  border: 1.5px dashed rgba(29, 78, 216, 0.34);
+  transform-style: preserve-3d;
+  pointer-events: none;
+  z-index: 2;
+}
+
+html[data-theme="dark"] .av-ring-orbit {
+  border-color: rgba(96, 165, 250, 0.34);
+}
+
+.av-orbit-a {
+  animation: avOrbitA 13s linear infinite;
+}
+
+.av-orbit-b {
+  width: 232px;
+  height: 232px;
+  border-style: solid;
+  border-color: rgba(194, 65, 12, 0.26);
+  animation: avOrbitB 17s linear infinite reverse;
+}
+
+html[data-theme="dark"] .av-orbit-b {
+  border-color: rgba(251, 146, 60, 0.3);
+}
+
+.av-orb-dot {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px currentColor;
+}
+
+.dot-terracotta { top: -4.5px; left: 50%; transform: translateX(-50%); background: #C2410C; color: #C2410C; }
+.dot-cobalt     { bottom: -4.5px; left: 50%; transform: translateX(-50%); background: #1D4ED8; color: #1D4ED8; }
+.dot-emerald    { top: 50%; left: -4.5px; transform: translateY(-50%); background: #047857; color: #047857; }
+.dot-amber      { top: 50%; right: -4.5px; transform: translateY(-50%); background: #D97706; color: #D97706; }
+
+@keyframes avOrbitA {
+  0%   { transform: rotateX(68deg) rotateY(16deg) rotateZ(0deg); }
+  100% { transform: rotateX(68deg) rotateY(16deg) rotateZ(360deg); }
+}
+
+@keyframes avOrbitB {
+  0%   { transform: rotateX(64deg) rotateY(-28deg) rotateZ(0deg); }
+  100% { transform: rotateX(64deg) rotateY(-28deg) rotateZ(360deg); }
+}
+
+/* 4 Floating 3D Code Chips Orbiting Around the Portrait */
+.av-float-chip {
+  position: absolute;
+  z-index: 6;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.28rem;
+  padding: 0.24rem 0.56rem;
+  border-radius: 999px;
+  background: var(--surface);
+  border: 1px solid var(--border-strong);
+  font-family: var(--font-mono);
+  font-size: 0.71rem;
+  font-weight: 700;
+  color: var(--text);
+  box-shadow: 0 10px 22px rgba(15, 23, 42, 0.14);
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+html[data-theme="dark"] .av-float-chip {
+  background: #1A1E27;
+  border-color: rgba(255, 255, 255, 0.14);
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.5);
+}
+
+.av-chip-tr {
+  top: 4px;
+  right: -48px;
+  transform: translateZ(34px);
+  border-color: var(--p-terracotta-bd);
+  animation: avChipBob 4.2s ease-in-out infinite;
+}
+.av-chip-tr .av-g { color: var(--p-terracotta); }
+
+.av-chip-tl {
+  top: 10px;
+  left: -54px;
+  transform: translateZ(42px);
+  border-color: var(--p-cobalt-bd);
+  animation: avChipBob 4.8s ease-in-out infinite 0.7s;
+}
+.av-chip-tl .av-g { color: var(--p-cobalt); }
+
+.av-chip-br {
+  bottom: 12px;
+  right: -58px;
+  transform: translateZ(38px);
+  border-color: var(--p-emerald-bd);
+  animation: avChipBob 4.5s ease-in-out infinite 1.3s;
+}
+.av-chip-br .av-g { color: var(--p-emerald); }
+
+.av-chip-bl {
+  bottom: 8px;
+  left: -46px;
+  transform: translateZ(32px);
+  border-color: var(--p-amber-bd);
+  animation: avChipBob 5.0s ease-in-out infinite 0.3s;
+}
+.av-chip-bl .av-g { color: var(--p-amber); }
+
+@keyframes avChipBob {
+  0%, 100% { translate: 0 0; }
+  50%      { translate: 0 -7px; }
+}
+
+/* Refined Hero Title Scale to Harmonize with Larger 176px Portrait */
+.hero-title {
+  font-size: clamp(2.25rem, 4.2vw, 3.1rem) !important;
+  letter-spacing: -0.025em !important;
+}
+
+/* ---- Extra Polish for the 3D Code Studio Stage ---- */
+.code3d-stage {
+  border-top: 3px solid var(--p-primary) !important;
+  background:
+    radial-gradient(500px 220px at 18% 50%, rgba(29, 78, 216, 0.08), transparent 72%),
+    radial-gradient(500px 220px at 82% 50%, rgba(194, 65, 12, 0.08), transparent 72%),
+    rgba(255, 255, 255, 0.80) !important;
+}
+
+html[data-theme="dark"] .code3d-stage {
+  background:
+    radial-gradient(500px 220px at 18% 50%, rgba(59, 130, 246, 0.14), transparent 72%),
+    radial-gradient(500px 220px at 82% 50%, rgba(234, 88, 12, 0.14), transparent 72%),
+    rgba(19, 22, 30, 0.82) !important;
+}
+
+/* Slightly larger 144px 3D Cube + Levitation + Specular Sheen + Floor Shadow */
+.cube3d-scene {
+  width: 144px !important;
+  height: 144px !important;
+  animation: cubeLevitate 4.8s ease-in-out infinite;
+}
+
+@keyframes cubeLevitate {
+  0%, 100% { transform: translateY(0px); }
+  50%      { transform: translateY(-9px); }
+}
+
+.face-front  { transform: rotateY(0deg) translateZ(72px) !important; }
+.face-back   { transform: rotateY(180deg) translateZ(72px) !important; }
+.face-right  { transform: rotateY(90deg) translateZ(72px) !important; }
+.face-left   { transform: rotateY(-90deg) translateZ(72px) !important; }
+.face-top    { transform: rotateX(90deg) translateZ(72px) !important; }
+.face-bottom { transform: rotateX(-90deg) translateZ(72px) !important; }
+
+.cube-face::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.24) 0%, transparent 48%, rgba(0, 0, 0, 0.14) 100%);
+  pointer-events: none;
+}
+
+.cube3d-floor-shadow {
+  position: absolute;
+  bottom: 28px;
+  width: 124px;
+  height: 20px;
+  border-radius: 50%;
+  background: radial-gradient(ellipse at center, rgba(15, 23, 42, 0.24) 0%, transparent 72%);
+  pointer-events: none;
+  z-index: 1;
+  animation: floorShadowPulse 4.8s ease-in-out infinite;
+}
+
+html[data-theme="dark"] .cube3d-floor-shadow {
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.55) 0%, transparent 72%);
+}
+
+@keyframes floorShadowPulse {
+  0%, 100% { transform: scale(1); opacity: 0.85; }
+  50%      { transform: scale(0.84); opacity: 0.48; }
+}
+
+/* Sculpted 3D IDE Extrusion Edge + Shimmer Bar + Blinking Live Cursor */
+.ide3d-card {
+  box-shadow:
+    0 2px 0 rgba(255, 255, 255, 0.08) inset,
+    6px 10px 0 -2px #0B0D12,
+    0 28px 56px -14px rgba(15, 23, 42, 0.45) !important;
+}
+
+.ide3d-shimmer {
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(90deg, transparent 0%, #C2410C 20%, #1D4ED8 50%, #047857 80%, transparent 100%);
+  background-size: 200% 100%;
+  animation: ideShimmerMove 3.6s linear infinite;
+  opacity: 0.85;
+}
+
+@keyframes ideShimmerMove {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+.ide-cursor {
+  display: inline-block;
+  margin-left: 3px;
+  color: #FB923C;
+  animation: ideCursorBlink 0.9s steps(1) infinite;
+}
+
+@keyframes ideCursorBlink {
+  0%, 50%  { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+@media (max-width: 600px) {
+  .avatar-stage-3d {
+    width: 240px !important;
+    height: 206px !important;
+  }
+  .av-portrait-tilt {
+    width: 152px;
+    height: 152px;
+  }
+  .avatar-stage-3d .hero-avatar {
+    width: 146px !important;
+    height: 146px !important;
+  }
+  .av-ring-orbit { width: 206px; height: 206px; }
+  .av-orbit-b { width: 194px; height: 194px; }
+  .av-float-chip { font-size: 0.65rem; padding: 0.18rem 0.46rem; }
+  .av-chip-tr { right: -34px; }
+  .av-chip-tl { left: -38px; }
+  .av-chip-br { right: -38px; }
+  .av-chip-bl { left: -32px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .av-ring-conic, .av-pulse-ring, .av-orbit-a, .av-orbit-b,
+  .av-float-chip, .cube3d-scene, .cube3d-floor-shadow, .ide3d-shimmer, .ide-cursor {
+    animation: none !important;
+  }
+}

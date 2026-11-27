@@ -15,7 +15,7 @@
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
-  <link rel="stylesheet" href="site/styles.css?v=20261127-12">
+  <link rel="stylesheet" href="site/styles.css?v=20261127-13">
   <style id="v10-layout-fix">
     .brand, .avatar-badge, .service-card::after, .project-card::after, .platform-card::after, .oss-card::after { display: none !important; content: none !important; background: none !important; opacity: 0 !important; }
     .hero-grid { display: flex !important; flex-direction: column !important; align-items: center !important; text-align: center !important; max-width: 1040px !important; margin-inline: auto !important; }
@@ -106,9 +106,25 @@
       <div class="container hero-grid">
         <div class="hero-main">
           <div class="hero-identity">
-            <div class="avatar-frame">
-              <img src="assets/avatar.jpg" class="hero-avatar" alt="Youssef Yacoup — يوسف يعقوب">
-              
+            <div class="avatar-frame avatar-stage-3d" id="avatarStage3d" dir="ltr">
+              <div class="av-pulse-ring av-pulse-1" aria-hidden="true"></div>
+              <div class="av-pulse-ring av-pulse-2" aria-hidden="true"></div>
+              <div class="av-ring-orbit av-orbit-a" aria-hidden="true">
+                <span class="av-orb-dot dot-terracotta"></span>
+                <span class="av-orb-dot dot-cobalt"></span>
+              </div>
+              <div class="av-ring-orbit av-orbit-b" aria-hidden="true">
+                <span class="av-orb-dot dot-emerald"></span>
+                <span class="av-orb-dot dot-amber"></span>
+              </div>
+              <div class="av-portrait-tilt" id="avatarTilt3d">
+                <div class="av-ring-conic" aria-hidden="true"></div>
+                <img src="assets/avatar.jpg" class="hero-avatar" alt="Youssef Yacoup — يوسف يعقوب">
+                <span class="av-float-chip av-chip-tr" aria-hidden="true"><b class="av-g">&lt;/&gt;</b> AI</span>
+                <span class="av-float-chip av-chip-tl" aria-hidden="true"><b class="av-g">{ }</b> .NET</span>
+                <span class="av-float-chip av-chip-br" aria-hidden="true"><b class="av-g">☁</b> Azure</span>
+                <span class="av-float-chip av-chip-bl" aria-hidden="true"><b class="av-g">⚡</b> API</span>
+              </div>
             </div>
             <div>
               <div class="status-row">
@@ -189,6 +205,7 @@
                 </div>
               </div>
             </div>
+            <div class="cube3d-floor-shadow" aria-hidden="true"></div>
             <div class="cube3d-hint" data-i18n="cubeHint">اسحب لتدوير المكعب ثلاثي الأبعاد ↻</div>
           </div>
 
@@ -215,6 +232,7 @@
                 </div>
               </div>
               <div class="ide3d-body" id="ideCodeBody" aria-live="polite"></div>
+              <div class="ide3d-shimmer" aria-hidden="true"></div>
               <div class="ide3d-footer">
                 <span class="ide-branch">⎇ main</span>
                 <span class="ide-metrics">UTF-8 · 39 Builds Passed ✓</span>
@@ -539,8 +557,8 @@
     </div>
   </div>
 
-  <script src="site/app.js?v=20261127-12"></script>
-  <script src="site/scene3d.js?v=20261127-12"></script>
-  <script src="site/chatbot.js?v=20261127-12"></script>
+  <script src="site/app.js?v=20261127-13"></script>
+  <script src="site/scene3d.js?v=20261127-13"></script>
+  <script src="site/chatbot.js?v=20261127-13"></script>
 </body>
 </html>

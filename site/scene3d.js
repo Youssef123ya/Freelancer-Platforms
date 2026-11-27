@@ -412,7 +412,8 @@
         }
         const div = document.createElement('div');
         div.className = 'code-line line-enter';
-        div.innerHTML = `<span class="ln">${idx + 1}</span><code>${spec.lines[idx] || '&nbsp;'}</code>`;
+        codeBody.querySelectorAll('.ide-cursor').forEach((c) => c.remove());
+        div.innerHTML = `<span class="ln">${idx + 1}</span><code>${spec.lines[idx] || '&nbsp;'}<span class="ide-cursor" aria-hidden="true">▋</span></code>`;
         codeBody.appendChild(div);
         idx++;
       }, 95);
@@ -438,9 +439,33 @@
     }
   }
 
+
+  /* --------------------------------------------------------------------------
+     3. INTERACTIVE 3D PORTRAIT TILT & ORBITAL PARALLAX (#avatarStage3d)
+     -------------------------------------------------------------------------- */
+  function initAvatar3DTilt() {
+    const stage = document.getElementById('avatarStage3d');
+    const tilt = document.getElementById('avatarTilt3d');
+    if (!stage || !tilt || REDUCED) return;
+
+    stage.addEventListener('pointermove', (e) => {
+      const r = stage.getBoundingClientRect();
+      const px = (e.clientX - r.left) / r.width - 0.5;
+      const py = (e.clientY - r.top) / r.height - 0.5;
+      tilt.style.setProperty('--av-rx', `${(-py * 16).toFixed(2)}deg`);
+      tilt.style.setProperty('--av-ry', `${(px * 16).toFixed(2)}deg`);
+    }, { passive: true });
+
+    stage.addEventListener('pointerleave', () => {
+      tilt.style.setProperty('--av-rx', '0deg');
+      tilt.style.setProperty('--av-ry', '0deg');
+    });
+  }
+
   function boot() {
     initHero3DCanvas();
     init3DCodeStudio();
+    initAvatar3DTilt();
   }
 
   if (document.readyState === 'loading') {
