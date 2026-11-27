@@ -15,7 +15,7 @@
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
-  <link rel="stylesheet" href="site/styles.css?v=20261127-14">
+  <link rel="stylesheet" href="site/styles.css?v=20261127-15">
   <style id="v10-layout-fix">
     .brand, .avatar-badge, .hero-ribbon, .service-card::after, .project-card::after, .platform-card::after, .oss-card::after { display: none !important; content: none !important; background: none !important; opacity: 0 !important; }
     .hero-grid { display: flex !important; flex-direction: column !important; align-items: center !important; text-align: center !important; max-width: 1040px !important; margin-inline: auto !important; }
@@ -160,52 +160,13 @@
 
         <!-- Interactive 3D Programming & Engineering Stage -->
         <div class="code3d-stage" id="code3dStage" dir="ltr">
-          <!-- Interactive 3D Drag-to-Rotate Tech Cube + Gyroscope Rings -->
-          <div class="cube3d-zone" id="cubeZone3d" aria-label="Interactive 3D Tech Stack Cube">
-            <div class="gyro-ring gyro-ring-1" aria-hidden="true">
-              <span class="gyro-sat sat-1">&lt;/&gt;</span>
-              <span class="gyro-sat sat-2">{ }</span>
+          <!-- Interactive 3D Geodesic AI & Cloud Architecture Sphere -->
+          <div class="globe3d-zone" id="globeZone3d" aria-label="Interactive 3D Architecture Network Sphere">
+            <canvas id="archGlobe3d" class="globe3d-canvas"></canvas>
+            <div class="globe3d-hud">
+              <span class="globe-dot"></span>
+              <span data-i18n="cubeHint">شبكة معمارية 3D حية · اسحب للتدوير</span>
             </div>
-            <div class="gyro-ring gyro-ring-2" aria-hidden="true">
-              <span class="gyro-sat sat-3">=&gt;</span>
-              <span class="gyro-sat sat-4">λ</span>
-            </div>
-            <div class="cube3d-scene">
-              <div class="tech-cube-3d" id="techCube3d">
-                <div class="cube-face face-front">
-                  <span class="cf-glyph">&lt;/&gt;</span>
-                  <strong>Python · AI</strong>
-                  <small>ML &amp; Agents</small>
-                </div>
-                <div class="cube-face face-back">
-                  <span class="cf-glyph">{ }</span>
-                  <strong>C# / .NET</strong>
-                  <small>ASP.NET Core</small>
-                </div>
-                <div class="cube-face face-right">
-                  <span class="cf-glyph">☁</span>
-                  <strong>Azure · AWS</strong>
-                  <small>Cloud &amp; Docker</small>
-                </div>
-                <div class="cube-face face-left">
-                  <span class="cf-glyph">⚡</span>
-                  <strong>REST APIs</strong>
-                  <small>Clean Arch</small>
-                </div>
-                <div class="cube-face face-top">
-                  <span class="cf-glyph">⬡</span>
-                  <strong>React · TS</strong>
-                  <small>Interactive UI</small>
-                </div>
-                <div class="cube-face face-bottom">
-                  <span class="cf-glyph">▦</span>
-                  <strong>SQL · BI</strong>
-                  <small>Data &amp; Excel</small>
-                </div>
-              </div>
-            </div>
-            <div class="cube3d-floor-shadow" aria-hidden="true"></div>
-            <div class="cube3d-hint" data-i18n="cubeHint">اسحب لتدوير المكعب ثلاثي الأبعاد ↻</div>
           </div>
 
           <!-- 3D Layered Perspective Live-Typing Code Terminal -->
@@ -556,8 +517,8 @@
     </div>
   </div>
 
-  <script src="site/app.js?v=20261127-14"></script>
-  <script src="site/scene3d.js?v=20261127-14"></script>
-  <script src="site/chatbot.js?v=20261127-14"></script>
+  <script src="site/app.js?v=20261127-15"></script>
+  <script src="site/scene3d.js?v=20261127-15"></script>
+  <script src="site/chatbot.js?v=20261127-15"></script>
 </body>
 </html>

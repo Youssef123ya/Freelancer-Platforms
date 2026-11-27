@@ -4823,3 +4823,60 @@ html[data-theme="dark"] .code3d-stage {
   background: var(--surface-2) !important;
   border-color: var(--border) !important;
 }
+
+
+/* ==========================================================================
+   V15 INTERACTIVE 3D GEODESIC ARCHITECTURE SPHERE (REPLACES 3D CUBE)
+   ========================================================================== */
+
+.globe3d-zone {
+  position: relative;
+  height: 274px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: grab;
+  user-select: none;
+  touch-action: none;
+  overflow: visible;
+}
+
+.globe3d-zone.grabbing {
+  cursor: grabbing;
+}
+
+.globe3d-canvas {
+  display: block;
+  max-width: 100%;
+}
+
+.globe3d-hud {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.42rem;
+  padding: 0.24rem 0.72rem;
+  border-radius: 999px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  pointer-events: none;
+  margin-top: -4px;
+}
+
+.globe-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #16A34A;
+  box-shadow: 0 0 0 3px rgba(22, 163, 74, 0.2);
+}
+
+@media (max-width: 860px) {
+  .globe3d-zone {
+    height: 248px;
+  }
+}

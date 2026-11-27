@@ -298,59 +298,324 @@
     const stage = document.getElementById('code3dStage');
     if (!stage) return;
 
-    // --- Interactive 3D Tech Cube (Auto-Spin + Pointer Drag with Inertia) ---
-    const cube = document.getElementById('techCube3d');
-    const cubeZone = document.getElementById('cubeZone3d');
-    let rotX = -20;
-    let rotY = 32;
-    let velX = 0;
-    let velY = 0.35;
-    let dragging = false;
-    let lastX = 0;
-    let lastY = 0;
+    // --- Interactive 3D Fibonacci Geodesic Architecture Sphere (#archGlobe3d) ---
+    const gCanvas = document.getElementById('archGlobe3d');
+    const gZone = document.getElementById('globeZone3d');
+    if (gCanvas && gZone) {
+      const gCtx = gCanvas.getContext('2d');
+      let gw = 0, gh = 0;
 
-    if (cube && cubeZone) {
-      cubeZone.addEventListener('pointerdown', (e) => {
-        dragging = true;
-        lastX = e.clientX;
-        lastY = e.clientY;
-        cubeZone.setPointerCapture?.(e.pointerId);
-        cubeZone.classList.add('grabbing');
-      });
-      cubeZone.addEventListener('pointermove', (e) => {
-        if (!dragging) return;
-        const dx = e.clientX - lastX;
-        const dy = e.clientY - lastY;
-        lastX = e.clientX;
-        lastY = e.clientY;
-        rotY += dx * 0.65;
-        rotX -= dy * 0.65;
-        velY = dx * 0.25;
-        velX = -dy * 0.25;
-      });
-      const stopDrag = () => {
-        dragging = false;
-        cubeZone.classList.remove('grabbing');
-      };
-      cubeZone.addEventListener('pointerup', stopDrag);
-      cubeZone.addEventListener('pointercancel', stopDrag);
+      function resizeGlobe() {
+        const rect = gZone.getBoundingClientRect();
+        const dpr = Math.min(window.devicePixelRatio || 1, 2);
+        gw = Math.max(220, rect.width);
+        gh = Math.max(240, rect.height - 26);
+        gCanvas.width = Math.floor(gw * dpr);
+        gCanvas.height = Math.floor(gh * dpr);
+        gCanvas.style.width = gw + 'px';
+        gCanvas.style.height = gh + 'px';
+        gCtx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      }
+      resizeGlobe();
+      window.addEventListener('resize', resizeGlobe, { passive: true });
 
-      function spinCube() {
-        if (!dragging && !REDUCED) {
-          rotY += velY;
-          rotX += velX;
-          // Smoothly ease back to gentle 3D orbital spin
-          velY += (0.38 - velY) * 0.03;
-          velX += (Math.sin(performance.now() * 0.0007) * 0.14 - velX) * 0.04;
+      // Generate 64 evenly spaced 3D points on a unit sphere (Fibonacci lattice)
+      const N = 64;
+      const golden = Math.PI * (3 - Math.sqrt(5));
+      const HUB_SPECS = [
+        { idx: 4,  label: 'Python · AI' },
+        { idx: 15, label: 'C# / .NET' },
+        { idx: 26, label: 'Azure Cloud' },
+        { idx: 37, label: 'REST APIs' },
+        { idx: 48, label: 'React · TS' },
+        { idx: 58, label: 'SQL · Data' },
+      ];
+      const hubMap = new Map(HUB_SPECS.map((h) => [h.idx, h.label]));
+
+      const pts = [];
+      for (let i = 0; i < N; i++) {
+        const y = 1 - (i / (N - 1)) * 2;
+        const r = Math.sqrt(Math.max(0, 1 - y * y));
+        const theta = golden * i;
+        pts.push({
+          x: Math.cos(theta) * r,
+          y,
+          z: Math.sin(theta) * r,
+          hub: hubMap.get(i) || null,
+        });
+      }
+
+      // Precompute nearby 3D mesh edges on the sphere
+      const edges = [];
+      for (let i = 0; i < N; i++) {
+        for (let j = i + 1; j < N; j++) {
+          const d = Math.hypot(pts[i].x - pts[j].x, pts[i].y - pts[j].y, pts[i].z - pts[j].z);
+          if (d < 0.62) edges.push([i, j]);
         }
-        cube.style.transform = `rotateX(${rotX.toFixed(2)}deg) rotateY(${rotY.toFixed(2)}deg)`;
-        if (!REDUCED) requestAnimationFrame(spinCube);
       }
-      if (REDUCED) {
-        cube.style.transform = 'rotateX(-22deg) rotateY(35deg)';
-      } else {
-        requestAnimationFrame(spinCube);
+
+      // Live streaming 3D data packets arching across hub & mesh pairs
+      const packets = [];
+      for (let k = 0; k < 10; k++) {
+        const a = HUB_SPECS[k % HUB_SPECS.length].idx;
+        const b = HUB_SPECS[(k + 2 + (k % 3)) % HUB_SPECS.length].idx;
+        packets.push({
+          a,
+          b,
+          t: Math.random(),
+          speed: 0.0055 + Math.random() * 0.0045,
+          isSuccess: k % 3 === 0,
+        });
       }
+
+      // Smooth 3D orbital drag physics
+      let rx = 0.28;
+      let ry = 0.4;
+      let vx = 0;
+      let vy = 0.0055;
+      let dragging = false;
+      let lx = 0, ly = 0;
+
+      gZone.addEventListener('pointerdown', (e) => {
+        dragging = true;
+        lx = e.clientX;
+        ly = e.clientY;
+        gZone.setPointerCapture?.(e.pointerId);
+        gZone.classList.add('grabbing');
+      });
+      gZone.addEventListener('pointermove', (e) => {
+        if (!dragging) return;
+        const dx = e.clientX - lx;
+        const dy = e.clientY - ly;
+        lx = e.clientX;
+        ly = e.clientY;
+        ry += dx * 0.009;
+        rx = Math.max(-1.2, Math.min(1.2, rx + dy * 0.009));
+        vy = dx * 0.0022;
+        vx = dy * 0.0022;
+      });
+      const endDrag = () => {
+        dragging = false;
+        gZone.classList.remove('grabbing');
+      };
+      gZone.addEventListener('pointerup', endDrag);
+      gZone.addEventListener('pointercancel', endDrag);
+
+      function projectPt(x, y, z, radius, cx, cy) {
+        // Rotate Y then X
+        const cyr = Math.cos(ry), syr = Math.sin(ry);
+        const x1 = x * cyr + z * syr;
+        const z1 = -x * syr + z * cyr;
+        const cxr = Math.cos(rx), sxr = Math.sin(rx);
+        const y2 = y * cxr - z1 * sxr;
+        const z2 = y * sxr + z1 * cxr;
+
+        const focal = 340;
+        const scale = focal / (focal + z2 * radius + 120);
+        return {
+          sx: cx + x1 * radius * scale,
+          sy: cy + y2 * radius * scale,
+          z: z2,
+          scale,
+        };
+      }
+
+      function drawRoundedPill(ctx, x, y, w, h, r) {
+        ctx.beginPath();
+        ctx.moveTo(x + r, y);
+        ctx.arcTo(x + w, y, x + w, y + h, r);
+        ctx.arcTo(x + w, y + h, x, y + h, r);
+        ctx.arcTo(x, y + h, x, y, r);
+        ctx.arcTo(x, y, x + w, y, r);
+        ctx.closePath();
+      }
+
+      let gRaf = null;
+      let phase = 0;
+
+      function renderGlobe() {
+        phase += 0.016;
+        if (!dragging && !REDUCED) {
+          ry += vy;
+          rx += vx;
+          vy += (0.0052 - vy) * 0.035;
+          vx += (Math.sin(phase * 0.45) * 0.0012 - vx) * 0.04;
+          rx = Math.max(-1.0, Math.min(1.0, rx));
+        }
+
+        gCtx.clearRect(0, 0, gw, gh);
+        const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+        const primary = getComputedStyle(document.documentElement).getPropertyValue('--p-primary').trim() || (isDark ? '#60A5FA' : '#1E3A5F');
+        const cx = gw * 0.5;
+        const cy = gh * 0.5;
+        const radius = Math.min(gw, gh) * 0.37;
+
+        // 1. Subtle core atmospheric halo behind the 3D sphere
+        const halo = gCtx.createRadialGradient(cx, cy, radius * 0.15, cx, cy, radius * 1.28);
+        halo.addColorStop(0, isDark ? 'rgba(96, 165, 250, 0.14)' : 'rgba(30, 58, 95, 0.08)');
+        halo.addColorStop(1, 'transparent');
+        gCtx.fillStyle = halo;
+        gCtx.beginPath();
+        gCtx.arc(cx, cy, radius * 1.28, 0, Math.PI * 2);
+        gCtx.fill();
+
+        // 2. Subtle outer architectural equatorial orbit ring in 3D
+        gCtx.save();
+        gCtx.strokeStyle = isDark ? 'rgba(148, 163, 184, 0.18)' : 'rgba(30, 58, 95, 0.14)';
+        gCtx.lineWidth = 1;
+        gCtx.setLineDash([3, 4]);
+        gCtx.beginPath();
+        for (let s = 0; s <= 48; s++) {
+          const ang = (s / 48) * Math.PI * 2;
+          const ox = Math.cos(ang) * 1.22;
+          const oz = Math.sin(ang) * 1.22;
+          const oy = Math.sin(ang * 1.0 + 0.5) * 0.22;
+          const p = projectPt(ox, oy, oz, radius, cx, cy);
+          if (s === 0) gCtx.moveTo(p.sx, p.sy);
+          else gCtx.lineTo(p.sx, p.sy);
+        }
+        gCtx.stroke();
+        gCtx.restore();
+
+        // 3. Project all 64 Fibonacci points
+        const proj = pts.map((pt, i) => ({
+          ...projectPt(pt.x, pt.y, pt.z, radius, cx, cy),
+          hub: pt.hub,
+          idx: i,
+        }));
+
+        // 4. Draw geodesic 3D wireframe mesh edges (depth-faded)
+        gCtx.lineCap = 'round';
+        for (const [a, b] of edges) {
+          const pa = proj[a];
+          const pb = proj[b];
+          const avgZ = (pa.z + pb.z) * 0.5;
+          const alpha = Math.max(0.05, Math.min(0.34, 0.20 - avgZ * 0.15));
+          gCtx.strokeStyle = isDark ? `rgba(148, 163, 184, ${alpha.toFixed(3)})` : `rgba(30, 58, 95, ${alpha.toFixed(3)})`;
+          gCtx.lineWidth = avgZ < 0 ? 1.05 : 0.65;
+          gCtx.beginPath();
+          gCtx.moveTo(pa.sx, pa.sy);
+          gCtx.lineTo(pb.sx, pb.sy);
+          gCtx.stroke();
+        }
+
+        // 5. Draw live elevated 3D geodesic data-packet streams between hubs
+        for (const pk of packets) {
+          if (!REDUCED) {
+            pk.t += pk.speed;
+            if (pk.t > 1) {
+              pk.t = 0;
+              pk.a = pk.b;
+              const nextHub = HUB_SPECS[Math.floor(Math.random() * HUB_SPECS.length)].idx;
+              pk.b = nextHub === pk.a ? HUB_SPECS[(HUB_SPECS.findIndex((h) => h.idx === pk.a) + 1) % HUB_SPECS.length].idx : nextHub;
+            }
+          }
+          const pa0 = pts[pk.a];
+          const pb0 = pts[pk.b];
+
+          // Draw faint curved arc trail segment
+          const trailSteps = 10;
+          const startT = Math.max(0, pk.t - 0.22);
+          gCtx.beginPath();
+          for (let s = 0; s <= trailSteps; s++) {
+            const u = startT + ((pk.t - startT) * s) / trailSteps;
+            const lx = pa0.x + (pb0.x - pa0.x) * u;
+            const ly = pa0.y + (pb0.y - pa0.y) * u;
+            const lz = pa0.z + (pb0.z - pa0.z) * u;
+            const len = Math.hypot(lx, ly, lz) || 1;
+            const lift = 1 + Math.sin(u * Math.PI) * 0.24;
+            const sp = projectPt((lx / len) * lift, (ly / len) * lift, (lz / len) * lift, radius, cx, cy);
+            if (s === 0) gCtx.moveTo(sp.sx, sp.sy);
+            else gCtx.lineTo(sp.sx, sp.sy);
+          }
+          gCtx.strokeStyle = pk.isSuccess ? (isDark ? '#34D399' : '#0F766E') : primary;
+          gCtx.globalAlpha = 0.55;
+          gCtx.lineWidth = 1.65;
+          gCtx.stroke();
+
+          // Leading glowing data packet head
+          const hx = pa0.x + (pb0.x - pa0.x) * pk.t;
+          const hy = pa0.y + (pb0.y - pa0.y) * pk.t;
+          const hz = pa0.z + (pb0.z - pa0.z) * pk.t;
+          const hLen = Math.hypot(hx, hy, hz) || 1;
+          const hLift = 1 + Math.sin(pk.t * Math.PI) * 0.24;
+          const hp = projectPt((hx / hLen) * hLift, (hy / hLen) * hLift, (hz / hLen) * hLift, radius, cx, cy);
+          gCtx.fillStyle = pk.isSuccess ? (isDark ? '#34D399' : '#0F766E') : primary;
+          gCtx.globalAlpha = Math.max(0.25, Math.min(1, 0.85 - hp.z * 0.35));
+          gCtx.beginPath();
+          gCtx.arc(hp.sx, hp.sy, hp.z < 0 ? 3.2 : 2.1, 0, Math.PI * 2);
+          gCtx.fill();
+          gCtx.globalAlpha = 1;
+        }
+
+        // 6. Depth-sort nodes back-to-front & render crisp pins + floating 3D hub pills
+        const sorted = [...proj].sort((a, b) => b.z - a.z);
+        for (const p of sorted) {
+          const depthAlpha = Math.max(0.16, Math.min(1, 0.68 - p.z * 0.45));
+          if (p.hub) {
+            // Active Hub Node Ring
+            gCtx.fillStyle = primary;
+            gCtx.globalAlpha = depthAlpha;
+            gCtx.beginPath();
+            gCtx.arc(p.sx, p.sy, p.z < 0 ? 4.2 : 2.8, 0, Math.PI * 2);
+            gCtx.fill();
+
+            gCtx.strokeStyle = primary;
+            gCtx.globalAlpha = depthAlpha * 0.45;
+            gCtx.lineWidth = 1.2;
+            gCtx.beginPath();
+            gCtx.arc(p.sx, p.sy, p.z < 0 ? 7.5 : 5.0, 0, Math.PI * 2);
+            gCtx.stroke();
+
+            // Draw crisp 3D label pill when hub is in front/mid hemisphere
+            if (p.z < 0.35) {
+              const labelAlpha = Math.max(0, Math.min(1, (0.35 - p.z) / 0.65));
+              gCtx.save();
+              gCtx.globalAlpha = labelAlpha;
+              gCtx.font = '700 10.5px "IBM Plex Mono", ui-monospace, monospace';
+              const tw = gCtx.measureText(p.hub).width;
+              const pw = tw + 14;
+              const ph = 20;
+              const px = p.sx + 9;
+              const py = p.sy - ph / 2;
+
+              drawRoundedPill(gCtx, px, py, pw, ph, 10);
+              gCtx.fillStyle = isDark ? 'rgba(20, 24, 34, 0.90)' : 'rgba(255, 255, 255, 0.92)';
+              gCtx.fill();
+              gCtx.strokeStyle = isDark ? 'rgba(148, 163, 184, 0.28)' : 'rgba(30, 58, 95, 0.22)';
+              gCtx.lineWidth = 1;
+              gCtx.stroke();
+
+              gCtx.fillStyle = isDark ? '#E2E8F0' : '#0F172A';
+              gCtx.textBaseline = 'middle';
+              gCtx.textAlign = 'left';
+              gCtx.fillText(p.hub, px + 7, py + ph / 2 + 0.5);
+              gCtx.restore();
+            }
+            gCtx.globalAlpha = 1;
+          } else {
+            gCtx.fillStyle = isDark ? '#94A3B8' : '#475569';
+            gCtx.globalAlpha = depthAlpha * 0.65;
+            gCtx.beginPath();
+            gCtx.arc(p.sx, p.sy, p.z < 0 ? 1.85 : 1.15, 0, Math.PI * 2);
+            gCtx.fill();
+            gCtx.globalAlpha = 1;
+          }
+        }
+
+        if (!REDUCED) gRaf = requestAnimationFrame(renderGlobe);
+      }
+
+      document.addEventListener('visibilitychange', () => {
+        if (document.hidden && gRaf) {
+          cancelAnimationFrame(gRaf);
+          gRaf = null;
+        } else if (!document.hidden && !gRaf && !REDUCED) {
+          gRaf = requestAnimationFrame(renderGlobe);
+        }
+      });
+
+      renderGlobe();
     }
 
     // --- 3D Layered Perspective IDE Terminal (Mouse Parallax + Live Typing) ---
