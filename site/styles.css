@@ -4472,3 +4472,354 @@ html[data-theme="dark"] .cube3d-floor-shadow {
     animation: none !important;
   }
 }
+
+
+/* ==========================================================================
+   V14 EXECUTIVE COLOR RESTRAINT (REMOVE RAINBOW RIBBON & UNIFY TO 1 ACCENT)
+   ========================================================================== */
+
+:root {
+  --p-primary: #1E3A5F;
+  --p-primary-dark: #152A45;
+  --p-primary-bg: rgba(30, 58, 95, 0.08);
+  --p-primary-bd: rgba(30, 58, 95, 0.24);
+
+  /* Tame all secondary category pigments into refined architectural slate/navy family */
+  --p-terracotta: #1E3A5F;
+  --p-terracotta-bg: #F3F5F8;
+  --p-terracotta-bd: rgba(30, 58, 95, 0.20);
+
+  --p-cobalt: #1E3A5F;
+  --p-cobalt-bg: #F3F5F8;
+  --p-cobalt-bd: rgba(30, 58, 95, 0.20);
+
+  --p-emerald: #1F4E46;
+  --p-emerald-bg: #F2F7F6;
+  --p-emerald-bd: rgba(31, 78, 70, 0.20);
+
+  --p-teal: #1E3A5F;
+  --p-teal-bg: #F3F5F8;
+  --p-teal-bd: rgba(30, 58, 95, 0.20);
+
+  --p-amber: #334155;
+  --p-amber-bg: #F4F5F7;
+  --p-amber-bd: rgba(51, 65, 85, 0.20);
+
+  --p-crimson: #334155;
+  --p-crimson-bg: #F4F5F7;
+  --p-crimson-bd: rgba(51, 65, 85, 0.20);
+
+  --p-sienna: #334155;
+  --p-sienna-bg: #F4F5F7;
+  --p-sienna-bd: rgba(51, 65, 85, 0.20);
+}
+
+html[data-theme="dark"] {
+  --p-primary: #60A5FA;
+  --p-primary-dark: #3B82F6;
+  --p-primary-bg: rgba(96, 165, 250, 0.14);
+  --p-primary-bd: rgba(96, 165, 250, 0.30);
+
+  --p-terracotta: #93C5FD;
+  --p-terracotta-bg: rgba(148, 163, 184, 0.10);
+  --p-terracotta-bd: rgba(148, 163, 184, 0.24);
+
+  --p-cobalt: #93C5FD;
+  --p-cobalt-bg: rgba(148, 163, 184, 0.10);
+  --p-cobalt-bd: rgba(148, 163, 184, 0.24);
+
+  --p-emerald: #6EE7B7;
+  --p-emerald-bg: rgba(52, 211, 153, 0.10);
+  --p-emerald-bd: rgba(52, 211, 153, 0.24);
+
+  --p-teal: #93C5FD;
+  --p-teal-bg: rgba(148, 163, 184, 0.10);
+  --p-teal-bd: rgba(148, 163, 184, 0.24);
+
+  --p-amber: #CBD5E1;
+  --p-amber-bg: rgba(148, 163, 184, 0.10);
+  --p-amber-bd: rgba(148, 163, 184, 0.24);
+
+  --p-crimson: #CBD5E1;
+  --p-crimson-bg: rgba(148, 163, 184, 0.10);
+  --p-crimson-bd: rgba(148, 163, 184, 0.24);
+
+  --p-sienna: #CBD5E1;
+  --p-sienna-bg: rgba(148, 163, 184, 0.10);
+  --p-sienna-bd: rgba(148, 163, 184, 0.24);
+}
+
+/* 1. Completely remove the 5-color ribbon line & make scroll progress single-tone */
+.hero-ribbon {
+  display: none !important;
+}
+
+.scroll-progress {
+  height: 2.5px !important;
+  background: var(--p-primary) !important;
+}
+
+/* 2. Calm, Executive Hero Background (No Multi-Color Blobs) */
+.hero {
+  background:
+    radial-gradient(950px 440px at 50% 0%, var(--p-primary-bg), transparent 72%),
+    linear-gradient(180deg, #F6F7F9 0%, #FAF9F6 100%) !important;
+  border-bottom: 1px solid var(--border) !important;
+}
+
+html[data-theme="dark"] .hero {
+  background:
+    radial-gradient(950px 440px at 50% 0%, rgba(96, 165, 250, 0.09), transparent 72%),
+    linear-gradient(180deg, #0B0E14 0%, #0F1218 100%) !important;
+}
+
+/* 3. Refined Single-Accent Metallic Sweep Ring & Orbital Animations around Enlarged Portrait */
+.av-ring-conic {
+  background: conic-gradient(
+    from 0deg,
+    var(--p-primary) 0deg 95deg,
+    rgba(148, 163, 184, 0.28) 125deg 215deg,
+    var(--p-primary) 245deg 315deg,
+    rgba(148, 163, 184, 0.28) 340deg 360deg
+  ) !important;
+  box-shadow: 0 12px 32px -8px rgba(15, 23, 42, 0.22) !important;
+}
+
+.av-pulse-ring,
+.av-pulse-2 {
+  border-color: var(--p-primary) !important;
+}
+
+.av-ring-orbit {
+  border-color: var(--p-primary-bd) !important;
+}
+
+.av-orbit-b {
+  border-color: rgba(100, 116, 139, 0.26) !important;
+}
+
+.av-orb-dot {
+  background: var(--p-primary) !important;
+  color: var(--p-primary) !important;
+  box-shadow: 0 0 8px var(--p-primary-bd) !important;
+}
+
+.av-orb-dot.dot-cobalt,
+.av-orb-dot.dot-amber {
+  background: #64748B !important;
+  color: #64748B !important;
+}
+
+.av-float-chip {
+  border-color: var(--border-strong) !important;
+  background: rgba(255, 255, 255, 0.94) !important;
+  color: var(--text) !important;
+}
+
+html[data-theme="dark"] .av-float-chip {
+  background: rgba(22, 26, 35, 0.92) !important;
+  border-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+.av-float-chip .av-g {
+  color: var(--p-primary) !important;
+}
+
+/* 4. Sculpted Dark Carbon Architectural 3D Tech Cube (No Rainbow Faces!) */
+.code3d-stage {
+  border-top: 2px solid var(--p-primary) !important;
+  background: rgba(255, 255, 255, 0.86) !important;
+  border-color: var(--border) !important;
+}
+
+html[data-theme="dark"] .code3d-stage {
+  background: rgba(18, 21, 28, 0.86) !important;
+  border-color: rgba(255, 255, 255, 0.09) !important;
+}
+
+.face-front,
+.face-back,
+.face-right,
+.face-left,
+.face-top,
+.face-bottom {
+  --cf-bg: linear-gradient(145deg, #181D27 0%, #10131B 100%) !important;
+  --cf-bd: rgba(148, 163, 184, 0.28) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.14), 0 10px 24px rgba(15, 23, 42, 0.22) !important;
+}
+
+.face-front {
+  --cf-bg: linear-gradient(145deg, #1E3A5F 0%, #13253E 100%) !important;
+  --cf-bd: rgba(147, 197, 253, 0.36) !important;
+}
+
+.cube-face .cf-glyph {
+  color: #93C5FD;
+}
+
+.gyro-ring {
+  border-color: rgba(100, 116, 139, 0.32) !important;
+}
+
+.gyro-ring-2 {
+  border-color: var(--p-primary-bd) !important;
+}
+
+.gyro-sat {
+  color: var(--p-primary) !important;
+  border-color: var(--border-strong) !important;
+}
+
+/* 5. Clean IDE Terminal Shimmer & Subtle Status Pill */
+.ide3d-shimmer {
+  background: linear-gradient(90deg, transparent 0%, var(--p-primary) 50%, transparent 100%) !important;
+  opacity: 0.65 !important;
+}
+
+.ide3d-shadow-layer {
+  background: radial-gradient(circle, rgba(30, 58, 95, 0.20), transparent 72%) !important;
+}
+
+.ide-cursor {
+  color: #60A5FA !important;
+}
+
+/* Refined Low-Saturation IDE Syntax (Nord / GitHub Executive Dark) */
+.ck { color: #93C5FD !important; }
+.ct { color: #E2E8F0 !important; }
+.cf { color: #6EE7B7 !important; }
+.cs { color: #CBD5E1 !important; }
+.cn { color: #94A3B8 !important; }
+
+/* 6. Clean Monochrome-Neutral Hero KPI Panel, Tags & Marquee */
+.hero-panel {
+  border-top: 2px solid var(--p-primary) !important;
+  box-shadow: 0 14px 36px rgba(15, 23, 42, 0.06) !important;
+}
+
+.stat-cell {
+  background: var(--surface-2) !important;
+  border: 1px solid var(--border) !important;
+}
+
+.stat-cell .stat-value {
+  color: var(--text) !important;
+}
+
+.stat-cell .stat-tag {
+  color: var(--text-muted) !important;
+}
+
+.stat-cell .stat-dot,
+.stat-cell .stat-meter span {
+  background: var(--p-primary) !important;
+}
+
+.m-chip {
+  color: var(--text-soft) !important;
+  background: var(--surface) !important;
+  border-color: var(--border) !important;
+}
+
+.m-dot {
+  color: var(--text-muted) !important;
+  opacity: 0.45 !important;
+}
+
+/* 7. Restrained Cards (Neutral Surfaces + Crisp Hairline Accent — No Rainbow Overload) */
+.service-card,
+.project-card,
+.platform-card,
+.oss-card {
+  border-top: 2px solid var(--border-strong) !important;
+  background: var(--surface) !important;
+}
+
+.service-card:hover,
+.project-card:hover,
+.platform-card:hover,
+.oss-card:hover {
+  border-color: var(--p-primary) !important;
+  border-top-color: var(--p-primary) !important;
+  box-shadow: 0 14px 32px -10px rgba(15, 23, 42, 0.14) !important;
+}
+
+.cat-badge {
+  background: var(--p-primary-bg) !important;
+  color: var(--p-primary) !important;
+  border: 1px solid var(--p-primary-bd) !important;
+  box-shadow: none !important;
+}
+
+.cat-chip.active,
+.spot-tab.active {
+  background: var(--p-primary) !important;
+  border-color: var(--p-primary) !important;
+  color: #fff !important;
+}
+
+.cat-dot {
+  background: var(--p-primary) !important;
+}
+
+.spotlight-deck {
+  border-top: 3px solid var(--p-primary) !important;
+}
+
+.spot-progress-fill {
+  background: var(--p-primary) !important;
+}
+
+.section-featured {
+  background: var(--bg-alt) !important;
+}
+
+.code-cube-mini,
+.code-cube-mini.cube-cobalt {
+  background: linear-gradient(135deg, #1E293B, #0F172A) !important;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.18) !important;
+}
+
+/* Keep Platform Pills Calm & Professional (Neutral Pill + Subtle Brand Dot) */
+.platform-pill[data-plat] {
+  background: var(--surface) !important;
+  border-color: var(--border-strong) !important;
+  color: var(--text) !important;
+}
+
+.platform-pill[data-plat]:hover {
+  border-color: var(--p-primary) !important;
+}
+
+.platform-card[data-plat] {
+  background: var(--surface) !important;
+  border-top: 2px solid var(--border-strong) !important;
+}
+
+.platform-card[data-plat]:hover {
+  border-top-color: var(--p-primary) !important;
+  box-shadow: 0 14px 32px -10px rgba(15, 23, 42, 0.14) !important;
+}
+
+/* Keep Status Pill Subtle & Executive */
+.status-row {
+  background: var(--surface) !important;
+  border-color: var(--border-strong) !important;
+  color: var(--text-soft) !important;
+}
+
+.eyebrow,
+.eyebrow-terracotta,
+.eyebrow-cobalt,
+.eyebrow-emerald,
+.eyebrow-amber {
+  color: var(--p-primary) !important;
+  background: var(--p-primary-bg) !important;
+  border-color: var(--p-primary-bd) !important;
+}
+
+.tags-row .tag {
+  color: var(--text-soft) !important;
+  background: var(--surface-2) !important;
+  border-color: var(--border) !important;
+}

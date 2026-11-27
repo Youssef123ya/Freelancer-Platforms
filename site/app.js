@@ -576,7 +576,7 @@
         <p class="platform-meta">${esc(isAr ? p.meta_ar : p.meta_en)}</p>
         <p class="platform-count">${esc(isAr ? p.count_ar : p.count_en)}</p>
         <div class="platform-actions">
-          <a class="btn btn-sm" style="background:var(--plat-c,${p.color});border-color:var(--plat-c,${p.color});color:#fff" href="${esc(p.url)}" target="_blank" rel="noopener">${esc(t('visitProfile'))} ${SVG.ext}</a>
+          <a class="btn btn-primary btn-sm" href="${esc(p.url)}" target="_blank" rel="noopener">${esc(t('visitProfile'))} ${SVG.ext}</a>
           ${p.filterable
             ? `<button type="button" class="btn btn-secondary btn-sm" data-filter-platform="${esc(p.key)}">${esc(t('filterByPlatform'))}</button>`
             : `<button type="button" class="btn btn-secondary btn-sm" data-service="landing-page-design">${esc(t('viewKhamsatService'))}</button>`}
@@ -1280,18 +1280,18 @@
 
   /* ---- Live Editorial Pigment Switcher ---- */
   const PIGMENT_MAP = {
-    terracotta: { light: ['#C2410C', '#9A3412', '#FFF3EC', 'rgba(194,65,12,0.32)'], dark: ['#FB923C', '#EA580C', 'rgba(234,88,12,0.18)', 'rgba(251,146,60,0.38)'] },
-    cobalt:     { light: ['#1D4ED8', '#1E40AF', '#EFF5FF', 'rgba(29,78,216,0.32)'], dark: ['#60A5FA', '#3B82F6', 'rgba(29,78,216,0.20)', 'rgba(96,165,250,0.38)'] },
-    emerald:    { light: ['#047857', '#065F46', '#ECFDF5', 'rgba(4,120,87,0.32)'],  dark: ['#34D399', '#10B981', 'rgba(4,120,87,0.20)',  'rgba(52,211,153,0.38)'] },
-    amber:      { light: ['#B45309', '#92400E', '#FFFBEB', 'rgba(180,83,9,0.32)'],  dark: ['#FBBF24', '#D97706', 'rgba(180,83,9,0.20)',  'rgba(251,191,36,0.38)'] },
-    teal:       { light: ['#0F766E', '#115E59', '#F0FDFA', 'rgba(15,118,110,0.32)'],dark: ['#2DD4BF', '#14B8A6', 'rgba(15,118,110,0.20)','rgba(45,212,191,0.38)'] }
+    navy:       { light: ['#1E3A5F', '#152A45', 'rgba(30,58,95,0.08)',  'rgba(30,58,95,0.24)'],  dark: ['#60A5FA', '#3B82F6', 'rgba(96,165,250,0.14)', 'rgba(96,165,250,0.32)'] },
+    graphite:   { light: ['#27272A', '#18181B', 'rgba(39,39,42,0.07)',  'rgba(39,39,42,0.22)'],  dark: ['#E4E4E7', '#D4D4D8', 'rgba(228,228,231,0.12)','rgba(228,228,231,0.28)'] },
+    teal:       { light: ['#115E59', '#0F4C48', 'rgba(17,94,89,0.08)',  'rgba(17,94,89,0.24)'],  dark: ['#2DD4BF', '#14B8A6', 'rgba(45,212,191,0.14)', 'rgba(45,212,191,0.30)'] },
+    emerald:    { light: ['#166534', '#14532D', 'rgba(22,101,52,0.08)', 'rgba(22,101,52,0.24)'], dark: ['#4ADE80', '#22C55E', 'rgba(74,222,128,0.14)', 'rgba(74,222,128,0.30)'] },
+    terracotta: { light: ['#9A3412', '#7C2D12', 'rgba(154,52,18,0.08)', 'rgba(154,52,18,0.24)'], dark: ['#FB923C', '#EA580C', 'rgba(251,146,60,0.14)', 'rgba(251,146,60,0.30)'] }
   };
 
-  let currentPigment = localStorage.getItem('yy_pigment') || 'terracotta';
+  let currentPigment = localStorage.getItem('yy_pigment_v14') || 'navy';
   function applyPigment(name) {
-    if (!PIGMENT_MAP[name]) name = 'terracotta';
+    if (!PIGMENT_MAP[name]) name = 'navy';
     currentPigment = name;
-    localStorage.setItem('yy_pigment', name);
+    localStorage.setItem('yy_pigment_v14', name);
     const mode = state.theme === 'dark' ? 'dark' : 'light';
     const [p, pd, pbg, pbd] = PIGMENT_MAP[name][mode];
     const root = document.documentElement;
@@ -1471,7 +1471,7 @@
   applyLang();
   // 3D Hero Canvas is driven by site/scene3d.js
 
-  fetch('data/portfolio.json?v=20261127-13')
+  fetch('data/portfolio.json?v=20261127-14')
     .then((r) => {
       if (!r.ok) throw new Error('HTTP ' + r.status);
       return r.json();

@@ -12,12 +12,10 @@
   const REDUCED = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   const PIGMENTS = [
-    '#C2410C', // Terracotta
-    '#1D4ED8', // Oxford Cobalt
-    '#047857', // Forest Emerald
-    '#D97706', // Amber Ochre
-    '#0F766E', // Deep Teal
-    '#BE123C', // Crimson Wine
+    '#334155', // Architectural Slate
+    '#1E3A5F', // Executive Navy
+    '#475569', // Cool Graphite
+    '#64748B', // Steel Slate
   ];
 
   /* --------------------------------------------------------------------------
@@ -67,10 +65,10 @@
 
     // 4 floating 3D wireframe polyhedra anchored on the outer left/right flanks so center text stays crystal clear
     const shapes = [
-      { kind: 'cube', anchorX: 0.09, anchorY: 0.22, size: 34, color: '#1D4ED8', rx: 0.4, ry: 0.2, rz: 0.1, vx: 0.0055, vy: 0.0085, vz: 0.003, phase: 0, label: '{ }' },
-      { kind: 'octa', anchorX: 0.91, anchorY: 0.20, size: 36, color: '#C2410C', rx: 0.2, ry: 0.7, rz: 0.3, vx: 0.006,  vy: -0.008, vz: 0.0025, phase: 1.4, label: '</>' },
-      { kind: 'octa', anchorX: 0.08, anchorY: 0.72, size: 30, color: '#047857', rx: 0.8, ry: 0.3, rz: 0.0, vx: -0.005, vy: 0.007,  vz: 0.004, phase: 2.7, label: 'API' },
-      { kind: 'cube', anchorX: 0.92, anchorY: 0.70, size: 32, color: '#D97706', rx: 0.5, ry: 0.5, rz: 0.2, vx: 0.0045, vy: -0.009, vz: -0.003, phase: 4.1, label: '01' },
+      { kind: 'cube', anchorX: 0.09, anchorY: 0.22, size: 34, color: '#1E3A5F', rx: 0.4, ry: 0.2, rz: 0.1, vx: 0.0055, vy: 0.0085, vz: 0.003, phase: 0, label: '{ }' },
+      { kind: 'octa', anchorX: 0.91, anchorY: 0.20, size: 36, color: '#334155', rx: 0.2, ry: 0.7, rz: 0.3, vx: 0.006,  vy: -0.008, vz: 0.0025, phase: 1.4, label: '</>' },
+      { kind: 'octa', anchorX: 0.08, anchorY: 0.72, size: 30, color: '#475569', rx: 0.8, ry: 0.3, rz: 0.0, vx: -0.005, vy: 0.007,  vz: 0.004, phase: 2.7, label: 'API' },
+      { kind: 'cube', anchorX: 0.92, anchorY: 0.70, size: 32, color: '#1E3A5F', rx: 0.5, ry: 0.5, rz: 0.2, vx: 0.0045, vy: -0.009, vz: -0.003, phase: 4.1, label: '01' },
     ];
 
     // 3D depth-layered floating code glyphs & binary nodes
@@ -150,7 +148,7 @@
 
         ctx.save();
         ctx.font = `700 ${fontSize}px "IBM Plex Mono", ui-monospace, monospace`;
-        ctx.fillStyle = g.color;
+        ctx.fillStyle = isDark ? '#94A3B8' : g.color;
         ctx.globalAlpha = hideFlanks ? alpha * 0.45 : alpha;
         ctx.textAlign = 'center';
         ctx.textBaseline = 'middle';
@@ -199,7 +197,7 @@
             const pb = projected[b];
             const avgZ = (pa.z + pb.z) * 0.5;
             const depthAlpha = Math.max(0.16, Math.min(0.72, 0.44 - avgZ * 0.22));
-            ctx.strokeStyle = s.color;
+            ctx.strokeStyle = isDark ? '#94A3B8' : s.color;
             ctx.globalAlpha = isDark ? depthAlpha * 1.1 : depthAlpha * 0.85;
             ctx.lineWidth = avgZ < 0 ? 1.65 : 1.0;
             ctx.beginPath();
@@ -210,7 +208,7 @@
 
           // Draw 3D vertices as glowing architectural pins
           for (const p of projected) {
-            ctx.fillStyle = s.color;
+            ctx.fillStyle = isDark ? '#CBD5E1' : s.color;
             ctx.globalAlpha = Math.max(0.25, Math.min(0.95, 0.65 - p.z * 0.25));
             ctx.beginPath();
             ctx.arc(p.x, p.y, p.z < 0 ? 2.7 : 1.8, 0, Math.PI * 2);
@@ -219,7 +217,7 @@
 
           // Center floating code symbol inside the 3D wireframe
           ctx.globalAlpha = isDark ? 0.78 : 0.65;
-          ctx.fillStyle = s.color;
+          ctx.fillStyle = isDark ? '#CBD5E1' : s.color;
           ctx.font = '700 12px "IBM Plex Mono", ui-monospace, monospace';
           ctx.textAlign = 'center';
           ctx.textBaseline = 'middle';
@@ -253,7 +251,7 @@
       file: 'VitalsController.cs',
       lang: 'C# · ASP.NET Core',
       badge: '200 OK · 12ms',
-      color: '#1D4ED8',
+      color: '#1E3A5F',
       lines: [
         '<span class="ck">[ApiController]</span>',
         '<span class="ck">[Route</span>(<span class="cs">"api/v1/medmonitor"</span>)<span class="ck">]</span>',
@@ -269,7 +267,7 @@
       file: 'dune_tracker.py',
       lang: 'Python · AI & ML',
       badge: 'Accuracy · 96.8%',
-      color: '#C2410C',
+      color: '#334155',
       lines: [
         '<span class="ck">from</span> sklearn.pipeline <span class="ck">import</span> <span class="ct">Pipeline</span>',
         '<span class="ck">import</span> pandas <span class="ck">as</span> pd',
@@ -284,7 +282,7 @@
       file: 'invoicePilot.ts',
       lang: 'TypeScript · React',
       badge: 'PayPal AI · Live',
-      color: '#047857',
+      color: '#115E59',
       lines: [
         '<span class="ck">export async function</span> <span class="cf">draftClientInvoice</span>(brief: <span class="ct">string</span>) {',
         '  <span class="ck">const</span> parsed = <span class="ck">await</span> aiAgent.<span class="cf">extractMilestones</span>(brief);',
