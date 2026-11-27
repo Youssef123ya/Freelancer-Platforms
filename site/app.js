@@ -318,6 +318,7 @@
     }
 
     if (state.data) renderAll();
+    (window.__yyLangListeners || []).forEach((cb) => cb(state.lang));
   }
 
   function renderHeroPlatforms() {
@@ -330,7 +331,8 @@
       </a>`;
     }).join('');
 
-    $('ctaPlatforms').innerHTML = web.profiles.map((p) => {
+    const botBtnLabel = isAr ? 'اسأل مساعد الأعمال الآن' : 'Ask Portfolio Assistant';
+    $('ctaPlatforms').innerHTML = `<button type="button" class="btn btn-primary btn-sm magnetic" data-open-bot="1">💬 ${esc(botBtnLabel)}</button>` + web.profiles.map((p) => {
       const label = isAr ? p.name_ar.split(' ·')[0] : p.name_en;
       return `<a class="btn btn-secondary btn-sm magnetic" href="${esc(p.url)}" target="_blank" rel="noopener">
         <span class="plat-dot" style="background:${p.color}"></span><span>${esc(label)}</span>${SVG.ext}
@@ -1437,13 +1439,37 @@
     requestAnimationFrame(draw);
   }
 
+
+  /* ---- Public Portfolio Bridge for Assistant Bot ---- */
+  window.__yyLangListeners = window.__yyLangListeners || [];
+  window.YYPortfolio = {
+    getData: () => state.data,
+    getLang: () => state.lang,
+    getPalette: () => CAT_PALETTE,
+    openProject: (slug) => openProjectModal(slug),
+    openService: (slug) => openServiceModal(slug),
+    filterPortfolio: ({ category = 'all', platform = 'all', demoOnly = false, search = '' } = {}) => {
+      state.category = category;
+      state.platform = platform;
+      state.demoOnly = Boolean(demoOnly);
+      state.search = search;
+      if ($('searchInput')) $('searchInput').value = search;
+      if ($('platformFilter')) $('platformFilter').value = platform;
+      if ($('demoOnlyBtn')) $('demoOnlyBtn').setAttribute('aria-pressed', String(state.demoOnly));
+      renderCategoryChips();
+      renderPortfolio();
+      $('portfolio')?.scrollIntoView({ behavior: 'smooth' });
+    },
+    onLangChange: (cb) => window.__yyLangListeners.push(cb),
+  };
+
   /* ---- Init ---- */
   applyTheme();
   applyPigment(currentPigment);
   applyLang();
   initHeroCanvas();
 
-  fetch('data/portfolio.json?v=20261119-10')
+  fetch('data/portfolio.json?v=20261127-11')
     .then((r) => {
       if (!r.ok) throw new Error('HTTP ' + r.status);
       return r.json();
