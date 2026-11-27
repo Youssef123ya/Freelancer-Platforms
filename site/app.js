@@ -72,6 +72,7 @@
       navHire: 'اطلب خدمة',
       cmdBtn: 'بحث سريع',
       pigmentTitle: 'اللون الرئيسي',
+      cubeHint: 'اسحب لتدوير المكعب ثلاثي الأبعاد ↻',
       cmdPlaceholder: 'ابحث وانتقل سريعًا لأي مشروع أو خدمة أو منصة...',
       cmdProject: 'مشروع',
       cmdService: 'خدمة',
@@ -168,6 +169,7 @@
       navHire: 'Hire Me',
       cmdBtn: 'Quick Search',
       pigmentTitle: 'Accent Color',
+      cubeHint: 'Drag to rotate 3D cube ↻',
       cmdPlaceholder: 'Type to jump to any project, service, platform, or action...',
       cmdProject: 'Project',
       cmdService: 'Service',
@@ -1467,9 +1469,9 @@
   applyTheme();
   applyPigment(currentPigment);
   applyLang();
-  initHeroCanvas();
+  // 3D Hero Canvas is driven by site/scene3d.js
 
-  fetch('data/portfolio.json?v=20261127-11')
+  fetch('data/portfolio.json?v=20261127-12')
     .then((r) => {
       if (!r.ok) throw new Error('HTTP ' + r.status);
       return r.json();

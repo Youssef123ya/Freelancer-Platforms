@@ -3650,3 +3650,461 @@ html[dir="rtl"] .yy-bot-send svg {
     inset-inline-end: 18px !important;
   }
 }
+
+
+/* ==========================================================================
+   V12 3D CODING & ENGINEERING ANIMATIONS (CUBE, GYROSCOPE & 3D IDE STUDIO)
+   ========================================================================== */
+
+.code3d-stage {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0.25rem auto 0.25rem;
+  display: grid;
+  grid-template-columns: minmax(250px, 0.85fr) minmax(0, 1.35fr);
+  gap: 1.5rem;
+  align-items: center;
+  padding: 1.4rem 1.6rem;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid var(--border-strong);
+  box-shadow: 0 20px 48px -18px rgba(15, 23, 42, 0.14);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  position: relative;
+  overflow: visible;
+}
+
+html[data-theme="dark"] .code3d-stage {
+  background: rgba(20, 23, 30, 0.72);
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 24px 56px -14px rgba(0, 0, 0, 0.55);
+}
+
+/* ---- Interactive 3D Tech Cube & Orbiting Gyroscope ---- */
+.cube3d-zone {
+  position: relative;
+  height: 256px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  perspective: 900px;
+  cursor: grab;
+  user-select: none;
+  touch-action: none;
+}
+
+.cube3d-zone.grabbing {
+  cursor: grabbing;
+}
+
+.cube3d-scene {
+  width: 132px;
+  height: 132px;
+  perspective: 800px;
+  position: relative;
+  z-index: 3;
+}
+
+.tech-cube-3d {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+.cube-face {
+  position: absolute;
+  inset: 0;
+  border-radius: 14px;
+  border: 1.5px solid var(--cf-bd, rgba(255, 255, 255, 0.25));
+  background: var(--cf-bg);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.14rem;
+  text-align: center;
+  padding: 0.5rem;
+  backface-visibility: visible;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 8px 22px rgba(15, 23, 42, 0.18);
+}
+
+.cf-glyph {
+  font-family: var(--font-mono);
+  font-size: 1.35rem;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.cube-face strong {
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+.cube-face small {
+  font-family: var(--font-mono);
+  font-size: 0.64rem;
+  opacity: 0.86;
+}
+
+/* 6 True 3D Faces (half-size = 66px) colored in Editorial Pigments */
+.face-front  { transform: rotateY(0deg) translateZ(66px);   --cf-bg: linear-gradient(145deg, rgba(194, 65, 12, 0.94), rgba(154, 52, 18, 0.96)); --cf-bd: rgba(253, 186, 116, 0.55); }
+.face-back   { transform: rotateY(180deg) translateZ(66px); --cf-bg: linear-gradient(145deg, rgba(29, 78, 216, 0.94), rgba(30, 58, 138, 0.96)); --cf-bd: rgba(147, 197, 253, 0.55); }
+.face-right  { transform: rotateY(90deg) translateZ(66px);  --cf-bg: linear-gradient(145deg, rgba(4, 120, 87, 0.94), rgba(6, 78, 59, 0.96));    --cf-bd: rgba(110, 231, 183, 0.55); }
+.face-left   { transform: rotateY(-90deg) translateZ(66px); --cf-bg: linear-gradient(145deg, rgba(15, 118, 110, 0.94), rgba(17, 94, 89, 0.96));  --cf-bd: rgba(94, 234, 212, 0.55); }
+.face-top    { transform: rotateX(90deg) translateZ(66px);  --cf-bg: linear-gradient(145deg, rgba(180, 83, 9, 0.94), rgba(146, 64, 14, 0.96));  --cf-bd: rgba(252, 211, 77, 0.55); }
+.face-bottom { transform: rotateX(-90deg) translateZ(66px); --cf-bg: linear-gradient(145deg, rgba(190, 18, 60, 0.94), rgba(136, 19, 55, 0.96)); --cf-bd: rgba(253, 164, 175, 0.55); }
+
+/* 3D Orbiting Gyroscope Rings with Code Satellites */
+.gyro-ring {
+  position: absolute;
+  width: 222px;
+  height: 222px;
+  border-radius: 50%;
+  border: 1.5px dashed rgba(29, 78, 216, 0.34);
+  transform-style: preserve-3d;
+  pointer-events: none;
+  z-index: 2;
+}
+
+html[data-theme="dark"] .gyro-ring {
+  border-color: rgba(96, 165, 250, 0.35);
+}
+
+.gyro-ring-1 {
+  animation: gyroOrbit1 14s linear infinite;
+}
+
+.gyro-ring-2 {
+  width: 204px;
+  height: 204px;
+  border-style: solid;
+  border-color: rgba(194, 65, 12, 0.25);
+  animation: gyroOrbit2 18s linear infinite reverse;
+}
+
+html[data-theme="dark"] .gyro-ring-2 {
+  border-color: rgba(251, 146, 60, 0.28);
+}
+
+.gyro-sat {
+  position: absolute;
+  padding: 0.16rem 0.42rem;
+  border-radius: 6px;
+  background: var(--surface);
+  border: 1px solid var(--border-strong);
+  color: var(--p-primary);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 800;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.14);
+}
+
+.sat-1 { top: -11px; left: 50%; transform: translateX(-50%); color: #C2410C; }
+.sat-2 { bottom: -11px; left: 50%; transform: translateX(-50%); color: #1D4ED8; }
+.sat-3 { top: 50%; left: -16px; transform: translateY(-50%); color: #047857; }
+.sat-4 { top: 50%; right: -14px; transform: translateY(-50%); color: #D97706; }
+
+@keyframes gyroOrbit1 {
+  0%   { transform: rotateX(68deg) rotateY(18deg) rotateZ(0deg); }
+  100% { transform: rotateX(68deg) rotateY(18deg) rotateZ(360deg); }
+}
+
+@keyframes gyroOrbit2 {
+  0%   { transform: rotateX(62deg) rotateY(-38deg) rotateZ(0deg); }
+  100% { transform: rotateX(62deg) rotateY(-38deg) rotateZ(360deg); }
+}
+
+.cube3d-hint {
+  position: absolute;
+  bottom: 2px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  padding: 0.18rem 0.65rem;
+  border-radius: 999px;
+  pointer-events: none;
+}
+
+/* ---- 3D Layered Perspective Live-Typing IDE Terminal ---- */
+.ide3d-zone {
+  perspective: 1150px;
+  padding: 0.65rem 0.35rem;
+}
+
+.ide3d-card {
+  --ide-rx: 4deg;
+  --ide-ry: -7deg;
+  --ide-accent: #1D4ED8;
+  position: relative;
+  transform-style: preserve-3d;
+  transform: rotateX(var(--ide-rx)) rotateY(var(--ide-ry));
+  transition: transform 0.22s cubic-bezier(0.22, 1, 0.36, 1);
+  border-radius: 14px;
+  background: #13161C;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-top: 3px solid var(--ide-accent);
+  box-shadow: 0 26px 52px -16px rgba(15, 23, 42, 0.42);
+  color: #E4E4E7;
+  text-align: left;
+  direction: ltr;
+}
+
+.ide3d-shadow-layer {
+  position: absolute;
+  inset: 12px -10px -14px 14px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(194, 65, 12, 0.22), rgba(29, 78, 216, 0.22), rgba(4, 120, 87, 0.18));
+  transform: translateZ(-26px);
+  filter: blur(14px);
+  pointer-events: none;
+}
+
+/* Floating 3D Foreground Status Pills (True translateZ Pop-Out!) */
+.ide3d-float-pill {
+  position: absolute;
+  z-index: 6;
+  padding: 0.28rem 0.68rem;
+  border-radius: 999px;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  pointer-events: none;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.32);
+  white-space: nowrap;
+}
+
+.ide3d-float-pill.pill-top {
+  top: -14px;
+  right: 16px;
+  background: var(--ide-accent);
+  color: #fff;
+  transform: translateZ(38px);
+  animation: floatPill3d 4.2s ease-in-out infinite;
+}
+
+.ide3d-float-pill.pill-bottom {
+  bottom: -13px;
+  left: 18px;
+  background: #1C2029;
+  color: #F4F4F5;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.38rem;
+  transform: translateZ(44px);
+  animation: floatPill3d 4.8s ease-in-out infinite reverse;
+}
+
+.pill-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #22C55E;
+  box-shadow: 0 0 8px rgba(34, 197, 94, 0.7);
+}
+
+@keyframes floatPill3d {
+  0%, 100% { translate: 0 0; }
+  50%      { translate: 0 -5px; }
+}
+
+.ide3d-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.65rem;
+  padding: 0.58rem 0.85rem;
+  background: #1B1F28;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px 12px 0 0;
+}
+
+.ide3d-dots {
+  display: inline-flex;
+  gap: 6px;
+  flex-shrink: 0;
+}
+.ide3d-dots span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.d-red { background: #EF4444; }
+.d-amber { background: #F59E0B; }
+.d-green { background: #22C55E; }
+
+.ide3d-tabs {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.ide3d-tabs::-webkit-scrollbar { display: none; }
+
+.ide-tab {
+  border: 1px solid transparent;
+  background: transparent;
+  color: #9CA3AF;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.24rem 0.58rem;
+  border-radius: 6px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color 0.15s ease, background 0.15s ease, border-color 0.15s ease;
+}
+.ide-tab:hover {
+  color: #F4F4F5;
+  background: rgba(255, 255, 255, 0.06);
+}
+.ide-tab.active {
+  color: #FFFFFF;
+  background: rgba(255, 255, 255, 0.11);
+  border-color: rgba(255, 255, 255, 0.16);
+}
+
+.ide3d-body {
+  padding: 0.9rem 1rem 1.05rem;
+  min-height: 184px;
+  font-family: var(--font-mono);
+  font-size: 0.77rem;
+  line-height: 1.65;
+  overflow-x: auto;
+}
+
+.code-line {
+  display: flex;
+  align-items: baseline;
+  gap: 0.8rem;
+  white-space: pre;
+}
+
+.code-line.line-enter {
+  animation: codeLineIn 0.22s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes codeLineIn {
+  from { opacity: 0; transform: translateX(-8px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+.code-line .ln {
+  width: 16px;
+  text-align: right;
+  color: #52525B;
+  user-select: none;
+  flex-shrink: 0;
+  font-size: 0.7rem;
+}
+
+/* Warm Editorial IDE Syntax Colors (Zero AI Neon Purple!) */
+.ck { color: #FB923C; font-weight: 600; }  /* Terracotta keywords */
+.ct { color: #60A5FA; }                    /* Oxford Cobalt types */
+.cf { color: #34D399; }                    /* Forest Emerald functions */
+.cs { color: #FBBF24; }                    /* Warm Amber strings */
+.cn { color: #FB7185; }                    /* Crimson numbers */
+.cc { color: #71717A; font-style: italic; }/* Slate comments */
+
+.ide3d-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.44rem 0.9rem;
+  background: #171A22;
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 0 0 12px 12px;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: #9CA3AF;
+}
+
+.ide-branch {
+  color: #34D399;
+  font-weight: 700;
+}
+
+/* Floating 3D Mini Code Prisms on Section Headers */
+.code-cube-mini {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, var(--p-terracotta), #9A3412);
+  color: #fff;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 800;
+  vertical-align: middle;
+  margin-inline-end: 0.35rem;
+  box-shadow: 0 6px 14px var(--p-terracotta-bd);
+  animation: miniCubeFloat 4.4s ease-in-out infinite;
+  transform-style: preserve-3d;
+}
+
+.code-cube-mini.cube-cobalt {
+  background: linear-gradient(135deg, var(--p-cobalt), #1E3A8A);
+  box-shadow: 0 6px 14px var(--p-cobalt-bd);
+}
+
+@keyframes miniCubeFloat {
+  0%, 100% { transform: perspective(300px) rotateX(8deg) rotateY(-12deg) translateY(0); }
+  50%      { transform: perspective(300px) rotateX(-8deg) rotateY(14deg) translateY(-4px); }
+}
+
+/* Subtle True 3D Inner Depth on Portfolio & Service Cards (Zero Mouse Lighting!) */
+.project-card,
+.service-card,
+.oss-card {
+  transform-style: preserve-3d;
+}
+
+.project-card .cat-badge,
+.service-card .cat-badge {
+  transform: translateZ(16px);
+}
+
+.project-card .card-title,
+.service-card .card-title {
+  transform: translateZ(12px);
+}
+
+@media (max-width: 860px) {
+  .code3d-stage {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    padding: 1.15rem 1rem;
+  }
+  .cube3d-zone {
+    height: 224px;
+  }
+  .ide3d-card {
+    --ide-rx: 0deg;
+    --ide-ry: 0deg;
+  }
+  .ide3d-body {
+    font-size: 0.72rem;
+    min-height: 160px;
+  }
+  .ide3d-float-pill.pill-top {
+    right: 10px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gyro-ring-1, .gyro-ring-2, .ide3d-float-pill, .code-cube-mini {
+    animation: none !important;
+  }
+}
